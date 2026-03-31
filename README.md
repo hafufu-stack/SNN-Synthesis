@@ -1,5 +1,7 @@
 # SNN-Synthesis: Internalizing Aha! Trajectories and Cognitive Pacemakers in LLMs
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19343952.svg)](https://doi.org/10.5281/zenodo.19343952)
+
 > **From External Noise Intervention to Native Self-Evolving Architectures**
 
 Successor to [SNN-Genesis](https://github.com/hafufu-stack/snn-genesis) (v1–v20, 111 phases, 127 pages).
@@ -34,6 +36,12 @@ cd snn-synthesis
 pip install torch transformers bitsandbytes snntorch matplotlib numpy
 ```
 
+## 📄 Paper
+
+- **SNN-Synthesis v1** (latest): [Zenodo (PDF)](https://doi.org/10.5281/zenodo.19343952)
+  - 7 experiments, N=100 validated with Fisher exact tests
+  - Key findings: L18 trajectory injection 13%→47% (p<10⁻⁶), catastrophic dual-layer interference (0%), strict task specificity of Aha! vectors
+
 ## 📖 Predecessor
 
 - **SNN-Genesis** (v1–v20): [GitHub](https://github.com/hafufu-stack/snn-genesis) | [Zenodo](https://doi.org/10.5281/zenodo.14637029)
@@ -49,10 +57,11 @@ This research is conducted collaboratively between the human author and AI resea
 ```bibtex
 @misc{funasaki2026snnsynthesis,
   author = {Funasaki, Hiroto},
-  title = {SNN-Synthesis: Internalizing Aha! Trajectories and Cognitive Pacemakers in LLMs},
+  title = {SNN-Synthesis v1: Task Specificity, Model Scaling, and Temporal Dynamics of Latent Trajectory Distillation in LLM Reasoning},
   year = {2026},
-  publisher = {GitHub},
-  url = {https://github.com/hafufu-stack/snn-synthesis}
+  doi = {10.5281/zenodo.19343952},
+  publisher = {Zenodo},
+  url = {https://doi.org/10.5281/zenodo.19343952}
 }
 ```
 
