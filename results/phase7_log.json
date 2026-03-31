@@ -1,0 +1,183 @@
+{
+  "experiment": "Phase 7: Reasoning Phase Portrait",
+  "model": "Qwen-0.5B",
+  "target_layer": 14,
+  "sigma": 0.15,
+  "n_games": 30,
+  "timestamp": "2026-03-30 06:33:00",
+  "test_results": [
+    {
+      "condition": "baseline",
+      "solve_rate": 0.0,
+      "n_solved": 0,
+      "n_total": 30
+    },
+    {
+      "condition": "trajectory",
+      "solve_rate": 0.0,
+      "n_solved": 0,
+      "n_total": 30
+    },
+    {
+      "condition": "anti_trajectory",
+      "solve_rate": 0.0,
+      "n_solved": 0,
+      "n_total": 30
+    }
+  ],
+  "divergence": {},
+  "velocity": {
+    "baseline": {
+      "failure": [
+        16.8763,
+        13.7004,
+        13.4237,
+        12.4982,
+        13.4919,
+        13.037,
+        12.6065,
+        11.8884,
+        12.1724,
+        15.844,
+        18.5877,
+        16.8113,
+        13.4636,
+        14.2294,
+        15.9128,
+        15.2639,
+        15.8873,
+        18.5888,
+        20.2477,
+        18.3512,
+        17.8753,
+        20.0534
+      ]
+    },
+    "trajectory": {
+      "failure": [
+        17.0874,
+        14.5646,
+        17.3634,
+        18.6424,
+        16.3927,
+        18.2193,
+        16.8882,
+        15.7079,
+        15.5537,
+        14.9291,
+        14.2599,
+        16.1329,
+        16.4705,
+        14.7353,
+        16.707,
+        16.4601,
+        16.5192,
+        14.7935,
+        14.9795,
+        14.7931,
+        15.6545,
+        16.3001,
+        13.0129,
+        12.5029,
+        14.7563,
+        15.5208,
+        15.5377,
+        17.6377,
+        16.9821,
+        10.236,
+        11.0701,
+        7.9901,
+        12.1941,
+        16.5867,
+        15.356,
+        15.6817,
+        13.7973,
+        13.7415,
+        14.0838,
+        11.7854,
+        13.9841,
+        13.8791,
+        13.2429,
+        9.3372,
+        8.6696,
+        10.5429,
+        13.5961,
+        13.497,
+        13.7859
+      ]
+    },
+    "anti_trajectory": {
+      "failure": [
+        16.1762,
+        16.9201,
+        15.677,
+        14.0691,
+        14.8889,
+        15.198,
+        13.5025,
+        14.4767,
+        13.9753,
+        16.1563,
+        14.594,
+        17.0908,
+        15.6338,
+        14.7154,
+        14.9295,
+        14.1056,
+        16.3254,
+        16.9965,
+        12.9336,
+        13.4374,
+        11.2893,
+        10.6831,
+        17.2535,
+        18.7483,
+        18.595,
+        18.4829,
+        16.7985,
+        15.3889,
+        16.7995,
+        13.3499,
+        16.7171,
+        2.5996,
+        20.068,
+        17.5564,
+        12.9056,
+        17.2418,
+        11.0145,
+        1.127,
+        16.2624
+      ]
+    }
+  },
+  "attractor": {
+    "baseline": {
+      "failed_centroid_variance": 0.133808,
+      "failed_pairwise_cosine_mean": 0.584211,
+      "n_failed": 30
+    },
+    "trajectory": {
+      "failed_centroid_variance": 0.15106,
+      "failed_pairwise_cosine_mean": 0.533844,
+      "n_failed": 30
+    },
+    "anti_trajectory": {
+      "failed_centroid_variance": 0.152698,
+      "failed_pairwise_cosine_mean": 0.527324,
+      "n_failed": 30
+    }
+  },
+  "verdict": "STATE_SPACE_MAPPED_NO_CLEAR_SEPARATION",
+  "pca": {
+    "explained_variance": [
+      0.214345,
+      0.109404
+    ],
+    "n_total_states": 1299
+  },
+  "figures": [
+    "C:\\Users\\kyjan\\\u7814\u7a76\\snn-synthesis\\figures\\phase7_phase_portrait.png",
+    "C:\\Users\\kyjan\\\u7814\u7a76\\snn-synthesis\\figures\\phase7_dynamics_analysis.png"
+  ],
+  "elapsed_seconds": 1268.0
+}

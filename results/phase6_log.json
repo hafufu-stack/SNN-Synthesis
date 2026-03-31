@@ -1,0 +1,2923 @@
+{
+  "experiment": "Phase 6: Cross-Task Trajectory Transfer",
+  "model": "Qwen-0.5B",
+  "layer": 14,
+  "sigma": 0.15,
+  "n_test": 80,
+  "source_task": "Modified Hanoi (3-disk)",
+  "target_task": "Arithmetic Word Problems",
+  "timestamp": "2026-03-30 05:31:44",
+  "test_results": [
+    {
+      "condition": "baseline",
+      "accuracy": 0.275,
+      "n_correct": 22,
+      "n_total": 80,
+      "category_accuracy": {
+        "shopping": 0.2,
+        "distance": 0.85,
+        "time": 0.05,
+        "sharing": 0.0
+      },
+      "details": [
+        {
+          "idx": 0,
+          "category": "shopping",
+          "correct": false,
+          "expected": 54,
+          "extracted": 1.0
+        },
+        {
+          "idx": 1,
+          "category": "distance",
+          "correct": false,
+          "expected": 97,
+          "extracted": 48.0
+        },
+        {
+          "idx": 2,
+          "category": "time",
+          "correct": false,
+          "expected": 519,
+          "extracted": 81.0
+        },
+        {
+          "idx": 3,
+          "category": "sharing",
+          "correct": false,
+          "expected": 10,
+          "extracted": 17.0
+        },
+        {
+          "idx": 4,
+          "category": "shopping",
+          "correct": false,
+          "expected": 48,
+          "extracted": 8.0
+        },
+        {
+          "idx": 5,
+          "category": "distance",
+          "correct": true,
+          "expected": 51,
+          "extracted": 51.0
+        },
+        {
+          "idx": 6,
+          "category": "time",
+          "correct": false,
+          "expected": 264,
+          "extracted": 36.0
+        },
+        {
+          "idx": 7,
+          "category": "sharing",
+          "correct": false,
+          "expected": 20,
+          "extracted": 34.0
+        },
+        {
+          "idx": 8,
+          "category": "shopping",
+          "correct": false,
+          "expected": 36,
+          "extracted": 6.0
+        },
+        {
+          "idx": 9,
+          "category": "distance",
+          "correct": true,
+          "expected": 58,
+          "extracted": 58.0
+        },
+        {
+          "idx": 10,
+          "category": "time",
+          "correct": false,
+          "expected": 177,
+          "extracted": 63.0
+        },
+        {
+          "idx": 11,
+          "category": "sharing",
+          "correct": false,
+          "expected": 11,
+          "extracted": 9.0
+        },
+        {
+          "idx": 12,
+          "category": "shopping",
+          "correct": false,
+          "expected": 6,
+          "extracted": 4.0
+        },
+        {
+          "idx": 13,
+          "category": "distance",
+          "correct": true,
+          "expected": 69,
+          "extracted": 69.0
+        },
+        {
+          "idx": 14,
+          "category": "time",
+          "correct": false,
+          "expected": 428,
+          "extracted": 3.0
+        },
+        {
+          "idx": 15,
+          "category": "sharing",
+          "correct": false,
+          "expected": 23,
+          "extracted": 4.0
+        },
+        {
+          "idx": 16,
+          "category": "shopping",
+          "correct": true,
+          "expected": 20,
+          "extracted": 20.0
+        },
+        {
+          "idx": 17,
+          "category": "distance",
+          "correct": true,
+          "expected": 64,
+          "extracted": 64.0
+        },
+        {
+          "idx": 18,
+          "category": "time",
+          "correct": false,
+          "expected": 468,
+          "extracted": 9.0
+        },
+        {
+          "idx": 19,
+          "category": "sharing",
+          "correct": false,
+          "expected": 21,
+          "extracted": 14.0
+        },
+        {
+          "idx": 20,
+          "category": "shopping",
+          "correct": false,
+          "expected": 25,
+          "extracted": 2.0
+        },
+        {
+          "idx": 21,
+          "category": "distance",
+          "correct": true,
+          "expected": 37,
+          "extracted": 37.0
+        },
+        {
+          "idx": 22,
+          "category": "time",
+          "correct": true,
+          "expected": 213,
+          "extracted": 213.0
+        },
+        {
+          "idx": 23,
+          "category": "sharing",
+          "correct": false,
+          "expected": 15,
+          "extracted": 4.0
+        },
+        {
+          "idx": 24,
+          "category": "shopping",
+          "correct": false,
+          "expected": 12,
+          "extracted": 8.0
+        },
+        {
+          "idx": 25,
+          "category": "distance",
+          "correct": true,
+          "expected": 57,
+          "extracted": 57.0
+        },
+        {
+          "idx": 26,
+          "category": "time",
+          "correct": false,
+          "expected": 334,
+          "extracted": 32.0
+        },
+        {
+          "idx": 27,
+          "category": "sharing",
+          "correct": false,
+          "expected": 16,
+          "extracted": 4.0
+        },
+        {
+          "idx": 28,
+          "category": "shopping",
+          "correct": false,
+          "expected": 14,
+          "extracted": 3.0
+        },
+        {
+          "idx": 29,
+          "category": "distance",
+          "correct": true,
+          "expected": 49,
+          "extracted": 49.0
+        },
+        {
+          "idx": 30,
+          "category": "time",
+          "correct": false,
+          "expected": 512,
+          "extracted": 60.0
+        },
+        {
+          "idx": 31,
+          "category": "sharing",
+          "correct": false,
+          "expected": 10,
+          "extracted": 1.0
+        },
+        {
+          "idx": 32,
+          "category": "shopping",
+          "correct": false,
+          "expected": 2,
+          "extracted": 12.0
+        },
+        {
+          "idx": 33,
+          "category": "distance",
+          "correct": false,
+          "expected": 71,
+          "extracted": 3.0
+        },
+        {
+          "idx": 34,
+          "category": "time",
+          "correct": false,
+          "expected": 280,
+          "extracted": 4.0
+        },
+        {
+          "idx": 35,
+          "category": "sharing",
+          "correct": false,
+          "expected": 18,
+          "extracted": 4.0
+        },
+        {
+          "idx": 36,
+          "category": "shopping",
+          "correct": false,
+          "expected": 21,
+          "extracted": 12.0
+        },
+        {
+          "idx": 37,
+          "category": "distance",
+          "correct": true,
+          "expected": 51,
+          "extracted": 51.0
+        },
+        {
+          "idx": 38,
+          "category": "time",
+          "correct": false,
+          "expected": 243,
+          "extracted": 5.0
+        },
+        {
+          "idx": 39,
+          "category": "sharing",
+          "correct": false,
+          "expected": 27,
+          "extracted": 13.0
+        },
+        {
+          "idx": 40,
+          "category": "shopping",
+          "correct": false,
+          "expected": 2,
+          "extracted": 6.0
+        },
+        {
+          "idx": 41,
+          "category": "distance",
+          "correct": true,
+          "expected": 45,
+          "extracted": 45.0
+        },
+        {
+          "idx": 42,
+          "category": "time",
+          "correct": false,
+          "expected": 590,
+          "extracted": 11.0
+        },
+        {
+          "idx": 43,
+          "category": "sharing",
+          "correct": false,
+          "expected": 19,
+          "extracted": 4.0
+        },
+        {
+          "idx": 44,
+          "category": "shopping",
+          "correct": false,
+          "expected": 42,
+          "extracted": 1.0
+        },
+        {
+          "idx": 45,
+          "category": "distance",
+          "correct": true,
+          "expected": 90,
+          "extracted": 90.0
+        },
+        {
+          "idx": 46,
+          "category": "time",
+          "correct": false,
+          "expected": 360,
+          "extracted": 4.0
+        },
+        {
+          "idx": 47,
+          "category": "sharing",
+          "correct": false,
+          "expected": 28,
+          "extracted": 5.0
+        },
+        {
+          "idx": 48,
+          "category": "shopping",
+          "correct": false,
+          "expected": 6,
+          "extracted": 18.0
+        },
+        {
+          "idx": 49,
+          "category": "distance",
+          "correct": true,
+          "expected": 57,
+          "extracted": 57.0
+        },
+        {
+          "idx": 50,
+          "category": "time",
+          "correct": false,
+          "expected": 552,
+          "extracted": 48.0
+        },
+        {
+          "idx": 51,
+          "category": "sharing",
+          "correct": false,
+          "expected": 14,
+          "extracted": 2.0
+        },
+        {
+          "idx": 52,
+          "category": "shopping",
+          "correct": false,
+          "expected": 21,
+          "extracted": 7.0
+        },
+        {
+          "idx": 53,
+          "category": "distance",
+          "correct": true,
+          "expected": 64,
+          "extracted": 64.0
+        },
+        {
+          "idx": 54,
+          "category": "time",
+          "correct": false,
+          "expected": 578,
+          "extracted": 198.0
+        },
+        {
+          "idx": 55,
+          "category": "sharing",
+          "correct": false,
+          "expected": 11,
+          "extracted": 8.0
+        },
+        {
+          "idx": 56,
+          "category": "shopping",
+          "correct": true,
+          "expected": 4,
+          "extracted": 4.0
+        },
+        {
+          "idx": 57,
+          "category": "distance",
+          "correct": true,
+          "expected": 73,
+          "extracted": 73.0
+        },
+        {
+          "idx": 58,
+          "category": "time",
+          "correct": false,
+          "expected": 394,
+          "extracted": 9.0
+        },
+        {
+          "idx": 59,
+          "category": "sharing",
+          "correct": false,
+          "expected": 26,
+          "extracted": 7.0
+        },
+        {
+          "idx": 60,
+          "category": "shopping",
+          "correct": true,
+          "expected": 5,
+          "extracted": 5.0
+        },
+        {
+          "idx": 61,
+          "category": "distance",
+          "correct": true,
+          "expected": 80,
+          "extracted": 80.0
+        },
+        {
+          "idx": 62,
+          "category": "time",
+          "correct": false,
+          "expected": 210,
+          "extracted": 60.0
+        },
+        {
+          "idx": 63,
+          "category": "sharing",
+          "correct": false,
+          "expected": 12,
+          "extracted": 5.0
+        },
+        {
+          "idx": 64,
+          "category": "shopping",
+          "correct": false,
+          "expected": 8,
+          "extracted": 2.0
+        },
+        {
+          "idx": 65,
+          "category": "distance",
+          "correct": true,
+          "expected": 63,
+          "extracted": 63.0
+        },
+        {
+          "idx": 66,
+          "category": "time",
+          "correct": false,
+          "expected": 574,
+          "extracted": 26.0
+        },
+        {
+          "idx": 67,
+          "category": "sharing",
+          "correct": false,
+          "expected": 17,
+          "extracted": 32.0
+        },
+        {
+          "idx": 68,
+          "category": "shopping",
+          "correct": false,
+          "expected": 12,
+          "extracted": 6.0
+        },
+        {
+          "idx": 69,
+          "category": "distance",
+          "correct": false,
+          "expected": 61,
+          "extracted": 3.0
+        },
+        {
+          "idx": 70,
+          "category": "time",
+          "correct": false,
+          "expected": 342,
+          "extracted": 2.0
+        },
+        {
+          "idx": 71,
+          "category": "sharing",
+          "correct": false,
+          "expected": 17,
+          "extracted": 3.0
+        },
+        {
+          "idx": 72,
+          "category": "shopping",
+          "correct": true,
+          "expected": 4,
+          "extracted": 4.0
+        },
+        {
+          "idx": 73,
+          "category": "distance",
+          "correct": true,
+          "expected": 46,
+          "extracted": 46.0
+        },
+        {
+          "idx": 74,
+          "category": "time",
+          "correct": false,
+          "expected": 456,
+          "extracted": 84.0
+        },
+        {
+          "idx": 75,
+          "category": "sharing",
+          "correct": false,
+          "expected": 26,
+          "extracted": 36.0
+        },
+        {
+          "idx": 76,
+          "category": "shopping",
+          "correct": false,
+          "expected": 36,
+          "extracted": 2.0
+        },
+        {
+          "idx": 77,
+          "category": "distance",
+          "correct": true,
+          "expected": 54,
+          "extracted": 54.0
+        },
+        {
+          "idx": 78,
+          "category": "time",
+          "correct": false,
+          "expected": 546,
+          "extracted": 64.0
+        },
+        {
+          "idx": 79,
+          "category": "sharing",
+          "correct": false,
+          "expected": 10,
+          "extracted": 4.0
+        }
+      ]
+    },
+    {
+      "condition": "hanoi_aha",
+      "accuracy": 0.15,
+      "n_correct": 12,
+      "n_total": 80,
+      "category_accuracy": {
+        "shopping": 0.05,
+        "distance": 0.55,
+        "time": 0.0,
+        "sharing": 0.0
+      },
+      "details": [
+        {
+          "idx": 0,
+          "category": "shopping",
+          "correct": false,
+          "expected": 54,
+          "extracted": 4.0
+        },
+        {
+          "idx": 1,
+          "category": "distance",
+          "correct": true,
+          "expected": 97,
+          "extracted": 97.0
+        },
+        {
+          "idx": 2,
+          "category": "time",
+          "correct": false,
+          "expected": 519,
+          "extracted": 0.0
+        },
+        {
+          "idx": 3,
+          "category": "sharing",
+          "correct": false,
+          "expected": 10,
+          "extracted": 6.0
+        },
+        {
+          "idx": 4,
+          "category": "shopping",
+          "correct": false,
+          "expected": 48,
+          "extracted": 6.0
+        },
+        {
+          "idx": 5,
+          "category": "distance",
+          "correct": false,
+          "expected": 51,
+          "extracted": 3.0
+        },
+        {
+          "idx": 6,
+          "category": "time",
+          "correct": false,
+          "expected": 264,
+          "extracted": 0.5
+        },
+        {
+          "idx": 7,
+          "category": "sharing",
+          "correct": false,
+          "expected": 20,
+          "extracted": 34.0
+        },
+        {
+          "idx": 8,
+          "category": "shopping",
+          "correct": false,
+          "expected": 36,
+          "extracted": 66.0
+        },
+        {
+          "idx": 9,
+          "category": "distance",
+          "correct": false,
+          "expected": 58,
+          "extracted": 67.0
+        },
+        {
+          "idx": 10,
+          "category": "time",
+          "correct": false,
+          "expected": 177,
+          "extracted": 240.0
+        },
+        {
+          "idx": 11,
+          "category": "sharing",
+          "correct": false,
+          "expected": 11,
+          "extracted": 5.0
+        },
+        {
+          "idx": 12,
+          "category": "shopping",
+          "correct": false,
+          "expected": 6,
+          "extracted": 8.0
+        },
+        {
+          "idx": 13,
+          "category": "distance",
+          "correct": true,
+          "expected": 69,
+          "extracted": 69.0
+        },
+        {
+          "idx": 14,
+          "category": "time",
+          "correct": false,
+          "expected": 428,
+          "extracted": 30.0
+        },
+        {
+          "idx": 15,
+          "category": "sharing",
+          "correct": false,
+          "expected": 23,
+          "extracted": 3.0
+        },
+        {
+          "idx": 16,
+          "category": "shopping",
+          "correct": false,
+          "expected": 20,
+          "extracted": 60.0
+        },
+        {
+          "idx": 17,
+          "category": "distance",
+          "correct": true,
+          "expected": 64,
+          "extracted": 64.0
+        },
+        {
+          "idx": 18,
+          "category": "time",
+          "correct": false,
+          "expected": 468,
+          "extracted": 3.0
+        },
+        {
+          "idx": 19,
+          "category": "sharing",
+          "correct": false,
+          "expected": 21,
+          "extracted": 3.0
+        },
+        {
+          "idx": 20,
+          "category": "shopping",
+          "correct": false,
+          "expected": 25,
+          "extracted": 5.0
+        },
+        {
+          "idx": 21,
+          "category": "distance",
+          "correct": true,
+          "expected": 37,
+          "extracted": 37.0
+        },
+        {
+          "idx": 22,
+          "category": "time",
+          "correct": false,
+          "expected": 213,
+          "extracted": 3.0
+        },
+        {
+          "idx": 23,
+          "category": "sharing",
+          "correct": false,
+          "expected": 15,
+          "extracted": 3.0
+        },
+        {
+          "idx": 24,
+          "category": "shopping",
+          "correct": false,
+          "expected": 12,
+          "extracted": 60.0
+        },
+        {
+          "idx": 25,
+          "category": "distance",
+          "correct": true,
+          "expected": 57,
+          "extracted": 57.0
+        },
+        {
+          "idx": 26,
+          "category": "time",
+          "correct": false,
+          "expected": 334,
+          "extracted": 3600.0
+        },
+        {
+          "idx": 27,
+          "category": "sharing",
+          "correct": false,
+          "expected": 16,
+          "extracted": 5.0
+        },
+        {
+          "idx": 28,
+          "category": "shopping",
+          "correct": false,
+          "expected": 14,
+          "extracted": 28.0
+        },
+        {
+          "idx": 29,
+          "category": "distance",
+          "correct": false,
+          "expected": 49,
+          "extracted": 50.0
+        },
+        {
+          "idx": 30,
+          "category": "time",
+          "correct": false,
+          "expected": 512,
+          "extracted": 4.0
+        },
+        {
+          "idx": 31,
+          "category": "sharing",
+          "correct": false,
+          "expected": 10,
+          "extracted": 5.0
+        },
+        {
+          "idx": 32,
+          "category": "shopping",
+          "correct": false,
+          "expected": 2,
+          "extracted": 6.0
+        },
+        {
+          "idx": 33,
+          "category": "distance",
+          "correct": false,
+          "expected": 71,
+          "extracted": 27.0
+        },
+        {
+          "idx": 34,
+          "category": "time",
+          "correct": false,
+          "expected": 280,
+          "extracted": 3.0
+        },
+        {
+          "idx": 35,
+          "category": "sharing",
+          "correct": false,
+          "expected": 18,
+          "extracted": 24.0
+        },
+        {
+          "idx": 36,
+          "category": "shopping",
+          "correct": false,
+          "expected": 21,
+          "extracted": 84.0
+        },
+        {
+          "idx": 37,
+          "category": "distance",
+          "correct": true,
+          "expected": 51,
+          "extracted": 51.0
+        },
+        {
+          "idx": 38,
+          "category": "time",
+          "correct": false,
+          "expected": 243,
+          "extracted": 9.0
+        },
+        {
+          "idx": 39,
+          "category": "sharing",
+          "correct": false,
+          "expected": 27,
+          "extracted": 14.0
+        },
+        {
+          "idx": 40,
+          "category": "shopping",
+          "correct": false,
+          "expected": 2,
+          "extracted": 5.0
+        },
+        {
+          "idx": 41,
+          "category": "distance",
+          "correct": false,
+          "expected": 45,
+          "extracted": 0.0
+        },
+        {
+          "idx": 42,
+          "category": "time",
+          "correct": false,
+          "expected": 590,
+          "extracted": 4.0
+        },
+        {
+          "idx": 43,
+          "category": "sharing",
+          "correct": false,
+          "expected": 19,
+          "extracted": 4.0
+        },
+        {
+          "idx": 44,
+          "category": "shopping",
+          "correct": false,
+          "expected": 42,
+          "extracted": 7.0
+        },
+        {
+          "idx": 45,
+          "category": "distance",
+          "correct": false,
+          "expected": 90,
+          "extracted": 43.0
+        },
+        {
+          "idx": 46,
+          "category": "time",
+          "correct": false,
+          "expected": 360,
+          "extracted": 7.0
+        },
+        {
+          "idx": 47,
+          "category": "sharing",
+          "correct": false,
+          "expected": 28,
+          "extracted": 16.0
+        },
+        {
+          "idx": 48,
+          "category": "shopping",
+          "correct": false,
+          "expected": 6,
+          "extracted": 9.0
+        },
+        {
+          "idx": 49,
+          "category": "distance",
+          "correct": false,
+          "expected": 57,
+          "extracted": 27.0
+        },
+        {
+          "idx": 50,
+          "category": "time",
+          "correct": false,
+          "expected": 552,
+          "extracted": 10.0
+        },
+        {
+          "idx": 51,
+          "category": "sharing",
+          "correct": false,
+          "expected": 14,
+          "extracted": 4.0
+        },
+        {
+          "idx": 52,
+          "category": "shopping",
+          "correct": false,
+          "expected": 21,
+          "extracted": 3.0
+        },
+        {
+          "idx": 53,
+          "category": "distance",
+          "correct": true,
+          "expected": 64,
+          "extracted": 64.0
+        },
+        {
+          "idx": 54,
+          "category": "time",
+          "correct": false,
+          "expected": 578,
+          "extracted": 1.0
+        },
+        {
+          "idx": 55,
+          "category": "sharing",
+          "correct": false,
+          "expected": 11,
+          "extracted": 2.0
+        },
+        {
+          "idx": 56,
+          "category": "shopping",
+          "correct": false,
+          "expected": 4,
+          "extracted": 9.0
+        },
+        {
+          "idx": 57,
+          "category": "distance",
+          "correct": true,
+          "expected": 73,
+          "extracted": 73.0
+        },
+        {
+          "idx": 58,
+          "category": "time",
+          "correct": false,
+          "expected": 394,
+          "extracted": 26.0
+        },
+        {
+          "idx": 59,
+          "category": "sharing",
+          "correct": false,
+          "expected": 26,
+          "extracted": 38.0
+        },
+        {
+          "idx": 60,
+          "category": "shopping",
+          "correct": true,
+          "expected": 5,
+          "extracted": 5.0
+        },
+        {
+          "idx": 61,
+          "category": "distance",
+          "correct": false,
+          "expected": 80,
+          "extracted": 70.0
+        },
+        {
+          "idx": 62,
+          "category": "time",
+          "correct": false,
+          "expected": 210,
+          "extracted": 4.0
+        },
+        {
+          "idx": 63,
+          "category": "sharing",
+          "correct": false,
+          "expected": 12,
+          "extracted": 2.0
+        },
+        {
+          "idx": 64,
+          "category": "shopping",
+          "correct": false,
+          "expected": 8,
+          "extracted": 4.0
+        },
+        {
+          "idx": 65,
+          "category": "distance",
+          "correct": true,
+          "expected": 63,
+          "extracted": 63.0
+        },
+        {
+          "idx": 66,
+          "category": "time",
+          "correct": false,
+          "expected": 574,
+          "extracted": 10.0
+        },
+        {
+          "idx": 67,
+          "category": "sharing",
+          "correct": false,
+          "expected": 17,
+          "extracted": 15.0
+        },
+        {
+          "idx": 68,
+          "category": "shopping",
+          "correct": false,
+          "expected": 12,
+          "extracted": 6.0
+        },
+        {
+          "idx": 69,
+          "category": "distance",
+          "correct": true,
+          "expected": 61,
+          "extracted": 61.0
+        },
+        {
+          "idx": 70,
+          "category": "time",
+          "correct": false,
+          "expected": 342,
+          "extracted": 360.0
+        },
+        {
+          "idx": 71,
+          "category": "sharing",
+          "correct": false,
+          "expected": 17,
+          "extracted": 6.0
+        },
+        {
+          "idx": 72,
+          "category": "shopping",
+          "correct": false,
+          "expected": 4,
+          "extracted": 8.0
+        },
+        {
+          "idx": 73,
+          "category": "distance",
+          "correct": true,
+          "expected": 46,
+          "extracted": 46.0
+        },
+        {
+          "idx": 74,
+          "category": "time",
+          "correct": false,
+          "expected": 456,
+          "extracted": 5.0
+        },
+        {
+          "idx": 75,
+          "category": "sharing",
+          "correct": false,
+          "expected": 26,
+          "extracted": 30.0
+        },
+        {
+          "idx": 76,
+          "category": "shopping",
+          "correct": false,
+          "expected": 36,
+          "extracted": 6.0
+        },
+        {
+          "idx": 77,
+          "category": "distance",
+          "correct": false,
+          "expected": 54,
+          "extracted": 85.0
+        },
+        {
+          "idx": 78,
+          "category": "time",
+          "correct": false,
+          "expected": 546,
+          "extracted": 4.0
+        },
+        {
+          "idx": 79,
+          "category": "sharing",
+          "correct": false,
+          "expected": 10,
+          "extracted": 6.0
+        }
+      ]
+    },
+    {
+      "condition": "hanoi_trajectory",
+      "accuracy": 0.125,
+      "n_correct": 10,
+      "n_total": 80,
+      "category_accuracy": {
+        "shopping": 0.05,
+        "distance": 0.35,
+        "time": 0.0,
+        "sharing": 0.1
+      },
+      "details": [
+        {
+          "idx": 0,
+          "category": "shopping",
+          "correct": false,
+          "expected": 54,
+          "extracted": 9.0
+        },
+        {
+          "idx": 1,
+          "category": "distance",
+          "correct": false,
+          "expected": 97,
+          "extracted": 24.0
+        },
+        {
+          "idx": 2,
+          "category": "time",
+          "correct": false,
+          "expected": 519,
+          "extracted": 27.0
+        },
+        {
+          "idx": 3,
+          "category": "sharing",
+          "correct": false,
+          "expected": 10,
+          "extracted": 9.0
+        },
+        {
+          "idx": 4,
+          "category": "shopping",
+          "correct": false,
+          "expected": 48,
+          "extracted": 56.0
+        },
+        {
+          "idx": 5,
+          "category": "distance",
+          "correct": false,
+          "expected": 51,
+          "extracted": 10.0
+        },
+        {
+          "idx": 6,
+          "category": "time",
+          "correct": false,
+          "expected": 264,
+          "extracted": 355.0
+        },
+        {
+          "idx": 7,
+          "category": "sharing",
+          "correct": false,
+          "expected": 20,
+          "extracted": 4.0
+        },
+        {
+          "idx": 8,
+          "category": "shopping",
+          "correct": false,
+          "expected": 36,
+          "extracted": 5.0
+        },
+        {
+          "idx": 9,
+          "category": "distance",
+          "correct": true,
+          "expected": 58,
+          "extracted": 58.0
+        },
+        {
+          "idx": 10,
+          "category": "time",
+          "correct": false,
+          "expected": 177,
+          "extracted": 75.0
+        },
+        {
+          "idx": 11,
+          "category": "sharing",
+          "correct": false,
+          "expected": 11,
+          "extracted": 3.0
+        },
+        {
+          "idx": 12,
+          "category": "shopping",
+          "correct": false,
+          "expected": 6,
+          "extracted": 16.0
+        },
+        {
+          "idx": 13,
+          "category": "distance",
+          "correct": false,
+          "expected": 69,
+          "extracted": 2.0
+        },
+        {
+          "idx": 14,
+          "category": "time",
+          "correct": false,
+          "expected": 428,
+          "extracted": 4.0
+        },
+        {
+          "idx": 15,
+          "category": "sharing",
+          "correct": false,
+          "expected": 23,
+          "extracted": 5.0
+        },
+        {
+          "idx": 16,
+          "category": "shopping",
+          "correct": false,
+          "expected": 20,
+          "extracted": 100.0
+        },
+        {
+          "idx": 17,
+          "category": "distance",
+          "correct": false,
+          "expected": 64,
+          "extracted": 6.0
+        },
+        {
+          "idx": 18,
+          "category": "time",
+          "correct": false,
+          "expected": 468,
+          "extracted": 3.0
+        },
+        {
+          "idx": 19,
+          "category": "sharing",
+          "correct": false,
+          "expected": 21,
+          "extracted": 5.0
+        },
+        {
+          "idx": 20,
+          "category": "shopping",
+          "correct": false,
+          "expected": 25,
+          "extracted": 3.0
+        },
+        {
+          "idx": 21,
+          "category": "distance",
+          "correct": false,
+          "expected": 37,
+          "extracted": 47.0
+        },
+        {
+          "idx": 22,
+          "category": "time",
+          "correct": false,
+          "expected": 213,
+          "extracted": 2.0
+        },
+        {
+          "idx": 23,
+          "category": "sharing",
+          "correct": false,
+          "expected": 15,
+          "extracted": 2.0
+        },
+        {
+          "idx": 24,
+          "category": "shopping",
+          "correct": false,
+          "expected": 12,
+          "extracted": 5.0
+        },
+        {
+          "idx": 25,
+          "category": "distance",
+          "correct": true,
+          "expected": 57,
+          "extracted": 57.0
+        },
+        {
+          "idx": 26,
+          "category": "time",
+          "correct": false,
+          "expected": 334,
+          "extracted": 26.0
+        },
+        {
+          "idx": 27,
+          "category": "sharing",
+          "correct": false,
+          "expected": 16,
+          "extracted": 13.0
+        },
+        {
+          "idx": 28,
+          "category": "shopping",
+          "correct": false,
+          "expected": 14,
+          "extracted": 4.0
+        },
+        {
+          "idx": 29,
+          "category": "distance",
+          "correct": true,
+          "expected": 49,
+          "extracted": 49.0
+        },
+        {
+          "idx": 30,
+          "category": "time",
+          "correct": false,
+          "expected": 512,
+          "extracted": 404.0
+        },
+        {
+          "idx": 31,
+          "category": "sharing",
+          "correct": false,
+          "expected": 10,
+          "extracted": 2.0
+        },
+        {
+          "idx": 32,
+          "category": "shopping",
+          "correct": false,
+          "expected": 2,
+          "extracted": 1.0
+        },
+        {
+          "idx": 33,
+          "category": "distance",
+          "correct": false,
+          "expected": 71,
+          "extracted": 68.0
+        },
+        {
+          "idx": 34,
+          "category": "time",
+          "correct": false,
+          "expected": 280,
+          "extracted": 20.0
+        },
+        {
+          "idx": 35,
+          "category": "sharing",
+          "correct": false,
+          "expected": 18,
+          "extracted": 2.0
+        },
+        {
+          "idx": 36,
+          "category": "shopping",
+          "correct": false,
+          "expected": 21,
+          "extracted": 84.0
+        },
+        {
+          "idx": 37,
+          "category": "distance",
+          "correct": false,
+          "expected": 51,
+          "extracted": 15.0
+        },
+        {
+          "idx": 38,
+          "category": "time",
+          "correct": false,
+          "expected": 243,
+          "extracted": 2.0
+        },
+        {
+          "idx": 39,
+          "category": "sharing",
+          "correct": false,
+          "expected": 27,
+          "extracted": 11.0
+        },
+        {
+          "idx": 40,
+          "category": "shopping",
+          "correct": false,
+          "expected": 2,
+          "extracted": 1.0
+        },
+        {
+          "idx": 41,
+          "category": "distance",
+          "correct": true,
+          "expected": 45,
+          "extracted": 45.0
+        },
+        {
+          "idx": 42,
+          "category": "time",
+          "correct": false,
+          "expected": 590,
+          "extracted": 3.0
+        },
+        {
+          "idx": 43,
+          "category": "sharing",
+          "correct": false,
+          "expected": 19,
+          "extracted": 2.0
+        },
+        {
+          "idx": 44,
+          "category": "shopping",
+          "correct": false,
+          "expected": 42,
+          "extracted": 3.0
+        },
+        {
+          "idx": 45,
+          "category": "distance",
+          "correct": false,
+          "expected": 90,
+          "extracted": 43.0
+        },
+        {
+          "idx": 46,
+          "category": "time",
+          "correct": false,
+          "expected": 360,
+          "extracted": 60.0
+        },
+        {
+          "idx": 47,
+          "category": "sharing",
+          "correct": false,
+          "expected": 28,
+          "extracted": 4.0
+        },
+        {
+          "idx": 48,
+          "category": "shopping",
+          "correct": false,
+          "expected": 6,
+          "extracted": 3.0
+        },
+        {
+          "idx": 49,
+          "category": "distance",
+          "correct": true,
+          "expected": 57,
+          "extracted": 57.0
+        },
+        {
+          "idx": 50,
+          "category": "time",
+          "correct": false,
+          "expected": 552,
+          "extracted": 58.0
+        },
+        {
+          "idx": 51,
+          "category": "sharing",
+          "correct": false,
+          "expected": 14,
+          "extracted": 16.0
+        },
+        {
+          "idx": 52,
+          "category": "shopping",
+          "correct": false,
+          "expected": 21,
+          "extracted": 3.0
+        },
+        {
+          "idx": 53,
+          "category": "distance",
+          "correct": false,
+          "expected": 64,
+          "extracted": 37.0
+        },
+        {
+          "idx": 54,
+          "category": "time",
+          "correct": false,
+          "expected": 578,
+          "extracted": 44.0
+        },
+        {
+          "idx": 55,
+          "category": "sharing",
+          "correct": false,
+          "expected": 11,
+          "extracted": 16.0
+        },
+        {
+          "idx": 56,
+          "category": "shopping",
+          "correct": false,
+          "expected": 4,
+          "extracted": 0.0
+        },
+        {
+          "idx": 57,
+          "category": "distance",
+          "correct": false,
+          "expected": 73,
+          "extracted": 43.0
+        },
+        {
+          "idx": 58,
+          "category": "time",
+          "correct": false,
+          "expected": 394,
+          "extracted": 4.0
+        },
+        {
+          "idx": 59,
+          "category": "sharing",
+          "correct": false,
+          "expected": 26,
+          "extracted": 38.0
+        },
+        {
+          "idx": 60,
+          "category": "shopping",
+          "correct": true,
+          "expected": 5,
+          "extracted": 5.0
+        },
+        {
+          "idx": 61,
+          "category": "distance",
+          "correct": false,
+          "expected": 80,
+          "extracted": 36.0
+        },
+        {
+          "idx": 62,
+          "category": "time",
+          "correct": false,
+          "expected": 210,
+          "extracted": 4.0
+        },
+        {
+          "idx": 63,
+          "category": "sharing",
+          "correct": true,
+          "expected": 12,
+          "extracted": 12.0
+        },
+        {
+          "idx": 64,
+          "category": "shopping",
+          "correct": false,
+          "expected": 8,
+          "extracted": 16.0
+        },
+        {
+          "idx": 65,
+          "category": "distance",
+          "correct": true,
+          "expected": 63,
+          "extracted": 63.0
+        },
+        {
+          "idx": 66,
+          "category": "time",
+          "correct": false,
+          "expected": 574,
+          "extracted": 600.0
+        },
+        {
+          "idx": 67,
+          "category": "sharing",
+          "correct": false,
+          "expected": 17,
+          "extracted": 1.0
+        },
+        {
+          "idx": 68,
+          "category": "shopping",
+          "correct": false,
+          "expected": 12,
+          "extracted": 2.0
+        },
+        {
+          "idx": 69,
+          "category": "distance",
+          "correct": false,
+          "expected": 61,
+          "extracted": 51.0
+        },
+        {
+          "idx": 70,
+          "category": "time",
+          "correct": false,
+          "expected": 342,
+          "extracted": 18.0
+        },
+        {
+          "idx": 71,
+          "category": "sharing",
+          "correct": false,
+          "expected": 17,
+          "extracted": 24.0
+        },
+        {
+          "idx": 72,
+          "category": "shopping",
+          "correct": false,
+          "expected": 4,
+          "extracted": 2.0
+        },
+        {
+          "idx": 73,
+          "category": "distance",
+          "correct": false,
+          "expected": 46,
+          "extracted": 29.0
+        },
+        {
+          "idx": 74,
+          "category": "time",
+          "correct": false,
+          "expected": 456,
+          "extracted": 2.0
+        },
+        {
+          "idx": 75,
+          "category": "sharing",
+          "correct": false,
+          "expected": 26,
+          "extracted": 11.0
+        },
+        {
+          "idx": 76,
+          "category": "shopping",
+          "correct": false,
+          "expected": 36,
+          "extracted": 5.0
+        },
+        {
+          "idx": 77,
+          "category": "distance",
+          "correct": true,
+          "expected": 54,
+          "extracted": 54.0
+        },
+        {
+          "idx": 78,
+          "category": "time",
+          "correct": false,
+          "expected": 546,
+          "extracted": 54.0
+        },
+        {
+          "idx": 79,
+          "category": "sharing",
+          "correct": true,
+          "expected": 10,
+          "extracted": 10.0
+        }
+      ]
+    },
+    {
+      "condition": "random_direction",
+      "accuracy": 0.125,
+      "n_correct": 10,
+      "n_total": 80,
+      "category_accuracy": {
+        "shopping": 0.1,
+        "distance": 0.4,
+        "time": 0.0,
+        "sharing": 0.0
+      },
+      "details": [
+        {
+          "idx": 0,
+          "category": "shopping",
+          "correct": false,
+          "expected": 54,
+          "extracted": 4.0
+        },
+        {
+          "idx": 1,
+          "category": "distance",
+          "correct": true,
+          "expected": 97,
+          "extracted": 97.0
+        },
+        {
+          "idx": 2,
+          "category": "time",
+          "correct": false,
+          "expected": 519,
+          "extracted": 3.0
+        },
+        {
+          "idx": 3,
+          "category": "sharing",
+          "correct": false,
+          "expected": 10,
+          "extracted": 3.0
+        },
+        {
+          "idx": 4,
+          "category": "shopping",
+          "correct": true,
+          "expected": 48,
+          "extracted": 48.0
+        },
+        {
+          "idx": 5,
+          "category": "distance",
+          "correct": false,
+          "expected": 51,
+          "extracted": 3.0
+        },
+        {
+          "idx": 6,
+          "category": "time",
+          "correct": false,
+          "expected": 264,
+          "extracted": 36.0
+        },
+        {
+          "idx": 7,
+          "category": "sharing",
+          "correct": false,
+          "expected": 20,
+          "extracted": 3.0
+        },
+        {
+          "idx": 8,
+          "category": "shopping",
+          "correct": false,
+          "expected": 36,
+          "extracted": 6.0
+        },
+        {
+          "idx": 9,
+          "category": "distance",
+          "correct": false,
+          "expected": 58,
+          "extracted": 78.0
+        },
+        {
+          "idx": 10,
+          "category": "time",
+          "correct": false,
+          "expected": 177,
+          "extracted": 21.0
+        },
+        {
+          "idx": 11,
+          "category": "sharing",
+          "correct": false,
+          "expected": 11,
+          "extracted": 7.0
+        },
+        {
+          "idx": 12,
+          "category": "shopping",
+          "correct": false,
+          "expected": 6,
+          "extracted": 9.0
+        },
+        {
+          "idx": 13,
+          "category": "distance",
+          "correct": false,
+          "expected": 69,
+          "extracted": 26.0
+        },
+        {
+          "idx": 14,
+          "category": "time",
+          "correct": false,
+          "expected": 428,
+          "extracted": 15.0
+        },
+        {
+          "idx": 15,
+          "category": "sharing",
+          "correct": false,
+          "expected": 23,
+          "extracted": 18.0
+        },
+        {
+          "idx": 16,
+          "category": "shopping",
+          "correct": false,
+          "expected": 20,
+          "extracted": 100.0
+        },
+        {
+          "idx": 17,
+          "category": "distance",
+          "correct": true,
+          "expected": 64,
+          "extracted": 64.0
+        },
+        {
+          "idx": 18,
+          "category": "time",
+          "correct": false,
+          "expected": 468,
+          "extracted": 108.0
+        },
+        {
+          "idx": 19,
+          "category": "sharing",
+          "correct": false,
+          "expected": 21,
+          "extracted": 14.0
+        },
+        {
+          "idx": 20,
+          "category": "shopping",
+          "correct": false,
+          "expected": 25,
+          "extracted": 50.0
+        },
+        {
+          "idx": 21,
+          "category": "distance",
+          "correct": true,
+          "expected": 37,
+          "extracted": 37.0
+        },
+        {
+          "idx": 22,
+          "category": "time",
+          "correct": false,
+          "expected": 213,
+          "extracted": 3.0
+        },
+        {
+          "idx": 23,
+          "category": "sharing",
+          "correct": false,
+          "expected": 15,
+          "extracted": 22.0
+        },
+        {
+          "idx": 24,
+          "category": "shopping",
+          "correct": false,
+          "expected": 12,
+          "extracted": 0.8
+        },
+        {
+          "idx": 25,
+          "category": "distance",
+          "correct": true,
+          "expected": 57,
+          "extracted": 57.0
+        },
+        {
+          "idx": 26,
+          "category": "time",
+          "correct": false,
+          "expected": 334,
+          "extracted": 26.0
+        },
+        {
+          "idx": 27,
+          "category": "sharing",
+          "correct": false,
+          "expected": 16,
+          "extracted": 26.0
+        },
+        {
+          "idx": 28,
+          "category": "shopping",
+          "correct": false,
+          "expected": 14,
+          "extracted": 8.0
+        },
+        {
+          "idx": 29,
+          "category": "distance",
+          "correct": false,
+          "expected": 49,
+          "extracted": 0.0
+        },
+        {
+          "idx": 30,
+          "category": "time",
+          "correct": false,
+          "expected": 512,
+          "extracted": 6.0
+        },
+        {
+          "idx": 31,
+          "category": "sharing",
+          "correct": false,
+          "expected": 10,
+          "extracted": 2.0
+        },
+        {
+          "idx": 32,
+          "category": "shopping",
+          "correct": false,
+          "expected": 2,
+          "extracted": 6.0
+        },
+        {
+          "idx": 33,
+          "category": "distance",
+          "correct": true,
+          "expected": 71,
+          "extracted": 71.0
+        },
+        {
+          "idx": 34,
+          "category": "time",
+          "correct": false,
+          "expected": 280,
+          "extracted": 25.0
+        },
+        {
+          "idx": 35,
+          "category": "sharing",
+          "correct": false,
+          "expected": 18,
+          "extracted": 28.0
+        },
+        {
+          "idx": 36,
+          "category": "shopping",
+          "correct": false,
+          "expected": 21,
+          "extracted": 84.0
+        },
+        {
+          "idx": 37,
+          "category": "distance",
+          "correct": false,
+          "expected": 51,
+          "extracted": 2.0
+        },
+        {
+          "idx": 38,
+          "category": "time",
+          "correct": false,
+          "expected": 243,
+          "extracted": 57.0
+        },
+        {
+          "idx": 39,
+          "category": "sharing",
+          "correct": false,
+          "expected": 27,
+          "extracted": 13.0
+        },
+        {
+          "idx": 40,
+          "category": "shopping",
+          "correct": false,
+          "expected": 2,
+          "extracted": 6.0
+        },
+        {
+          "idx": 41,
+          "category": "distance",
+          "correct": false,
+          "expected": 45,
+          "extracted": 2.0
+        },
+        {
+          "idx": 42,
+          "category": "time",
+          "correct": false,
+          "expected": 590,
+          "extracted": 1.0
+        },
+        {
+          "idx": 43,
+          "category": "sharing",
+          "correct": false,
+          "expected": 19,
+          "extracted": 6.0
+        },
+        {
+          "idx": 44,
+          "category": "shopping",
+          "correct": false,
+          "expected": 42,
+          "extracted": 78.0
+        },
+        {
+          "idx": 45,
+          "category": "distance",
+          "correct": false,
+          "expected": 90,
+          "extracted": 47.0
+        },
+        {
+          "idx": 46,
+          "category": "time",
+          "correct": false,
+          "expected": 360,
+          "extracted": 60.0
+        },
+        {
+          "idx": 47,
+          "category": "sharing",
+          "correct": false,
+          "expected": 28,
+          "extracted": 12.0
+        },
+        {
+          "idx": 48,
+          "category": "shopping",
+          "correct": false,
+          "expected": 6,
+          "extracted": 12.0
+        },
+        {
+          "idx": 49,
+          "category": "distance",
+          "correct": false,
+          "expected": 57,
+          "extracted": 44.0
+        },
+        {
+          "idx": 50,
+          "category": "time",
+          "correct": false,
+          "expected": 552,
+          "extracted": 16.0
+        },
+        {
+          "idx": 51,
+          "category": "sharing",
+          "correct": false,
+          "expected": 14,
+          "extracted": 6.0
+        },
+        {
+          "idx": 52,
+          "category": "shopping",
+          "correct": false,
+          "expected": 21,
+          "extracted": 7.0
+        },
+        {
+          "idx": 53,
+          "category": "distance",
+          "correct": false,
+          "expected": 64,
+          "extracted": 2.0
+        },
+        {
+          "idx": 54,
+          "category": "time",
+          "correct": false,
+          "expected": 578,
+          "extracted": 22.0
+        },
+        {
+          "idx": 55,
+          "category": "sharing",
+          "correct": false,
+          "expected": 11,
+          "extracted": 1.0
+        },
+        {
+          "idx": 56,
+          "category": "shopping",
+          "correct": false,
+          "expected": 4,
+          "extracted": 0.0
+        },
+        {
+          "idx": 57,
+          "category": "distance",
+          "correct": true,
+          "expected": 73,
+          "extracted": 73.0
+        },
+        {
+          "idx": 58,
+          "category": "time",
+          "correct": false,
+          "expected": 394,
+          "extracted": 26.0
+        },
+        {
+          "idx": 59,
+          "category": "sharing",
+          "correct": false,
+          "expected": 26,
+          "extracted": 7.0
+        },
+        {
+          "idx": 60,
+          "category": "shopping",
+          "correct": false,
+          "expected": 5,
+          "extracted": 4.0
+        },
+        {
+          "idx": 61,
+          "category": "distance",
+          "correct": false,
+          "expected": 80,
+          "extracted": 3.0
+        },
+        {
+          "idx": 62,
+          "category": "time",
+          "correct": false,
+          "expected": 210,
+          "extracted": 15.0
+        },
+        {
+          "idx": 63,
+          "category": "sharing",
+          "correct": false,
+          "expected": 12,
+          "extracted": 2.0
+        },
+        {
+          "idx": 64,
+          "category": "shopping",
+          "correct": false,
+          "expected": 8,
+          "extracted": 12.0
+        },
+        {
+          "idx": 65,
+          "category": "distance",
+          "correct": false,
+          "expected": 63,
+          "extracted": 4.0
+        },
+        {
+          "idx": 66,
+          "category": "time",
+          "correct": false,
+          "expected": 574,
+          "extracted": 13.0
+        },
+        {
+          "idx": 67,
+          "category": "sharing",
+          "correct": false,
+          "expected": 17,
+          "extracted": 32.0
+        },
+        {
+          "idx": 68,
+          "category": "shopping",
+          "correct": false,
+          "expected": 12,
+          "extracted": 2.0
+        },
+        {
+          "idx": 69,
+          "category": "distance",
+          "correct": true,
+          "expected": 61,
+          "extracted": 61.0
+        },
+        {
+          "idx": 70,
+          "category": "time",
+          "correct": false,
+          "expected": 342,
+          "extracted": 3.0
+        },
+        {
+          "idx": 71,
+          "category": "sharing",
+          "correct": false,
+          "expected": 17,
+          "extracted": 19.0
+        },
+        {
+          "idx": 72,
+          "category": "shopping",
+          "correct": true,
+          "expected": 4,
+          "extracted": 4.0
+        },
+        {
+          "idx": 73,
+          "category": "distance",
+          "correct": false,
+          "expected": 46,
+          "extracted": 29.0
+        },
+        {
+          "idx": 74,
+          "category": "time",
+          "correct": false,
+          "expected": 456,
+          "extracted": 3.0
+        },
+        {
+          "idx": 75,
+          "category": "sharing",
+          "correct": false,
+          "expected": 26,
+          "extracted": 30.0
+        },
+        {
+          "idx": 76,
+          "category": "shopping",
+          "correct": false,
+          "expected": 36,
+          "extracted": 4.0
+        },
+        {
+          "idx": 77,
+          "category": "distance",
+          "correct": true,
+          "expected": 54,
+          "extracted": 54.0
+        },
+        {
+          "idx": 78,
+          "category": "time",
+          "correct": false,
+          "expected": 546,
+          "extracted": 18.0
+        },
+        {
+          "idx": 79,
+          "category": "sharing",
+          "correct": false,
+          "expected": 10,
+          "extracted": 2.0
+        }
+      ]
+    },
+    {
+      "condition": "anti_aha",
+      "accuracy": 0.1125,
+      "n_correct": 9,
+      "n_total": 80,
+      "category_accuracy": {
+        "shopping": 0.05,
+        "distance": 0.4,
+        "time": 0.0,
+        "sharing": 0.0
+      },
+      "details": [
+        {
+          "idx": 0,
+          "category": "shopping",
+          "correct": false,
+          "expected": 54,
+          "extracted": 3.0
+        },
+        {
+          "idx": 1,
+          "category": "distance",
+          "correct": false,
+          "expected": 97,
+          "extracted": 100.0
+        },
+        {
+          "idx": 2,
+          "category": "time",
+          "correct": false,
+          "expected": 519,
+          "extracted": 27.0
+        },
+        {
+          "idx": 3,
+          "category": "sharing",
+          "correct": false,
+          "expected": 10,
+          "extracted": 2.0
+        },
+        {
+          "idx": 4,
+          "category": "shopping",
+          "correct": false,
+          "expected": 48,
+          "extracted": 1.0
+        },
+        {
+          "idx": 5,
+          "category": "distance",
+          "correct": false,
+          "expected": 51,
+          "extracted": 9.0
+        },
+        {
+          "idx": 6,
+          "category": "time",
+          "correct": false,
+          "expected": 264,
+          "extracted": 18.0
+        },
+        {
+          "idx": 7,
+          "category": "sharing",
+          "correct": false,
+          "expected": 20,
+          "extracted": 4.0
+        },
+        {
+          "idx": 8,
+          "category": "shopping",
+          "correct": false,
+          "expected": 36,
+          "extracted": 66.0
+        },
+        {
+          "idx": 9,
+          "category": "distance",
+          "correct": true,
+          "expected": 58,
+          "extracted": 58.0
+        },
+        {
+          "idx": 10,
+          "category": "time",
+          "correct": false,
+          "expected": 177,
+          "extracted": 63.0
+        },
+        {
+          "idx": 11,
+          "category": "sharing",
+          "correct": false,
+          "expected": 11,
+          "extracted": 14.0
+        },
+        {
+          "idx": 12,
+          "category": "shopping",
+          "correct": false,
+          "expected": 6,
+          "extracted": 4.0
+        },
+        {
+          "idx": 13,
+          "category": "distance",
+          "correct": false,
+          "expected": 69,
+          "extracted": 26.0
+        },
+        {
+          "idx": 14,
+          "category": "time",
+          "correct": false,
+          "expected": 428,
+          "extracted": 8.0
+        },
+        {
+          "idx": 15,
+          "category": "sharing",
+          "correct": false,
+          "expected": 23,
+          "extracted": 6.0
+        },
+        {
+          "idx": 16,
+          "category": "shopping",
+          "correct": false,
+          "expected": 20,
+          "extracted": 4.0
+        },
+        {
+          "idx": 17,
+          "category": "distance",
+          "correct": false,
+          "expected": 64,
+          "extracted": 3.0
+        },
+        {
+          "idx": 18,
+          "category": "time",
+          "correct": false,
+          "expected": 468,
+          "extracted": 4.0
+        },
+        {
+          "idx": 19,
+          "category": "sharing",
+          "correct": false,
+          "expected": 21,
+          "extracted": 28.0
+        },
+        {
+          "idx": 20,
+          "category": "shopping",
+          "correct": false,
+          "expected": 25,
+          "extracted": 4.0
+        },
+        {
+          "idx": 21,
+          "category": "distance",
+          "correct": false,
+          "expected": 37,
+          "extracted": 54.0
+        },
+        {
+          "idx": 22,
+          "category": "time",
+          "correct": false,
+          "expected": 213,
+          "extracted": 3.0
+        },
+        {
+          "idx": 23,
+          "category": "sharing",
+          "correct": false,
+          "expected": 15,
+          "extracted": 3.0
+        },
+        {
+          "idx": 24,
+          "category": "shopping",
+          "correct": false,
+          "expected": 12,
+          "extracted": 108.0
+        },
+        {
+          "idx": 25,
+          "category": "distance",
+          "correct": false,
+          "expected": 57,
+          "extracted": 45.0
+        },
+        {
+          "idx": 26,
+          "category": "time",
+          "correct": false,
+          "expected": 334,
+          "extracted": 40.0
+        },
+        {
+          "idx": 27,
+          "category": "sharing",
+          "correct": false,
+          "expected": 16,
+          "extracted": 26.0
+        },
+        {
+          "idx": 28,
+          "category": "shopping",
+          "correct": false,
+          "expected": 14,
+          "extracted": 7.0
+        },
+        {
+          "idx": 29,
+          "category": "distance",
+          "correct": false,
+          "expected": 49,
+          "extracted": 4.0
+        },
+        {
+          "idx": 30,
+          "category": "time",
+          "correct": false,
+          "expected": 512,
+          "extracted": 56.0
+        },
+        {
+          "idx": 31,
+          "category": "sharing",
+          "correct": false,
+          "expected": 10,
+          "extracted": 3.0
+        },
+        {
+          "idx": 32,
+          "category": "shopping",
+          "correct": false,
+          "expected": 2,
+          "extracted": 4.0
+        },
+        {
+          "idx": 33,
+          "category": "distance",
+          "correct": false,
+          "expected": 71,
+          "extracted": 27.0
+        },
+        {
+          "idx": 34,
+          "category": "time",
+          "correct": false,
+          "expected": 280,
+          "extracted": 20.0
+        },
+        {
+          "idx": 35,
+          "category": "sharing",
+          "correct": false,
+          "expected": 18,
+          "extracted": 0.0
+        },
+        {
+          "idx": 36,
+          "category": "shopping",
+          "correct": false,
+          "expected": 21,
+          "extracted": 6.3
+        },
+        {
+          "idx": 37,
+          "category": "distance",
+          "correct": false,
+          "expected": 51,
+          "extracted": 41.0
+        },
+        {
+          "idx": 38,
+          "category": "time",
+          "correct": false,
+          "expected": 243,
+          "extracted": 67.0
+        },
+        {
+          "idx": 39,
+          "category": "sharing",
+          "correct": false,
+          "expected": 27,
+          "extracted": 2.0
+        },
+        {
+          "idx": 40,
+          "category": "shopping",
+          "correct": true,
+          "expected": 2,
+          "extracted": 2.0
+        },
+        {
+          "idx": 41,
+          "category": "distance",
+          "correct": true,
+          "expected": 45,
+          "extracted": 45.0
+        },
+        {
+          "idx": 42,
+          "category": "time",
+          "correct": false,
+          "expected": 590,
+          "extracted": 2.0
+        },
+        {
+          "idx": 43,
+          "category": "sharing",
+          "correct": false,
+          "expected": 19,
+          "extracted": 3.0
+        },
+        {
+          "idx": 44,
+          "category": "shopping",
+          "correct": false,
+          "expected": 42,
+          "extracted": 10.0
+        },
+        {
+          "idx": 45,
+          "category": "distance",
+          "correct": true,
+          "expected": 90,
+          "extracted": 90.0
+        },
+        {
+          "idx": 46,
+          "category": "time",
+          "correct": false,
+          "expected": 360,
+          "extracted": 5.0
+        },
+        {
+          "idx": 47,
+          "category": "sharing",
+          "correct": false,
+          "expected": 28,
+          "extracted": 12.0
+        },
+        {
+          "idx": 48,
+          "category": "shopping",
+          "correct": false,
+          "expected": 6,
+          "extracted": 3.0
+        },
+        {
+          "idx": 49,
+          "category": "distance",
+          "correct": true,
+          "expected": 57,
+          "extracted": 57.0
+        },
+        {
+          "idx": 50,
+          "category": "time",
+          "correct": false,
+          "expected": 552,
+          "extracted": 16.0
+        },
+        {
+          "idx": 51,
+          "category": "sharing",
+          "correct": false,
+          "expected": 14,
+          "extracted": -6.0
+        },
+        {
+          "idx": 52,
+          "category": "shopping",
+          "correct": false,
+          "expected": 21,
+          "extracted": -1.0
+        },
+        {
+          "idx": 53,
+          "category": "distance",
+          "correct": false,
+          "expected": 64,
+          "extracted": 5.0
+        },
+        {
+          "idx": 54,
+          "category": "time",
+          "correct": false,
+          "expected": 578,
+          "extracted": 32.0
+        },
+        {
+          "idx": 55,
+          "category": "sharing",
+          "correct": false,
+          "expected": 11,
+          "extracted": 16.0
+        },
+        {
+          "idx": 56,
+          "category": "shopping",
+          "correct": false,
+          "expected": 4,
+          "extracted": 8.0
+        },
+        {
+          "idx": 57,
+          "category": "distance",
+          "correct": true,
+          "expected": 73,
+          "extracted": 73.0
+        },
+        {
+          "idx": 58,
+          "category": "time",
+          "correct": false,
+          "expected": 394,
+          "extracted": 26.0
+        },
+        {
+          "idx": 59,
+          "category": "sharing",
+          "correct": false,
+          "expected": 26,
+          "extracted": 38.0
+        },
+        {
+          "idx": 60,
+          "category": "shopping",
+          "correct": false,
+          "expected": 5,
+          "extracted": 2.0
+        },
+        {
+          "idx": 61,
+          "category": "distance",
+          "correct": false,
+          "expected": 80,
+          "extracted": 4.0
+        },
+        {
+          "idx": 62,
+          "category": "time",
+          "correct": false,
+          "expected": 210,
+          "extracted": 19.0
+        },
+        {
+          "idx": 63,
+          "category": "sharing",
+          "correct": false,
+          "expected": 12,
+          "extracted": 5.0
+        },
+        {
+          "idx": 64,
+          "category": "shopping",
+          "correct": false,
+          "expected": 8,
+          "extracted": 2.0
+        },
+        {
+          "idx": 65,
+          "category": "distance",
+          "correct": true,
+          "expected": 63,
+          "extracted": 63.0
+        },
+        {
+          "idx": 66,
+          "category": "time",
+          "correct": false,
+          "expected": 574,
+          "extracted": 45.0
+        },
+        {
+          "idx": 67,
+          "category": "sharing",
+          "correct": false,
+          "expected": 17,
+          "extracted": 2.0
+        },
+        {
+          "idx": 68,
+          "category": "shopping",
+          "correct": false,
+          "expected": 12,
+          "extracted": 2.0
+        },
+        {
+          "idx": 69,
+          "category": "distance",
+          "correct": true,
+          "expected": 61,
+          "extracted": 61.0
+        },
+        {
+          "idx": 70,
+          "category": "time",
+          "correct": false,
+          "expected": 342,
+          "extracted": 108.0
+        },
+        {
+          "idx": 71,
+          "category": "sharing",
+          "correct": false,
+          "expected": 17,
+          "extracted": 19.0
+        },
+        {
+          "idx": 72,
+          "category": "shopping",
+          "correct": false,
+          "expected": 4,
+          "extracted": 6.0
+        },
+        {
+          "idx": 73,
+          "category": "distance",
+          "correct": true,
+          "expected": 46,
+          "extracted": 46.0
+        },
+        {
+          "idx": 74,
+          "category": "time",
+          "correct": false,
+          "expected": 456,
+          "extracted": 40.0
+        },
+        {
+          "idx": 75,
+          "category": "sharing",
+          "correct": false,
+          "expected": 26,
+          "extracted": 15.0
+        },
+        {
+          "idx": 76,
+          "category": "shopping",
+          "correct": false,
+          "expected": 36,
+          "extracted": 2.0
+        },
+        {
+          "idx": 77,
+          "category": "distance",
+          "correct": false,
+          "expected": 54,
+          "extracted": 5.0
+        },
+        {
+          "idx": 78,
+          "category": "time",
+          "correct": false,
+          "expected": 546,
+          "extracted": 3.0
+        },
+        {
+          "idx": 79,
+          "category": "sharing",
+          "correct": false,
+          "expected": 10,
+          "extracted": 4.0
+        }
+      ]
+    }
+  ],
+  "category_breakdown": {
+    "baseline": {
+      "shopping": 0.2,
+      "distance": 0.85,
+      "time": 0.05,
+      "sharing": 0.0
+    },
+    "hanoi_aha": {
+      "shopping": 0.05,
+      "distance": 0.55,
+      "time": 0.0,
+      "sharing": 0.0
+    },
+    "hanoi_trajectory": {
+      "shopping": 0.05,
+      "distance": 0.35,
+      "time": 0.0,
+      "sharing": 0.1
+    },
+    "random_direction": {
+      "shopping": 0.1,
+      "distance": 0.4,
+      "time": 0.0,
+      "sharing": 0.0
+    },
+    "anti_aha": {
+      "shopping": 0.05,
+      "distance": 0.4,
+      "time": 0.0,
+      "sharing": 0.0
+    }
+  },
+  "fisher_p_aha_vs_baseline": 0.040513,
+  "vector_cosines": {
+    "aha_vs_random": -0.116317,
+    "traj_vs_random": 0.10508,
+    "aha_vs_trajectory": -0.863142
+  },
+  "verdict": "ANTI_AHA_TRANSFER_ONLY",
+  "figure": "C:\\Users\\kyjan\\\u7814\u7a76\\snn-synthesis\\figures\\phase6_cross_task_transfer.png",
+  "elapsed_seconds": 2391.6
+}

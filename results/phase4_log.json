@@ -1,0 +1,102 @@
+{
+  "experiment": "Phase 4: Concept-Specific Causal Surgery",
+  "model": "Mistral-7B",
+  "layer": 18,
+  "sigma": 0.1,
+  "genres_tested": [
+    "Health",
+    "Law",
+    "Finance",
+    "Politics",
+    "Psychology"
+  ],
+  "timestamp": "2026-03-30 07:29:39",
+  "cross_genre_similarity": [
+    [
+      1.0000001192092896,
+      0.3062855005264282,
+      0.40539830923080444,
+      0.45113110542297363,
+      0.5937154293060303
+    ],
+    [
+      0.3062855005264282,
+      1.0,
+      0.4175073504447937,
+      0.36317476630210876,
+      0.31322330236434937
+    ],
+    [
+      0.40539830923080444,
+      0.4175073504447937,
+      1.0,
+      0.4190836548805237,
+      0.46532708406448364
+    ],
+    [
+      0.45113110542297363,
+      0.36317476630210876,
+      0.4190836548805237,
+      1.0,
+      0.4602150321006775
+    ],
+    [
+      0.5937154293060303,
+      0.31322330236434937,
+      0.46532708406448364,
+      0.4602150321006775,
+      1.0000001192092896
+    ]
+  ],
+  "intervention_results": {
+    "Health": {
+      "baseline_acc": 0.9333,
+      "same_genre_acc": 0.9333,
+      "cross_genre_acc": 1.0,
+      "cross_genre_source": "Law",
+      "anti_aha_acc": 0.7333,
+      "n_tested": 15
+    },
+    "Law": {
+      "baseline_acc": 0.7333,
+      "same_genre_acc": 0.8667,
+      "cross_genre_acc": 0.8667,
+      "cross_genre_source": "Finance",
+      "anti_aha_acc": 0.5333,
+      "n_tested": 15
+    },
+    "Finance": {
+      "baseline_acc": 0.6667,
+      "same_genre_acc": 0.7333,
+      "cross_genre_acc": 0.8,
+      "cross_genre_source": "Politics",
+      "anti_aha_acc": 0.3333,
+      "n_tested": 15
+    },
+    "Politics": {
+      "baseline_acc": 0.9333,
+      "same_genre_acc": 0.9333,
+      "cross_genre_acc": 1.0,
+      "cross_genre_source": "Psychology",
+      "anti_aha_acc": 0.8,
+      "n_tested": 15
+    },
+    "Psychology": {
+      "baseline_acc": 0.9333,
+      "same_genre_acc": 1.0,
+      "cross_genre_acc": 1.0,
+      "cross_genre_source": "Health",
+      "anti_aha_acc": 0.7333,
+      "n_tested": 15
+    }
+  },
+  "verdict": "UNIVERSAL_EFFECTIVE",
+  "analysis": {
+    "avg_same_delta": 0.0533,
+    "avg_cross_delta": 0.0934,
+    "avg_anti_delta": -0.2133,
+    "specificity": -0.04
+  },
+  "figure": "C:\\Users\\kyjan\\\u7814\u7a76\\snn-synthesis\\figures\\phase4_concept_surgery.png",
+  "elapsed_seconds": 72.8
+}
