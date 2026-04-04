@@ -1,0 +1,177 @@
+[
+  {
+    "iteration": 1,
+    "miracles": 196,
+    "train_acc": 0.2751423418521881,
+    "configs": {
+      "Random K=1": {
+        "clears": 6,
+        "rate": 6.0
+      },
+      "Random K=11": {
+        "clears": 61,
+        "rate": 61.0
+      },
+      "CNN(iter1) K=1": {
+        "clears": 6,
+        "rate": 6.0
+      },
+      "CNN(iter1) K=1 \u03c3=0.1": {
+        "clears": 6,
+        "rate": 6.0
+      },
+      "CNN(iter1) K=1 \u03c3=0.2": {
+        "clears": 6,
+        "rate": 6.0
+      },
+      "CNN(iter1) K=5 \u03c3=0.1": {
+        "clears": 34,
+        "rate": 34.0
+      },
+      "CNN(iter1) K=11 \u03c3=0.1": {
+        "clears": 61,
+        "rate": 61.0
+      }
+    }
+  },
+  {
+    "iteration": 2,
+    "miracles": 177,
+    "train_acc": 0.2756400406360626,
+    "configs": {
+      "Random K=1": {
+        "clears": 6,
+        "rate": 6.0
+      },
+      "Random K=11": {
+        "clears": 61,
+        "rate": 61.0
+      },
+      "CNN(iter2) K=1": {
+        "clears": 6,
+        "rate": 6.0
+      },
+      "CNN(iter2) K=1 \u03c3=0.1": {
+        "clears": 6,
+        "rate": 6.0
+      },
+      "CNN(iter2) K=1 \u03c3=0.2": {
+        "clears": 6,
+        "rate": 6.0
+      },
+      "CNN(iter2) K=5 \u03c3=0.1": {
+        "clears": 34,
+        "rate": 34.0
+      },
+      "CNN(iter2) K=11 \u03c3=0.1": {
+        "clears": 61,
+        "rate": 61.0
+      }
+    }
+  },
+  {
+    "iteration": 3,
+    "miracles": 151,
+    "train_acc": 0.27719253301620483,
+    "configs": {
+      "Random K=1": {
+        "clears": 6,
+        "rate": 6.0
+      },
+      "Random K=11": {
+        "clears": 61,
+        "rate": 61.0
+      },
+      "CNN(iter3) K=1": {
+        "clears": 6,
+        "rate": 6.0
+      },
+      "CNN(iter3) K=1 \u03c3=0.1": {
+        "clears": 6,
+        "rate": 6.0
+      },
+      "CNN(iter3) K=1 \u03c3=0.2": {
+        "clears": 6,
+        "rate": 6.0
+      },
+      "CNN(iter3) K=5 \u03c3=0.1": {
+        "clears": 34,
+        "rate": 34.0
+      },
+      "CNN(iter3) K=11 \u03c3=0.1": {
+        "clears": 61,
+        "rate": 61.0
+      }
+    }
+  },
+  {
+    "iteration": 4,
+    "miracles": 127,
+    "train_acc": 0.2816106081008911,
+    "configs": {
+      "Random K=1": {
+        "clears": 6,
+        "rate": 6.0
+      },
+      "Random K=11": {
+        "clears": 61,
+        "rate": 61.0
+      },
+      "CNN(iter4) K=1": {
+        "clears": 6,
+        "rate": 6.0
+      },
+      "CNN(iter4) K=1 \u03c3=0.1": {
+        "clears": 6,
+        "rate": 6.0
+      },
+      "CNN(iter4) K=1 \u03c3=0.2": {
+        "clears": 6,
+        "rate": 6.0
+      },
+      "CNN(iter4) K=5 \u03c3=0.1": {
+        "clears": 34,
+        "rate": 34.0
+      },
+      "CNN(iter4) K=11 \u03c3=0.1": {
+        "clears": 61,
+        "rate": 61.0
+      }
+    }
+  },
+  {
+    "iteration": 5,
+    "miracles": 120,
+    "train_acc": 0.2783631980419159,
+    "configs": {
+      "Random K=1": {
+        "clears": 6,
+        "rate": 6.0
+      },
+      "Random K=11": {
+        "clears": 61,
+        "rate": 61.0
+      },
+      "CNN(iter5) K=1": {
+        "clears": 6,
+        "rate": 6.0
+      },
+      "CNN(iter5) K=1 \u03c3=0.1": {
+        "clears": 6,
+        "rate": 6.0
+      },
+      "CNN(iter5) K=1 \u03c3=0.2": {
+        "clears": 6,
+        "rate": 6.0
+      },
+      "CNN(iter5) K=5 \u03c3=0.1": {
+        "clears": 34,
+        "rate": 34.0
+      },
+      "CNN(iter5) K=11 \u03c3=0.1": {
+        "clears": 61,
+        "rate": 61.0
+      }
+    }
+  }
+]

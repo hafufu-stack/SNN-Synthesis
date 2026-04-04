@@ -1,0 +1,324 @@
+{
+  "26a": {
+    "full_miracles": 92,
+    "full_rate": 23.0,
+    "half_miracles": 46,
+    "half_rate": 11.5,
+    "quarter_miracles": 23,
+    "quarter_rate": 5.75,
+    "results_full": [
+      {
+        "iteration": 1,
+        "miracles": 178,
+        "train_acc": 0.2808735966682434,
+        "configs": {
+          "Random K=11": {
+            "clears": 7,
+            "rate": 7.000000000000001
+          },
+          "CNN K=1": {
+            "clears": 0,
+            "rate": 0.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 44,
+            "rate": 44.0
+          }
+        }
+      },
+      {
+        "iteration": 2,
+        "miracles": 250,
+        "train_acc": 0.28702765703201294,
+        "configs": {
+          "Random K=11": {
+            "clears": 3,
+            "rate": 3.0
+          },
+          "CNN K=1": {
+            "clears": 5,
+            "rate": 5.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 43,
+            "rate": 43.0
+          }
+        }
+      },
+      {
+        "iteration": 3,
+        "miracles": 292,
+        "train_acc": 0.2918042838573456,
+        "configs": {
+          "Random K=11": {
+            "clears": 4,
+            "rate": 4.0
+          },
+          "CNN K=1": {
+            "clears": 3,
+            "rate": 3.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 44,
+            "rate": 44.0
+          }
+        }
+      }
+    ],
+    "results_half": [
+      {
+        "iteration": 1,
+        "miracles": 131,
+        "train_acc": 0.28386005759239197,
+        "configs": {
+          "Random K=11": {
+            "clears": 7,
+            "rate": 7.000000000000001
+          },
+          "CNN K=1": {
+            "clears": 4,
+            "rate": 4.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 33,
+            "rate": 33.0
+          }
+        }
+      },
+      {
+        "iteration": 2,
+        "miracles": 217,
+        "train_acc": 0.2883438467979431,
+        "configs": {
+          "Random K=11": {
+            "clears": 3,
+            "rate": 3.0
+          },
+          "CNN K=1": {
+            "clears": 7,
+            "rate": 7.000000000000001
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 47,
+            "rate": 47.0
+          }
+        }
+      },
+      {
+        "iteration": 3,
+        "miracles": 278,
+        "train_acc": 0.29461583495140076,
+        "configs": {
+          "Random K=11": {
+            "clears": 4,
+            "rate": 4.0
+          },
+          "CNN K=1": {
+            "clears": 10,
+            "rate": 10.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 57,
+            "rate": 56.99999999999999
+          }
+        }
+      }
+    ],
+    "results_quarter": [
+      {
+        "iteration": 1,
+        "miracles": 108,
+        "train_acc": 0.2896710932254791,
+        "configs": {
+          "Random K=11": {
+            "clears": 7,
+            "rate": 7.000000000000001
+          },
+          "CNN K=1": {
+            "clears": 5,
+            "rate": 5.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 25,
+            "rate": 25.0
+          }
+        }
+      },
+      {
+        "iteration": 2,
+        "miracles": 189,
+        "train_acc": 0.29397404193878174,
+        "configs": {
+          "Random K=11": {
+            "clears": 3,
+            "rate": 3.0
+          },
+          "CNN K=1": {
+            "clears": 6,
+            "rate": 6.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 57,
+            "rate": 56.99999999999999
+          }
+        }
+      },
+      {
+        "iteration": 3,
+        "miracles": 247,
+        "train_acc": 0.2968520224094391,
+        "configs": {
+          "Random K=11": {
+            "clears": 4,
+            "rate": 4.0
+          },
+          "CNN K=1": {
+            "clears": 11,
+            "rate": 11.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 56,
+            "rate": 56.00000000000001
+          }
+        }
+      }
+    ],
+    "elapsed_s": 1742.1766154766083
+  },
+  "26b": {
+    "data_sources": [
+      "phase14",
+      "phase24"
+    ],
+    "elapsed_s": 0.017353296279907227
+  },
+  "26c_K10": {
+    "bootstrap_K": 10,
+    "miracles": 118,
+    "miracle_rate": 59.0,
+    "results": [
+      {
+        "iteration": 1,
+        "miracles": 203,
+        "train_acc": 0.27680882811546326,
+        "configs": {
+          "Random K=11": {
+            "clears": 59,
+            "rate": 59.0
+          },
+          "CNN K=1": {
+            "clears": 21,
+            "rate": 21.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 88,
+            "rate": 88.0
+          }
+        }
+      },
+      {
+        "iteration": 2,
+        "miracles": 291,
+        "train_acc": 0.28259044885635376,
+        "configs": {
+          "Random K=11": {
+            "clears": 58,
+            "rate": 57.99999999999999
+          },
+          "CNN K=1": {
+            "clears": 18,
+            "rate": 18.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 82,
+            "rate": 82.0
+          }
+        }
+      },
+      {
+        "iteration": 3,
+        "miracles": 377,
+        "train_acc": 0.2855692505836487,
+        "configs": {
+          "Random K=11": {
+            "clears": 69,
+            "rate": 69.0
+          },
+          "CNN K=1": {
+            "clears": 13,
+            "rate": 13.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 92,
+            "rate": 92.0
+          }
+        }
+      }
+    ]
+  },
+  "26c_K100": {
+    "bootstrap_K": 100,
+    "miracles": 200,
+    "miracle_rate": 100.0,
+    "results": [
+      {
+        "iteration": 1,
+        "miracles": 300,
+        "train_acc": 0.2762138843536377,
+        "configs": {
+          "Random K=11": {
+            "clears": 59,
+            "rate": 59.0
+          },
+          "CNN K=1": {
+            "clears": 19,
+            "rate": 19.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 81,
+            "rate": 81.0
+          }
+        }
+      },
+      {
+        "iteration": 2,
+        "miracles": 400,
+        "train_acc": 0.28191250562667847,
+        "configs": {
+          "Random K=11": {
+            "clears": 58,
+            "rate": 57.99999999999999
+          },
+          "CNN K=1": {
+            "clears": 24,
+            "rate": 24.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 93,
+            "rate": 93.0
+          }
+        }
+      },
+      {
+        "iteration": 3,
+        "miracles": 500,
+        "train_acc": 0.2852741777896881,
+        "configs": {
+          "Random K=11": {
+            "clears": 69,
+            "rate": 69.0
+          },
+          "CNN K=1": {
+            "clears": 26,
+            "rate": 26.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 90,
+            "rate": 90.0
+          }
+        }
+      }
+    ]
+  },
+  "26c_elapsed_s": 629.6787958145142
+}

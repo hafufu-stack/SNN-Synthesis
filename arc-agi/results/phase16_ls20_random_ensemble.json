@@ -1,0 +1,47 @@
+{
+  "K=1": {
+    "avg_levels": 0.0,
+    "level_distribution": {
+      "0": 100
+    },
+    "time_s": 60.4
+  },
+  "K=3": {
+    "avg_levels": 0.0,
+    "level_distribution": {
+      "0": 100
+    },
+    "time_s": 170.6
+  },
+  "K=5": {
+    "avg_levels": 0.0,
+    "level_distribution": {
+      "0": 100
+    },
+    "time_s": 289.0
+  },
+  "K=11": {
+    "avg_levels": 0.04,
+    "level_distribution": {
+      "0": 96,
+      "1": 4
+    },
+    "time_s": 646.1
+  },
+  "K=21": {
+    "avg_levels": 0.07,
+    "level_distribution": {
+      "0": 93,
+      "1": 7
+    },
+    "time_s": 1215.3
+  },
+  "K=51": {
+    "avg_levels": 0.13,
+    "level_distribution": {
+      "1": 13,
+      "0": 87
+    },
+    "time_s": 2968.0
+  }
+}

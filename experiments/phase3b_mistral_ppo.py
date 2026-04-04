@@ -11,7 +11,7 @@ Architecture:
   - SNN controller: 2-layer LIF (320→64→2)
   - Native 4096-dim hidden states (no projection needed)
   - Layer 18 (matching SNN-Genesis Aha!/Trajectory layers)
-  - PPO: 100 epochs × 50 trials = 5000 total
+  - PPO: 30 epochs × 50 trials = 1500 total
 
 Evaluation (N=100 × 3):
   1. baseline:   No injection
@@ -41,7 +41,7 @@ BASE_SIGMA = 0.15
 LAYER_IDX = 18
 PCA_DIM = 64
 WINDOW_SIZE = 5
-N_PPO_EPOCHS = 100
+N_PPO_EPOCHS = 30
 N_TRIALS_PER_EPOCH = 50
 N_TEST = 100
 

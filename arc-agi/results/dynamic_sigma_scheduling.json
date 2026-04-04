@@ -1,0 +1,270 @@
+{
+  "large_244K": {
+    "sigma_0.15": {
+      "static": {
+        "clears": 3,
+        "n": 50,
+        "rate": 6.0,
+        "avg_steps_when_cleared": 54.3
+      },
+      "linear_decay": {
+        "clears": 6,
+        "n": 50,
+        "rate": 12.0,
+        "avg_steps_when_cleared": 49.7
+      },
+      "cosine_decay": {
+        "clears": 4,
+        "n": 50,
+        "rate": 8.0,
+        "avg_steps_when_cleared": 51.0
+      },
+      "warmup_decay": {
+        "clears": 5,
+        "n": 50,
+        "rate": 10.0,
+        "avg_steps_when_cleared": 55.0
+      },
+      "step_schedule": {
+        "clears": 8,
+        "n": 50,
+        "rate": 16.0,
+        "avg_steps_when_cleared": 68.0
+      },
+      "inverse": {
+        "clears": 3,
+        "n": 50,
+        "rate": 6.0,
+        "avg_steps_when_cleared": 45.0
+      },
+      "flash_anneal": {
+        "clears": 1,
+        "n": 50,
+        "rate": 2.0,
+        "avg_steps_when_cleared": 45.0
+      }
+    },
+    "sigma_0.20": {
+      "static": {
+        "clears": 7,
+        "n": 50,
+        "rate": 14.0,
+        "avg_steps_when_cleared": 52.4
+      },
+      "linear_decay": {
+        "clears": 4,
+        "n": 50,
+        "rate": 8.0,
+        "avg_steps_when_cleared": 62.0
+      },
+      "cosine_decay": {
+        "clears": 4,
+        "n": 50,
+        "rate": 8.0,
+        "avg_steps_when_cleared": 57.0
+      },
+      "warmup_decay": {
+        "clears": 8,
+        "n": 50,
+        "rate": 16.0,
+        "avg_steps_when_cleared": 57.5
+      },
+      "step_schedule": {
+        "clears": 8,
+        "n": 50,
+        "rate": 16.0,
+        "avg_steps_when_cleared": 54.0
+      },
+      "inverse": {
+        "clears": 4,
+        "n": 50,
+        "rate": 8.0,
+        "avg_steps_when_cleared": 46.0
+      },
+      "flash_anneal": {
+        "clears": 7,
+        "n": 50,
+        "rate": 14.0,
+        "avg_steps_when_cleared": 56.1
+      }
+    },
+    "sigma_0.25": {
+      "static": {
+        "clears": 4,
+        "n": 50,
+        "rate": 8.0,
+        "avg_steps_when_cleared": 73.5
+      },
+      "linear_decay": {
+        "clears": 7,
+        "n": 50,
+        "rate": 14.0,
+        "avg_steps_when_cleared": 62.1
+      },
+      "cosine_decay": {
+        "clears": 7,
+        "n": 50,
+        "rate": 14.0,
+        "avg_steps_when_cleared": 61.6
+      },
+      "warmup_decay": {
+        "clears": 6,
+        "n": 50,
+        "rate": 12.0,
+        "avg_steps_when_cleared": 57.7
+      },
+      "step_schedule": {
+        "clears": 2,
+        "n": 50,
+        "rate": 4.0,
+        "avg_steps_when_cleared": 57.0
+      },
+      "inverse": {
+        "clears": 2,
+        "n": 50,
+        "rate": 4.0,
+        "avg_steps_when_cleared": 68.0
+      },
+      "flash_anneal": {
+        "clears": 6,
+        "n": 50,
+        "rate": 12.0,
+        "avg_steps_when_cleared": 60.7
+      }
+    }
+  },
+  "small_63K": {
+    "sigma_0.15": {
+      "static": {
+        "clears": 4,
+        "n": 50,
+        "rate": 8.0,
+        "avg_steps_when_cleared": 67.0
+      },
+      "linear_decay": {
+        "clears": 2,
+        "n": 50,
+        "rate": 4.0,
+        "avg_steps_when_cleared": 57.0
+      },
+      "cosine_decay": {
+        "clears": 3,
+        "n": 50,
+        "rate": 6.0,
+        "avg_steps_when_cleared": 67.0
+      },
+      "warmup_decay": {
+        "clears": 3,
+        "n": 50,
+        "rate": 6.0,
+        "avg_steps_when_cleared": 53.0
+      },
+      "step_schedule": {
+        "clears": 3,
+        "n": 50,
+        "rate": 6.0,
+        "avg_steps_when_cleared": 46.3
+      },
+      "inverse": {
+        "clears": 0,
+        "n": 50,
+        "rate": 0.0,
+        "avg_steps_when_cleared": 0
+      },
+      "flash_anneal": {
+        "clears": 0,
+        "n": 50,
+        "rate": 0.0,
+        "avg_steps_when_cleared": 0
+      }
+    },
+    "sigma_0.20": {
+      "static": {
+        "clears": 2,
+        "n": 50,
+        "rate": 4.0,
+        "avg_steps_when_cleared": 68.0
+      },
+      "linear_decay": {
+        "clears": 4,
+        "n": 50,
+        "rate": 8.0,
+        "avg_steps_when_cleared": 51.0
+      },
+      "cosine_decay": {
+        "clears": 3,
+        "n": 50,
+        "rate": 6.0,
+        "avg_steps_when_cleared": 60.3
+      },
+      "warmup_decay": {
+        "clears": 3,
+        "n": 50,
+        "rate": 6.0,
+        "avg_steps_when_cleared": 53.0
+      },
+      "step_schedule": {
+        "clears": 1,
+        "n": 50,
+        "rate": 2.0,
+        "avg_steps_when_cleared": 67.0
+      },
+      "inverse": {
+        "clears": 1,
+        "n": 50,
+        "rate": 2.0,
+        "avg_steps_when_cleared": 67.0
+      },
+      "flash_anneal": {
+        "clears": 2,
+        "n": 50,
+        "rate": 4.0,
+        "avg_steps_when_cleared": 47.0
+      }
+    },
+    "sigma_0.25": {
+      "static": {
+        "clears": 3,
+        "n": 50,
+        "rate": 6.0,
+        "avg_steps_when_cleared": 47.0
+      },
+      "linear_decay": {
+        "clears": 5,
+        "n": 50,
+        "rate": 10.0,
+        "avg_steps_when_cleared": 63.0
+      },
+      "cosine_decay": {
+        "clears": 4,
+        "n": 50,
+        "rate": 8.0,
+        "avg_steps_when_cleared": 62.5
+      },
+      "warmup_decay": {
+        "clears": 2,
+        "n": 50,
+        "rate": 4.0,
+        "avg_steps_when_cleared": 49.0
+      },
+      "step_schedule": {
+        "clears": 1,
+        "n": 50,
+        "rate": 2.0,
+        "avg_steps_when_cleared": 45.0
+      },
+      "inverse": {
+        "clears": 1,
+        "n": 50,
+        "rate": 2.0,
+        "avg_steps_when_cleared": 47.0
+      },
+      "flash_anneal": {
+        "clears": 1,
+        "n": 50,
+        "rate": 2.0,
+        "avg_steps_when_cleared": 69.0
+      }
+    }
+  }
+}

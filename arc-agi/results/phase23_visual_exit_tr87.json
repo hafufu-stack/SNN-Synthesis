@@ -1,0 +1,182 @@
+[
+  {
+    "iteration": 1,
+    "miracles_new": 27,
+    "miracles_total": 27,
+    "train_acc": 0.2792913019657135,
+    "configs": {
+      "Random K=1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "Random K=11": {
+        "clears": 3,
+        "rate": 3.0
+      },
+      "VisCNN(i1) K=1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "VisCNN(i1) K=1 \u03c3=0.1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "VisCNN(i1) K=1 \u03c3=0.2": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "VisCNN(i1) K=5 \u03c3=0.1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "VisCNN(i1) K=11 \u03c3=0.1": {
+        "clears": 5,
+        "rate": 5.0
+      }
+    }
+  },
+  {
+    "iteration": 2,
+    "miracles_new": 14,
+    "miracles_total": 41,
+    "train_acc": 0.2665749192237854,
+    "configs": {
+      "Random K=1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "Random K=11": {
+        "clears": 3,
+        "rate": 3.0
+      },
+      "VisCNN(i2) K=1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "VisCNN(i2) K=1 \u03c3=0.1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "VisCNN(i2) K=1 \u03c3=0.2": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "VisCNN(i2) K=5 \u03c3=0.1": {
+        "clears": 1,
+        "rate": 1.0
+      },
+      "VisCNN(i2) K=11 \u03c3=0.1": {
+        "clears": 3,
+        "rate": 3.0
+      }
+    }
+  },
+  {
+    "iteration": 3,
+    "miracles_new": 10,
+    "miracles_total": 51,
+    "train_acc": 0.26880529522895813,
+    "configs": {
+      "Random K=1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "Random K=11": {
+        "clears": 3,
+        "rate": 3.0
+      },
+      "VisCNN(i3) K=1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "VisCNN(i3) K=1 \u03c3=0.1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "VisCNN(i3) K=1 \u03c3=0.2": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "VisCNN(i3) K=5 \u03c3=0.1": {
+        "clears": 2,
+        "rate": 2.0
+      },
+      "VisCNN(i3) K=11 \u03c3=0.1": {
+        "clears": 1,
+        "rate": 1.0
+      }
+    }
+  },
+  {
+    "iteration": 4,
+    "miracles_new": 7,
+    "miracles_total": 58,
+    "train_acc": 0.27088114619255066,
+    "configs": {
+      "Random K=1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "Random K=11": {
+        "clears": 3,
+        "rate": 3.0
+      },
+      "VisCNN(i4) K=1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "VisCNN(i4) K=1 \u03c3=0.1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "VisCNN(i4) K=1 \u03c3=0.2": {
+        "clears": 1,
+        "rate": 1.0
+      },
+      "VisCNN(i4) K=5 \u03c3=0.1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "VisCNN(i4) K=11 \u03c3=0.1": {
+        "clears": 3,
+        "rate": 3.0
+      }
+    }
+  },
+  {
+    "iteration": 5,
+    "miracles_new": 7,
+    "miracles_total": 65,
+    "train_acc": 0.2710905075073242,
+    "configs": {
+      "Random K=1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "Random K=11": {
+        "clears": 3,
+        "rate": 3.0
+      },
+      "VisCNN(i5) K=1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "VisCNN(i5) K=1 \u03c3=0.1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "VisCNN(i5) K=1 \u03c3=0.2": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "VisCNN(i5) K=5 \u03c3=0.1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "VisCNN(i5) K=11 \u03c3=0.1": {
+        "clears": 5,
+        "rate": 5.0
+      }
+    }
+  }
+]

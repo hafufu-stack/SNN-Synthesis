@@ -1,0 +1,20 @@
+{
+  "game_id": "sb26-7fbdac44",
+  "title": "SB26",
+  "default_fps": 30,
+  "tags": [
+    "keyboard_click"
+  ],
+  "baseline_actions": [
+    18,
+    16,
+    15,
+    15,
+    31,
+    24,
+    17,
+    17
+  ],
+  "local_dir": "c:\\Users\\kyjan\\\u7814\u7a76\\snn-synthesis\\arc-agi\\environment_files\\sb26\\7fbdac44",
+  "date_downloaded": "2026-04-03T15:37:18.329845+00:00"
+}

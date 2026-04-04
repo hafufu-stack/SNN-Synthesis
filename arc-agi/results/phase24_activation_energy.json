@@ -1,0 +1,122 @@
+{
+  "miracle_rate_vs_K": {
+    "1": {
+      "clears": 0,
+      "n": 200,
+      "rate": 0.0
+    },
+    "10": {
+      "clears": 4,
+      "n": 200,
+      "rate": 2.0
+    },
+    "50": {
+      "clears": 16,
+      "n": 200,
+      "rate": 8.0
+    },
+    "100": {
+      "clears": 24,
+      "n": 200,
+      "rate": 12.0
+    },
+    "200": {
+      "clears": 27,
+      "n": 100,
+      "rate": 27.0
+    },
+    "500": {
+      "clears": 23,
+      "n": 50,
+      "rate": 46.0
+    },
+    "1000": {
+      "clears": 36,
+      "n": 50,
+      "rate": 72.0
+    }
+  },
+  "exit_results": [
+    {
+      "iteration": 1,
+      "bootstrap_K": 1000,
+      "miracles_total": 334,
+      "train_acc": 0.25535672903060913,
+      "configs": {
+        "Random K=11": {
+          "clears": 2,
+          "rate": 2.0
+        },
+        "CNN(i1) K=1": {
+          "clears": 0,
+          "rate": 0.0
+        },
+        "CNN(i1) K=11 \u03c3=0.1": {
+          "clears": 1,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "iteration": 2,
+      "bootstrap_K": 1000,
+      "miracles_total": 435,
+      "train_acc": 0.4649282693862915,
+      "configs": {
+        "Random K=11": {
+          "clears": 1,
+          "rate": 1.0
+        },
+        "CNN(i2) K=1": {
+          "clears": 0,
+          "rate": 0.0
+        },
+        "CNN(i2) K=11 \u03c3=0.1": {
+          "clears": 0,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "iteration": 3,
+      "bootstrap_K": 1000,
+      "miracles_total": 435,
+      "train_acc": 0.47082746028900146,
+      "configs": {
+        "Random K=11": {
+          "clears": 3,
+          "rate": 3.0
+        },
+        "CNN(i3) K=1": {
+          "clears": 0,
+          "rate": 0.0
+        },
+        "CNN(i3) K=11 \u03c3=0.1": {
+          "clears": 0,
+          "rate": 0.0
+        }
+      }
+    },
+    {
+      "iteration": 4,
+      "bootstrap_K": 1000,
+      "miracles_total": 435,
+      "train_acc": 0.47225865721702576,
+      "configs": {
+        "Random K=11": {
+          "clears": 1,
+          "rate": 1.0
+        },
+        "CNN(i4) K=1": {
+          "clears": 0,
+          "rate": 0.0
+        },
+        "CNN(i4) K=11 \u03c3=0.1": {
+          "clears": 0,
+          "rate": 0.0
+        }
+      }
+    }
+  ],
+  "hypothesis": "K>=1000 overcomes 20% miracle rate threshold for TR87 ExIt"
+}

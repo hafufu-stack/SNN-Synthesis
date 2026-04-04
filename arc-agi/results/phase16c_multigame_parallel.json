@@ -1,0 +1,271 @@
+{
+  "ls20": {
+    "K=1": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 5.7
+    },
+    "K=3": {
+      "avg_levels": 0.01,
+      "level_dist": {
+        "0": 99,
+        "1": 1
+      },
+      "time_s": 8.1
+    },
+    "K=5": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 11.0
+    },
+    "K=11": {
+      "avg_levels": 0.07,
+      "level_dist": {
+        "0": 93,
+        "1": 7
+      },
+      "time_s": 17.1
+    },
+    "K=21": {
+      "avg_levels": 0.04,
+      "level_dist": {
+        "0": 96,
+        "1": 4
+      },
+      "time_s": 30.0
+    }
+  },
+  "ft09": {
+    "K=1": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 5.0
+    },
+    "K=3": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 5.1
+    },
+    "K=5": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 6.2
+    },
+    "K=11": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 8.2
+    },
+    "K=21": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 10.5
+    }
+  },
+  "g50t": {
+    "K=1": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 5.6
+    },
+    "K=3": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 8.5
+    },
+    "K=5": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 10.9
+    },
+    "K=11": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 18.3
+    },
+    "K=21": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 30.5
+    }
+  },
+  "wa30": {
+    "K=1": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 4.9
+    },
+    "K=3": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 5.5
+    },
+    "K=5": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 6.6
+    },
+    "K=11": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 8.4
+    },
+    "K=21": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 11.7
+    }
+  },
+  "tr87": {
+    "K=1": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 5.1
+    },
+    "K=3": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 6.2
+    },
+    "K=5": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 7.4
+    },
+    "K=11": {
+      "avg_levels": 0.01,
+      "level_dist": {
+        "0": 99,
+        "1": 1
+      },
+      "time_s": 11.1
+    },
+    "K=21": {
+      "avg_levels": 0.04,
+      "level_dist": {
+        "0": 96,
+        "1": 4
+      },
+      "time_s": 16.8
+    }
+  },
+  "m0r0": {
+    "K=1": {
+      "avg_levels": 0.07,
+      "level_dist": {
+        "0": 93,
+        "1": 7
+      },
+      "time_s": 4.9
+    },
+    "K=3": {
+      "avg_levels": 0.21,
+      "level_dist": {
+        "0": 79,
+        "1": 21
+      },
+      "time_s": 6.0
+    },
+    "K=5": {
+      "avg_levels": 0.42,
+      "level_dist": {
+        "0": 58,
+        "1": 42
+      },
+      "time_s": 6.6
+    },
+    "K=11": {
+      "avg_levels": 0.59,
+      "level_dist": {
+        "0": 41,
+        "1": 59
+      },
+      "time_s": 9.0
+    },
+    "K=21": {
+      "avg_levels": 0.88,
+      "level_dist": {
+        "0": 12,
+        "1": 88
+      },
+      "time_s": 13.4
+    }
+  },
+  "sb26": {
+    "K=1": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 5.1
+    },
+    "K=3": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 6.0
+    },
+    "K=5": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 6.9
+    },
+    "K=11": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 9.9
+    },
+    "K=21": {
+      "avg_levels": 0.0,
+      "level_dist": {
+        "0": 100
+      },
+      "time_s": 16.9
+    }
+  }
+}

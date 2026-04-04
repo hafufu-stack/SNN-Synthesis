@@ -1,0 +1,314 @@
+{
+  "large_244K": {
+    "sigma_0.20": {
+      "static": {
+        "clears": 13,
+        "n": 100,
+        "rate": 13.0,
+        "avg_sigma_injected": 0.2,
+        "avg_entropy": 0.2637,
+        "avg_steps_cleared": 67.8,
+        "fisher_p": null
+      },
+      "entropy_proportional": {
+        "clears": 3,
+        "n": 100,
+        "rate": 3.0,
+        "avg_sigma_injected": 0.0574,
+        "avg_entropy": 0.2871,
+        "avg_steps_cleared": 67.7,
+        "fisher_p": 0.016496,
+        "ci_lower": 1.0,
+        "ci_upper": 8.5
+      },
+      "entropy_amplified": {
+        "clears": 12,
+        "n": 100,
+        "rate": 12.0,
+        "avg_sigma_injected": 0.1069,
+        "avg_entropy": 0.2672,
+        "avg_steps_cleared": 60.7,
+        "fisher_p": 1.0,
+        "ci_lower": 7.0,
+        "ci_upper": 19.8
+      },
+      "entropy_threshold": {
+        "clears": 6,
+        "n": 100,
+        "rate": 6.0,
+        "avg_sigma_injected": 0.1064,
+        "avg_entropy": 0.2851,
+        "avg_steps_cleared": 52.3,
+        "fisher_p": 0.146385,
+        "ci_lower": 2.8,
+        "ci_upper": 12.5
+      },
+      "confidence_gate": {
+        "clears": 5,
+        "n": 100,
+        "rate": 5.0,
+        "avg_sigma_injected": 0.0997,
+        "avg_entropy": 0.2335,
+        "avg_steps_cleared": 60.2,
+        "fisher_p": 0.081331,
+        "ci_lower": 2.2,
+        "ci_upper": 11.2
+      },
+      "inverse_confidence": {
+        "clears": 7,
+        "n": 100,
+        "rate": 7.0,
+        "avg_sigma_injected": 0.1213,
+        "avg_entropy": 0.206,
+        "avg_steps_cleared": 68.4,
+        "fisher_p": 0.238087,
+        "ci_lower": 3.4,
+        "ci_upper": 13.7
+      },
+      "entropy_plus_decay": {
+        "clears": 3,
+        "n": 100,
+        "rate": 3.0,
+        "avg_sigma_injected": 0.0539,
+        "avg_entropy": 0.287,
+        "avg_steps_cleared": 52.3,
+        "fisher_p": 0.016496,
+        "ci_lower": 1.0,
+        "ci_upper": 8.5
+      }
+    },
+    "sigma_0.25": {
+      "static": {
+        "clears": 12,
+        "n": 100,
+        "rate": 12.0,
+        "avg_sigma_injected": 0.25,
+        "avg_entropy": 0.2296,
+        "avg_steps_cleared": 64.7,
+        "fisher_p": null
+      },
+      "entropy_proportional": {
+        "clears": 4,
+        "n": 100,
+        "rate": 4.0,
+        "avg_sigma_injected": 0.0716,
+        "avg_entropy": 0.2863,
+        "avg_steps_cleared": 61.5,
+        "fisher_p": 0.065197,
+        "ci_lower": 1.6,
+        "ci_upper": 9.8
+      },
+      "entropy_amplified": {
+        "clears": 13,
+        "n": 100,
+        "rate": 13.0,
+        "avg_sigma_injected": 0.1187,
+        "avg_entropy": 0.2374,
+        "avg_steps_cleared": 69.9,
+        "fisher_p": 1.0,
+        "ci_lower": 7.8,
+        "ci_upper": 21.0
+      },
+      "entropy_threshold": {
+        "clears": 12,
+        "n": 100,
+        "rate": 12.0,
+        "avg_sigma_injected": 0.1344,
+        "avg_entropy": 0.2815,
+        "avg_steps_cleared": 47.8,
+        "fisher_p": 1.0,
+        "ci_lower": 7.0,
+        "ci_upper": 19.8
+      },
+      "confidence_gate": {
+        "clears": 5,
+        "n": 100,
+        "rate": 5.0,
+        "avg_sigma_injected": 0.1205,
+        "avg_entropy": 0.2171,
+        "avg_steps_cleared": 55.4,
+        "fisher_p": 0.126179,
+        "ci_lower": 2.2,
+        "ci_upper": 11.2
+      },
+      "inverse_confidence": {
+        "clears": 11,
+        "n": 100,
+        "rate": 11.0,
+        "avg_sigma_injected": 0.1078,
+        "avg_entropy": 0.1477,
+        "avg_steps_cleared": 81.5,
+        "fisher_p": 1.0,
+        "ci_lower": 6.3,
+        "ci_upper": 18.6
+      },
+      "entropy_plus_decay": {
+        "clears": 2,
+        "n": 100,
+        "rate": 2.0,
+        "avg_sigma_injected": 0.0674,
+        "avg_entropy": 0.2875,
+        "avg_steps_cleared": 58.0,
+        "fisher_p": 0.010095,
+        "ci_lower": 0.6,
+        "ci_upper": 7.0
+      }
+    }
+  },
+  "small_63K": {
+    "sigma_0.20": {
+      "static": {
+        "clears": 5,
+        "n": 100,
+        "rate": 5.0,
+        "avg_sigma_injected": 0.2,
+        "avg_entropy": 0.1887,
+        "avg_steps_cleared": 64.6,
+        "fisher_p": null
+      },
+      "entropy_proportional": {
+        "clears": 0,
+        "n": 100,
+        "rate": 0.0,
+        "avg_sigma_injected": 0.0569,
+        "avg_entropy": 0.2846,
+        "avg_steps_cleared": 0,
+        "fisher_p": 0.059383,
+        "ci_lower": 0,
+        "ci_upper": 3.7
+      },
+      "entropy_amplified": {
+        "clears": 3,
+        "n": 100,
+        "rate": 3.0,
+        "avg_sigma_injected": 0.0714,
+        "avg_entropy": 0.1785,
+        "avg_steps_cleared": 69.0,
+        "fisher_p": 0.720939,
+        "ci_lower": 1.0,
+        "ci_upper": 8.5
+      },
+      "entropy_threshold": {
+        "clears": 0,
+        "n": 100,
+        "rate": 0.0,
+        "avg_sigma_injected": 0.1138,
+        "avg_entropy": 0.1003,
+        "avg_steps_cleared": 0,
+        "fisher_p": 0.059383,
+        "ci_lower": 0,
+        "ci_upper": 3.7
+      },
+      "confidence_gate": {
+        "clears": 9,
+        "n": 100,
+        "rate": 9.0,
+        "avg_sigma_injected": 0.0626,
+        "avg_entropy": 0.1417,
+        "avg_steps_cleared": 58.6,
+        "fisher_p": 0.406764,
+        "ci_lower": 4.8,
+        "ci_upper": 16.2
+      },
+      "inverse_confidence": {
+        "clears": 2,
+        "n": 100,
+        "rate": 2.0,
+        "avg_sigma_injected": 0.0779,
+        "avg_entropy": 0.1332,
+        "avg_steps_cleared": 48.0,
+        "fisher_p": 0.444754,
+        "ci_lower": 0.6,
+        "ci_upper": 7.0
+      },
+      "entropy_plus_decay": {
+        "clears": 1,
+        "n": 100,
+        "rate": 1.0,
+        "avg_sigma_injected": 0.0538,
+        "avg_entropy": 0.2864,
+        "avg_steps_cleared": 45.0,
+        "fisher_p": 0.211648,
+        "ci_lower": 0.2,
+        "ci_upper": 5.4
+      }
+    },
+    "sigma_0.25": {
+      "static": {
+        "clears": 2,
+        "n": 100,
+        "rate": 2.0,
+        "avg_sigma_injected": 0.25,
+        "avg_entropy": 0.1351,
+        "avg_steps_cleared": 48.0,
+        "fisher_p": null
+      },
+      "entropy_proportional": {
+        "clears": 2,
+        "n": 100,
+        "rate": 2.0,
+        "avg_sigma_injected": 0.069,
+        "avg_entropy": 0.2759,
+        "avg_steps_cleared": 68.0,
+        "fisher_p": 1.0,
+        "ci_lower": 0.6,
+        "ci_upper": 7.0
+      },
+      "entropy_amplified": {
+        "clears": 5,
+        "n": 100,
+        "rate": 5.0,
+        "avg_sigma_injected": 0.0742,
+        "avg_entropy": 0.1484,
+        "avg_steps_cleared": 59.0,
+        "fisher_p": 0.444754,
+        "ci_lower": 2.2,
+        "ci_upper": 11.2
+      },
+      "entropy_threshold": {
+        "clears": 5,
+        "n": 100,
+        "rate": 5.0,
+        "avg_sigma_injected": 0.1432,
+        "avg_entropy": 0.1022,
+        "avg_steps_cleared": 59.8,
+        "fisher_p": 0.444754,
+        "ci_lower": 2.2,
+        "ci_upper": 11.2
+      },
+      "confidence_gate": {
+        "clears": 3,
+        "n": 100,
+        "rate": 3.0,
+        "avg_sigma_injected": 0.0599,
+        "avg_entropy": 0.1075,
+        "avg_steps_cleared": 62.3,
+        "fisher_p": 1.0,
+        "ci_lower": 1.0,
+        "ci_upper": 8.5
+      },
+      "inverse_confidence": {
+        "clears": 1,
+        "n": 100,
+        "rate": 1.0,
+        "avg_sigma_injected": 0.051,
+        "avg_entropy": 0.072,
+        "avg_steps_cleared": 69.0,
+        "fisher_p": 1.0,
+        "ci_lower": 0.2,
+        "ci_upper": 5.4
+      },
+      "entropy_plus_decay": {
+        "clears": 0,
+        "n": 100,
+        "rate": 0.0,
+        "avg_sigma_injected": 0.0658,
+        "avg_entropy": 0.2801,
+        "avg_steps_cleared": 0,
+        "fisher_p": 0.497487,
+        "ci_lower": 0,
+        "ci_upper": 3.7
+      }
+    }
+  }
+}
