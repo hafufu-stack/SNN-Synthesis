@@ -46,8 +46,7 @@ snn-synthesis/
 │   ├── data/                    # Training data & model weights
 │   └── results/                 # All results (JSON + PNG)
 ├── results/              # LLM experiment result logs (JSON)
-├── figures/              # All experiment figures (PNG)
-├── papers/               # Paper sources (shared via Zenodo)
+├── figures/              # All experiment figures (PNG, shared with papers)
 ├── LICENSE
 └── README.md
 ```
