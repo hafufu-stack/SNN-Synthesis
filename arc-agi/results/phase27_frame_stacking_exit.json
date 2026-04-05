@@ -1,0 +1,167 @@
+[
+  {
+    "iteration": 1,
+    "miracles_new": 37,
+    "miracles_total": 37,
+    "train_acc": 0.34489694237709045,
+    "learnability_improved": true,
+    "configs": {
+      "Random K=1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "Random K=11": {
+        "clears": 3,
+        "rate": 3.0
+      },
+      "FS-CNN(i1) K=1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "FS-CNN(i1) K=1 \u03c3=0.1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "FS-CNN(i1) K=5 \u03c3=0.1": {
+        "clears": 1,
+        "rate": 1.0
+      },
+      "FS-CNN(i1) K=11 \u03c3=0.1": {
+        "clears": 2,
+        "rate": 2.0
+      }
+    }
+  },
+  {
+    "iteration": 2,
+    "miracles_new": 25,
+    "miracles_total": 62,
+    "train_acc": 0.3409404158592224,
+    "learnability_improved": true,
+    "configs": {
+      "Random K=1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "Random K=11": {
+        "clears": 3,
+        "rate": 3.0
+      },
+      "FS-CNN(i2) K=1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "FS-CNN(i2) K=1 \u03c3=0.1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "FS-CNN(i2) K=5 \u03c3=0.1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "FS-CNN(i2) K=11 \u03c3=0.1": {
+        "clears": 2,
+        "rate": 2.0
+      }
+    }
+  },
+  {
+    "iteration": 3,
+    "miracles_new": 16,
+    "miracles_total": 78,
+    "train_acc": 0.3410738408565521,
+    "learnability_improved": true,
+    "configs": {
+      "Random K=1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "Random K=11": {
+        "clears": 3,
+        "rate": 3.0
+      },
+      "FS-CNN(i3) K=1": {
+        "clears": 1,
+        "rate": 1.0
+      },
+      "FS-CNN(i3) K=1 \u03c3=0.1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "FS-CNN(i3) K=5 \u03c3=0.1": {
+        "clears": 2,
+        "rate": 2.0
+      },
+      "FS-CNN(i3) K=11 \u03c3=0.1": {
+        "clears": 2,
+        "rate": 2.0
+      }
+    }
+  },
+  {
+    "iteration": 4,
+    "miracles_new": 15,
+    "miracles_total": 93,
+    "train_acc": 0.34699341654777527,
+    "learnability_improved": true,
+    "configs": {
+      "Random K=1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "Random K=11": {
+        "clears": 3,
+        "rate": 3.0
+      },
+      "FS-CNN(i4) K=1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "FS-CNN(i4) K=1 \u03c3=0.1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "FS-CNN(i4) K=5 \u03c3=0.1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "FS-CNN(i4) K=11 \u03c3=0.1": {
+        "clears": 4,
+        "rate": 4.0
+      }
+    }
+  },
+  {
+    "iteration": 5,
+    "miracles_new": 3,
+    "miracles_total": 96,
+    "train_acc": 0.3404308259487152,
+    "learnability_improved": true,
+    "configs": {
+      "Random K=1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "Random K=11": {
+        "clears": 3,
+        "rate": 3.0
+      },
+      "FS-CNN(i5) K=1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "FS-CNN(i5) K=1 \u03c3=0.1": {
+        "clears": 1,
+        "rate": 1.0
+      },
+      "FS-CNN(i5) K=5 \u03c3=0.1": {
+        "clears": 0,
+        "rate": 0.0
+      },
+      "FS-CNN(i5) K=11 \u03c3=0.1": {
+        "clears": 1,
+        "rate": 1.0
+      }
+    }
+  }
+]

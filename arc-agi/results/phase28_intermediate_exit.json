@@ -1,0 +1,110 @@
+{
+  "ft09": {
+    "state_dim": 17,
+    "elapsed_s": 109.2142927646637,
+    "iterations": [
+      {
+        "iteration": 1,
+        "miracles_new": 0,
+        "miracles_total": 0,
+        "miracle_rate": 0.0,
+        "configs": {}
+      },
+      {
+        "iteration": 2,
+        "miracles_new": 0,
+        "miracles_total": 0,
+        "miracle_rate": 0.0,
+        "configs": {}
+      },
+      {
+        "iteration": 3,
+        "miracles_new": 0,
+        "miracles_total": 0,
+        "miracle_rate": 0.0,
+        "configs": {}
+      }
+    ]
+  },
+  "g50t": {
+    "state_dim": 6,
+    "elapsed_s": 430.26210045814514,
+    "iterations": [
+      {
+        "iteration": 1,
+        "miracles_new": 0,
+        "miracles_total": 0,
+        "miracle_rate": 0.0,
+        "configs": {}
+      },
+      {
+        "iteration": 2,
+        "miracles_new": 0,
+        "miracles_total": 0,
+        "miracle_rate": 0.0,
+        "configs": {}
+      },
+      {
+        "iteration": 3,
+        "miracles_new": 0,
+        "miracles_total": 0,
+        "miracle_rate": 0.0,
+        "configs": {}
+      }
+    ]
+  },
+  "wa30": {
+    "state_dim": 3,
+    "elapsed_s": 177.46339583396912,
+    "iterations": [
+      {
+        "iteration": 1,
+        "miracles_new": 0,
+        "miracles_total": 0,
+        "miracle_rate": 0.0,
+        "configs": {}
+      },
+      {
+        "iteration": 2,
+        "miracles_new": 0,
+        "miracles_total": 0,
+        "miracle_rate": 0.0,
+        "configs": {}
+      },
+      {
+        "iteration": 3,
+        "miracles_new": 0,
+        "miracles_total": 0,
+        "miracle_rate": 0.0,
+        "configs": {}
+      }
+    ]
+  },
+  "sb26": {
+    "state_dim": 16,
+    "elapsed_s": 266.49186062812805,
+    "iterations": [
+      {
+        "iteration": 1,
+        "miracles_new": 0,
+        "miracles_total": 0,
+        "miracle_rate": 0.0,
+        "configs": {}
+      },
+      {
+        "iteration": 2,
+        "miracles_new": 0,
+        "miracles_total": 0,
+        "miracle_rate": 0.0,
+        "configs": {}
+      },
+      {
+        "iteration": 3,
+        "miracles_new": 0,
+        "miracles_total": 0,
+        "miracle_rate": 0.0,
+        "configs": {}
+      }
+    ]
+  }
+}

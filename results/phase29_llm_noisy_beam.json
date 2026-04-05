@@ -1,0 +1,77 @@
+{
+  "experiment": "Phase 29: Mistral-7B Noisy Beam Search",
+  "model": "Mistral-7B",
+  "layer": 18,
+  "sigma": 0.15,
+  "n_games_per_k": 50,
+  "k_values": [
+    1,
+    3,
+    5,
+    7,
+    11
+  ],
+  "timestamp": "2026-04-05 05:47:48",
+  "baselines": {
+    "no_noise": {
+      "n_solved": 8,
+      "n_total": 50,
+      "clear_rate": 0.16
+    },
+    "fixed_aha_K1": {
+      "n_solved": 16,
+      "n_total": 50,
+      "clear_rate": 0.32
+    },
+    "pure_noise_K1": {
+      "n_solved": 16,
+      "n_total": 50,
+      "clear_rate": 0.32
+    }
+  },
+  "k_scaling": {
+    "1": {
+      "K": 1,
+      "n_solved": 12,
+      "n_total": 50,
+      "clear_rate": 0.24,
+      "elapsed_s": 3548.5
+    },
+    "3": {
+      "K": 3,
+      "n_solved": 36,
+      "n_total": 50,
+      "clear_rate": 0.72,
+      "elapsed_s": 6420.9
+    },
+    "5": {
+      "K": 5,
+      "n_solved": 37,
+      "n_total": 50,
+      "clear_rate": 0.74,
+      "elapsed_s": 10601.4
+    },
+    "7": {
+      "K": 7,
+      "n_solved": 48,
+      "n_total": 50,
+      "clear_rate": 0.96,
+      "elapsed_s": 9304.3
+    },
+    "11": {
+      "K": 11,
+      "n_solved": 50,
+      "n_total": 50,
+      "clear_rate": 1.0,
+      "elapsed_s": 9662.8
+    }
+  },
+  "fisher_p_K1_vs_baseline": 0.226956,
+  "fisher_p_K3_vs_baseline": 0.0,
+  "fisher_p_K5_vs_baseline": 0.0,
+  "fisher_p_K7_vs_baseline": 0.0,
+  "fisher_p_K11_vs_baseline": 0.0,
+  "k_monotonic": true,
+  "verdict": "NOISY_BEAM_SEARCH_SCALES_TO_LLM",
+  "total_elapsed_s": 58859.1
+}

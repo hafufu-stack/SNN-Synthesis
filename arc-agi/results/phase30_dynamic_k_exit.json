@@ -1,0 +1,449 @@
+{
+  "fixed_K11": {
+    "k_schedule": [
+      100,
+      11,
+      11,
+      11,
+      11
+    ],
+    "noise_schedule": [
+      0.0,
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "elapsed_s": 1006.781302690506,
+    "iterations": [
+      {
+        "iteration": 1,
+        "K": 100,
+        "noise": 0.0,
+        "miracles_new": 50,
+        "miracles_total": 50,
+        "train_acc": 0.30687758326530457,
+        "configs": {
+          "CNN K=1": {
+            "clears": 10,
+            "rate": 10.0
+          },
+          "CNN K=1 \u03c3=0.1": {
+            "clears": 8,
+            "rate": 8.0
+          },
+          "CNN K=5 \u03c3=0.1": {
+            "clears": 57,
+            "rate": 56.99999999999999
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 85,
+            "rate": 85.0
+          }
+        }
+      },
+      {
+        "iteration": 2,
+        "K": 11,
+        "noise": 0.1,
+        "miracles_new": 155,
+        "miracles_total": 205,
+        "train_acc": 0.3167886435985565,
+        "configs": {
+          "CNN K=1": {
+            "clears": 25,
+            "rate": 25.0
+          },
+          "CNN K=1 \u03c3=0.1": {
+            "clears": 20,
+            "rate": 20.0
+          },
+          "CNN K=5 \u03c3=0.1": {
+            "clears": 74,
+            "rate": 74.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 95,
+            "rate": 95.0
+          }
+        }
+      },
+      {
+        "iteration": 3,
+        "K": 11,
+        "noise": 0.1,
+        "miracles_new": 193,
+        "miracles_total": 398,
+        "train_acc": 0.3238372504711151,
+        "configs": {
+          "CNN K=1": {
+            "clears": 29,
+            "rate": 28.999999999999996
+          },
+          "CNN K=1 \u03c3=0.1": {
+            "clears": 38,
+            "rate": 38.0
+          },
+          "CNN K=5 \u03c3=0.1": {
+            "clears": 80,
+            "rate": 80.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 95,
+            "rate": 95.0
+          }
+        }
+      },
+      {
+        "iteration": 4,
+        "K": 11,
+        "noise": 0.1,
+        "miracles_new": 195,
+        "miracles_total": 593,
+        "train_acc": 0.32713478803634644,
+        "configs": {
+          "CNN K=1": {
+            "clears": 36,
+            "rate": 36.0
+          },
+          "CNN K=1 \u03c3=0.1": {
+            "clears": 28,
+            "rate": 28.000000000000004
+          },
+          "CNN K=5 \u03c3=0.1": {
+            "clears": 90,
+            "rate": 90.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 100,
+            "rate": 100.0
+          }
+        }
+      },
+      {
+        "iteration": 5,
+        "K": 11,
+        "noise": 0.1,
+        "miracles_new": 198,
+        "miracles_total": 791,
+        "train_acc": 0.33118736743927,
+        "configs": {
+          "CNN K=1": {
+            "clears": 35,
+            "rate": 35.0
+          },
+          "CNN K=1 \u03c3=0.1": {
+            "clears": 38,
+            "rate": 38.0
+          },
+          "CNN K=5 \u03c3=0.1": {
+            "clears": 88,
+            "rate": 88.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 99,
+            "rate": 99.0
+          }
+        }
+      }
+    ]
+  },
+  "decreasing_K": {
+    "k_schedule": [
+      100,
+      21,
+      15,
+      11,
+      7
+    ],
+    "noise_schedule": [
+      0.0,
+      0.15,
+      0.12,
+      0.1,
+      0.08
+    ],
+    "elapsed_s": 1083.7643928527832,
+    "iterations": [
+      {
+        "iteration": 1,
+        "K": 100,
+        "noise": 0.0,
+        "miracles_new": 50,
+        "miracles_total": 50,
+        "train_acc": 0.3006877601146698,
+        "configs": {
+          "CNN K=1": {
+            "clears": 8,
+            "rate": 8.0
+          },
+          "CNN K=1 \u03c3=0.1": {
+            "clears": 10,
+            "rate": 10.0
+          },
+          "CNN K=5 \u03c3=0.1": {
+            "clears": 50,
+            "rate": 50.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 80,
+            "rate": 80.0
+          }
+        }
+      },
+      {
+        "iteration": 2,
+        "K": 21,
+        "noise": 0.15,
+        "miracles_new": 189,
+        "miracles_total": 239,
+        "train_acc": 0.30971670150756836,
+        "configs": {
+          "CNN K=1": {
+            "clears": 12,
+            "rate": 12.0
+          },
+          "CNN K=1 \u03c3=0.1": {
+            "clears": 21,
+            "rate": 21.0
+          },
+          "CNN K=5 \u03c3=0.1": {
+            "clears": 76,
+            "rate": 76.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 94,
+            "rate": 94.0
+          }
+        }
+      },
+      {
+        "iteration": 3,
+        "K": 15,
+        "noise": 0.12,
+        "miracles_new": 198,
+        "miracles_total": 437,
+        "train_acc": 0.3149065375328064,
+        "configs": {
+          "CNN K=1": {
+            "clears": 26,
+            "rate": 26.0
+          },
+          "CNN K=1 \u03c3=0.1": {
+            "clears": 35,
+            "rate": 35.0
+          },
+          "CNN K=5 \u03c3=0.1": {
+            "clears": 87,
+            "rate": 87.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 97,
+            "rate": 97.0
+          }
+        }
+      },
+      {
+        "iteration": 4,
+        "K": 11,
+        "noise": 0.1,
+        "miracles_new": 198,
+        "miracles_total": 635,
+        "train_acc": 0.3199169635772705,
+        "configs": {
+          "CNN K=1": {
+            "clears": 29,
+            "rate": 28.999999999999996
+          },
+          "CNN K=1 \u03c3=0.1": {
+            "clears": 35,
+            "rate": 35.0
+          },
+          "CNN K=5 \u03c3=0.1": {
+            "clears": 78,
+            "rate": 78.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 98,
+            "rate": 98.0
+          }
+        }
+      },
+      {
+        "iteration": 5,
+        "K": 7,
+        "noise": 0.08,
+        "miracles_new": 178,
+        "miracles_total": 813,
+        "train_acc": 0.3222205340862274,
+        "configs": {
+          "CNN K=1": {
+            "clears": 26,
+            "rate": 26.0
+          },
+          "CNN K=1 \u03c3=0.1": {
+            "clears": 29,
+            "rate": 28.999999999999996
+          },
+          "CNN K=5 \u03c3=0.1": {
+            "clears": 81,
+            "rate": 81.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 98,
+            "rate": 98.0
+          }
+        }
+      }
+    ]
+  },
+  "increasing_K": {
+    "k_schedule": [
+      100,
+      5,
+      7,
+      11,
+      15
+    ],
+    "noise_schedule": [
+      0.0,
+      0.05,
+      0.08,
+      0.1,
+      0.12
+    ],
+    "elapsed_s": 976.0968554019928,
+    "iterations": [
+      {
+        "iteration": 1,
+        "K": 100,
+        "noise": 0.0,
+        "miracles_new": 50,
+        "miracles_total": 50,
+        "train_acc": 0.3005501925945282,
+        "configs": {
+          "CNN K=1": {
+            "clears": 13,
+            "rate": 13.0
+          },
+          "CNN K=1 \u03c3=0.1": {
+            "clears": 15,
+            "rate": 15.0
+          },
+          "CNN K=5 \u03c3=0.1": {
+            "clears": 55,
+            "rate": 55.00000000000001
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 80,
+            "rate": 80.0
+          }
+        }
+      },
+      {
+        "iteration": 2,
+        "K": 5,
+        "noise": 0.05,
+        "miracles_new": 79,
+        "miracles_total": 129,
+        "train_acc": 0.313407301902771,
+        "configs": {
+          "CNN K=1": {
+            "clears": 25,
+            "rate": 25.0
+          },
+          "CNN K=1 \u03c3=0.1": {
+            "clears": 21,
+            "rate": 21.0
+          },
+          "CNN K=5 \u03c3=0.1": {
+            "clears": 72,
+            "rate": 72.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 91,
+            "rate": 91.0
+          }
+        }
+      },
+      {
+        "iteration": 3,
+        "K": 7,
+        "noise": 0.08,
+        "miracles_new": 172,
+        "miracles_total": 301,
+        "train_acc": 0.31976455450057983,
+        "configs": {
+          "CNN K=1": {
+            "clears": 16,
+            "rate": 16.0
+          },
+          "CNN K=1 \u03c3=0.1": {
+            "clears": 35,
+            "rate": 35.0
+          },
+          "CNN K=5 \u03c3=0.1": {
+            "clears": 70,
+            "rate": 70.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 98,
+            "rate": 98.0
+          }
+        }
+      },
+      {
+        "iteration": 4,
+        "K": 11,
+        "noise": 0.1,
+        "miracles_new": 189,
+        "miracles_total": 490,
+        "train_acc": 0.3250265121459961,
+        "configs": {
+          "CNN K=1": {
+            "clears": 29,
+            "rate": 28.999999999999996
+          },
+          "CNN K=1 \u03c3=0.1": {
+            "clears": 30,
+            "rate": 30.0
+          },
+          "CNN K=5 \u03c3=0.1": {
+            "clears": 81,
+            "rate": 81.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 95,
+            "rate": 95.0
+          }
+        }
+      },
+      {
+        "iteration": 5,
+        "K": 15,
+        "noise": 0.12,
+        "miracles_new": 200,
+        "miracles_total": 690,
+        "train_acc": 0.32622581720352173,
+        "configs": {
+          "CNN K=1": {
+            "clears": 28,
+            "rate": 28.000000000000004
+          },
+          "CNN K=1 \u03c3=0.1": {
+            "clears": 31,
+            "rate": 31.0
+          },
+          "CNN K=5 \u03c3=0.1": {
+            "clears": 86,
+            "rate": 86.0
+          },
+          "CNN K=11 \u03c3=0.1": {
+            "clears": 95,
+            "rate": 95.0
+          }
+        }
+      }
+    ]
+  }
+}
