@@ -1,0 +1,40 @@
+{
+  "experiment": "Phase 32b: LLM-ExIt",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "config": {
+    "sigma": 0.15,
+    "layer": 18,
+    "K_collect": 11,
+    "n_collect": 50,
+    "n_eval": 50,
+    "exit_iterations": 3,
+    "lora_rank": 8,
+    "lora_epochs": 3
+  },
+  "start_time": "2026-04-08 04:11:50",
+  "iterations": [
+    {
+      "iteration": 1,
+      "miracles_collected": 50,
+      "training_examples": 302,
+      "k1_solve_rate": 0.94,
+      "improvement_pp": 77.99999999999999
+    },
+    {
+      "iteration": 2,
+      "miracles_collected": 50,
+      "training_examples": 314,
+      "k1_solve_rate": 0.98,
+      "improvement_pp": 82.0
+    },
+    {
+      "iteration": 3,
+      "miracles_collected": 50,
+      "training_examples": 241,
+      "k1_solve_rate": 1.0,
+      "improvement_pp": 84.0
+    }
+  ],
+  "baseline_solve_rate": 0.16,
+  "end_time": "2026-04-08 13:34:33"
+}
