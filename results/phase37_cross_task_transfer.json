@@ -1,0 +1,34 @@
+{
+  "experiment": "Phase 37: Cross-Task Transfer",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "start_time": "2026-04-10T18:47:57.546808",
+  "configs": {
+    "vanilla_K1": {
+      "accuracy": 0.565,
+      "sigma": 0,
+      "K": 1
+    },
+    "vanilla_K11": {
+      "accuracy": 0.89,
+      "sigma": 0.01,
+      "K": 11
+    },
+    "hanoi_exit_K1": {
+      "accuracy": 0.565,
+      "sigma": 0,
+      "K": 1
+    },
+    "hanoi_exit_K11": {
+      "accuracy": 0.885,
+      "sigma": 0.01,
+      "K": 11
+    }
+  },
+  "hanoi_lora_loaded": false,
+  "end_time": "2026-04-10T23:47:08.410384",
+  "transfer_analysis": {
+    "k1_delta_pp": 0.0,
+    "k11_delta_pp": -0.5000000000000004,
+    "conclusion": "neutral"
+  }
+}

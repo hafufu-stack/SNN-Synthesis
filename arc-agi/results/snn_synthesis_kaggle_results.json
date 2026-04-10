@@ -1,0 +1,48 @@
+[
+  {
+    "game": "m0r0",
+    "miracle_rate": 0.03333333333333333,
+    "best_clears": 1,
+    "total_miracles": 161,
+    "exit_iters": 2,
+    "time_seconds": 329.89855551719666
+  },
+  {
+    "game": "tr87",
+    "miracle_rate": 0.03333333333333333,
+    "best_clears": 1,
+    "total_miracles": 1,
+    "exit_iters": 2,
+    "time_seconds": 154.8428704738617
+  },
+  {
+    "game": "ft09",
+    "miracle_rate": 0,
+    "best_clears": 0,
+    "exit_iters": 0
+  },
+  {
+    "game": "g50t",
+    "miracle_rate": 0,
+    "best_clears": 0,
+    "exit_iters": 0
+  },
+  {
+    "game": "ls20",
+    "miracle_rate": 0,
+    "best_clears": 0,
+    "exit_iters": 0
+  },
+  {
+    "game": "sb26",
+    "miracle_rate": 0,
+    "best_clears": 0,
+    "exit_iters": 0
+  },
+  {
+    "game": "wa30",
+    "miracle_rate": 0,
+    "best_clears": 0,
+    "exit_iters": 0
+  }
+]

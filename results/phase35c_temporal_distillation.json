@@ -1,0 +1,20 @@
+{
+  "experiment": "Phase 35c: Temporal Knowledge Distillation",
+  "timestamp": "2026-04-10T10:38:37.492477",
+  "unconditioned_final": {
+    "epoch": 99,
+    "loss": 0.25596296787261963,
+    "overall_acc": 0.9316666722297668
+  },
+  "conditioned_final": {
+    "epoch": 99,
+    "loss": 0.32196763157844543,
+    "task_0": 1.0,
+    "task_1": 0.824999988079071,
+    "task_2": 0.8500000238418579,
+    "task_0_wrong": 0.17000000178813934,
+    "task_1_wrong": 0.3449999988079071,
+    "task_2_wrong": 0.4449999928474426
+  },
+  "knowledge_separation": 0.5716666728258133
+}

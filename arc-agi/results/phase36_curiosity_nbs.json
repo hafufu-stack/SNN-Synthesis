@@ -1,0 +1,126 @@
+{
+  "ft09": {
+    "random_K100": {
+      "clears": 0,
+      "rate": 0.0,
+      "avg_unique_states": 1.0
+    },
+    "curiosity_c1.0_K100": {
+      "clears": 0,
+      "rate": 0.0,
+      "avg_unique_states": 1.0,
+      "curiosity_coeff": 1.0
+    },
+    "curiosity_c3.0_K100": {
+      "clears": 0,
+      "rate": 0.0,
+      "avg_unique_states": 1.0,
+      "curiosity_coeff": 3.0
+    },
+    "curiosity_c5.0_K100": {
+      "clears": 0,
+      "rate": 0.0,
+      "avg_unique_states": 1.0,
+      "curiosity_coeff": 5.0
+    },
+    "curiosity_c1.0_K200": {
+      "clears": 0,
+      "rate": 0.0,
+      "avg_unique_states": 1.0,
+      "curiosity_coeff": 1.0
+    }
+  },
+  "g50t": {
+    "random_K100": {
+      "clears": 0,
+      "rate": 0.0,
+      "avg_unique_states": 130.0
+    },
+    "curiosity_c1.0_K100": {
+      "clears": 0,
+      "rate": 0.0,
+      "avg_unique_states": 130.0,
+      "curiosity_coeff": 1.0
+    },
+    "curiosity_c3.0_K100": {
+      "clears": 0,
+      "rate": 0.0,
+      "avg_unique_states": 130.0,
+      "curiosity_coeff": 3.0
+    },
+    "curiosity_c5.0_K100": {
+      "clears": 0,
+      "rate": 0.0,
+      "avg_unique_states": 130.0,
+      "curiosity_coeff": 5.0
+    },
+    "curiosity_c1.0_K200": {
+      "clears": 0,
+      "rate": 0.0,
+      "avg_unique_states": 130.0,
+      "curiosity_coeff": 1.0
+    }
+  },
+  "wa30": {
+    "random_K100": {
+      "clears": 0,
+      "rate": 0.0,
+      "avg_unique_states": 1.0
+    },
+    "curiosity_c1.0_K100": {
+      "clears": 0,
+      "rate": 0.0,
+      "avg_unique_states": 1.0,
+      "curiosity_coeff": 1.0
+    },
+    "curiosity_c3.0_K100": {
+      "clears": 0,
+      "rate": 0.0,
+      "avg_unique_states": 1.0,
+      "curiosity_coeff": 3.0
+    },
+    "curiosity_c5.0_K100": {
+      "clears": 0,
+      "rate": 0.0,
+      "avg_unique_states": 1.0,
+      "curiosity_coeff": 5.0
+    },
+    "curiosity_c1.0_K200": {
+      "clears": 0,
+      "rate": 0.0,
+      "avg_unique_states": 1.0,
+      "curiosity_coeff": 1.0
+    }
+  },
+  "sb26": {
+    "random_K100": {
+      "clears": 0,
+      "rate": 0.0,
+      "avg_unique_states": 1.0
+    },
+    "curiosity_c1.0_K100": {
+      "clears": 0,
+      "rate": 0.0,
+      "avg_unique_states": 1.0,
+      "curiosity_coeff": 1.0
+    },
+    "curiosity_c3.0_K100": {
+      "clears": 0,
+      "rate": 0.0,
+      "avg_unique_states": 1.0,
+      "curiosity_coeff": 3.0
+    },
+    "curiosity_c5.0_K100": {
+      "clears": 0,
+      "rate": 0.0,
+      "avg_unique_states": 1.0,
+      "curiosity_coeff": 5.0
+    },
+    "curiosity_c1.0_K200": {
+      "clears": 0,
+      "rate": 0.0,
+      "avg_unique_states": 1.0,
+      "curiosity_coeff": 1.0
+    }
+  }
+}

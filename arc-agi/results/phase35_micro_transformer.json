@@ -1,0 +1,104 @@
+{
+  "experiment": "Phase 35: Micro-Transformer for TR87",
+  "game": "tr87",
+  "architecture": {
+    "type": "Decision Transformer",
+    "history_len": 12,
+    "hidden": 128,
+    "heads": 4,
+    "layers": 3,
+    "params": 606276
+  },
+  "bootstrap": {
+    "K": 500,
+    "N": 300,
+    "miracles": 152,
+    "rate": 0.5066666666666667
+  },
+  "exit_results": [
+    {
+      "iteration": 1,
+      "train_acc": 0.26399892568588257,
+      "miracles_total": 214,
+      "new_miracles": 62,
+      "configs": {
+        "Random K=11": {
+          "clears": 2,
+          "rate": 2.0
+        },
+        "Transformer K=1": {
+          "clears": 0,
+          "rate": 0.0
+        },
+        "Transformer K=11 \u03c3=0.1": {
+          "clears": 1,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "iteration": 2,
+      "train_acc": 0.2644249200820923,
+      "miracles_total": 254,
+      "new_miracles": 40,
+      "configs": {
+        "Random K=11": {
+          "clears": 1,
+          "rate": 1.0
+        },
+        "Transformer K=1": {
+          "clears": 0,
+          "rate": 0.0
+        },
+        "Transformer K=11 \u03c3=0.1": {
+          "clears": 1,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "iteration": 3,
+      "train_acc": 0.26702389121055603,
+      "miracles_total": 271,
+      "new_miracles": 17,
+      "configs": {
+        "Random K=11": {
+          "clears": 3,
+          "rate": 3.0
+        },
+        "Transformer K=1": {
+          "clears": 0,
+          "rate": 0.0
+        },
+        "Transformer K=11 \u03c3=0.1": {
+          "clears": 1,
+          "rate": 1.0
+        }
+      }
+    },
+    {
+      "iteration": 4,
+      "train_acc": 0.2678843140602112,
+      "miracles_total": 275,
+      "new_miracles": 4,
+      "configs": {
+        "Random K=11": {
+          "clears": 1,
+          "rate": 1.0
+        },
+        "Transformer K=1": {
+          "clears": 0,
+          "rate": 0.0
+        },
+        "Transformer K=11 \u03c3=0.1": {
+          "clears": 2,
+          "rate": 2.0
+        }
+      }
+    }
+  ],
+  "comparison": {
+    "mlp_train_acc": 0.345,
+    "mlp_exit_rate": 0.03
+  }
+}

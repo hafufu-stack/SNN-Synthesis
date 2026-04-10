@@ -1,0 +1,43 @@
+{
+  "experiment": "Phase 33: GSM8K LLM-ExIt",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "config": {
+    "sigma": 0.01,
+    "layer": 18,
+    "K_collect": 11,
+    "n_collect": 200,
+    "n_eval": 200,
+    "exit_iterations": 3,
+    "lora_rank": 8,
+    "lora_epochs": 3
+  },
+  "start_time": "2026-04-09T19:36:25.893906",
+  "iterations": [
+    {
+      "iteration": 1,
+      "miracles_collected": 171,
+      "miracle_rate": 0.855,
+      "training_examples": 171,
+      "k1_accuracy": 0.58,
+      "improvement_pp": 1.5000000000000013
+    },
+    {
+      "iteration": 2,
+      "miracles_collected": 175,
+      "miracle_rate": 0.875,
+      "training_examples": 175,
+      "k1_accuracy": 0.63,
+      "improvement_pp": 6.500000000000005
+    },
+    {
+      "iteration": 3,
+      "miracles_collected": 175,
+      "miracle_rate": 0.875,
+      "training_examples": 175,
+      "k1_accuracy": 0.68,
+      "improvement_pp": 11.50000000000001
+    }
+  ],
+  "baseline_k1_accuracy": 0.565,
+  "end_time": "2026-04-10T17:57:26.156109"
+}

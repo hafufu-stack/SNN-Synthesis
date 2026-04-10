@@ -4,7 +4,7 @@
   "target_layer": 14,
   "sigma": 0.15,
   "n_games": 30,
-  "timestamp": "2026-04-05 22:08:51",
+  "timestamp": "2026-04-11 05:31:20",
   "test_results": [
     {
       "condition": "baseline",
@@ -179,5 +179,5 @@
     "C:\\Users\\kyjan\\\u7814\u7a76\\snn-synthesis\\figures\\phase7_phase_portrait.png",
     "C:\\Users\\kyjan\\\u7814\u7a76\\snn-synthesis\\figures\\phase7_dynamics_analysis.png"
   ],
-  "elapsed_seconds": 1253.7
+  "elapsed_seconds": 1257.6
 }

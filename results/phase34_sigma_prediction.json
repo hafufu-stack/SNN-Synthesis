@@ -1,0 +1,114 @@
+{
+  "experiment": "Phase 34: \u03c3* Prediction Model",
+  "model": "mistralai/Mistral-7B-Instruct-v0.3",
+  "task": "TruthfulQA MC1",
+  "sigma_values": [
+    0.001,
+    0.005,
+    0.01,
+    0.03,
+    0.05,
+    0.1,
+    0.15,
+    0.2
+  ],
+  "K": 11,
+  "n_questions": 100,
+  "start_time": "2026-04-10T17:57:35.246495",
+  "conditions": {
+    "\u03c3=0.001_K=11": {
+      "sigma": 0.001,
+      "K": 11,
+      "correct": 48,
+      "accuracy": 0.48,
+      "delta_pp": 7.000000000000001
+    },
+    "\u03c3=0.005_K=11": {
+      "sigma": 0.005,
+      "K": 11,
+      "correct": 48,
+      "accuracy": 0.48,
+      "delta_pp": 7.000000000000001
+    },
+    "\u03c3=0.01_K=11": {
+      "sigma": 0.01,
+      "K": 11,
+      "correct": 49,
+      "accuracy": 0.49,
+      "delta_pp": 8.000000000000002
+    },
+    "\u03c3=0.03_K=11": {
+      "sigma": 0.03,
+      "K": 11,
+      "correct": 50,
+      "accuracy": 0.5,
+      "delta_pp": 9.000000000000002
+    },
+    "\u03c3=0.05_K=11": {
+      "sigma": 0.05,
+      "K": 11,
+      "correct": 53,
+      "accuracy": 0.53,
+      "delta_pp": 12.000000000000005
+    },
+    "\u03c3=0.1_K=11": {
+      "sigma": 0.1,
+      "K": 11,
+      "correct": 69,
+      "accuracy": 0.69,
+      "delta_pp": 27.999999999999996
+    },
+    "\u03c3=0.15_K=11": {
+      "sigma": 0.15,
+      "K": 11,
+      "correct": 98,
+      "accuracy": 0.98,
+      "delta_pp": 57.00000000000001
+    },
+    "\u03c3=0.2_K=11": {
+      "sigma": 0.2,
+      "K": 11,
+      "correct": 100,
+      "accuracy": 1.0,
+      "delta_pp": 59.00000000000001
+    }
+  },
+  "known_sigma_stars": {
+    "ARC-AGI (grid nav)": 0.2,
+    "Modified Hanoi": 0.15,
+    "GSM8K (math)": 0.01
+  },
+  "baseline": {
+    "correct": 41,
+    "accuracy": 0.41
+  },
+  "sigma_star_truthfulqa": 0.2,
+  "best_accuracy": 1.0,
+  "end_time": "2026-04-10T18:47:56.401017",
+  "task_complexity": {
+    "ARC-AGI": {
+      "sigma_star": 0.2,
+      "reasoning_steps": 3,
+      "action_space": "discrete_4",
+      "answer_uniqueness": "deterministic"
+    },
+    "Modified_Hanoi": {
+      "sigma_star": 0.15,
+      "reasoning_steps": 7,
+      "action_space": "discrete_6",
+      "answer_uniqueness": "deterministic"
+    },
+    "TruthfulQA": {
+      "sigma_star": 0.2,
+      "reasoning_steps": 2,
+      "action_space": "discrete_MC",
+      "answer_uniqueness": "deterministic"
+    },
+    "GSM8K": {
+      "sigma_star": 0.01,
+      "reasoning_steps": 6,
+      "action_space": "continuous_text",
+      "answer_uniqueness": "multiple_paths"
+    }
+  }
+}

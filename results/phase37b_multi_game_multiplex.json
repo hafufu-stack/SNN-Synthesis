@@ -1,0 +1,28 @@
+{
+  "experiment": "Phase 37b: Multi-Game Knowledge Multiplexing",
+  "timestamp": "2026-04-10T11:05:32.067645",
+  "single_game": {
+    "A": 0.4399999976158142,
+    "B": 0.6800000071525574
+  },
+  "no_gating_final": {
+    "epoch": 99,
+    "loss": 1.0318248271942139,
+    "game_a_correct": 0.3375000059604645,
+    "game_b_correct": 0.7250000238418579,
+    "game_a_wrong": 0.3375000059604645,
+    "game_b_wrong": 0.7250000238418579
+  },
+  "gated_final": {
+    "epoch": 99,
+    "loss": 1.189407229423523,
+    "game_a_correct": 0.33250001072883606,
+    "game_b_correct": 0.5099999904632568,
+    "game_a_wrong": 0.32249999046325684,
+    "game_b_wrong": 0.3824999928474426
+  },
+  "catastrophic_forgetting_no_gate": 0.028749987483024597,
+  "catastrophic_forgetting_gated": 0.13875000178813934,
+  "knowledge_separation": 0.06875000894069672,
+  "model_params": 2735
+}

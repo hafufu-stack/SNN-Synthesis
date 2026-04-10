@@ -1,0 +1,37 @@
+{
+  "experiment": "Phase 36a: Continuous Wave Gating",
+  "timestamp": "2026-04-10T10:56:02.428436",
+  "wave_gated": {
+    "task_0": {
+      "correct_freq": 1.0,
+      "wrong_freq": 1.0,
+      "novel_freq": 1.0
+    },
+    "task_1": {
+      "correct_freq": 0.9750000238418579,
+      "wrong_freq": 0.9750000238418579,
+      "novel_freq": 0.9750000238418579
+    },
+    "task_2": {
+      "correct_freq": 0.8550000190734863,
+      "wrong_freq": 0.8550000190734863,
+      "novel_freq": 0.8550000190734863
+    }
+  },
+  "embedding_gated": {
+    "task_0": {
+      "correct_id": 1.0,
+      "wrong_id": 0.10000000149011612
+    },
+    "task_1": {
+      "correct_id": 1.0,
+      "wrong_id": 0.41499999165534973
+    },
+    "task_2": {
+      "correct_id": 0.9649999737739563,
+      "wrong_id": 0.41499999165534973
+    }
+  },
+  "wave_separation": 0.0,
+  "embedding_separation": 0.6783333296577135
+}

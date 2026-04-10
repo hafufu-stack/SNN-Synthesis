@@ -1,0 +1,32 @@
+{
+  "experiment": "Phase 35b: SNN Chaotic Noise for NBS",
+  "timestamp": "2026-04-10T10:37:51.993614",
+  "no_noise_baseline": 1.0,
+  "results": {
+    "sigma_0.05": {
+      "white": 1.0,
+      "snn_chaotic": 1.0,
+      "pink_1f": 1.0
+    },
+    "sigma_0.1": {
+      "white": 1.0,
+      "snn_chaotic": 1.0,
+      "pink_1f": 1.0
+    },
+    "sigma_0.15": {
+      "white": 1.0,
+      "snn_chaotic": 1.0,
+      "pink_1f": 1.0
+    },
+    "sigma_0.2": {
+      "white": 1.0,
+      "snn_chaotic": 1.0,
+      "pink_1f": 1.0
+    },
+    "sigma_0.3": {
+      "white": 0.995,
+      "snn_chaotic": 1.0,
+      "pink_1f": 1.0
+    }
+  }
+}

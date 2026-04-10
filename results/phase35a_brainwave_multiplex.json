@@ -1,0 +1,38 @@
+{
+  "experiment": "Phase 35a: Brainwave Multiplexing",
+  "timestamp": "2026-04-10T10:37:20.121601",
+  "results": {
+    "no_noise": {
+      "epoch": 99,
+      "loss": 1.2158607244491577,
+      "acc_a_correct_wave": 0.49799999594688416,
+      "acc_b_correct_wave": 0.6359999775886536,
+      "acc_a_wrong_wave": 0.49799999594688416,
+      "acc_b_wrong_wave": 0.6359999775886536
+    },
+    "same_noise": {
+      "epoch": 99,
+      "loss": 1.4056904315948486,
+      "acc_a_correct_wave": 0.5239999890327454,
+      "acc_b_correct_wave": 0.6359999775886536,
+      "acc_a_wrong_wave": 0.5419999957084656,
+      "acc_b_wrong_wave": 0.6259999871253967
+    },
+    "brainwave_multiplex": {
+      "epoch": 99,
+      "loss": 1.324494481086731,
+      "acc_a_correct_wave": 0.5479999780654907,
+      "acc_b_correct_wave": 0.6039999723434448,
+      "acc_a_wrong_wave": 0.5260000228881836,
+      "acc_b_wrong_wave": 0.6079999804496765
+    },
+    "burst_multiplex": {
+      "epoch": 99,
+      "loss": 1.2906581163406372,
+      "acc_a_correct_wave": 0.5059999823570251,
+      "acc_b_correct_wave": 0.5759999752044678,
+      "acc_a_wrong_wave": 0.5419999957084656,
+      "acc_b_wrong_wave": 0.628000020980835
+    }
+  }
+}
