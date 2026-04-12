@@ -1,0 +1,59 @@
+{
+  "experiment": "Phase 59: Stochastic Resonance Quantization",
+  "timestamp": "2026-04-12T07:25:00",
+  "note": "Results recovered from runner output log (crashed on print Unicode before JSON save)",
+  "n_problems": 50,
+  "results": {
+    "Llama-1B": {
+      "k1_baseline": {"accuracy": 0.0},
+      "k1_sigma_0.005": {"accuracy": 0.0},
+      "k1_sigma_0.01": {"accuracy": 0.0},
+      "k1_sigma_0.03": {"accuracy": 0.0},
+      "k1_sigma_0.05": {"accuracy": 0.02},
+      "k1_sigma_0.1": {"accuracy": 0.02},
+      "k1_sigma_0.15": {"accuracy": 0.0},
+      "k1_sigma_0.3": {"accuracy": 0.0},
+      "k1_best_fixed": {"sigma": 0.05, "accuracy": 0.02},
+      "sigma_diverse_k11": {"accuracy": 0.16}
+    },
+    "Qwen-1.5B": {
+      "k1_baseline": {"accuracy": 0.32},
+      "k1_sigma_0.005": {"accuracy": 0.32},
+      "k1_sigma_0.01": {"accuracy": 0.42},
+      "k1_sigma_0.03": {"accuracy": 0.34},
+      "k1_sigma_0.05": {"accuracy": 0.3},
+      "k1_sigma_0.1": {"accuracy": 0.22},
+      "k1_sigma_0.15": {"accuracy": 0.16},
+      "k1_sigma_0.3": {"accuracy": 0.14},
+      "k1_best_fixed": {"sigma": 0.01, "accuracy": 0.42},
+      "sigma_diverse_k11": {"accuracy": 0.80}
+    },
+    "phi-2 (2.7B)": {
+      "error": "Could not find transformer layers (architecture mismatch)"
+    },
+    "Llama-3B": {
+      "k1_baseline": {"accuracy": 0.0},
+      "k1_sigma_0.005": {"accuracy": 0.02},
+      "k1_sigma_0.01": {"accuracy": 0.0},
+      "k1_sigma_0.03": {"accuracy": 0.1},
+      "k1_sigma_0.05": {"accuracy": 0.04},
+      "k1_sigma_0.1": {"accuracy": 0.04},
+      "k1_sigma_0.15": {"accuracy": 0.02},
+      "k1_sigma_0.3": {"accuracy": 0.0},
+      "k1_best_fixed": {"sigma": 0.03, "accuracy": 0.10},
+      "sigma_diverse_k11": {"accuracy": 0.40}
+    },
+    "Mistral-7B": {
+      "k1_baseline": {"accuracy": 0.42},
+      "k1_sigma_0.005": {"accuracy": 0.36},
+      "k1_sigma_0.01": {"accuracy": 0.32},
+      "k1_sigma_0.03": {"accuracy": 0.30},
+      "k1_sigma_0.05": {"accuracy": 0.18},
+      "k1_sigma_0.1": {"accuracy": 0.06},
+      "k1_sigma_0.15": {"accuracy": 0.0},
+      "k1_sigma_0.3": {"accuracy": 0.0},
+      "k1_best_fixed": {"sigma": 0.0, "accuracy": 0.42},
+      "sigma_diverse_k11": {"accuracy": 0.66}
+    }
+  }
+}

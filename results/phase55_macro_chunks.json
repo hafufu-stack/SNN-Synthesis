@@ -1,0 +1,110 @@
+{
+  "experiment": "Phase 55: Macro-Action Chunking",
+  "timestamp": "2026-04-11T23:58:20.502771",
+  "results": {
+    "budget_500": {
+      "Random": {
+        "agent": "Random",
+        "total_solved": 22,
+        "solve_rate": 0.11,
+        "avg_levels": 2.175
+      },
+      "Macro-Chunk": {
+        "agent": "Macro-Chunk",
+        "total_solved": 17,
+        "solve_rate": 0.085,
+        "avg_levels": 2.015
+      },
+      "Macro+Curiosity": {
+        "agent": "Macro+Curiosity",
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 0.135
+      },
+      "Adaptive-Chunk": {
+        "agent": "Adaptive-Chunk",
+        "total_solved": 14,
+        "solve_rate": 0.07,
+        "avg_levels": 2.03
+      }
+    },
+    "budget_1000": {
+      "Random": {
+        "agent": "Random",
+        "total_solved": 68,
+        "solve_rate": 0.34,
+        "avg_levels": 3.67
+      },
+      "Macro-Chunk": {
+        "agent": "Macro-Chunk",
+        "total_solved": 60,
+        "solve_rate": 0.3,
+        "avg_levels": 3.23
+      },
+      "Macro+Curiosity": {
+        "agent": "Macro+Curiosity",
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 0.16
+      },
+      "Adaptive-Chunk": {
+        "agent": "Adaptive-Chunk",
+        "total_solved": 41,
+        "solve_rate": 0.205,
+        "avg_levels": 3.145
+      }
+    },
+    "budget_2000": {
+      "Random": {
+        "agent": "Random",
+        "total_solved": 175,
+        "solve_rate": 0.875,
+        "avg_levels": 4.835
+      },
+      "Macro-Chunk": {
+        "agent": "Macro-Chunk",
+        "total_solved": 130,
+        "solve_rate": 0.65,
+        "avg_levels": 4.19
+      },
+      "Macro+Curiosity": {
+        "agent": "Macro+Curiosity",
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 0.14
+      },
+      "Adaptive-Chunk": {
+        "agent": "Adaptive-Chunk",
+        "total_solved": 128,
+        "solve_rate": 0.64,
+        "avg_levels": 4.265
+      }
+    },
+    "budget_5000": {
+      "Random": {
+        "agent": "Random",
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 5.0
+      },
+      "Macro-Chunk": {
+        "agent": "Macro-Chunk",
+        "total_solved": 182,
+        "solve_rate": 0.91,
+        "avg_levels": 4.77
+      },
+      "Macro+Curiosity": {
+        "agent": "Macro+Curiosity",
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 0.19
+      },
+      "Adaptive-Chunk": {
+        "agent": "Adaptive-Chunk",
+        "total_solved": 178,
+        "solve_rate": 0.89,
+        "avg_levels": 4.82
+      }
+    }
+  }
+}

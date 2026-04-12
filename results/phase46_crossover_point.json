@@ -1,0 +1,362 @@
+{
+  "experiment": "Phase 46: Crossover Point Analysis",
+  "timestamp": "2026-04-11T11:17:44.841092",
+  "results": {
+    "budget_2000ms": {
+      "random_rate": 0.015,
+      "random_actions": 1992.805,
+      "overhead_0": {
+        "overhead_ms": 0,
+        "solve_rate": 0.055,
+        "avg_actions": 1964.615,
+        "diff_vs_random": 0.04
+      },
+      "overhead_0.01": {
+        "overhead_ms": 0.01,
+        "solve_rate": 0.03,
+        "avg_actions": 1960.035,
+        "diff_vs_random": 0.015
+      },
+      "overhead_0.02": {
+        "overhead_ms": 0.02,
+        "solve_rate": 0.035,
+        "avg_actions": 1936.76,
+        "diff_vs_random": 0.020000000000000004
+      },
+      "overhead_0.05": {
+        "overhead_ms": 0.05,
+        "solve_rate": 0.04,
+        "avg_actions": 1879.49,
+        "diff_vs_random": 0.025
+      },
+      "overhead_0.1": {
+        "overhead_ms": 0.1,
+        "solve_rate": 0.02,
+        "avg_actions": 1804.285,
+        "diff_vs_random": 0.005000000000000001
+      },
+      "overhead_0.2": {
+        "overhead_ms": 0.2,
+        "solve_rate": 0.03,
+        "avg_actions": 1654.98,
+        "diff_vs_random": 0.015
+      },
+      "overhead_0.5": {
+        "overhead_ms": 0.5,
+        "solve_rate": 0.01,
+        "avg_actions": 1328.315,
+        "diff_vs_random": -0.004999999999999999
+      },
+      "crossover_overhead": 0.5,
+      "overhead_1": {
+        "overhead_ms": 1,
+        "solve_rate": 0.0,
+        "avg_actions": 1000.0,
+        "diff_vs_random": -0.015
+      },
+      "overhead_2": {
+        "overhead_ms": 2,
+        "solve_rate": 0.005,
+        "avg_actions": 665.665,
+        "diff_vs_random": -0.009999999999999998
+      },
+      "overhead_3": {
+        "overhead_ms": 3,
+        "solve_rate": 0.0,
+        "avg_actions": 500.0,
+        "diff_vs_random": -0.015
+      },
+      "overhead_5": {
+        "overhead_ms": 5,
+        "solve_rate": 0.0,
+        "avg_actions": 334.0,
+        "diff_vs_random": -0.015
+      },
+      "overhead_10": {
+        "overhead_ms": 10,
+        "solve_rate": 0.0,
+        "avg_actions": 182.0,
+        "diff_vs_random": -0.015
+      },
+      "overhead_20": {
+        "overhead_ms": 20,
+        "solve_rate": 0.0,
+        "avg_actions": 96.0,
+        "diff_vs_random": -0.015
+      },
+      "overhead_50": {
+        "overhead_ms": 50,
+        "solve_rate": 0.0,
+        "avg_actions": 40.0,
+        "diff_vs_random": -0.015
+      }
+    },
+    "budget_5000ms": {
+      "random_rate": 0.225,
+      "random_actions": 4670.525,
+      "overhead_0": {
+        "overhead_ms": 0,
+        "solve_rate": 0.235,
+        "avg_actions": 4544.76,
+        "diff_vs_random": 0.009999999999999981
+      },
+      "overhead_0.01": {
+        "overhead_ms": 0.01,
+        "solve_rate": 0.23,
+        "avg_actions": 4532.175,
+        "diff_vs_random": 0.0050000000000000044
+      },
+      "overhead_0.02": {
+        "overhead_ms": 0.02,
+        "solve_rate": 0.22,
+        "avg_actions": 4513.99,
+        "diff_vs_random": -0.0050000000000000044
+      },
+      "crossover_overhead": 0.02,
+      "overhead_0.05": {
+        "overhead_ms": 0.05,
+        "solve_rate": 0.215,
+        "avg_actions": 4461.28,
+        "diff_vs_random": -0.010000000000000009
+      },
+      "overhead_0.1": {
+        "overhead_ms": 0.1,
+        "solve_rate": 0.12,
+        "avg_actions": 4348.775,
+        "diff_vs_random": -0.10500000000000001
+      },
+      "overhead_0.2": {
+        "overhead_ms": 0.2,
+        "solve_rate": 0.1,
+        "avg_actions": 4039.09,
+        "diff_vs_random": -0.125
+      },
+      "overhead_0.5": {
+        "overhead_ms": 0.5,
+        "solve_rate": 0.055,
+        "avg_actions": 3265.295,
+        "diff_vs_random": -0.17
+      },
+      "overhead_1": {
+        "overhead_ms": 1,
+        "solve_rate": 0.07,
+        "avg_actions": 2437.51,
+        "diff_vs_random": -0.155
+      },
+      "overhead_2": {
+        "overhead_ms": 2,
+        "solve_rate": 0.03,
+        "avg_actions": 1654.98,
+        "diff_vs_random": -0.195
+      },
+      "overhead_3": {
+        "overhead_ms": 3,
+        "solve_rate": 0.01,
+        "avg_actions": 1246.06,
+        "diff_vs_random": -0.215
+      },
+      "overhead_5": {
+        "overhead_ms": 5,
+        "solve_rate": 0.01,
+        "avg_actions": 832.15,
+        "diff_vs_random": -0.215
+      },
+      "overhead_10": {
+        "overhead_ms": 10,
+        "solve_rate": 0.0,
+        "avg_actions": 455.0,
+        "diff_vs_random": -0.225
+      },
+      "overhead_20": {
+        "overhead_ms": 20,
+        "solve_rate": 0.0,
+        "avg_actions": 239.0,
+        "diff_vs_random": -0.225
+      },
+      "overhead_50": {
+        "overhead_ms": 50,
+        "solve_rate": 0.0,
+        "avg_actions": 99.0,
+        "diff_vs_random": -0.225
+      }
+    },
+    "budget_10000ms": {
+      "random_rate": 0.405,
+      "random_actions": 8171.66,
+      "overhead_0": {
+        "overhead_ms": 0,
+        "solve_rate": 0.44,
+        "avg_actions": 8149.71,
+        "diff_vs_random": 0.034999999999999976
+      },
+      "overhead_0.01": {
+        "overhead_ms": 0.01,
+        "solve_rate": 0.425,
+        "avg_actions": 8099.71,
+        "diff_vs_random": 0.019999999999999962
+      },
+      "overhead_0.02": {
+        "overhead_ms": 0.02,
+        "solve_rate": 0.43,
+        "avg_actions": 7947.275,
+        "diff_vs_random": 0.024999999999999967
+      },
+      "overhead_0.05": {
+        "overhead_ms": 0.05,
+        "solve_rate": 0.385,
+        "avg_actions": 7943.075,
+        "diff_vs_random": -0.020000000000000018
+      },
+      "crossover_overhead": 0.05,
+      "overhead_0.1": {
+        "overhead_ms": 0.1,
+        "solve_rate": 0.405,
+        "avg_actions": 7520.03,
+        "diff_vs_random": 0.0
+      },
+      "overhead_0.2": {
+        "overhead_ms": 0.2,
+        "solve_rate": 0.385,
+        "avg_actions": 6945.015,
+        "diff_vs_random": -0.020000000000000018
+      },
+      "overhead_0.5": {
+        "overhead_ms": 0.5,
+        "solve_rate": 0.26,
+        "avg_actions": 5974.355,
+        "diff_vs_random": -0.14500000000000002
+      },
+      "overhead_1": {
+        "overhead_ms": 1,
+        "solve_rate": 0.235,
+        "avg_actions": 4544.76,
+        "diff_vs_random": -0.17000000000000004
+      },
+      "overhead_2": {
+        "overhead_ms": 2,
+        "solve_rate": 0.055,
+        "avg_actions": 3265.295,
+        "diff_vs_random": -0.35000000000000003
+      },
+      "overhead_3": {
+        "overhead_ms": 3,
+        "solve_rate": 0.07,
+        "avg_actions": 2437.51,
+        "diff_vs_random": -0.335
+      },
+      "overhead_5": {
+        "overhead_ms": 5,
+        "solve_rate": 0.03,
+        "avg_actions": 1654.98,
+        "diff_vs_random": -0.375
+      },
+      "overhead_10": {
+        "overhead_ms": 10,
+        "solve_rate": 0.015,
+        "avg_actions": 905.275,
+        "diff_vs_random": -0.39
+      },
+      "overhead_20": {
+        "overhead_ms": 20,
+        "solve_rate": 0.0,
+        "avg_actions": 477.0,
+        "diff_vs_random": -0.405
+      },
+      "overhead_50": {
+        "overhead_ms": 50,
+        "solve_rate": 0.0,
+        "avg_actions": 197.0,
+        "diff_vs_random": -0.405
+      }
+    },
+    "budget_50000ms": {
+      "random_rate": 0.975,
+      "random_actions": 14818.315,
+      "overhead_0": {
+        "overhead_ms": 0,
+        "solve_rate": 0.985,
+        "avg_actions": 14329.975,
+        "diff_vs_random": 0.010000000000000009
+      },
+      "overhead_0.01": {
+        "overhead_ms": 0.01,
+        "solve_rate": 0.985,
+        "avg_actions": 14329.975,
+        "diff_vs_random": 0.010000000000000009
+      },
+      "overhead_0.02": {
+        "overhead_ms": 0.02,
+        "solve_rate": 0.985,
+        "avg_actions": 14329.975,
+        "diff_vs_random": 0.010000000000000009
+      },
+      "overhead_0.05": {
+        "overhead_ms": 0.05,
+        "solve_rate": 0.98,
+        "avg_actions": 14329.975,
+        "diff_vs_random": 0.0050000000000000044
+      },
+      "overhead_0.1": {
+        "overhead_ms": 0.1,
+        "solve_rate": 0.98,
+        "avg_actions": 14329.975,
+        "diff_vs_random": 0.0050000000000000044
+      },
+      "overhead_0.2": {
+        "overhead_ms": 0.2,
+        "solve_rate": 0.97,
+        "avg_actions": 14329.975,
+        "diff_vs_random": -0.0050000000000000044
+      },
+      "crossover_overhead": 0.2,
+      "overhead_0.5": {
+        "overhead_ms": 0.5,
+        "solve_rate": 0.92,
+        "avg_actions": 13184.565,
+        "diff_vs_random": -0.05499999999999994
+      },
+      "overhead_1": {
+        "overhead_ms": 1,
+        "solve_rate": 0.835,
+        "avg_actions": 12618.66,
+        "diff_vs_random": -0.14
+      },
+      "overhead_2": {
+        "overhead_ms": 2,
+        "solve_rate": 0.72,
+        "avg_actions": 10401.34,
+        "diff_vs_random": -0.255
+      },
+      "overhead_3": {
+        "overhead_ms": 3,
+        "solve_rate": 0.565,
+        "avg_actions": 9195.57,
+        "diff_vs_random": -0.41000000000000003
+      },
+      "overhead_5": {
+        "overhead_ms": 5,
+        "solve_rate": 0.385,
+        "avg_actions": 6945.015,
+        "diff_vs_random": -0.59
+      },
+      "overhead_10": {
+        "overhead_ms": 10,
+        "solve_rate": 0.12,
+        "avg_actions": 4348.775,
+        "diff_vs_random": -0.855
+      },
+      "overhead_20": {
+        "overhead_ms": 20,
+        "solve_rate": 0.04,
+        "avg_actions": 2356.315,
+        "diff_vs_random": -0.9349999999999999
+      },
+      "overhead_50": {
+        "overhead_ms": 50,
+        "solve_rate": 0.0,
+        "avg_actions": 981.0,
+        "diff_vs_random": -0.975
+      }
+    }
+  }
+}

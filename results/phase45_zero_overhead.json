@@ -1,0 +1,288 @@
+{
+  "experiment": "Phase 45: Zero-Overhead Intelligence",
+  "timestamp": "2026-04-11T11:07:38.556550",
+  "results": {
+    "budget_100": {
+      "Random": {
+        "agent": "Random",
+        "n_games": 200,
+        "max_actions": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 20000,
+        "avg_actions": 100.0
+      },
+      "XOR-Hash": {
+        "agent": "XOR-Hash",
+        "n_games": 200,
+        "max_actions": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 20000,
+        "avg_actions": 100.0
+      },
+      "Bloom-Filter": {
+        "agent": "Bloom-Filter",
+        "n_games": 200,
+        "max_actions": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 20000,
+        "avg_actions": 100.0
+      },
+      "Sigma-Diverse": {
+        "agent": "Sigma-Diverse",
+        "n_games": 200,
+        "max_actions": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 20000,
+        "avg_actions": 100.0
+      },
+      "Adaptive-O(1)": {
+        "agent": "Adaptive-O(1)",
+        "n_games": 200,
+        "max_actions": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 20000,
+        "avg_actions": 100.0
+      }
+    },
+    "budget_200": {
+      "Random": {
+        "agent": "Random",
+        "n_games": 200,
+        "max_actions": 200,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 40000,
+        "avg_actions": 200.0
+      },
+      "XOR-Hash": {
+        "agent": "XOR-Hash",
+        "n_games": 200,
+        "max_actions": 200,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 40000,
+        "avg_actions": 200.0
+      },
+      "Bloom-Filter": {
+        "agent": "Bloom-Filter",
+        "n_games": 200,
+        "max_actions": 200,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 40000,
+        "avg_actions": 200.0
+      },
+      "Sigma-Diverse": {
+        "agent": "Sigma-Diverse",
+        "n_games": 200,
+        "max_actions": 200,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 40000,
+        "avg_actions": 200.0
+      },
+      "Adaptive-O(1)": {
+        "agent": "Adaptive-O(1)",
+        "n_games": 200,
+        "max_actions": 200,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 40000,
+        "avg_actions": 200.0
+      }
+    },
+    "budget_500": {
+      "Random": {
+        "agent": "Random",
+        "n_games": 200,
+        "max_actions": 500,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 100000,
+        "avg_actions": 500.0
+      },
+      "XOR-Hash": {
+        "agent": "XOR-Hash",
+        "n_games": 200,
+        "max_actions": 500,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 100000,
+        "avg_actions": 500.0
+      },
+      "Bloom-Filter": {
+        "agent": "Bloom-Filter",
+        "n_games": 200,
+        "max_actions": 500,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 100000,
+        "avg_actions": 500.0
+      },
+      "Sigma-Diverse": {
+        "agent": "Sigma-Diverse",
+        "n_games": 200,
+        "max_actions": 500,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 100000,
+        "avg_actions": 500.0
+      },
+      "Adaptive-O(1)": {
+        "agent": "Adaptive-O(1)",
+        "n_games": 200,
+        "max_actions": 500,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 100000,
+        "avg_actions": 500.0
+      }
+    },
+    "budget_1000": {
+      "Random": {
+        "agent": "Random",
+        "n_games": 200,
+        "max_actions": 1000,
+        "total_solved": 1,
+        "solve_rate": 0.005,
+        "total_actions": 199502,
+        "avg_actions": 997.51
+      },
+      "XOR-Hash": {
+        "agent": "XOR-Hash",
+        "n_games": 200,
+        "max_actions": 1000,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 200000,
+        "avg_actions": 1000.0
+      },
+      "Bloom-Filter": {
+        "agent": "Bloom-Filter",
+        "n_games": 200,
+        "max_actions": 1000,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 200000,
+        "avg_actions": 1000.0
+      },
+      "Sigma-Diverse": {
+        "agent": "Sigma-Diverse",
+        "n_games": 200,
+        "max_actions": 1000,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 200000,
+        "avg_actions": 1000.0
+      },
+      "Adaptive-O(1)": {
+        "agent": "Adaptive-O(1)",
+        "n_games": 200,
+        "max_actions": 1000,
+        "total_solved": 2,
+        "solve_rate": 0.01,
+        "total_actions": 199321,
+        "avg_actions": 996.605
+      }
+    },
+    "budget_2000": {
+      "Random": {
+        "agent": "Random",
+        "n_games": 200,
+        "max_actions": 2000,
+        "total_solved": 3,
+        "solve_rate": 0.015,
+        "total_actions": 398561,
+        "avg_actions": 1992.805
+      },
+      "XOR-Hash": {
+        "agent": "XOR-Hash",
+        "n_games": 200,
+        "max_actions": 2000,
+        "total_solved": 11,
+        "solve_rate": 0.055,
+        "total_actions": 392923,
+        "avg_actions": 1964.615
+      },
+      "Bloom-Filter": {
+        "agent": "Bloom-Filter",
+        "n_games": 200,
+        "max_actions": 2000,
+        "total_solved": 11,
+        "solve_rate": 0.055,
+        "total_actions": 392923,
+        "avg_actions": 1964.615
+      },
+      "Sigma-Diverse": {
+        "agent": "Sigma-Diverse",
+        "n_games": 200,
+        "max_actions": 2000,
+        "total_solved": 2,
+        "solve_rate": 0.01,
+        "total_actions": 398114,
+        "avg_actions": 1990.57
+      },
+      "Adaptive-O(1)": {
+        "agent": "Adaptive-O(1)",
+        "n_games": 200,
+        "max_actions": 2000,
+        "total_solved": 8,
+        "solve_rate": 0.04,
+        "total_actions": 394957,
+        "avg_actions": 1974.785
+      }
+    },
+    "budget_5000": {
+      "Random": {
+        "agent": "Random",
+        "n_games": 200,
+        "max_actions": 5000,
+        "total_solved": 45,
+        "solve_rate": 0.225,
+        "total_actions": 934105,
+        "avg_actions": 4670.525
+      },
+      "XOR-Hash": {
+        "agent": "XOR-Hash",
+        "n_games": 200,
+        "max_actions": 5000,
+        "total_solved": 47,
+        "solve_rate": 0.235,
+        "total_actions": 908952,
+        "avg_actions": 4544.76
+      },
+      "Bloom-Filter": {
+        "agent": "Bloom-Filter",
+        "n_games": 200,
+        "max_actions": 5000,
+        "total_solved": 47,
+        "solve_rate": 0.235,
+        "total_actions": 908952,
+        "avg_actions": 4544.76
+      },
+      "Sigma-Diverse": {
+        "agent": "Sigma-Diverse",
+        "n_games": 200,
+        "max_actions": 5000,
+        "total_solved": 28,
+        "solve_rate": 0.14,
+        "total_actions": 974252,
+        "avg_actions": 4871.26
+      },
+      "Adaptive-O(1)": {
+        "agent": "Adaptive-O(1)",
+        "n_games": 200,
+        "max_actions": 5000,
+        "total_solved": 36,
+        "solve_rate": 0.18,
+        "total_actions": 915701,
+        "avg_actions": 4578.505
+      }
+    }
+  }
+}

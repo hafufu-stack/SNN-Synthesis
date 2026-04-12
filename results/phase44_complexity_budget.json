@@ -1,0 +1,319 @@
+{
+  "experiment": "Phase 44: Complexity-Budget Tradeoff",
+  "timestamp": "2026-04-11T11:01:25.630960",
+  "hypothesis": "Under fixed time budget, simpler agents win due to more actions",
+  "results": {
+    "budget_500ms": {
+      "Random": {
+        "agent": "Random",
+        "overhead_ms": 0,
+        "time_budget_ms": 500,
+        "n_games": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 50000,
+        "avg_actions_per_game": 500.0
+      },
+      "VisitCount": {
+        "agent": "VisitCount",
+        "overhead_ms": 1,
+        "time_budget_ms": 500,
+        "n_games": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 25000,
+        "avg_actions_per_game": 250.0
+      },
+      "RND": {
+        "agent": "RND",
+        "overhead_ms": 5,
+        "time_budget_ms": 500,
+        "n_games": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 8400,
+        "avg_actions_per_game": 84.0
+      },
+      "RND+CNN": {
+        "agent": "RND+CNN",
+        "overhead_ms": 15,
+        "time_budget_ms": 500,
+        "n_games": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 3200,
+        "avg_actions_per_game": 32.0
+      },
+      "Full-Complex": {
+        "agent": "Full-Complex",
+        "overhead_ms": 30,
+        "time_budget_ms": 500,
+        "n_games": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 1700,
+        "avg_actions_per_game": 17.0
+      }
+    },
+    "budget_1000ms": {
+      "Random": {
+        "agent": "Random",
+        "overhead_ms": 0,
+        "time_budget_ms": 1000,
+        "n_games": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 100000,
+        "avg_actions_per_game": 1000.0
+      },
+      "VisitCount": {
+        "agent": "VisitCount",
+        "overhead_ms": 1,
+        "time_budget_ms": 1000,
+        "n_games": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 50000,
+        "avg_actions_per_game": 500.0
+      },
+      "RND": {
+        "agent": "RND",
+        "overhead_ms": 5,
+        "time_budget_ms": 1000,
+        "n_games": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 16700,
+        "avg_actions_per_game": 167.0
+      },
+      "RND+CNN": {
+        "agent": "RND+CNN",
+        "overhead_ms": 15,
+        "time_budget_ms": 1000,
+        "n_games": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 6300,
+        "avg_actions_per_game": 63.0
+      },
+      "Full-Complex": {
+        "agent": "Full-Complex",
+        "overhead_ms": 30,
+        "time_budget_ms": 1000,
+        "n_games": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 3300,
+        "avg_actions_per_game": 33.0
+      }
+    },
+    "budget_2000ms": {
+      "Random": {
+        "agent": "Random",
+        "overhead_ms": 0,
+        "time_budget_ms": 2000,
+        "n_games": 100,
+        "total_solved": 3,
+        "solve_rate": 0.03,
+        "total_actions": 198561,
+        "avg_actions_per_game": 1985.61
+      },
+      "VisitCount": {
+        "agent": "VisitCount",
+        "overhead_ms": 1,
+        "time_budget_ms": 2000,
+        "n_games": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 100000,
+        "avg_actions_per_game": 1000.0
+      },
+      "RND": {
+        "agent": "RND",
+        "overhead_ms": 5,
+        "time_budget_ms": 2000,
+        "n_games": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 33400,
+        "avg_actions_per_game": 334.0
+      },
+      "RND+CNN": {
+        "agent": "RND+CNN",
+        "overhead_ms": 15,
+        "time_budget_ms": 2000,
+        "n_games": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 12500,
+        "avg_actions_per_game": 125.0
+      },
+      "Full-Complex": {
+        "agent": "Full-Complex",
+        "overhead_ms": 30,
+        "time_budget_ms": 2000,
+        "n_games": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 6500,
+        "avg_actions_per_game": 65.0
+      }
+    },
+    "budget_5000ms": {
+      "Random": {
+        "agent": "Random",
+        "overhead_ms": 0,
+        "time_budget_ms": 5000,
+        "n_games": 100,
+        "total_solved": 28,
+        "solve_rate": 0.28,
+        "total_actions": 461803,
+        "avg_actions_per_game": 4618.03
+      },
+      "VisitCount": {
+        "agent": "VisitCount",
+        "overhead_ms": 1,
+        "time_budget_ms": 5000,
+        "n_games": 100,
+        "total_solved": 6,
+        "solve_rate": 0.06,
+        "total_actions": 245933,
+        "avg_actions_per_game": 2459.33
+      },
+      "RND": {
+        "agent": "RND",
+        "overhead_ms": 5,
+        "time_budget_ms": 5000,
+        "n_games": 100,
+        "total_solved": 2,
+        "solve_rate": 0.02,
+        "total_actions": 83393,
+        "avg_actions_per_game": 833.93
+      },
+      "RND+CNN": {
+        "agent": "RND+CNN",
+        "overhead_ms": 15,
+        "time_budget_ms": 5000,
+        "n_games": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 31300,
+        "avg_actions_per_game": 313.0
+      },
+      "Full-Complex": {
+        "agent": "Full-Complex",
+        "overhead_ms": 30,
+        "time_budget_ms": 5000,
+        "n_games": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 16200,
+        "avg_actions_per_game": 162.0
+      }
+    },
+    "budget_10000ms": {
+      "Random": {
+        "agent": "Random",
+        "overhead_ms": 0,
+        "time_budget_ms": 10000,
+        "n_games": 100,
+        "total_solved": 41,
+        "solve_rate": 0.41,
+        "total_actions": 824760,
+        "avg_actions_per_game": 8247.6
+      },
+      "VisitCount": {
+        "agent": "VisitCount",
+        "overhead_ms": 1,
+        "time_budget_ms": 10000,
+        "n_games": 100,
+        "total_solved": 19,
+        "solve_rate": 0.19,
+        "total_actions": 462414,
+        "avg_actions_per_game": 4624.14
+      },
+      "RND": {
+        "agent": "RND",
+        "overhead_ms": 5,
+        "time_budget_ms": 10000,
+        "n_games": 100,
+        "total_solved": 3,
+        "solve_rate": 0.03,
+        "total_actions": 165320,
+        "avg_actions_per_game": 1653.2
+      },
+      "RND+CNN": {
+        "agent": "RND+CNN",
+        "overhead_ms": 15,
+        "time_budget_ms": 10000,
+        "n_games": 100,
+        "total_solved": 1,
+        "solve_rate": 0.01,
+        "total_actions": 62354,
+        "avg_actions_per_game": 623.54
+      },
+      "Full-Complex": {
+        "agent": "Full-Complex",
+        "overhead_ms": 30,
+        "time_budget_ms": 10000,
+        "n_games": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 32300,
+        "avg_actions_per_game": 323.0
+      }
+    },
+    "budget_50000ms": {
+      "Random": {
+        "agent": "Random",
+        "overhead_ms": 0,
+        "time_budget_ms": 50000,
+        "n_games": 100,
+        "total_solved": 97,
+        "solve_rate": 0.97,
+        "total_actions": 1492020,
+        "avg_actions_per_game": 14920.2
+      },
+      "VisitCount": {
+        "agent": "VisitCount",
+        "overhead_ms": 1,
+        "time_budget_ms": 50000,
+        "n_games": 100,
+        "total_solved": 83,
+        "solve_rate": 0.83,
+        "total_actions": 1345138,
+        "avg_actions_per_game": 13451.38
+      },
+      "RND": {
+        "agent": "RND",
+        "overhead_ms": 5,
+        "time_budget_ms": 50000,
+        "n_games": 100,
+        "total_solved": 37,
+        "solve_rate": 0.37,
+        "total_actions": 681929,
+        "avg_actions_per_game": 6819.29
+      },
+      "RND+CNN": {
+        "agent": "RND+CNN",
+        "overhead_ms": 15,
+        "time_budget_ms": 50000,
+        "n_games": 100,
+        "total_solved": 12,
+        "solve_rate": 0.12,
+        "total_actions": 300775,
+        "avg_actions_per_game": 3007.75
+      },
+      "Full-Complex": {
+        "agent": "Full-Complex",
+        "overhead_ms": 30,
+        "time_budget_ms": 50000,
+        "n_games": 100,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "total_actions": 161300,
+        "avg_actions_per_game": 1613.0
+      }
+    }
+  }
+}

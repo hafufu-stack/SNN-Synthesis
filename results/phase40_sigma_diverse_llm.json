@@ -1,0 +1,72 @@
+{
+  "experiment": "Phase 40: \u03c3-Diverse NBS on LLMs",
+  "timestamp": "2026-04-11T17:01:40.634789",
+  "model": "Mistral-7B-Instruct-v0.3",
+  "results": {
+    "fixed_sigma_0.0": {
+      "sigma": 0.0,
+      "gsm8k_acc": 0.13333333333333333,
+      "hanoi_acc": 0.0
+    },
+    "fixed_sigma_0.001": {
+      "sigma": 0.001,
+      "gsm8k_acc": 0.06666666666666667,
+      "hanoi_acc": 0.0
+    },
+    "fixed_sigma_0.005": {
+      "sigma": 0.005,
+      "gsm8k_acc": 0.13333333333333333,
+      "hanoi_acc": 0.0
+    },
+    "fixed_sigma_0.01": {
+      "sigma": 0.01,
+      "gsm8k_acc": 0.13333333333333333,
+      "hanoi_acc": 0.0
+    },
+    "fixed_sigma_0.03": {
+      "sigma": 0.03,
+      "gsm8k_acc": 0.1,
+      "hanoi_acc": 0.0
+    },
+    "fixed_sigma_0.05": {
+      "sigma": 0.05,
+      "gsm8k_acc": 0.13333333333333333,
+      "hanoi_acc": 0.0
+    },
+    "fixed_sigma_0.1": {
+      "sigma": 0.1,
+      "gsm8k_acc": 0.1,
+      "hanoi_acc": 0.0
+    },
+    "fixed_sigma_0.15": {
+      "sigma": 0.15,
+      "gsm8k_acc": 0.2,
+      "hanoi_acc": 0.0
+    },
+    "fixed_sigma_0.2": {
+      "sigma": 0.2,
+      "gsm8k_acc": 0.13333333333333333,
+      "hanoi_acc": 0.0
+    },
+    "fixed_sigma_0.3": {
+      "sigma": 0.3,
+      "gsm8k_acc": 0.06666666666666667,
+      "hanoi_acc": 0.0
+    },
+    "fixed_sigma_0.5": {
+      "sigma": 0.5,
+      "gsm8k_acc": 0.13333333333333333,
+      "hanoi_acc": 0.0
+    },
+    "sigma_diverse": {
+      "gsm8k_acc": 0.7,
+      "hanoi_acc": 0.0
+    },
+    "best_fixed": {
+      "gsm8k_best_sigma": 0.15,
+      "gsm8k_best_acc": 0.2,
+      "hanoi_best_sigma": 0.0,
+      "hanoi_best_acc": 0.0
+    }
+  }
+}

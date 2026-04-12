@@ -1,0 +1,174 @@
+{
+  "experiment": "Phase 52: v10 Grand Simulation",
+  "timestamp": "2026-04-11T12:11:52.934052",
+  "results": {
+    "budget_2000ms": {
+      "Random": {
+        "agent": "Random",
+        "total_solved": 161,
+        "solve_rate": 0.805,
+        "avg_levels": 0.0,
+        "total_actions": 254384,
+        "avg_actions": 1271.92
+      },
+      "XOR-Hash": {
+        "agent": "XOR-Hash",
+        "total_solved": 162,
+        "solve_rate": 0.81,
+        "avg_levels": 0.0,
+        "total_actions": 249245,
+        "avg_actions": 1246.225
+      },
+      "SimHash": {
+        "agent": "SimHash",
+        "total_solved": 176,
+        "solve_rate": 0.88,
+        "avg_levels": 0.0,
+        "total_actions": 225934,
+        "avg_actions": 1129.67
+      },
+      "Dual-Process v10": {
+        "agent": "Dual-Process v10",
+        "total_solved": 3,
+        "solve_rate": 0.015,
+        "avg_levels": 0.0,
+        "total_actions": 396904,
+        "avg_actions": 1984.52
+      },
+      "Heavy-CNN (v12)": {
+        "agent": "Heavy-CNN (v12)",
+        "total_solved": 3,
+        "solve_rate": 0.015,
+        "avg_levels": 0.0,
+        "total_actions": 66559,
+        "avg_actions": 332.795
+      }
+    },
+    "budget_5000ms": {
+      "Random": {
+        "agent": "Random",
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 0.0,
+        "total_actions": 269822,
+        "avg_actions": 1349.11
+      },
+      "XOR-Hash": {
+        "agent": "XOR-Hash",
+        "total_solved": 197,
+        "solve_rate": 0.985,
+        "avg_levels": 0.0,
+        "total_actions": 283166,
+        "avg_actions": 1415.83
+      },
+      "SimHash": {
+        "agent": "SimHash",
+        "total_solved": 199,
+        "solve_rate": 0.995,
+        "avg_levels": 0.0,
+        "total_actions": 251753,
+        "avg_actions": 1258.765
+      },
+      "Dual-Process v10": {
+        "agent": "Dual-Process v10",
+        "total_solved": 3,
+        "solve_rate": 0.015,
+        "avg_levels": 0.0,
+        "total_actions": 993081,
+        "avg_actions": 4965.405
+      },
+      "Heavy-CNN (v12)": {
+        "agent": "Heavy-CNN (v12)",
+        "total_solved": 41,
+        "solve_rate": 0.205,
+        "avg_levels": 0.0,
+        "total_actions": 157222,
+        "avg_actions": 786.11
+      }
+    },
+    "budget_10000ms": {
+      "Random": {
+        "agent": "Random",
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 0.0,
+        "total_actions": 269822,
+        "avg_actions": 1349.11
+      },
+      "XOR-Hash": {
+        "agent": "XOR-Hash",
+        "total_solved": 198,
+        "solve_rate": 0.99,
+        "avg_levels": 0.0,
+        "total_actions": 269666,
+        "avg_actions": 1348.33
+      },
+      "SimHash": {
+        "agent": "SimHash",
+        "total_solved": 198,
+        "solve_rate": 0.99,
+        "avg_levels": 0.0,
+        "total_actions": 276674,
+        "avg_actions": 1383.37
+      },
+      "Dual-Process v10": {
+        "agent": "Dual-Process v10",
+        "total_solved": 4,
+        "solve_rate": 0.02,
+        "avg_levels": 0.0,
+        "total_actions": 1962306,
+        "avg_actions": 9811.53
+      },
+      "Heavy-CNN (v12)": {
+        "agent": "Heavy-CNN (v12)",
+        "total_solved": 149,
+        "solve_rate": 0.745,
+        "avg_levels": 0.0,
+        "total_actions": 232807,
+        "avg_actions": 1164.035
+      }
+    },
+    "budget_50000ms": {
+      "Random": {
+        "agent": "Random",
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 0.0,
+        "total_actions": 269822,
+        "avg_actions": 1349.11
+      },
+      "XOR-Hash": {
+        "agent": "XOR-Hash",
+        "total_solved": 198,
+        "solve_rate": 0.99,
+        "avg_levels": 0.0,
+        "total_actions": 369218,
+        "avg_actions": 1846.09
+      },
+      "SimHash": {
+        "agent": "SimHash",
+        "total_solved": 196,
+        "solve_rate": 0.98,
+        "avg_levels": 0.0,
+        "total_actions": 452519,
+        "avg_actions": 2262.595
+      },
+      "Dual-Process v10": {
+        "agent": "Dual-Process v10",
+        "total_solved": 9,
+        "solve_rate": 0.045,
+        "avg_levels": 0.0,
+        "total_actions": 9636014,
+        "avg_actions": 48180.07
+      },
+      "Heavy-CNN (v12)": {
+        "agent": "Heavy-CNN (v12)",
+        "total_solved": 197,
+        "solve_rate": 0.985,
+        "avg_levels": 0.0,
+        "total_actions": 290520,
+        "avg_actions": 1452.6
+      }
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "experiment": "Phase 58: Curiosity-Diverse Swarm",
+  "timestamp": "2026-04-12T01:51:05.458518",
+  "results": {
+    "budget_1000": {
+      "Random": {
+        "total_solved": 66,
+        "solve_rate": 0.33,
+        "avg_levels": 3.385,
+        "agent": "Random",
+        "wall_time_sec": 1.1123442649841309
+      },
+      "Single-SimHash": {
+        "total_solved": 95,
+        "solve_rate": 0.475,
+        "avg_levels": 3.785,
+        "agent": "Single-SimHash",
+        "wall_time_sec": 3.6839072704315186
+      },
+      "Single-XOR": {
+        "total_solved": 72,
+        "solve_rate": 0.36,
+        "avg_levels": 3.55,
+        "agent": "Single-XOR",
+        "wall_time_sec": 1.443640947341919
+      },
+      "Single-Bloom": {
+        "total_solved": 73,
+        "solve_rate": 0.365,
+        "avg_levels": 3.575,
+        "agent": "Single-Bloom",
+        "wall_time_sec": 1.9841575622558594
+      },
+      "\u03c3-Diverse-SimHash": {
+        "total_solved": 71,
+        "solve_rate": 0.355,
+        "avg_levels": 3.545,
+        "agent": "\u03c3-Diverse-SimHash",
+        "wall_time_sec": 42.23909401893616
+      },
+      "Curiosity-Diverse": {
+        "total_solved": 67,
+        "solve_rate": 0.335,
+        "avg_levels": 3.615,
+        "agent": "Curiosity-Diverse",
+        "wall_time_sec": 28.490846395492554
+      },
+      "Diverse-Vote": {
+        "total_solved": 50,
+        "solve_rate": 0.25,
+        "avg_levels": 3.055,
+        "agent": "Diverse-Vote",
+        "wall_time_sec": 46.57188034057617
+      }
+    },
+    "budget_2000": {
+      "Random": {
+        "total_solved": 155,
+        "solve_rate": 0.775,
+        "avg_levels": 4.625,
+        "agent": "Random",
+        "wall_time_sec": 4.271525859832764
+      },
+      "Single-SimHash": {
+        "total_solved": 173,
+        "solve_rate": 0.865,
+        "avg_levels": 4.79,
+        "agent": "Single-SimHash",
+        "wall_time_sec": 7.3697898387908936
+      },
+      "Single-XOR": {
+        "total_solved": 168,
+        "solve_rate": 0.84,
+        "avg_levels": 4.71,
+        "agent": "Single-XOR",
+        "wall_time_sec": 2.013115644454956
+      },
+      "Single-Bloom": {
+        "total_solved": 166,
+        "solve_rate": 0.83,
+        "avg_levels": 4.71,
+        "agent": "Single-Bloom",
+        "wall_time_sec": 2.7075750827789307
+      },
+      "\u03c3-Diverse-SimHash": {
+        "total_solved": 162,
+        "solve_rate": 0.81,
+        "avg_levels": 4.665,
+        "agent": "\u03c3-Diverse-SimHash",
+        "wall_time_sec": 39.39718675613403
+      },
+      "Curiosity-Diverse": {
+        "total_solved": 173,
+        "solve_rate": 0.865,
+        "avg_levels": 4.8,
+        "agent": "Curiosity-Diverse",
+        "wall_time_sec": 34.88244318962097
+      },
+      "Diverse-Vote": {
+        "total_solved": 127,
+        "solve_rate": 0.635,
+        "avg_levels": 4.3,
+        "agent": "Diverse-Vote",
+        "wall_time_sec": 72.62263560295105
+      }
+    },
+    "budget_5000": {
+      "Random": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 5.0,
+        "agent": "Random",
+        "wall_time_sec": 4.707341194152832
+      },
+      "Single-SimHash": {
+        "total_solved": 198,
+        "solve_rate": 0.99,
+        "avg_levels": 4.99,
+        "agent": "Single-SimHash",
+        "wall_time_sec": 13.090633869171143
+      },
+      "Single-XOR": {
+        "total_solved": 197,
+        "solve_rate": 0.985,
+        "avg_levels": 4.98,
+        "agent": "Single-XOR",
+        "wall_time_sec": 5.845468759536743
+      },
+      "Single-Bloom": {
+        "total_solved": 198,
+        "solve_rate": 0.99,
+        "avg_levels": 4.985,
+        "agent": "Single-Bloom",
+        "wall_time_sec": 8.100995302200317
+      },
+      "\u03c3-Diverse-SimHash": {
+        "total_solved": 199,
+        "solve_rate": 0.995,
+        "avg_levels": 4.995,
+        "agent": "\u03c3-Diverse-SimHash",
+        "wall_time_sec": 97.45475816726685
+      },
+      "Curiosity-Diverse": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 5.0,
+        "agent": "Curiosity-Diverse",
+        "wall_time_sec": 53.11583089828491
+      },
+      "Diverse-Vote": {
+        "total_solved": 196,
+        "solve_rate": 0.98,
+        "avg_levels": 4.965,
+        "agent": "Diverse-Vote",
+        "wall_time_sec": 69.94313216209412
+      }
+    },
+    "budget_10000": {
+      "Random": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 5.0,
+        "agent": "Random",
+        "wall_time_sec": 3.400336265563965
+      },
+      "Single-SimHash": {
+        "total_solved": 198,
+        "solve_rate": 0.99,
+        "avg_levels": 4.99,
+        "agent": "Single-SimHash",
+        "wall_time_sec": 12.31250524520874
+      },
+      "Single-XOR": {
+        "total_solved": 198,
+        "solve_rate": 0.99,
+        "avg_levels": 4.985,
+        "agent": "Single-XOR",
+        "wall_time_sec": 4.383042573928833
+      },
+      "Single-Bloom": {
+        "total_solved": 198,
+        "solve_rate": 0.99,
+        "avg_levels": 4.985,
+        "agent": "Single-Bloom",
+        "wall_time_sec": 8.04961371421814
+      },
+      "\u03c3-Diverse-SimHash": {
+        "total_solved": 199,
+        "solve_rate": 0.995,
+        "avg_levels": 4.995,
+        "agent": "\u03c3-Diverse-SimHash",
+        "wall_time_sec": 76.59723567962646
+      },
+      "Curiosity-Diverse": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 5.0,
+        "agent": "Curiosity-Diverse",
+        "wall_time_sec": 44.582521200180054
+      },
+      "Diverse-Vote": {
+        "total_solved": 199,
+        "solve_rate": 0.995,
+        "avg_levels": 4.99,
+        "agent": "Diverse-Vote",
+        "wall_time_sec": 63.582056283950806
+      }
+    }
+  }
+}

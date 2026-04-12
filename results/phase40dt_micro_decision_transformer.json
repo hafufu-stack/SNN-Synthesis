@@ -1,0 +1,38 @@
+{
+  "experiment": "Phase 40-DT: Micro-Decision-Transformer",
+  "timestamp": "2026-04-11T08:42:39.317384",
+  "results": {
+    "Repeat-2-ago": {
+      "rule_type": 0,
+      "cnn_acc": 1.0,
+      "cnn_params": 6788,
+      "transformer_acc": 1.0,
+      "transformer_params": 78788,
+      "improvement": 0.0
+    },
+    "Alternate": {
+      "rule_type": 1,
+      "cnn_acc": 0.5076666474342346,
+      "cnn_params": 6788,
+      "transformer_acc": 1.0,
+      "transformer_params": 78788,
+      "improvement": 0.4923333525657654
+    },
+    "Cycle-4": {
+      "rule_type": 2,
+      "cnn_acc": 0.27533334493637085,
+      "cnn_params": 6788,
+      "transformer_acc": 1.0,
+      "transformer_params": 78788,
+      "improvement": 0.7246666550636292
+    },
+    "Opposite-last": {
+      "rule_type": 3,
+      "cnn_acc": 0.4976666569709778,
+      "cnn_params": 6788,
+      "transformer_acc": 1.0,
+      "transformer_params": 78788,
+      "improvement": 0.5023333430290222
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "experiment": "Phase 48: Non-Parametric Zero-Overhead ExIt",
+  "timestamp": "2026-04-11T11:34:29.400900",
+  "results": {
+    "Repeat-2-ago": {
+      "miracles_0": {
+        "n_miracles": 0,
+        "accuracy": 0.257,
+        "ngram_usage": 0.0,
+        "table_size": 0
+      },
+      "miracles_1": {
+        "n_miracles": 1,
+        "accuracy": 1.0,
+        "ngram_usage": 1.0,
+        "table_size": 20
+      },
+      "miracles_3": {
+        "n_miracles": 3,
+        "accuracy": 1.0,
+        "ngram_usage": 1.0,
+        "table_size": 20
+      },
+      "miracles_5": {
+        "n_miracles": 5,
+        "accuracy": 1.0,
+        "ngram_usage": 1.0,
+        "table_size": 20
+      },
+      "miracles_10": {
+        "n_miracles": 10,
+        "accuracy": 1.0,
+        "ngram_usage": 1.0,
+        "table_size": 20
+      },
+      "miracles_20": {
+        "n_miracles": 20,
+        "accuracy": 1.0,
+        "ngram_usage": 1.0,
+        "table_size": 20
+      }
+    },
+    "Alternate": {
+      "miracles_0": {
+        "n_miracles": 0,
+        "accuracy": 0.2535,
+        "ngram_usage": 0.0,
+        "table_size": 0
+      },
+      "miracles_1": {
+        "n_miracles": 1,
+        "accuracy": 1.0,
+        "ngram_usage": 1.0,
+        "table_size": 25
+      },
+      "miracles_3": {
+        "n_miracles": 3,
+        "accuracy": 1.0,
+        "ngram_usage": 1.0,
+        "table_size": 25
+      },
+      "miracles_5": {
+        "n_miracles": 5,
+        "accuracy": 1.0,
+        "ngram_usage": 1.0,
+        "table_size": 25
+      },
+      "miracles_10": {
+        "n_miracles": 10,
+        "accuracy": 1.0,
+        "ngram_usage": 1.0,
+        "table_size": 25
+      },
+      "miracles_20": {
+        "n_miracles": 20,
+        "accuracy": 1.0,
+        "ngram_usage": 1.0,
+        "table_size": 25
+      }
+    },
+    "Cycle-4": {
+      "miracles_0": {
+        "n_miracles": 0,
+        "accuracy": 0.249,
+        "ngram_usage": 0.0,
+        "table_size": 0
+      },
+      "miracles_1": {
+        "n_miracles": 1,
+        "accuracy": 1.0,
+        "ngram_usage": 1.0,
+        "table_size": 35
+      },
+      "miracles_3": {
+        "n_miracles": 3,
+        "accuracy": 1.0,
+        "ngram_usage": 1.0,
+        "table_size": 35
+      },
+      "miracles_5": {
+        "n_miracles": 5,
+        "accuracy": 1.0,
+        "ngram_usage": 1.0,
+        "table_size": 35
+      },
+      "miracles_10": {
+        "n_miracles": 10,
+        "accuracy": 1.0,
+        "ngram_usage": 1.0,
+        "table_size": 35
+      },
+      "miracles_20": {
+        "n_miracles": 20,
+        "accuracy": 1.0,
+        "ngram_usage": 1.0,
+        "table_size": 35
+      }
+    },
+    "Opposite-last": {
+      "miracles_0": {
+        "n_miracles": 0,
+        "accuracy": 0.24866666666666667,
+        "ngram_usage": 0.0,
+        "table_size": 0
+      },
+      "miracles_1": {
+        "n_miracles": 1,
+        "accuracy": 1.0,
+        "ngram_usage": 1.0,
+        "table_size": 25
+      },
+      "miracles_3": {
+        "n_miracles": 3,
+        "accuracy": 1.0,
+        "ngram_usage": 1.0,
+        "table_size": 25
+      },
+      "miracles_5": {
+        "n_miracles": 5,
+        "accuracy": 1.0,
+        "ngram_usage": 1.0,
+        "table_size": 25
+      },
+      "miracles_10": {
+        "n_miracles": 10,
+        "accuracy": 1.0,
+        "ngram_usage": 1.0,
+        "table_size": 25
+      },
+      "miracles_20": {
+        "n_miracles": 20,
+        "accuracy": 1.0,
+        "ngram_usage": 1.0,
+        "table_size": 25
+      }
+    }
+  }
+}

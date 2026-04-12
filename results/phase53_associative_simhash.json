@@ -1,0 +1,98 @@
+{
+  "experiment": "Phase 53: Associative SimHash ExIt",
+  "timestamp": "2026-04-12T00:00:09.533735",
+  "results": {
+    "budget_500": {
+      "Exact-Patch": {
+        "agent": "Exact-Patch",
+        "total_solved": 5,
+        "solve_rate": 0.025,
+        "avg_levels": 1.74,
+        "hit_rate": 0.1647381425902489
+      },
+      "Associative-SimHash": {
+        "agent": "Associative-SimHash",
+        "total_solved": 2,
+        "solve_rate": 0.01,
+        "avg_levels": 1.32,
+        "hit_rate": 0.38258371090728255
+      },
+      "Adaptive-SimHash": {
+        "agent": "Adaptive-SimHash",
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.025,
+        "hit_rate": 0.47871
+      }
+    },
+    "budget_1000": {
+      "Exact-Patch": {
+        "agent": "Exact-Patch",
+        "total_solved": 25,
+        "solve_rate": 0.125,
+        "avg_levels": 2.385,
+        "hit_rate": 0.3717854403731472
+      },
+      "Associative-SimHash": {
+        "agent": "Associative-SimHash",
+        "total_solved": 4,
+        "solve_rate": 0.02,
+        "avg_levels": 1.575,
+        "hit_rate": 0.6341148143454568
+      },
+      "Adaptive-SimHash": {
+        "agent": "Adaptive-SimHash",
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.145,
+        "hit_rate": 0.72928
+      }
+    },
+    "budget_2000": {
+      "Exact-Patch": {
+        "agent": "Exact-Patch",
+        "total_solved": 45,
+        "solve_rate": 0.225,
+        "avg_levels": 2.755,
+        "hit_rate": 0.6179897759735378
+      },
+      "Associative-SimHash": {
+        "agent": "Associative-SimHash",
+        "total_solved": 1,
+        "solve_rate": 0.005,
+        "avg_levels": 1.595,
+        "hit_rate": 0.799009461300496
+      },
+      "Adaptive-SimHash": {
+        "agent": "Adaptive-SimHash",
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.2,
+        "hit_rate": 0.84543
+      }
+    },
+    "budget_5000": {
+      "Exact-Patch": {
+        "agent": "Exact-Patch",
+        "total_solved": 54,
+        "solve_rate": 0.27,
+        "avg_levels": 2.93,
+        "hit_rate": 0.7991790397883094
+      },
+      "Associative-SimHash": {
+        "agent": "Associative-SimHash",
+        "total_solved": 1,
+        "solve_rate": 0.005,
+        "avg_levels": 1.55,
+        "hit_rate": 0.905227057140101
+      },
+      "Adaptive-SimHash": {
+        "agent": "Adaptive-SimHash",
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.195,
+        "hit_rate": 0.934072
+      }
+    }
+  }
+}

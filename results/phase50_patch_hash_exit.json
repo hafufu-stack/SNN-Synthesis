@@ -1,0 +1,86 @@
+{
+  "experiment": "Phase 50: Relative-Patch Hash ExIt",
+  "timestamp": "2026-04-11T12:01:34.114588",
+  "results": {
+    "budget_500": {
+      "Action-NGram": {
+        "agent": "ActionNGramExIt",
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 0.98
+      },
+      "Patch-Hash": {
+        "agent": "PatchHashExIt",
+        "total_solved": 21,
+        "solve_rate": 0.105,
+        "avg_levels": 1.9
+      },
+      "Hybrid": {
+        "agent": "HybridExIt",
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 0.96
+      }
+    },
+    "budget_1000": {
+      "Action-NGram": {
+        "agent": "ActionNGramExIt",
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.165
+      },
+      "Patch-Hash": {
+        "agent": "PatchHashExIt",
+        "total_solved": 68,
+        "solve_rate": 0.34,
+        "avg_levels": 3.37
+      },
+      "Hybrid": {
+        "agent": "HybridExIt",
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.1
+      }
+    },
+    "budget_2000": {
+      "Action-NGram": {
+        "agent": "ActionNGramExIt",
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.205
+      },
+      "Patch-Hash": {
+        "agent": "PatchHashExIt",
+        "total_solved": 165,
+        "solve_rate": 0.825,
+        "avg_levels": 4.65
+      },
+      "Hybrid": {
+        "agent": "HybridExIt",
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.115
+      }
+    },
+    "budget_5000": {
+      "Action-NGram": {
+        "agent": "ActionNGramExIt",
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.22
+      },
+      "Patch-Hash": {
+        "agent": "PatchHashExIt",
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 5.0
+      },
+      "Hybrid": {
+        "agent": "HybridExIt",
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.11
+      }
+    }
+  }
+}

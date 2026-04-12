@@ -1,0 +1,41 @@
+{
+  "experiment": "Phase 43: Test-Time SNN-ExIt Simulation",
+  "timestamp": "2026-04-11T08:23:39.296907",
+  "results": {
+    "game_0": {
+      "game_type": 0,
+      "n_episodes": 300,
+      "baseline_rate": 0.14333333333333334,
+      "baseline_solves": 43,
+      "exit_rate": 0.71,
+      "exit_solves": 213,
+      "improvement": 0.5666666666666667,
+      "miracles_collected": 213
+    },
+    "game_1": {
+      "game_type": 1,
+      "n_episodes": 300,
+      "baseline_rate": 0.18333333333333332,
+      "baseline_solves": 55,
+      "exit_rate": 0.7933333333333333,
+      "exit_solves": 238,
+      "improvement": 0.61,
+      "miracles_collected": 238
+    },
+    "game_2": {
+      "game_type": 2,
+      "n_episodes": 300,
+      "baseline_rate": 0.53,
+      "baseline_solves": 159,
+      "exit_rate": 0.47,
+      "exit_solves": 141,
+      "improvement": -0.06000000000000005,
+      "miracles_collected": 141
+    }
+  },
+  "summary": {
+    "avg_baseline": 0.28555555555555556,
+    "avg_exit": 0.6577777777777778,
+    "improvement": 0.37222222222222223
+  }
+}

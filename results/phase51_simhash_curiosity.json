@@ -1,0 +1,116 @@
+{
+  "experiment": "Phase 51: SimHash Curiosity",
+  "timestamp": "2026-04-11T12:01:50.730089",
+  "results": {
+    "noise_0": {
+      "Random": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 3.0
+      },
+      "XOR-Hash": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 3.0
+      },
+      "SimHash": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 3.0
+      },
+      "MultiRes-SimHash": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 3.0
+      }
+    },
+    "noise_1": {
+      "Random": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 3.0
+      },
+      "XOR-Hash": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 3.0
+      },
+      "SimHash": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 3.0
+      },
+      "MultiRes-SimHash": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 3.0
+      }
+    },
+    "noise_3": {
+      "Random": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 3.0
+      },
+      "XOR-Hash": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 3.0
+      },
+      "SimHash": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 3.0
+      },
+      "MultiRes-SimHash": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 3.0
+      }
+    },
+    "noise_5": {
+      "Random": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 3.0
+      },
+      "XOR-Hash": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 3.0
+      },
+      "SimHash": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 3.0
+      },
+      "MultiRes-SimHash": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 3.0
+      }
+    },
+    "noise_8": {
+      "Random": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 3.0
+      },
+      "XOR-Hash": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 3.0
+      },
+      "SimHash": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 3.0
+      },
+      "MultiRes-SimHash": {
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 3.0
+      }
+    }
+  }
+}

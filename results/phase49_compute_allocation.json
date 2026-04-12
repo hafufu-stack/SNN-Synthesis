@@ -1,0 +1,322 @@
+{
+  "experiment": "Phase 49: Test-Time Compute Allocation",
+  "timestamp": "2026-04-11T11:48:13.034827",
+  "results": {
+    "budget_2000ms": {
+      "learn_0pct": {
+        "learning_budget_pct": 0,
+        "total_budget_ms": 2000,
+        "total_solved": 1,
+        "solve_rate": 0.005,
+        "avg_levels": 1.595
+      },
+      "learn_1pct": {
+        "learning_budget_pct": 1,
+        "total_budget_ms": 2000,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.53
+      },
+      "learn_2pct": {
+        "learning_budget_pct": 2,
+        "total_budget_ms": 2000,
+        "total_solved": 1,
+        "solve_rate": 0.005,
+        "avg_levels": 1.635
+      },
+      "learn_5pct": {
+        "learning_budget_pct": 5,
+        "total_budget_ms": 2000,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.605
+      },
+      "learn_10pct": {
+        "learning_budget_pct": 10,
+        "total_budget_ms": 2000,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.545
+      },
+      "learn_15pct": {
+        "learning_budget_pct": 15,
+        "total_budget_ms": 2000,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.535
+      },
+      "learn_20pct": {
+        "learning_budget_pct": 20,
+        "total_budget_ms": 2000,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.58
+      },
+      "learn_30pct": {
+        "learning_budget_pct": 30,
+        "total_budget_ms": 2000,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.48
+      },
+      "learn_50pct": {
+        "learning_budget_pct": 50,
+        "total_budget_ms": 2000,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.47
+      },
+      "learn_70pct": {
+        "learning_budget_pct": 70,
+        "total_budget_ms": 2000,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.385
+      },
+      "learn_90pct": {
+        "learning_budget_pct": 90,
+        "total_budget_ms": 2000,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.21
+      }
+    },
+    "budget_5000ms": {
+      "learn_0pct": {
+        "learning_budget_pct": 0,
+        "total_budget_ms": 5000,
+        "total_solved": 2,
+        "solve_rate": 0.01,
+        "avg_levels": 1.73
+      },
+      "learn_1pct": {
+        "learning_budget_pct": 1,
+        "total_budget_ms": 5000,
+        "total_solved": 1,
+        "solve_rate": 0.005,
+        "avg_levels": 1.845
+      },
+      "learn_2pct": {
+        "learning_budget_pct": 2,
+        "total_budget_ms": 5000,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.68
+      },
+      "learn_5pct": {
+        "learning_budget_pct": 5,
+        "total_budget_ms": 5000,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.73
+      },
+      "learn_10pct": {
+        "learning_budget_pct": 10,
+        "total_budget_ms": 5000,
+        "total_solved": 1,
+        "solve_rate": 0.005,
+        "avg_levels": 1.77
+      },
+      "learn_15pct": {
+        "learning_budget_pct": 15,
+        "total_budget_ms": 5000,
+        "total_solved": 1,
+        "solve_rate": 0.005,
+        "avg_levels": 1.715
+      },
+      "learn_20pct": {
+        "learning_budget_pct": 20,
+        "total_budget_ms": 5000,
+        "total_solved": 2,
+        "solve_rate": 0.01,
+        "avg_levels": 1.79
+      },
+      "learn_30pct": {
+        "learning_budget_pct": 30,
+        "total_budget_ms": 5000,
+        "total_solved": 3,
+        "solve_rate": 0.015,
+        "avg_levels": 1.805
+      },
+      "learn_50pct": {
+        "learning_budget_pct": 50,
+        "total_budget_ms": 5000,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.64
+      },
+      "learn_70pct": {
+        "learning_budget_pct": 70,
+        "total_budget_ms": 5000,
+        "total_solved": 1,
+        "solve_rate": 0.005,
+        "avg_levels": 1.515
+      },
+      "learn_90pct": {
+        "learning_budget_pct": 90,
+        "total_budget_ms": 5000,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.35
+      }
+    },
+    "budget_10000ms": {
+      "learn_0pct": {
+        "learning_budget_pct": 0,
+        "total_budget_ms": 10000,
+        "total_solved": 9,
+        "solve_rate": 0.045,
+        "avg_levels": 2.3
+      },
+      "learn_1pct": {
+        "learning_budget_pct": 1,
+        "total_budget_ms": 10000,
+        "total_solved": 2,
+        "solve_rate": 0.01,
+        "avg_levels": 2.125
+      },
+      "learn_2pct": {
+        "learning_budget_pct": 2,
+        "total_budget_ms": 10000,
+        "total_solved": 5,
+        "solve_rate": 0.025,
+        "avg_levels": 2.145
+      },
+      "learn_5pct": {
+        "learning_budget_pct": 5,
+        "total_budget_ms": 10000,
+        "total_solved": 10,
+        "solve_rate": 0.05,
+        "avg_levels": 2.25
+      },
+      "learn_10pct": {
+        "learning_budget_pct": 10,
+        "total_budget_ms": 10000,
+        "total_solved": 2,
+        "solve_rate": 0.01,
+        "avg_levels": 2.075
+      },
+      "learn_15pct": {
+        "learning_budget_pct": 15,
+        "total_budget_ms": 10000,
+        "total_solved": 3,
+        "solve_rate": 0.015,
+        "avg_levels": 2.015
+      },
+      "learn_20pct": {
+        "learning_budget_pct": 20,
+        "total_budget_ms": 10000,
+        "total_solved": 5,
+        "solve_rate": 0.025,
+        "avg_levels": 2.165
+      },
+      "learn_30pct": {
+        "learning_budget_pct": 30,
+        "total_budget_ms": 10000,
+        "total_solved": 5,
+        "solve_rate": 0.025,
+        "avg_levels": 1.96
+      },
+      "learn_50pct": {
+        "learning_budget_pct": 50,
+        "total_budget_ms": 10000,
+        "total_solved": 1,
+        "solve_rate": 0.005,
+        "avg_levels": 1.835
+      },
+      "learn_70pct": {
+        "learning_budget_pct": 70,
+        "total_budget_ms": 10000,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.67
+      },
+      "learn_90pct": {
+        "learning_budget_pct": 90,
+        "total_budget_ms": 10000,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.45
+      }
+    },
+    "budget_50000ms": {
+      "learn_0pct": {
+        "learning_budget_pct": 0,
+        "total_budget_ms": 50000,
+        "total_solved": 27,
+        "solve_rate": 0.135,
+        "avg_levels": 3.105
+      },
+      "learn_1pct": {
+        "learning_budget_pct": 1,
+        "total_budget_ms": 50000,
+        "total_solved": 30,
+        "solve_rate": 0.15,
+        "avg_levels": 3.325
+      },
+      "learn_2pct": {
+        "learning_budget_pct": 2,
+        "total_budget_ms": 50000,
+        "total_solved": 28,
+        "solve_rate": 0.14,
+        "avg_levels": 3.29
+      },
+      "learn_5pct": {
+        "learning_budget_pct": 5,
+        "total_budget_ms": 50000,
+        "total_solved": 39,
+        "solve_rate": 0.195,
+        "avg_levels": 3.64
+      },
+      "learn_10pct": {
+        "learning_budget_pct": 10,
+        "total_budget_ms": 50000,
+        "total_solved": 29,
+        "solve_rate": 0.145,
+        "avg_levels": 3.315
+      },
+      "learn_15pct": {
+        "learning_budget_pct": 15,
+        "total_budget_ms": 50000,
+        "total_solved": 29,
+        "solve_rate": 0.145,
+        "avg_levels": 3.44
+      },
+      "learn_20pct": {
+        "learning_budget_pct": 20,
+        "total_budget_ms": 50000,
+        "total_solved": 27,
+        "solve_rate": 0.135,
+        "avg_levels": 3.255
+      },
+      "learn_30pct": {
+        "learning_budget_pct": 30,
+        "total_budget_ms": 50000,
+        "total_solved": 27,
+        "solve_rate": 0.135,
+        "avg_levels": 3.325
+      },
+      "learn_50pct": {
+        "learning_budget_pct": 50,
+        "total_budget_ms": 50000,
+        "total_solved": 21,
+        "solve_rate": 0.105,
+        "avg_levels": 2.895
+      },
+      "learn_70pct": {
+        "learning_budget_pct": 70,
+        "total_budget_ms": 50000,
+        "total_solved": 13,
+        "solve_rate": 0.065,
+        "avg_levels": 2.6
+      },
+      "learn_90pct": {
+        "learning_budget_pct": 90,
+        "total_budget_ms": 50000,
+        "total_solved": 0,
+        "solve_rate": 0.0,
+        "avg_levels": 1.72
+      }
+    }
+  }
+}

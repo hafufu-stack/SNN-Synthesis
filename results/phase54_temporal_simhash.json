@@ -1,0 +1,62 @@
+{
+  "experiment": "Phase 54: Temporal SimHash",
+  "timestamp": "2026-04-11T23:57:34.578585",
+  "results": {
+    "Repeat-2-ago": {
+      "Memoryless": {
+        "accuracy": 0.24333333333333335
+      },
+      "Temporal-SimHash": {
+        "accuracy": 0.24516666666666667
+      },
+      "MultiShift-Temporal": {
+        "accuracy": 0.248
+      },
+      "Temporal-SimHash-ExIt": {
+        "accuracy": 0.2475
+      }
+    },
+    "Alternate": {
+      "Memoryless": {
+        "accuracy": 0.24183333333333334
+      },
+      "Temporal-SimHash": {
+        "accuracy": 0.24016666666666667
+      },
+      "MultiShift-Temporal": {
+        "accuracy": 0.24583333333333332
+      },
+      "Temporal-SimHash-ExIt": {
+        "accuracy": 0.24066666666666667
+      }
+    },
+    "Cycle-4": {
+      "Memoryless": {
+        "accuracy": 0.25133333333333335
+      },
+      "Temporal-SimHash": {
+        "accuracy": 0.2495
+      },
+      "MultiShift-Temporal": {
+        "accuracy": 0.2475
+      },
+      "Temporal-SimHash-ExIt": {
+        "accuracy": 0.24966666666666668
+      }
+    },
+    "Opposite-last": {
+      "Memoryless": {
+        "accuracy": 0.2385
+      },
+      "Temporal-SimHash": {
+        "accuracy": 0.24116666666666667
+      },
+      "MultiShift-Temporal": {
+        "accuracy": 0.24216666666666667
+      },
+      "Temporal-SimHash-ExIt": {
+        "accuracy": 0.24116666666666667
+      }
+    }
+  }
+}

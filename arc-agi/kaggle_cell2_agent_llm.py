@@ -1,10 +1,11 @@
 %%writefile /kaggle/working/my_agent.py
 # ==============================================================
-# SNN-Synthesis v9 Agent for ARC-AGI-3
-# LLM-ExIt: Phi-3-mini + Noisy Beam Search + Curiosity Fallback
+# SNN-Synthesis v12 Agent for ARC-AGI-3
+# LLM-ExIt + Test-Time SNN-ExIt + RND Curiosity
+# 4-tier: LLM -> Learned CNN -> RND Curiosity -> Random
 #
-# Paper: https://doi.org/10.5281/zenodo.19481773
-# GitHub: https://github.com/hifunsk/snn-synthesis
+# Paper: https://doi.org/10.5281/zenodo.19343952
+# GitHub: https://github.com/hafufu-stack/SNN-Synthesis
 # Author: Hiroto Funasaki
 # ==============================================================
 import hashlib
@@ -40,10 +41,124 @@ SIGMA_SCHEDULE = [
     1.00,  # attempt 10: maximum chaos
 ]
 
+# Test-Time ExIt config
+MIN_MIRACLES_TO_TRAIN = 3    # minimum miracles before training CNN
+CNN_HIDDEN = 64              # hidden layer size
+CNN_TRAIN_EPOCHS = 30        # quick training epochs
+CNN_USE_THRESHOLD = 5        # use CNN after this many miracles
+
+
 # Map sigma to LLM temperature (higher sigma = higher temperature)
 def sigma_to_temperature(sigma):
     """Convert NBS sigma to LLM temperature for inference."""
     return max(0.1, min(2.0, 0.3 + sigma * 2.0))
+
+
+# ==============================================================
+# Tiny MLP for Test-Time Learning (numpy only, no PyTorch)
+# ==============================================================
+class TinyMLPNumpy:
+    """Minimal MLP using only numpy. Learns from miracle trajectories at runtime."""
+    def __init__(self, input_dim, hidden=64, n_actions=7):
+        self.input_dim = input_dim
+        self.hidden = hidden
+        self.n_actions = n_actions
+        scale1 = np.sqrt(2.0 / input_dim)
+        scale2 = np.sqrt(2.0 / hidden)
+        self.w1 = np.random.randn(input_dim, hidden).astype(np.float32) * scale1
+        self.b1 = np.zeros(hidden, dtype=np.float32)
+        self.w2 = np.random.randn(hidden, hidden).astype(np.float32) * scale2
+        self.b2 = np.zeros(hidden, dtype=np.float32)
+        self.w3 = np.random.randn(hidden, n_actions).astype(np.float32) * scale2
+        self.b3 = np.zeros(n_actions, dtype=np.float32)
+
+    def forward(self, x, noise_sigma=0.0):
+        h = x @ self.w1 + self.b1
+        h = np.maximum(h, 0)
+        if noise_sigma > 0:
+            h = h + np.random.randn(*h.shape).astype(np.float32) * noise_sigma
+        h = h @ self.w2 + self.b2
+        h = np.maximum(h, 0)
+        return h @ self.w3 + self.b3
+
+    def train_on_data(self, X, y, epochs=30, lr=0.01):
+        n = len(X)
+        for epoch in range(epochs):
+            perm = np.random.permutation(n)
+            batch = perm[:min(128, n)]
+            Xb, yb = X[batch], y[batch]
+            h1 = Xb @ self.w1 + self.b1
+            a1 = np.maximum(h1, 0)
+            h2 = a1 @ self.w2 + self.b2
+            a2 = np.maximum(h2, 0)
+            logits = a2 @ self.w3 + self.b3
+            exp_l = np.exp(logits - logits.max(axis=1, keepdims=True))
+            probs = exp_l / exp_l.sum(axis=1, keepdims=True)
+            bs = len(Xb)
+            dl = probs.copy()
+            dl[np.arange(bs), yb] -= 1
+            dl /= bs
+            dw3 = a2.T @ dl; db3 = dl.sum(0)
+            da2 = (dl @ self.w3.T) * (h2 > 0)
+            dw2 = a1.T @ da2; db2 = da2.sum(0)
+            da1 = (da2 @ self.w2.T) * (h1 > 0)
+            dw1 = Xb.T @ da1; db1 = da1.sum(0)
+            self.w3 -= lr*dw3; self.b3 -= lr*db3
+            self.w2 -= lr*dw2; self.b2 -= lr*db2
+            self.w1 -= lr*dw1; self.b1 -= lr*db1
+
+
+# ==============================================================
+# RND Curiosity Module (Phase 39: +61pp on hard games)
+# ==============================================================
+class RNDCuriosity:
+    """Random Network Distillation for curiosity-driven exploration.
+    States with high prediction error = novel = should be explored.
+    Phase 39 showed: Random 2.5% -> RND 63.5% at difficulty 6.
+    """
+    def __init__(self, state_dim, hidden=32):
+        self.state_dim = state_dim
+        # Fixed random target network (never updated)
+        self.target_w1 = np.random.randn(state_dim, hidden).astype(np.float32) * 0.1
+        self.target_b1 = np.zeros(hidden, dtype=np.float32)
+        self.target_w2 = np.random.randn(hidden, hidden // 2).astype(np.float32) * 0.1
+        self.target_b2 = np.zeros(hidden // 2, dtype=np.float32)
+
+        # Learnable predictor (trained to match target -> error drops for seen states)
+        scale = np.sqrt(2.0 / state_dim)
+        self.pred_w1 = np.random.randn(state_dim, hidden).astype(np.float32) * scale
+        self.pred_b1 = np.zeros(hidden, dtype=np.float32)
+        self.pred_w2 = np.random.randn(hidden, hidden // 2).astype(np.float32) * scale
+        self.pred_b2 = np.zeros(hidden // 2, dtype=np.float32)
+
+    def curiosity_score(self, state):
+        """Higher = more novel state. Used to bonus unexplored actions."""
+        x = np.array(state, dtype=np.float32).reshape(1, -1)
+        if x.shape[1] > self.state_dim:
+            x = x[:, :self.state_dim]
+        elif x.shape[1] < self.state_dim:
+            x = np.pad(x, ((0, 0), (0, self.state_dim - x.shape[1])))
+        target = np.maximum(x @ self.target_w1 + self.target_b1, 0) @ self.target_w2 + self.target_b2
+        pred = np.maximum(x @ self.pred_w1 + self.pred_b1, 0) @ self.pred_w2 + self.pred_b2
+        return float(np.mean((target - pred) ** 2))
+
+    def update(self, state, lr=0.01):
+        """Train predictor to reduce error for this state (marks it as 'seen')."""
+        x = np.array(state, dtype=np.float32).reshape(1, -1)
+        if x.shape[1] > self.state_dim:
+            x = x[:, :self.state_dim]
+        elif x.shape[1] < self.state_dim:
+            x = np.pad(x, ((0, 0), (0, self.state_dim - x.shape[1])))
+        target = np.maximum(x @ self.target_w1 + self.target_b1, 0) @ self.target_w2 + self.target_b2
+        h1 = x @ self.pred_w1 + self.pred_b1
+        a1 = np.maximum(h1, 0)
+        pred = a1 @ self.pred_w2 + self.pred_b2
+        d_pred = 2.0 * (pred - target) / pred.shape[1]
+        dw2 = a1.T @ d_pred; db2 = d_pred.sum(0)
+        da1 = (d_pred @ self.pred_w2.T) * (h1 > 0)
+        dw1 = x.T @ da1; db1 = da1.sum(0)
+        self.pred_w2 -= lr * dw2; self.pred_b2 -= lr * db2
+        self.pred_w1 -= lr * dw1; self.pred_b1 -= lr * db1
 
 
 # ==============================================================
@@ -248,15 +363,22 @@ Action:"""
 
 
 # ==============================================================
-# SNN-Synthesis v9 Agent: LLM-ExIt
+# SNN-Synthesis v12 Agent: LLM + Test-Time ExIt + RND Curiosity
 # ==============================================================
 class StochasticGoose(Agent):
     """
-    SNN-Synthesis v9: LLM-ExIt Agent.
+    SNN-Synthesis v12: LLM-ExIt + Test-Time SNN-ExIt + RND Curiosity.
 
-    Uses Phi-3-mini (GGUF) for intelligent action selection,
-    with curiosity-based fallback when LLM is unavailable.
-    Implements sequential Noisy Beam Search via temperature scheduling.
+    4-tier action selection:
+    1. LLM (Phi-3-mini) for intelligent reasoning (if available)
+    2. Test-Time CNN learned from miracles (if trained)
+    3. RND Curiosity-guided exploration (Phase 39: +61pp)
+    4. Random fallback
+
+    Key innovations:
+    - CNN learns *during gameplay* from miracles (no pre-training)
+    - RND novelty scoring replaces simple visit-counting
+    - sigma-diverse NBS for maximum exploration diversity
     """
     MAX_ACTIONS = 80
 
@@ -266,27 +388,37 @@ class StochasticGoose(Agent):
         # RNG
         seed = int(time.time() * 1000000) + hash(self.game_id) % 1000000
         random.seed(seed)
+        np.random.seed(seed % (2**32))
 
-        # Initialize LLM
+        # Initialize LLM (gracefully handles missing llama_cpp)
         self.llm = LLMEngine(MODEL_PATH)
 
         # State tracking
         self.sa_visits = {}
         self.action_history = []
         self.current_episode_actions = []
+        self.current_episode_states = []
         self.prev_levels = 0
         self.attempt_count = 0
         self.prev_grids = None
 
-        # Miracle memory
+        # Miracle memory (for Test-Time ExIt)
         self.miracle_actions = []
-        self.miracle_prompts = []  # for future QLoRA
+        self.miracle_trajectories = []
+        self.miracle_prompts = []
+
+        # Test-Time CNN
+        self.cnn_model = None
+        self.state_dim = None
+
+        # RND Curiosity (Phase 39)
+        self.rnd = RNDCuriosity(state_dim=200, hidden=32)
 
         # NBS temperature
         self.curiosity_bonus = 2.0
 
         logger.info(
-            f"SNN-Synthesis v9 initialized for {self.game_id} "
+            f"SNN-Synthesis v12 initialized for {self.game_id} "
             f"(LLM available: {self.llm.available})"
         )
 
@@ -297,16 +429,24 @@ class StochasticGoose(Agent):
     def choose_action(
         self, frames: list[FrameData], latest_frame: FrameData
     ) -> GameAction:
-        """LLM-ExIt action selection with curiosity fallback."""
+        """3-tier action selection: LLM -> CNN -> Curiosity."""
 
         # --- RESET when needed ---
         if latest_frame.state in [GameState.NOT_PLAYED, GameState.GAME_OVER]:
             self.current_episode_actions = []
+            self.current_episode_states = []
             self.prev_grids = None
             self.attempt_count += 1
+
+            # Retrain CNN periodically
+            if (len(self.miracle_trajectories) >= MIN_MIRACLES_TO_TRAIN and
+                self.attempt_count % 5 == 0):
+                self._train_cnn()
+
             logger.info(
                 f"Game {self.game_id}: RESET (attempt #{self.attempt_count}, "
-                f"miracles={len(self.miracle_actions)})"
+                f"miracles={len(self.miracle_trajectories)}, "
+                f"cnn={'yes' if self.cnn_model else 'no'})"
             )
             return GameAction.RESET
 
@@ -314,20 +454,44 @@ class StochasticGoose(Agent):
         current_levels = latest_frame.levels_completed or 0
         if current_levels > self.prev_levels:
             self.miracle_actions.extend(self.current_episode_actions)
+            self.miracle_trajectories.append({
+                'states': list(self.current_episode_states),
+                'actions': list(self.current_episode_actions),
+            })
             logger.info(
-                f"MIRACLE! Level {current_levels}! "
-                f"Saved {len(self.current_episode_actions)} actions."
+                f"MIRACLE #{len(self.miracle_trajectories)}! Level {current_levels}! "
+                f"Trajectory: {len(self.current_episode_actions)} actions."
             )
             self.current_episode_actions = []
+            self.current_episode_states = []
             self.prev_levels = current_levels
 
-        # --- Choose action ---
+            # Train CNN on first batch of miracles
+            if len(self.miracle_trajectories) == MIN_MIRACLES_TO_TRAIN:
+                self._train_cnn()
+                logger.info("Test-Time CNN trained on first miracles!")
+
+        # --- Extract state features for CNN ---
+        state_features = self._extract_features(latest_frame)
+        self.current_episode_states.append(state_features)
+
+        # --- 4-tier action selection ---
         if self.llm.available and latest_frame.frame:
+            # Tier 1: LLM reasoning
             action = self._llm_action(latest_frame)
+        elif (self.cnn_model is not None and
+              len(self.miracle_trajectories) >= CNN_USE_THRESHOLD):
+            # Tier 2: Learned CNN policy
+            action = self._cnn_action(state_features)
         elif self.miracle_actions and random.random() < 0.3:
+            # Exploit miracle memory
             action = self._exploit_miracle()
         else:
-            action = self._curiosity_action(latest_frame)
+            # Tier 3: RND Curiosity-guided exploration
+            action = self._curiosity_action(latest_frame, state_features)
+
+        # Update RND predictor (mark this state as 'seen')
+        self.rnd.update(state_features, lr=0.005)
 
         # Record
         self.current_episode_actions.append(action.name)
@@ -399,8 +563,10 @@ class StochasticGoose(Agent):
         # Fallback
         return self._curiosity_action(frame)
 
-    def _curiosity_action(self, frame: FrameData) -> GameAction:
-        """Curiosity-guided random action with sigma-diverse noise."""
+    def _curiosity_action(self, frame: FrameData, state_features: list = None) -> GameAction:
+        """RND Curiosity-guided action with sigma-diverse noise.
+        Uses RND prediction error as novelty bonus (Phase 39: +61pp improvement).
+        """
         state_hash = self._grid_hash(frame)
         candidates = [a for a in GameAction if a is not GameAction.RESET]
 
@@ -408,13 +574,21 @@ class StochasticGoose(Agent):
         sigma_idx = (self.attempt_count - 1) % len(SIGMA_SCHEDULE)
         sigma = SIGMA_SCHEDULE[sigma_idx] if self.attempt_count > 0 else 0.15
 
+        # RND curiosity score for current state
+        rnd_bonus = 0.0
+        if state_features:
+            rnd_bonus = self.rnd.curiosity_score(state_features)
+
         scores = []
         for action in candidates:
             sa_key = f"{state_hash}_{action.name}"
             visits = self.sa_visits.get(sa_key, 0)
-            novelty = 1.0 / (visits + 1)
-            noise = random.gauss(0, max(0.05, sigma))  # sigma-diverse noise
-            scores.append(novelty + noise)
+            # Combine visit-count novelty with RND curiosity
+            visit_novelty = 1.0 / (visits + 1)
+            # RND bonus decays with visits (novel states get more exploration)
+            combined_novelty = visit_novelty * (1.0 + rnd_bonus * 3.0)
+            noise = random.gauss(0, max(0.05, sigma))
+            scores.append(combined_novelty + noise)
 
         max_score = max(scores)
         weights = [2.718 ** ((s - max_score) / 0.3) for s in scores]
@@ -449,17 +623,73 @@ class StochasticGoose(Agent):
         self._configure_action(action, None)
         return action
 
+    def _extract_features(self, frame: FrameData) -> list:
+        """Extract numeric features from frame for CNN input."""
+        features = []
+        if frame.frame:
+            try:
+                arr = np.array(frame.frame[0], dtype=np.float32)
+                features.extend(arr.flatten()[:200].tolist())
+            except Exception:
+                pass
+        while len(features) < 200:
+            features.append(0.0)
+        return features[:200]
+
+    def _train_cnn(self):
+        """Train/retrain CNN on accumulated miracle data."""
+        all_states, all_actions = [], []
+        action_names = [a.name for a in GameAction if a is not GameAction.RESET]
+
+        for m in self.miracle_trajectories:
+            for s, a_name in zip(m['states'], m['actions']):
+                if a_name in action_names:
+                    all_states.append(s)
+                    all_actions.append(action_names.index(a_name))
+
+        if len(all_states) < 10:
+            return
+
+        X = np.array(all_states, dtype=np.float32)
+        y = np.array(all_actions, dtype=np.int64)
+        self.state_dim = X.shape[1]
+        n_actions = len(action_names)
+
+        self.cnn_model = TinyMLPNumpy(self.state_dim, CNN_HIDDEN, n_actions)
+        self.cnn_model.train_on_data(X, y, epochs=CNN_TRAIN_EPOCHS, lr=0.01)
+
+        logits = self.cnn_model.forward(X)
+        acc = (logits.argmax(axis=1) == y).mean()
+        logger.info(f"CNN retrained: {len(all_states)} samples, acc={acc:.3f}")
+
+    def _cnn_action(self, state_features: list) -> GameAction:
+        """Use learned CNN with sigma-diverse noise."""
+        candidates = [a for a in GameAction if a is not GameAction.RESET]
+        sigma_idx = (self.attempt_count - 1) % len(SIGMA_SCHEDULE)
+        sigma = SIGMA_SCHEDULE[sigma_idx]
+
+        x = np.array(state_features[:self.state_dim], dtype=np.float32).reshape(1, -1)
+        logits = self.cnn_model.forward(x, noise_sigma=sigma)
+        logits = logits[0, :len(candidates)]
+        exp_l = np.exp(logits - logits.max())
+        probs = exp_l / exp_l.sum()
+
+        action_idx = np.random.choice(len(candidates), p=probs)
+        action = candidates[action_idx]
+        self._configure_action(action, self.frames[-1] if self.frames else None)
+        return action
+
     def _configure_action(self, action: GameAction,
                           frame: Optional[FrameData]) -> None:
         """Configure action with reasoning and coordinates."""
         if action.is_simple():
-            action.reasoning = f"SNN-v9: curiosity, attempt={self.attempt_count}"
+            action.reasoning = f"SNN-v12: attempt={self.attempt_count}, miracles={len(self.miracle_trajectories)}"
         elif action.is_complex():
             x, y = self._smart_coords(frame) if frame else (random.randint(0, 63), random.randint(0, 63))
             action.set_data({"x": x, "y": y})
             action.reasoning = {
                 "desired_action": f"{action.value}",
-                "my_reason": f"SNN-v9: target ({x},{y})",
+                "my_reason": f"SNN-v12: ({x},{y}), cnn={'yes' if self.cnn_model else 'no'}",
             }
 
     def _smart_coords(self, frame: FrameData):

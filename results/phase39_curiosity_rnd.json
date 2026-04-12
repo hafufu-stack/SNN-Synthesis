@@ -1,0 +1,51 @@
+{
+  "experiment": "Phase 39: Curiosity-Driven NBS with RND",
+  "timestamp": "2026-04-11T08:41:01.926486",
+  "results": {
+    "difficulty_2": {
+      "difficulty": 2,
+      "n_episodes": 200,
+      "random_solves": 200,
+      "random_rate": 1.0,
+      "rnd_solves": 200,
+      "rnd_rate": 1.0,
+      "improvement": 0.0
+    },
+    "difficulty_3": {
+      "difficulty": 3,
+      "n_episodes": 200,
+      "random_solves": 149,
+      "random_rate": 0.745,
+      "rnd_solves": 200,
+      "rnd_rate": 1.0,
+      "improvement": 0.255
+    },
+    "difficulty_4": {
+      "difficulty": 4,
+      "n_episodes": 200,
+      "random_solves": 72,
+      "random_rate": 0.36,
+      "rnd_solves": 192,
+      "rnd_rate": 0.96,
+      "improvement": 0.6
+    },
+    "difficulty_5": {
+      "difficulty": 5,
+      "n_episodes": 200,
+      "random_solves": 22,
+      "random_rate": 0.11,
+      "rnd_solves": 170,
+      "rnd_rate": 0.85,
+      "improvement": 0.74
+    },
+    "difficulty_6": {
+      "difficulty": 6,
+      "n_episodes": 200,
+      "random_solves": 5,
+      "random_rate": 0.025,
+      "rnd_solves": 127,
+      "rnd_rate": 0.635,
+      "improvement": 0.61
+    }
+  }
+}

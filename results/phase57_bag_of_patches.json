@@ -1,0 +1,284 @@
+{
+  "experiment": "Phase 57: Bag-of-Patches Curiosity",
+  "timestamp": "2026-04-12T02:02:08.608306",
+  "results": {
+    "budget_1000": {
+      "Random": {
+        "agent": "Random",
+        "total_solved": 58,
+        "solve_rate": 0.29,
+        "avg_levels": 3.425,
+        "wall_time_sec": 0.8374752998352051
+      },
+      "SimHash (Full)": {
+        "agent": "SimHash (Full)",
+        "total_solved": 81,
+        "solve_rate": 0.405,
+        "avg_levels": 3.75,
+        "wall_time_sec": 1.7053782939910889
+      },
+      "Bag-of-Patches": {
+        "agent": "Bag-of-Patches",
+        "total_solved": 71,
+        "solve_rate": 0.355,
+        "avg_levels": 3.57,
+        "wall_time_sec": 21.148308992385864
+      },
+      "BoP+XOR": {
+        "agent": "BoP+XOR",
+        "total_solved": 74,
+        "solve_rate": 0.37,
+        "avg_levels": 3.56,
+        "wall_time_sec": 29.259039878845215
+      },
+      "MultiScale-BoP": {
+        "agent": "MultiScale-BoP",
+        "total_solved": 71,
+        "solve_rate": 0.355,
+        "avg_levels": 3.57,
+        "wall_time_sec": 93.95339608192444
+      }
+    },
+    "budget_2000": {
+      "Random": {
+        "agent": "Random",
+        "total_solved": 161,
+        "solve_rate": 0.805,
+        "avg_levels": 4.685,
+        "wall_time_sec": 1.102898359298706
+      },
+      "SimHash (Full)": {
+        "agent": "SimHash (Full)",
+        "total_solved": 176,
+        "solve_rate": 0.88,
+        "avg_levels": 4.8,
+        "wall_time_sec": 2.104722499847412
+      },
+      "Bag-of-Patches": {
+        "agent": "Bag-of-Patches",
+        "total_solved": 174,
+        "solve_rate": 0.87,
+        "avg_levels": 4.745,
+        "wall_time_sec": 24.088162422180176
+      },
+      "BoP+XOR": {
+        "agent": "BoP+XOR",
+        "total_solved": 160,
+        "solve_rate": 0.8,
+        "avg_levels": 4.645,
+        "wall_time_sec": 42.821380853652954
+      },
+      "MultiScale-BoP": {
+        "agent": "MultiScale-BoP",
+        "total_solved": 174,
+        "solve_rate": 0.87,
+        "avg_levels": 4.745,
+        "wall_time_sec": 141.12710905075073
+      }
+    },
+    "budget_5000": {
+      "Random": {
+        "agent": "Random",
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 5.0,
+        "wall_time_sec": 3.1479082107543945
+      },
+      "SimHash (Full)": {
+        "agent": "SimHash (Full)",
+        "total_solved": 199,
+        "solve_rate": 0.995,
+        "avg_levels": 4.99,
+        "wall_time_sec": 6.326531410217285
+      },
+      "Bag-of-Patches": {
+        "agent": "Bag-of-Patches",
+        "total_solved": 197,
+        "solve_rate": 0.985,
+        "avg_levels": 4.975,
+        "wall_time_sec": 71.44429016113281
+      },
+      "BoP+XOR": {
+        "agent": "BoP+XOR",
+        "total_solved": 199,
+        "solve_rate": 0.995,
+        "avg_levels": 4.995,
+        "wall_time_sec": 58.89934325218201
+      },
+      "MultiScale-BoP": {
+        "agent": "MultiScale-BoP",
+        "total_solved": 197,
+        "solve_rate": 0.985,
+        "avg_levels": 4.975,
+        "wall_time_sec": 133.51857113838196
+      }
+    },
+    "budget_10000": {
+      "Random": {
+        "agent": "Random",
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 5.0,
+        "wall_time_sec": 2.547173500061035
+      },
+      "SimHash (Full)": {
+        "agent": "SimHash (Full)",
+        "total_solved": 198,
+        "solve_rate": 0.99,
+        "avg_levels": 4.98,
+        "wall_time_sec": 6.078692436218262
+      },
+      "Bag-of-Patches": {
+        "agent": "Bag-of-Patches",
+        "total_solved": 199,
+        "solve_rate": 0.995,
+        "avg_levels": 4.995,
+        "wall_time_sec": 56.158533334732056
+      },
+      "BoP+XOR": {
+        "agent": "BoP+XOR",
+        "total_solved": 199,
+        "solve_rate": 0.995,
+        "avg_levels": 4.995,
+        "wall_time_sec": 46.3973548412323
+      },
+      "MultiScale-BoP": {
+        "agent": "MultiScale-BoP",
+        "total_solved": 199,
+        "solve_rate": 0.995,
+        "avg_levels": 4.995,
+        "wall_time_sec": 86.7282772064209
+      }
+    },
+    "noise_robustness": {
+      "noise_0": {
+        "Random": {
+          "agent": "Random",
+          "total_solved": 198,
+          "solve_rate": 0.99,
+          "avg_levels": 4.985
+        },
+        "SimHash (Full)": {
+          "agent": "SimHash (Full)",
+          "total_solved": 199,
+          "solve_rate": 0.995,
+          "avg_levels": 4.995
+        },
+        "Bag-of-Patches": {
+          "agent": "Bag-of-Patches",
+          "total_solved": 199,
+          "solve_rate": 0.995,
+          "avg_levels": 4.995
+        },
+        "BoP+XOR": {
+          "agent": "BoP+XOR",
+          "total_solved": 199,
+          "solve_rate": 0.995,
+          "avg_levels": 4.995
+        },
+        "MultiScale-BoP": {
+          "agent": "MultiScale-BoP",
+          "total_solved": 199,
+          "solve_rate": 0.995,
+          "avg_levels": 4.995
+        }
+      },
+      "noise_3": {
+        "Random": {
+          "agent": "Random",
+          "total_solved": 200,
+          "solve_rate": 1.0,
+          "avg_levels": 5.0
+        },
+        "SimHash (Full)": {
+          "agent": "SimHash (Full)",
+          "total_solved": 199,
+          "solve_rate": 0.995,
+          "avg_levels": 4.99
+        },
+        "Bag-of-Patches": {
+          "agent": "Bag-of-Patches",
+          "total_solved": 197,
+          "solve_rate": 0.985,
+          "avg_levels": 4.975
+        },
+        "BoP+XOR": {
+          "agent": "BoP+XOR",
+          "total_solved": 199,
+          "solve_rate": 0.995,
+          "avg_levels": 4.995
+        },
+        "MultiScale-BoP": {
+          "agent": "MultiScale-BoP",
+          "total_solved": 197,
+          "solve_rate": 0.985,
+          "avg_levels": 4.975
+        }
+      },
+      "noise_5": {
+        "Random": {
+          "agent": "Random",
+          "total_solved": 199,
+          "solve_rate": 0.995,
+          "avg_levels": 4.995
+        },
+        "SimHash (Full)": {
+          "agent": "SimHash (Full)",
+          "total_solved": 199,
+          "solve_rate": 0.995,
+          "avg_levels": 4.995
+        },
+        "Bag-of-Patches": {
+          "agent": "Bag-of-Patches",
+          "total_solved": 199,
+          "solve_rate": 0.995,
+          "avg_levels": 4.995
+        },
+        "BoP+XOR": {
+          "agent": "BoP+XOR",
+          "total_solved": 198,
+          "solve_rate": 0.99,
+          "avg_levels": 4.99
+        },
+        "MultiScale-BoP": {
+          "agent": "MultiScale-BoP",
+          "total_solved": 199,
+          "solve_rate": 0.995,
+          "avg_levels": 4.995
+        }
+      },
+      "noise_8": {
+        "Random": {
+          "agent": "Random",
+          "total_solved": 199,
+          "solve_rate": 0.995,
+          "avg_levels": 4.995
+        },
+        "SimHash (Full)": {
+          "agent": "SimHash (Full)",
+          "total_solved": 200,
+          "solve_rate": 1.0,
+          "avg_levels": 5.0
+        },
+        "Bag-of-Patches": {
+          "agent": "Bag-of-Patches",
+          "total_solved": 198,
+          "solve_rate": 0.99,
+          "avg_levels": 4.99
+        },
+        "BoP+XOR": {
+          "agent": "BoP+XOR",
+          "total_solved": 198,
+          "solve_rate": 0.99,
+          "avg_levels": 4.99
+        },
+        "MultiScale-BoP": {
+          "agent": "MultiScale-BoP",
+          "total_solved": 198,
+          "solve_rate": 0.99,
+          "avg_levels": 4.99
+        }
+      }
+    }
+  }
+}

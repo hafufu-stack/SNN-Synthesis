@@ -1,0 +1,223 @@
+{
+  "experiment": "Phase 56: Asymptotic Scaling Law",
+  "timestamp": "2026-04-12T01:39:11.129801",
+  "budgets": [
+    5000,
+    10000,
+    100000,
+    1000000,
+    10000000
+  ],
+  "results": {
+    "budget_5000": {
+      "Random": {
+        "agent": "Random",
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 5.0,
+        "median_steps_to_solve": 1207.5,
+        "mean_steps_to_solve": 1349.11,
+        "max_budget": 5000,
+        "wall_time_sec": 1.2116703987121582
+      },
+      "XOR-Hash": {
+        "agent": "XOR-Hash",
+        "total_solved": 197,
+        "solve_rate": 0.985,
+        "avg_levels": 4.975,
+        "median_steps_to_solve": 1244.0,
+        "mean_steps_to_solve": 1361.248730964467,
+        "max_budget": 5000,
+        "wall_time_sec": 2.0143208503723145
+      },
+      "SimHash": {
+        "agent": "SimHash",
+        "total_solved": 199,
+        "solve_rate": 0.995,
+        "avg_levels": 4.99,
+        "median_steps_to_solve": 1127.0,
+        "mean_steps_to_solve": 1239.964824120603,
+        "max_budget": 5000,
+        "wall_time_sec": 2.490224838256836
+      },
+      "SimHash-\u03c3Div": {
+        "agent": "SimHash-\u03c3Div",
+        "total_solved": 199,
+        "solve_rate": 0.995,
+        "avg_levels": 4.995,
+        "median_steps_to_solve": 1186.0,
+        "mean_steps_to_solve": 1360.6130653266332,
+        "max_budget": 5000,
+        "wall_time_sec": 3.258317232131958
+      }
+    },
+    "budget_10000": {
+      "Random": {
+        "agent": "Random",
+        "total_solved": 200,
+        "solve_rate": 1.0,
+        "avg_levels": 5.0,
+        "median_steps_to_solve": 1207.5,
+        "mean_steps_to_solve": 1349.11,
+        "max_budget": 10000,
+        "wall_time_sec": 2.5886716842651367
+      },
+      "XOR-Hash": {
+        "agent": "XOR-Hash",
+        "total_solved": 198,
+        "solve_rate": 0.99,
+        "avg_levels": 4.98,
+        "median_steps_to_solve": 1200.5,
+        "mean_steps_to_solve": 1260.939393939394,
+        "max_budget": 10000,
+        "wall_time_sec": 2.2581000328063965
+      },
+      "SimHash": {
+        "agent": "SimHash",
+        "total_solved": 198,
+        "solve_rate": 0.99,
+        "avg_levels": 4.98,
+        "median_steps_to_solve": 1140.5,
+        "mean_steps_to_solve": 1296.3333333333333,
+        "max_budget": 10000,
+        "wall_time_sec": 2.7257649898529053
+      },
+      "SimHash-\u03c3Div": {
+        "agent": "SimHash-\u03c3Div",
+        "total_solved": 199,
+        "solve_rate": 0.995,
+        "avg_levels": 4.995,
+        "median_steps_to_solve": 1178.0,
+        "mean_steps_to_solve": 1367.5527638190954,
+        "max_budget": 10000,
+        "wall_time_sec": 2.836397171020508
+      }
+    },
+    "budget_100000": {
+      "Random": {
+        "agent": "Random",
+        "total_solved": 100,
+        "solve_rate": 1.0,
+        "avg_levels": 5.0,
+        "median_steps_to_solve": 1140.0,
+        "mean_steps_to_solve": 1311.07,
+        "max_budget": 100000,
+        "wall_time_sec": 0.6020960807800293
+      },
+      "XOR-Hash": {
+        "agent": "XOR-Hash",
+        "total_solved": 99,
+        "solve_rate": 0.99,
+        "avg_levels": 4.98,
+        "median_steps_to_solve": 1153.0,
+        "mean_steps_to_solve": 1251.4545454545455,
+        "max_budget": 100000,
+        "wall_time_sec": 1.4998700618743896
+      },
+      "SimHash": {
+        "agent": "SimHash",
+        "total_solved": 100,
+        "solve_rate": 1.0,
+        "avg_levels": 5.0,
+        "median_steps_to_solve": 1131.5,
+        "mean_steps_to_solve": 1274.05,
+        "max_budget": 100000,
+        "wall_time_sec": 1.217726707458496
+      },
+      "SimHash-\u03c3Div": {
+        "agent": "SimHash-\u03c3Div",
+        "total_solved": 100,
+        "solve_rate": 1.0,
+        "avg_levels": 5.0,
+        "median_steps_to_solve": 1197.5,
+        "mean_steps_to_solve": 1406.54,
+        "max_budget": 100000,
+        "wall_time_sec": 1.3738932609558105
+      }
+    },
+    "budget_1000000": {
+      "Random": {
+        "agent": "Random",
+        "total_solved": 50,
+        "solve_rate": 1.0,
+        "avg_levels": 5.0,
+        "median_steps_to_solve": 1169.5,
+        "mean_steps_to_solve": 1422.66,
+        "max_budget": 1000000,
+        "wall_time_sec": 0.3107869625091553
+      },
+      "XOR-Hash": {
+        "agent": "XOR-Hash",
+        "total_solved": 49,
+        "solve_rate": 0.98,
+        "avg_levels": 4.96,
+        "median_steps_to_solve": 1158.0,
+        "mean_steps_to_solve": 1275.1836734693877,
+        "max_budget": 1000000,
+        "wall_time_sec": 10.235875844955444
+      },
+      "SimHash": {
+        "agent": "SimHash",
+        "total_solved": 50,
+        "solve_rate": 1.0,
+        "avg_levels": 5.0,
+        "median_steps_to_solve": 1005.0,
+        "mean_steps_to_solve": 1257.16,
+        "max_budget": 1000000,
+        "wall_time_sec": 1.4016563892364502
+      },
+      "SimHash-\u03c3Div": {
+        "agent": "SimHash-\u03c3Div",
+        "total_solved": 50,
+        "solve_rate": 1.0,
+        "avg_levels": 5.0,
+        "median_steps_to_solve": 1218.0,
+        "mean_steps_to_solve": 1400.56,
+        "max_budget": 1000000,
+        "wall_time_sec": 1.4980189800262451
+      }
+    },
+    "budget_10000000": {
+      "Random": {
+        "agent": "Random",
+        "total_solved": 20,
+        "solve_rate": 1.0,
+        "avg_levels": 5.0,
+        "median_steps_to_solve": 1169.0,
+        "mean_steps_to_solve": 1367.75,
+        "max_budget": 10000000,
+        "wall_time_sec": 0.26055169105529785
+      },
+      "XOR-Hash": {
+        "agent": "XOR-Hash",
+        "total_solved": 20,
+        "solve_rate": 1.0,
+        "avg_levels": 5.0,
+        "median_steps_to_solve": 1207.0,
+        "mean_steps_to_solve": 1233.25,
+        "max_budget": 10000000,
+        "wall_time_sec": 0.3688042163848877
+      },
+      "SimHash": {
+        "agent": "SimHash",
+        "total_solved": 20,
+        "solve_rate": 1.0,
+        "avg_levels": 5.0,
+        "median_steps_to_solve": 909.5,
+        "mean_steps_to_solve": 968.2,
+        "max_budget": 10000000,
+        "wall_time_sec": 0.41753363609313965
+      },
+      "SimHash-\u03c3Div": {
+        "agent": "SimHash-\u03c3Div",
+        "total_solved": 20,
+        "solve_rate": 1.0,
+        "avg_levels": 5.0,
+        "median_steps_to_solve": 1319.5,
+        "mean_steps_to_solve": 1554.35,
+        "max_budget": 10000000,
+        "wall_time_sec": 0.6421940326690674
+      }
+    }
+  }
+}
