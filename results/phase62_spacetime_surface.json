@@ -1,0 +1,55 @@
+{
+  "experiment": "Phase 62: Space-Time Equivalence Surface",
+  "timestamp": "2026-04-13T21:45:01.175925",
+  "n_problems": 30,
+  "surface_data": {
+    "Mistral-7B": {
+      "params_B": 7.0,
+      "K_accuracy": {
+        "1": 0.43333333333333335,
+        "5": 0.7333333333333333,
+        "11": 0.8,
+        "21": 0.8333333333333334,
+        "51": 0.7666666666666667
+      }
+    }
+  },
+  "results": {
+    "Mistral-7B_K1": {
+      "accuracy": 0.43333333333333335,
+      "model": "Mistral-7B",
+      "params_B": 7.0,
+      "K": 1,
+      "time_sec": 145.87639117240906
+    },
+    "Mistral-7B_K5": {
+      "accuracy": 0.7333333333333333,
+      "model": "Mistral-7B",
+      "params_B": 7.0,
+      "K": 5,
+      "time_sec": 505.77199125289917
+    },
+    "Mistral-7B_K11": {
+      "accuracy": 0.8,
+      "model": "Mistral-7B",
+      "params_B": 7.0,
+      "K": 11,
+      "time_sec": 947.8532893657684
+    },
+    "Mistral-7B_K21": {
+      "accuracy": 0.8333333333333334,
+      "model": "Mistral-7B",
+      "params_B": 7.0,
+      "K": 21,
+      "time_sec": 1654.6519002914429
+    },
+    "Mistral-7B_K51": {
+      "accuracy": 0.7666666666666667,
+      "model": "Mistral-7B",
+      "params_B": 7.0,
+      "K": 51,
+      "time_sec": 6318.114968776703
+    },
+    "exchange_rates": []
+  }
+}

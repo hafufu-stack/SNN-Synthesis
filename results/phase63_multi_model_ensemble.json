@@ -1,0 +1,29 @@
+{
+  "experiment": "Phase 63: Multi-Model Beam Ensemble NBS",
+  "timestamp": "2026-04-13T23:38:14.710813",
+  "n_problems": 30,
+  "results": {
+    "mistral_x11": {
+      "accuracy": 0.7,
+      "config": "Mistral-7B x 11"
+    },
+    "qwen_x11": {
+      "accuracy": 0.8,
+      "config": "Qwen-1.5B x 11"
+    },
+    "mixed_mistral6_qwen5": {
+      "accuracy": 0.8666666666666667,
+      "config": "Mistral-7B x6 + Qwen-1.5B x5"
+    },
+    "triple_mix": {
+      "accuracy": 0.7,
+      "config": "Llama-1B x4 + Qwen-1.5B x4 + Llama-3B x3"
+    },
+    "diversity": {
+      "only_mistral": 2,
+      "only_qwen": 3,
+      "both": 21,
+      "neither": 4
+    }
+  }
+}

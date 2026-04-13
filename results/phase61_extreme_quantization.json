@@ -1,0 +1,127 @@
+{
+  "experiment": "Phase 61: Extreme SR-Quantization",
+  "timestamp": "2026-04-13T19:05:09.156760",
+  "n_problems": 50,
+  "results": {
+    "Mistral-7B_4bit_K1": {
+      "accuracy": 0.42,
+      "model": "Mistral-7B",
+      "quant": "4bit",
+      "K": 1
+    },
+    "Mistral-7B_4bit_K11": {
+      "accuracy": 0.8,
+      "model": "Mistral-7B",
+      "quant": "4bit",
+      "K": 11
+    },
+    "Qwen-1.5B_fp16_K1": {
+      "accuracy": 0.32,
+      "model": "Qwen-1.5B",
+      "quant": "fp16",
+      "K": 1,
+      "time_sec": 249.87439370155334,
+      "vs_7b": "-10.0pp",
+      "beats_7b": false
+    },
+    "Qwen-1.5B_fp16_K11": {
+      "accuracy": 0.66,
+      "model": "Qwen-1.5B",
+      "quant": "fp16",
+      "K": 11,
+      "time_sec": 1432.6080520153046,
+      "vs_7b": "+24.0pp",
+      "beats_7b": true
+    },
+    "Qwen-1.5B_fp16_K21": {
+      "accuracy": 0.76,
+      "model": "Qwen-1.5B",
+      "quant": "fp16",
+      "K": 21,
+      "time_sec": 1895.8684618473053,
+      "vs_7b": "+34.0pp",
+      "beats_7b": true
+    },
+    "Qwen-1.5B_fp16_K51": {
+      "accuracy": 0.84,
+      "model": "Qwen-1.5B",
+      "quant": "fp16",
+      "K": 51,
+      "time_sec": 2859.4908607006073,
+      "vs_7b": "+42.0pp",
+      "beats_7b": true
+    },
+    "Qwen-1.5B_8bit_K1": {
+      "accuracy": 0.2,
+      "model": "Qwen-1.5B",
+      "quant": "8bit",
+      "K": 1,
+      "time_sec": 849.1851160526276,
+      "vs_7b": "-22.0pp",
+      "beats_7b": false
+    },
+    "Qwen-1.5B_8bit_K11": {
+      "accuracy": 0.58,
+      "model": "Qwen-1.5B",
+      "quant": "8bit",
+      "K": 11,
+      "time_sec": 6302.811447381973,
+      "vs_7b": "+16.0pp",
+      "beats_7b": true
+    },
+    "Qwen-1.5B_8bit_K21": {
+      "accuracy": 0.82,
+      "model": "Qwen-1.5B",
+      "quant": "8bit",
+      "K": 21,
+      "time_sec": 9166.06145644188,
+      "vs_7b": "+40.0pp",
+      "beats_7b": true
+    },
+    "Qwen-1.5B_8bit_K51": {
+      "accuracy": 0.78,
+      "model": "Qwen-1.5B",
+      "quant": "8bit",
+      "K": 51,
+      "time_sec": 15501.111454963684,
+      "vs_7b": "+36.0pp",
+      "beats_7b": true
+    },
+    "Qwen-1.5B_4bit_K1": {
+      "accuracy": 0.58,
+      "model": "Qwen-1.5B",
+      "quant": "4bit",
+      "K": 1,
+      "time_sec": 80.77230167388916,
+      "vs_7b": "+16.0pp",
+      "beats_7b": true
+    },
+    "Qwen-1.5B_4bit_K11": {
+      "accuracy": 0.8,
+      "model": "Qwen-1.5B",
+      "quant": "4bit",
+      "K": 11,
+      "time_sec": 833.6338329315186,
+      "vs_7b": "+38.0pp",
+      "beats_7b": true
+    },
+    "Qwen-1.5B_4bit_K21": {
+      "accuracy": 0.8,
+      "model": "Qwen-1.5B",
+      "quant": "4bit",
+      "K": 21,
+      "time_sec": 2254.4377200603485,
+      "vs_7b": "+38.0pp",
+      "beats_7b": true
+    },
+    "Qwen-1.5B_4bit_K51": {
+      "accuracy": 0.84,
+      "model": "Qwen-1.5B",
+      "quant": "4bit",
+      "K": 51,
+      "time_sec": 4816.894003868103,
+      "vs_7b": "+42.0pp",
+      "beats_7b": true
+    }
+  }
+}
