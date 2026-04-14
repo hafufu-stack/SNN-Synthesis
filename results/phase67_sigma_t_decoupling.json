@@ -1,0 +1,30 @@
+{
+  "experiment": "Phase 67: \u03c3-T Decoupling",
+  "timestamp": "2026-04-14T02:25:37.498663",
+  "results": {
+    "greedy": {
+      "accuracy": 0.6333333333333333,
+      "label": "D: Greedy (no noise, K=1)",
+      "time_sec": 64.3585913181305,
+      "K": 1
+    },
+    "temp_only": {
+      "accuracy": 0.8666666666666667,
+      "label": "B: Temperature-diverse only (K=11)",
+      "time_sec": 473.45674204826355,
+      "K": 11
+    },
+    "hook_only": {
+      "accuracy": 0.9,
+      "label": "C: Hook \u03c3-diverse only (K=11)",
+      "time_sec": 201.29617619514465,
+      "K": 11
+    },
+    "both": {
+      "accuracy": 0.8333333333333334,
+      "label": "A: Both \u03c3+T coupled (K=11, current)",
+      "time_sec": 496.1083929538727,
+      "K": 11
+    }
+  }
+}

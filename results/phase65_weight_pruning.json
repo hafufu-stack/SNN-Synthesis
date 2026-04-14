@@ -1,0 +1,84 @@
+{
+  "experiment": "Phase 65: Weight Pruning + NBS Resurrection",
+  "timestamp": "2026-04-14T12:35:37.338101",
+  "results": {
+    "prune0_K1": {
+      "accuracy": 0.3333333333333333,
+      "prune_fraction": 0.0,
+      "actual_sparsity": 0,
+      "K": 1,
+      "time_sec": 147.2048316001892
+    },
+    "prune0_K11": {
+      "accuracy": 0.8333333333333334,
+      "prune_fraction": 0.0,
+      "actual_sparsity": 0,
+      "K": 11,
+      "time_sec": 572.7820074558258
+    },
+    "prune0_K21": {
+      "accuracy": 0.8666666666666667,
+      "prune_fraction": 0.0,
+      "actual_sparsity": 0,
+      "K": 21,
+      "time_sec": 755.1365308761597
+    },
+    "prune50_K1": {
+      "accuracy": 0.0,
+      "prune_fraction": 0.5,
+      "actual_sparsity": 0.5021353798429258,
+      "K": 1,
+      "time_sec": 206.03224277496338
+    },
+    "prune50_K11": {
+      "accuracy": 0.0,
+      "prune_fraction": 0.5,
+      "actual_sparsity": 0.5021353798429258,
+      "K": 11,
+      "time_sec": 2398.7257232666016
+    },
+    "prune50_K21": {
+      "accuracy": 0.03333333333333333,
+      "prune_fraction": 0.5,
+      "actual_sparsity": 0.5021353798429258,
+      "K": 21,
+      "time_sec": 4083.577162504196
+    },
+    "prune70_K1": {
+      "accuracy": 0.0,
+      "prune_fraction": 0.7,
+      "actual_sparsity": 0.7024746975291182,
+      "K": 1
+    },
+    "prune70_K11": {
+      "accuracy": 0.0,
+      "prune_fraction": 0.7,
+      "actual_sparsity": 0.7024746975291182,
+      "K": 11
+    },
+    "prune70_K21": {
+      "accuracy": 0.0,
+      "prune_fraction": 0.7,
+      "actual_sparsity": 0.7024746975291182,
+      "K": 21
+    },
+    "prune90_K1": {
+      "accuracy": 0.0,
+      "prune_fraction": 0.9,
+      "actual_sparsity": 0.901911707879611,
+      "K": 1
+    },
+    "prune90_K11": {
+      "accuracy": 0.0,
+      "prune_fraction": 0.9,
+      "actual_sparsity": 0.901911707879611,
+      "K": 11
+    },
+    "prune90_K21": {
+      "accuracy": 0.0,
+      "prune_fraction": 0.9,
+      "actual_sparsity": 0.901911707879611,
+      "K": 21
+    }
+  }
+}

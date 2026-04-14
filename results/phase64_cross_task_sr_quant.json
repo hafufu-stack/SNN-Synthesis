@@ -1,0 +1,90 @@
+{
+  "experiment": "Phase 64: Cross-Task SR-Quantization",
+  "timestamp": "2026-04-14T06:54:27.663057",
+  "results": {
+    "math_fp16_K1": {
+      "accuracy": 0.32,
+      "task": "math",
+      "quant": "fp16",
+      "K": 1,
+      "time": 182.32215285301208
+    },
+    "gsm8k_fp16_K1": {
+      "accuracy": 0.02,
+      "task": "gsm8k",
+      "quant": "fp16",
+      "K": 1,
+      "time": 314.612459897995
+    },
+    "factual_fp16_K1": {
+      "accuracy": 0.98,
+      "task": "factual",
+      "quant": "fp16",
+      "K": 1,
+      "time": 28.688089609146118
+    },
+    "math_fp16_K11": {
+      "accuracy": 0.76,
+      "task": "math",
+      "quant": "fp16",
+      "K": 11,
+      "time": 1048.1316902637482
+    },
+    "gsm8k_fp16_K11": {
+      "accuracy": 0.06,
+      "task": "gsm8k",
+      "quant": "fp16",
+      "K": 11,
+      "time": 3493.6374084949493
+    },
+    "factual_fp16_K11": {
+      "accuracy": 0.98,
+      "task": "factual",
+      "quant": "fp16",
+      "K": 11,
+      "time": 39.9120237827301
+    },
+    "math_4bit_K1": {
+      "accuracy": 0.58,
+      "task": "math",
+      "quant": "4bit",
+      "K": 1,
+      "time": 76.96032214164734
+    },
+    "gsm8k_4bit_K1": {
+      "accuracy": 0.02,
+      "task": "gsm8k",
+      "quant": "4bit",
+      "K": 1,
+      "time": 396.4934401512146
+    },
+    "factual_4bit_K1": {
+      "accuracy": 0.9,
+      "task": "factual",
+      "quant": "4bit",
+      "K": 1,
+      "time": 29.814200401306152
+    },
+    "math_4bit_K11": {
+      "accuracy": 0.84,
+      "task": "math",
+      "quant": "4bit",
+      "K": 11,
+      "time": 460.25400614738464
+    },
+    "gsm8k_4bit_K11": {
+      "accuracy": 0.06,
+      "task": "gsm8k",
+      "quant": "4bit",
+      "K": 11,
+      "time": 4316.504867553711
+    },
+    "factual_4bit_K11": {
+      "accuracy": 0.98,
+      "task": "factual",
+      "quant": "4bit",
+      "K": 11,
+      "time": 98.25471949577332
+    }
+  }
+}

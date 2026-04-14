@@ -1,0 +1,44 @@
+{
+  "experiment": "Phase 66: Heterogeneous Swarm Pareto",
+  "timestamp": "2026-04-14T03:34:54.110501",
+  "results": {
+    "mistral_x11": {
+      "accuracy": 0.7,
+      "config": "Mistral-7B x 11"
+    },
+    "qwen_x11": {
+      "accuracy": 0.9,
+      "config": "Qwen-1.5B x 11"
+    },
+    "mix_10m_1q": {
+      "accuracy": 0.8,
+      "config": "Mistral\u00d710 + Qwen\u00d71",
+      "n_mistral": 10,
+      "n_qwen": 1
+    },
+    "mix_8m_3q": {
+      "accuracy": 0.8666666666666667,
+      "config": "Mistral\u00d78 + Qwen\u00d73",
+      "n_mistral": 8,
+      "n_qwen": 3
+    },
+    "mix_6m_5q": {
+      "accuracy": 0.9,
+      "config": "Mistral\u00d76 + Qwen\u00d75",
+      "n_mistral": 6,
+      "n_qwen": 5
+    },
+    "mix_3m_8q": {
+      "accuracy": 0.9,
+      "config": "Mistral\u00d73 + Qwen\u00d78",
+      "n_mistral": 3,
+      "n_qwen": 8
+    },
+    "mix_1m_10q": {
+      "accuracy": 0.9,
+      "config": "Mistral\u00d71 + Qwen\u00d710",
+      "n_mistral": 1,
+      "n_qwen": 10
+    }
+  }
+}
