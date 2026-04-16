@@ -1,0 +1,21 @@
+{
+  "experiment": "Phase 70: Sequential Noise Coupling",
+  "timestamp": "2026-04-16T05:53:13.341380",
+  "results": {
+    "hook_only": {
+      "accuracy": 0.84,
+      "K": 11,
+      "time_sec": 903.8729000091553
+    },
+    "interleaved": {
+      "accuracy": 0.8,
+      "K": 12,
+      "time_sec": 1079.2475337982178
+    },
+    "sequential": {
+      "accuracy": 0.82,
+      "K": 11,
+      "time_sec": 754.8840656280518
+    }
+  }
+}

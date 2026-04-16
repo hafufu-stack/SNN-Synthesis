@@ -1,0 +1,24 @@
+{
+  "experiment": "Phase 78: Conv-Liquid-LIF",
+  "timestamp": "2026-04-16T09:32:14.292637",
+  "results": {
+    "ConvLIF": {
+      "test_acc": 0.755,
+      "sparsity": 0.9953440856933594,
+      "n_params": 32912,
+      "train_time": 20.10445547103882
+    },
+    "ConvGRU": {
+      "test_acc": 1.0,
+      "sparsity": 0.0,
+      "n_params": 34800,
+      "train_time": 16.639240741729736
+    },
+    "ConvLiquidLIF": {
+      "test_acc": 1.0,
+      "sparsity": 0.9998410034179687,
+      "n_params": 33576,
+      "train_time": 25.46275520324707
+    }
+  }
+}

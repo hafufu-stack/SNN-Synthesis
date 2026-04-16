@@ -1,0 +1,76 @@
+{
+  "experiment": "Phase 74: Micro-Liquid Limit",
+  "timestamp": "2026-04-16T05:54:52.553907",
+  "results": [
+    {
+      "hidden_dim": 128,
+      "n_params": 25226,
+      "test_acc": 0.9779,
+      "sparsity": 0.9640050132710075,
+      "latency_ms": 22.895182000002023,
+      "event_latency_ms": 22.863525000002483,
+      "event_avg_steps": 28.0,
+      "train_time_sec": 301.55260729789734
+    },
+    {
+      "hidden_dim": 64,
+      "n_params": 8522,
+      "test_acc": 0.9689,
+      "sparsity": 0.924367011347904,
+      "latency_ms": 22.86531400000058,
+      "event_latency_ms": 23.11179700000139,
+      "event_avg_steps": 28.0,
+      "train_time_sec": 299.99360847473145
+    },
+    {
+      "hidden_dim": 32,
+      "n_params": 3242,
+      "test_acc": 0.9545,
+      "sparsity": 0.9645089947940214,
+      "latency_ms": 22.493251999999302,
+      "event_latency_ms": 23.371490000004087,
+      "event_avg_steps": 28.0,
+      "train_time_sec": 301.4808497428894
+    },
+    {
+      "hidden_dim": 16,
+      "n_params": 1370,
+      "test_acc": 0.917,
+      "sparsity": 0.8341656041619575,
+      "latency_ms": 22.35278400000425,
+      "event_latency_ms": 22.781961000000592,
+      "event_avg_steps": 28.0,
+      "train_time_sec": 306.4865369796753
+    },
+    {
+      "hidden_dim": 8,
+      "n_params": 626,
+      "test_acc": 0.8329,
+      "sparsity": 0.969899182724909,
+      "latency_ms": 19.227129000000787,
+      "event_latency_ms": 19.155033000001822,
+      "event_avg_steps": 28.0,
+      "train_time_sec": 268.36198806762695
+    },
+    {
+      "hidden_dim": 4,
+      "n_params": 302,
+      "test_acc": 0.6419,
+      "sparsity": 0.9981766712816452,
+      "latency_ms": 18.592004000001907,
+      "event_latency_ms": 18.86420399999679,
+      "event_avg_steps": 28.0,
+      "train_time_sec": 266.40122509002686
+    },
+    {
+      "hidden_dim": 2,
+      "n_params": 152,
+      "test_acc": 0.3795,
+      "sparsity": 0.9094074932188064,
+      "latency_ms": 19.43899700000202,
+      "event_latency_ms": 19.49111499999617,
+      "event_avg_steps": 28.0,
+      "train_time_sec": 263.9219536781311
+    }
+  ]
+}

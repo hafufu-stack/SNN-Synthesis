@@ -1,0 +1,30 @@
+{
+  "experiment": "Phase 68: API-Only NBS",
+  "timestamp": "2026-04-16T09:01:12.683705",
+  "results": {
+    "Qwen-1.5B (4-bit)": {
+      "math": {
+        "greedy": 0.63,
+        "temp_diverse": 0.82,
+        "delta_pp": 18.999999999999993
+      },
+      "hanoi": {
+        "greedy": 0.32,
+        "temp_diverse": 0.8,
+        "delta_pp": 48.00000000000001
+      }
+    },
+    "Mistral-7B (4-bit)": {
+      "math": {
+        "greedy": 0.44,
+        "temp_diverse": 0.92,
+        "delta_pp": 48.00000000000001
+      },
+      "hanoi": {
+        "greedy": 0.0,
+        "temp_diverse": 0.56,
+        "delta_pp": 56.00000000000001
+      }
+    }
+  }
+}

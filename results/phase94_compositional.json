@@ -1,0 +1,62 @@
+{
+  "experiment": "Phase 94: Compositional Routing",
+  "timestamp": "2026-04-17T00:39:21.785629",
+  "results": {
+    "color_invert+gravity": {
+      "true_a": "color_invert",
+      "true_b": "gravity",
+      "single_best": "color_invert",
+      "single_px": 0.95703125,
+      "single_ex": 0.05999999865889549,
+      "chain_best": [
+        "color_invert",
+        "gravity"
+      ],
+      "chain_px": 0.9979687333106995,
+      "chain_ex": 0.8799999952316284,
+      "route_correct": true
+    },
+    "color_invert+move_right": {
+      "true_a": "color_invert",
+      "true_b": "move_right",
+      "single_best": "move_right",
+      "single_px": 0.9704687595367432,
+      "single_ex": 0.05999999865889549,
+      "chain_best": [
+        "move_right",
+        "color_invert"
+      ],
+      "chain_px": 0.9956250190734863,
+      "chain_ex": 0.7400000095367432,
+      "route_correct": false
+    },
+    "move_right+color_invert": {
+      "true_a": "move_right",
+      "true_b": "color_invert",
+      "single_best": "move_right",
+      "single_px": 0.9704687595367432,
+      "single_ex": 0.05999999865889549,
+      "chain_best": [
+        "move_right",
+        "color_invert"
+      ],
+      "chain_px": 0.9956250190734863,
+      "chain_ex": 0.7400000095367432,
+      "route_correct": true
+    },
+    "gravity+color_invert": {
+      "true_a": "gravity",
+      "true_b": "color_invert",
+      "single_best": "gravity",
+      "single_px": 0.9701562523841858,
+      "single_ex": 0.029999999329447746,
+      "chain_best": [
+        "gravity",
+        "color_invert"
+      ],
+      "chain_px": 0.9978125095367432,
+      "chain_ex": 0.8700000047683716,
+      "route_correct": true
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "experiment": "Phase 93: Massive L-MoE",
+  "timestamp": "2026-04-17T00:36:48.309349",
+  "results": {
+    "specialist_acc": {
+      "gravity": 1.0,
+      "expand": 0.9973437786102295,
+      "color_invert": 1.0,
+      "move_right": 0.9942187666893005,
+      "fill_border": 1.0,
+      "move_up": 0.9945312738418579,
+      "move_left": 0.9942187666893005,
+      "move_down": 0.995312511920929,
+      "flip_h": 0.9707812666893005,
+      "flip_v": 0.9659374952316284,
+      "color_replace": 0.9998437762260437,
+      "denoise": 0.9904687404632568,
+      "outline": 1.0,
+      "checkerboard": 0.9876562356948853,
+      "diagonal": 0.9900000095367432,
+      "color_sort": 0.9951562285423279,
+      "mirror_diag": 0.9664062261581421,
+      "shrink": 1.0,
+      "flood": 1.0
+    },
+    "levels": [
+      {
+        "level": 0,
+        "task": "gravity",
+        "grid_size": 8,
+        "routed_to": "gravity",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 545.7319999986794
+      },
+      {
+        "level": 1,
+        "task": "expand",
+        "grid_size": 10,
+        "routed_to": "expand",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 507.06150000041816
+      },
+      {
+        "level": 2,
+        "task": "color_invert",
+        "grid_size": 12,
+        "routed_to": "color_invert",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 604.0057000063825
+      },
+      {
+        "level": 3,
+        "task": "move_right",
+        "grid_size": 8,
+        "routed_to": "move_right",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 446.56070000201
+      },
+      {
+        "level": 4,
+        "task": "fill_border",
+        "grid_size": 10,
+        "routed_to": "fill_border",
+        "route_correct": true,
+        "pixel": 0.9900000095367432,
+        "exact": 0.0,
+        "ms": 529.5918000047095
+      },
+      {
+        "level": 5,
+        "task": "move_up",
+        "grid_size": 12,
+        "routed_to": "move_up",
+        "route_correct": true,
+        "pixel": 0.9930555820465088,
+        "exact": 0.0,
+        "ms": 646.6844000096899
+      },
+      {
+        "level": 6,
+        "task": "move_left",
+        "grid_size": 8,
+        "routed_to": "move_left",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 517.5181999948109
+      },
+      {
+        "level": 7,
+        "task": "move_down",
+        "grid_size": 10,
+        "routed_to": "move_down",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 606.3945000059903
+      },
+      {
+        "level": 8,
+        "task": "flip_h",
+        "grid_size": 12,
+        "routed_to": "mirror_diag",
+        "route_correct": false,
+        "pixel": 0.8958333134651184,
+        "exact": 0.0,
+        "ms": 715.774500000407
+      },
+      {
+        "level": 9,
+        "task": "flip_v",
+        "grid_size": 8,
+        "routed_to": "flip_v",
+        "route_correct": true,
+        "pixel": 0.9375,
+        "exact": 0.0,
+        "ms": 640.5909000022803
+      },
+      {
+        "level": 10,
+        "task": "color_replace",
+        "grid_size": 10,
+        "routed_to": "color_replace",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 682.7411000122083
+      },
+      {
+        "level": 11,
+        "task": "denoise",
+        "grid_size": 12,
+        "routed_to": "denoise",
+        "route_correct": true,
+        "pixel": 0.9930555820465088,
+        "exact": 0.0,
+        "ms": 691.3520000089193
+      },
+      {
+        "level": 12,
+        "task": "outline",
+        "grid_size": 8,
+        "routed_to": "outline",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 514.7945999924559
+      },
+      {
+        "level": 13,
+        "task": "checkerboard",
+        "grid_size": 10,
+        "routed_to": "checkerboard",
+        "route_correct": true,
+        "pixel": 0.9900000095367432,
+        "exact": 0.0,
+        "ms": 562.4526000028709
+      },
+      {
+        "level": 14,
+        "task": "diagonal",
+        "grid_size": 12,
+        "routed_to": "diagonal",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 572.9523000045447
+      },
+      {
+        "level": 15,
+        "task": "color_sort",
+        "grid_size": 8,
+        "routed_to": "color_sort",
+        "route_correct": true,
+        "pixel": 0.96875,
+        "exact": 0.0,
+        "ms": 490.1108000049135
+      },
+      {
+        "level": 16,
+        "task": "mirror_diag",
+        "grid_size": 10,
+        "routed_to": "mirror_diag",
+        "route_correct": true,
+        "pixel": 0.949999988079071,
+        "exact": 0.0,
+        "ms": 476.0557000117842
+      },
+      {
+        "level": 17,
+        "task": "shrink",
+        "grid_size": 12,
+        "routed_to": "shrink",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 508.19720000436064
+      },
+      {
+        "level": 18,
+        "task": "flood",
+        "grid_size": 8,
+        "routed_to": "flood",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 436.3504000066314
+      }
+    ],
+    "summary": {
+      "solve_rate": 0.5789473684210527,
+      "route_accuracy": 0.9473684210526315,
+      "solved": 11,
+      "total": 19,
+      "avg_ms": 562.8905736881088
+    }
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "experiment": "Phase 88: Cellular Prompt Tuning",
+  "timestamp": "2026-04-16T20:07:58.501858",
+  "results": {
+    "gravity": [
+      {
+        "steps": 0,
+        "latency_ms": 0.0,
+        "pixel_acc": 0.989062488079071,
+        "exact_match": 0.5949999690055847
+      },
+      {
+        "steps": 5,
+        "latency_ms": 136.5296000003582,
+        "pixel_acc": 0.9873437285423279,
+        "exact_match": 0.4599999785423279
+      },
+      {
+        "steps": 10,
+        "latency_ms": 193.3151000048383,
+        "pixel_acc": 0.9721093773841858,
+        "exact_match": 0.16499999165534973
+      },
+      {
+        "steps": 15,
+        "latency_ms": 312.9599000021699,
+        "pixel_acc": 0.9352343678474426,
+        "exact_match": 0.014999999664723873
+      },
+      {
+        "steps": 20,
+        "latency_ms": 386.3714000035543,
+        "pixel_acc": 0.991015613079071,
+        "exact_match": 0.5550000071525574
+      },
+      {
+        "steps": 30,
+        "latency_ms": 579.9603000050411,
+        "pixel_acc": 0.9921875,
+        "exact_match": 0.6299999952316284
+      },
+      {
+        "steps": 50,
+        "latency_ms": 1059.0990999990026,
+        "pixel_acc": 0.9846093654632568,
+        "exact_match": 0.3999999761581421
+      }
+    ],
+    "move_right": [
+      {
+        "steps": 0,
+        "latency_ms": 0.0,
+        "pixel_acc": 0.91859370470047,
+        "exact_match": 0.0
+      },
+      {
+        "steps": 5,
+        "latency_ms": 79.79519999935292,
+        "pixel_acc": 0.9273437261581421,
+        "exact_match": 0.0
+      },
+      {
+        "steps": 10,
+        "latency_ms": 180.37290000211215,
+        "pixel_acc": 0.92054682970047,
+        "exact_match": 0.0
+      },
+      {
+        "steps": 15,
+        "latency_ms": 286.6805000012391,
+        "pixel_acc": 0.9311718344688416,
+        "exact_match": 0.0
+      },
+      {
+        "steps": 20,
+        "latency_ms": 395.6834999989951,
+        "pixel_acc": 0.8610937595367432,
+        "exact_match": 0.0
+      },
+      {
+        "steps": 30,
+        "latency_ms": 467.6852999982657,
+        "pixel_acc": 0.9425780773162842,
+        "exact_match": 0.0
+      },
+      {
+        "steps": 50,
+        "latency_ms": 878.5647999975481,
+        "pixel_acc": 0.9024218320846558,
+        "exact_match": 0.0
+      }
+    ],
+    "color_invert": [
+      {
+        "steps": 0,
+        "latency_ms": 0.0,
+        "pixel_acc": 0.9508593678474426,
+        "exact_match": 0.10999999940395355
+      },
+      {
+        "steps": 5,
+        "latency_ms": 71.3813000038499,
+        "pixel_acc": 0.7868750095367432,
+        "exact_match": 0.0
+      },
+      {
+        "steps": 10,
+        "latency_ms": 110.58329999650596,
+        "pixel_acc": 0.949999988079071,
+        "exact_match": 0.029999999329447746
+      },
+      {
+        "steps": 15,
+        "latency_ms": 160.6829000011203,
+        "pixel_acc": 0.9564062356948853,
+        "exact_match": 0.10999999940395355
+      },
+      {
+        "steps": 20,
+        "latency_ms": 209.6333000008599,
+        "pixel_acc": 0.96742182970047,
+        "exact_match": 0.17000000178813934
+      },
+      {
+        "steps": 30,
+        "latency_ms": 325.7646999991266,
+        "pixel_acc": 0.9849218726158142,
+        "exact_match": 0.35499998927116394
+      },
+      {
+        "steps": 50,
+        "latency_ms": 578.2583999971393,
+        "pixel_acc": 0.9803124666213989,
+        "exact_match": 0.3100000023841858
+      }
+    ],
+    "stability": {
+      "full_weight_15": 0.9246875047683716,
+      "prompt_only_15": 0.994921863079071
+    }
+  }
+}

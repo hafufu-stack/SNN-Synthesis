@@ -1,0 +1,483 @@
+{
+  "experiment": "Phase 100: v20 Ultimate Liquid AGI",
+  "timestamp": "2026-04-17T01:46:22.114668",
+  "results": {
+    "levels": [
+      {
+        "level": 0,
+        "task": "gravity",
+        "grid_size": 8,
+        "routed_to": "gravity",
+        "route_correct": true,
+        "pixel": 0.984375,
+        "exact": 0.0,
+        "ms": 320.0887999992119,
+        "timeout": false
+      },
+      {
+        "level": 1,
+        "task": "expand",
+        "grid_size": 10,
+        "routed_to": "expand",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 336.98720000393223,
+        "timeout": false
+      },
+      {
+        "level": 2,
+        "task": "color_invert",
+        "grid_size": 12,
+        "routed_to": "color_invert",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 342.76719999616034,
+        "timeout": false
+      },
+      {
+        "level": 3,
+        "task": "move_right",
+        "grid_size": 8,
+        "routed_to": "move_right",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 353.1522999983281,
+        "timeout": false
+      },
+      {
+        "level": 4,
+        "task": "fill_border",
+        "grid_size": 10,
+        "routed_to": "fill_border",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 391.3657999946736,
+        "timeout": false
+      },
+      {
+        "level": 5,
+        "task": "gravity",
+        "grid_size": 12,
+        "routed_to": "gravity",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 344.9059000122361,
+        "timeout": false
+      },
+      {
+        "level": 6,
+        "task": "expand",
+        "grid_size": 8,
+        "routed_to": "expand",
+        "route_correct": true,
+        "pixel": 0.953125,
+        "exact": 0.0,
+        "ms": 386.6806000005454,
+        "timeout": false
+      },
+      {
+        "level": 7,
+        "task": "color_invert",
+        "grid_size": 10,
+        "routed_to": "color_invert",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 341.5445999999065,
+        "timeout": false
+      },
+      {
+        "level": 8,
+        "task": "move_right",
+        "grid_size": 12,
+        "routed_to": "move_right",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 328.44070000282954,
+        "timeout": false
+      },
+      {
+        "level": 9,
+        "task": "fill_border",
+        "grid_size": 8,
+        "routed_to": "fill_border",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 360.93919999257196,
+        "timeout": false
+      },
+      {
+        "level": 10,
+        "task": "gravity",
+        "grid_size": 10,
+        "routed_to": "gravity",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 322.87709999945946,
+        "timeout": false
+      },
+      {
+        "level": 11,
+        "task": "expand",
+        "grid_size": 12,
+        "routed_to": "expand",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 329.84929998929147,
+        "timeout": false
+      },
+      {
+        "level": 12,
+        "task": "color_invert",
+        "grid_size": 8,
+        "routed_to": "color_invert",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 334.1920999955619,
+        "timeout": false
+      },
+      {
+        "level": 13,
+        "task": "move_right",
+        "grid_size": 10,
+        "routed_to": "move_right",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 327.9210000036983,
+        "timeout": false
+      },
+      {
+        "level": 14,
+        "task": "fill_border",
+        "grid_size": 12,
+        "routed_to": "fill_border",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 380.56679999863263,
+        "timeout": false
+      },
+      {
+        "level": 15,
+        "task": "gravity",
+        "grid_size": 8,
+        "routed_to": "gravity",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 322.18360000115354,
+        "timeout": false
+      },
+      {
+        "level": 16,
+        "task": "expand",
+        "grid_size": 10,
+        "routed_to": "expand",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 331.2378999980865,
+        "timeout": false
+      },
+      {
+        "level": 17,
+        "task": "color_invert",
+        "grid_size": 12,
+        "routed_to": "color_invert",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 331.4040999975987,
+        "timeout": false
+      },
+      {
+        "level": 18,
+        "task": "move_right",
+        "grid_size": 8,
+        "routed_to": "move_right",
+        "route_correct": true,
+        "pixel": 0.984375,
+        "exact": 0.0,
+        "ms": 326.31319999927655,
+        "timeout": false
+      },
+      {
+        "level": 19,
+        "task": "fill_border",
+        "grid_size": 10,
+        "routed_to": "fill_border",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 361.54790000000503,
+        "timeout": false
+      },
+      {
+        "level": 20,
+        "task": "gravity",
+        "grid_size": 12,
+        "routed_to": "gravity",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 342.81439999176655,
+        "timeout": false
+      },
+      {
+        "level": 21,
+        "task": "expand",
+        "grid_size": 8,
+        "routed_to": "expand",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 320.4115999978967,
+        "timeout": false
+      },
+      {
+        "level": 22,
+        "task": "color_invert",
+        "grid_size": 10,
+        "routed_to": "color_invert",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 326.38120000774506,
+        "timeout": false
+      },
+      {
+        "level": 23,
+        "task": "move_right",
+        "grid_size": 12,
+        "routed_to": "move_right",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 333.4001999901375,
+        "timeout": false
+      },
+      {
+        "level": 24,
+        "task": "fill_border",
+        "grid_size": 8,
+        "routed_to": "fill_border",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 332.6887000002898,
+        "timeout": false
+      },
+      {
+        "level": 25,
+        "task": "gravity",
+        "grid_size": 10,
+        "routed_to": "gravity",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 322.67390000924934,
+        "timeout": false
+      },
+      {
+        "level": 26,
+        "task": "expand",
+        "grid_size": 12,
+        "routed_to": "expand",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 326.62449999770615,
+        "timeout": false
+      },
+      {
+        "level": 27,
+        "task": "color_invert",
+        "grid_size": 8,
+        "routed_to": "color_invert",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 330.44790000712965,
+        "timeout": false
+      },
+      {
+        "level": 28,
+        "task": "move_right",
+        "grid_size": 10,
+        "routed_to": "move_right",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 330.75650001410395,
+        "timeout": false
+      },
+      {
+        "level": 29,
+        "task": "fill_border",
+        "grid_size": 12,
+        "routed_to": "fill_border",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 366.55180000525434,
+        "timeout": false
+      },
+      {
+        "level": 30,
+        "task": "gravity",
+        "grid_size": 8,
+        "routed_to": "gravity",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 327.1895000070799,
+        "timeout": false
+      },
+      {
+        "level": 31,
+        "task": "expand",
+        "grid_size": 10,
+        "routed_to": "expand",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 333.1714999949327,
+        "timeout": false
+      },
+      {
+        "level": 32,
+        "task": "color_invert",
+        "grid_size": 12,
+        "routed_to": "color_invert",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 344.1639000084251,
+        "timeout": false
+      },
+      {
+        "level": 33,
+        "task": "move_right",
+        "grid_size": 8,
+        "routed_to": "move_right",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 320.6159999972442,
+        "timeout": false
+      },
+      {
+        "level": 34,
+        "task": "fill_border",
+        "grid_size": 10,
+        "routed_to": "fill_border",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 316.3319000013871,
+        "timeout": false
+      },
+      {
+        "level": 35,
+        "task": "gravity",
+        "grid_size": 12,
+        "routed_to": "gravity",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 341.7087999987416,
+        "timeout": false
+      },
+      {
+        "level": 36,
+        "task": "expand",
+        "grid_size": 8,
+        "routed_to": "expand",
+        "route_correct": true,
+        "pixel": 0.96875,
+        "exact": 0.0,
+        "ms": 320.64719998743385,
+        "timeout": false
+      },
+      {
+        "level": 37,
+        "task": "color_invert",
+        "grid_size": 10,
+        "routed_to": "color_invert",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 325.4579999920679,
+        "timeout": false
+      },
+      {
+        "level": 38,
+        "task": "move_right",
+        "grid_size": 12,
+        "routed_to": "move_right",
+        "route_correct": true,
+        "pixel": 1.0,
+        "exact": 1.0,
+        "ms": 337.1842999913497,
+        "timeout": false
+      },
+      {
+        "level": 39,
+        "task": "fill_border",
+        "grid_size": 8,
+        "routed_to": "fill_border",
+        "route_correct": true,
+        "pixel": 0.984375,
+        "exact": 0.0,
+        "ms": 357.15609999897424,
+        "timeout": false
+      }
+    ],
+    "summary": {
+      "solve_rate": 0.875,
+      "solved": 35,
+      "total": 40,
+      "route_accuracy": 1.0,
+      "avg_latency_ms": 338.2835799995519,
+      "timeout_rate": 0.0,
+      "per_task": {
+        "gravity": {
+          "solved": 7,
+          "total": 8,
+          "rate": 0.875
+        },
+        "expand": {
+          "solved": 6,
+          "total": 8,
+          "rate": 0.75
+        },
+        "color_invert": {
+          "solved": 8,
+          "total": 8,
+          "rate": 1.0
+        },
+        "move_right": {
+          "solved": 7,
+          "total": 8,
+          "rate": 0.875
+        },
+        "fill_border": {
+          "solved": 7,
+          "total": 8,
+          "rate": 0.875
+        }
+      }
+    }
+  }
+}

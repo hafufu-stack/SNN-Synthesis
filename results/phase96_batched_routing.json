@@ -1,0 +1,42 @@
+{
+  "experiment": "Phase 96: Batched Routing",
+  "timestamp": "2026-04-17T01:48:54.679961",
+  "results": {
+    "seq_ms": 9.158670000033453,
+    "batch_ms": 5.5515800006105565,
+    "speedup": 1.649741154594943,
+    "levels": [
+      {
+        "task": "gravity",
+        "routed_to": "fill_border",
+        "exact": 0.0,
+        "ms": 141.91560000472236
+      },
+      {
+        "task": "expand",
+        "routed_to": "fill_border",
+        "exact": 0.0,
+        "ms": 184.60329998924863
+      },
+      {
+        "task": "color_invert",
+        "routed_to": "fill_border",
+        "exact": 0.0,
+        "ms": 187.76539999817032
+      },
+      {
+        "task": "move_right",
+        "routed_to": "fill_border",
+        "exact": 0.0,
+        "ms": 146.15069999126717
+      },
+      {
+        "task": "fill_border",
+        "routed_to": "fill_border",
+        "exact": 1.0,
+        "ms": 172.8045000054408
+      }
+    ],
+    "solve_rate": 0.2
+  }
+}

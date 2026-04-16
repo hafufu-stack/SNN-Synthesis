@@ -1,0 +1,11 @@
+{
+  "experiment": "Phase 80: tau-Diverse Beam Search",
+  "timestamp": "2026-04-16T09:35:44.242321",
+  "results": {
+    "baseline": 0.9291,
+    "sigma_diverse": 0.9316,
+    "tau_diverse": 0.8721,
+    "tau_plus_noise": 0.8709,
+    "temporal_noise_diverse": 0.9313
+  }
+}

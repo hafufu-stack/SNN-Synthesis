@@ -1,0 +1,215 @@
+{
+  "experiment": "Phase 86: v17 L-NCA Agent Prototype",
+  "timestamp": "2026-04-16T10:59:15.899551",
+  "results": {
+    "levels": [
+      {
+        "pixel_acc": 0.921875,
+        "exact_match": 0.0,
+        "ttt_ms": 412.2115999998641,
+        "total_ms": 490.58080000031623,
+        "timeout": false,
+        "level": 0,
+        "grid_size": 8,
+        "task": "gravity"
+      },
+      {
+        "pixel_acc": 0.90625,
+        "exact_match": 0.0,
+        "ttt_ms": 407.7638999988267,
+        "total_ms": 493.4288000004017,
+        "timeout": false,
+        "level": 1,
+        "grid_size": 8,
+        "task": "gravity"
+      },
+      {
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "ttt_ms": 412.32850000233157,
+        "total_ms": 488.290400000551,
+        "timeout": false,
+        "level": 2,
+        "grid_size": 10,
+        "task": "expand"
+      },
+      {
+        "pixel_acc": 0.9599999785423279,
+        "exact_match": 0.0,
+        "ttt_ms": 403.0519000007189,
+        "total_ms": 490.74319999999716,
+        "timeout": false,
+        "level": 3,
+        "grid_size": 10,
+        "task": "gravity"
+      },
+      {
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "ttt_ms": 411.3225000000966,
+        "total_ms": 493.7917999995989,
+        "timeout": false,
+        "level": 4,
+        "grid_size": 12,
+        "task": "expand"
+      },
+      {
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "ttt_ms": 413.5850000020582,
+        "total_ms": 487.60070000207634,
+        "timeout": false,
+        "level": 5,
+        "grid_size": 12,
+        "task": "expand"
+      },
+      {
+        "pixel_acc": 0.921875,
+        "exact_match": 0.0,
+        "ttt_ms": 405.45379999821307,
+        "total_ms": 493.81319999884,
+        "timeout": false,
+        "level": 6,
+        "grid_size": 8,
+        "task": "gravity"
+      },
+      {
+        "pixel_acc": 0.949999988079071,
+        "exact_match": 0.0,
+        "ttt_ms": 409.5223000003898,
+        "total_ms": 496.27110000074026,
+        "timeout": false,
+        "level": 7,
+        "grid_size": 10,
+        "task": "expand"
+      },
+      {
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "ttt_ms": 400.2274000013131,
+        "total_ms": 482.6714000009815,
+        "timeout": false,
+        "level": 8,
+        "grid_size": 12,
+        "task": "expand"
+      },
+      {
+        "pixel_acc": 0.953125,
+        "exact_match": 0.0,
+        "ttt_ms": 409.3170000014652,
+        "total_ms": 489.0558000006422,
+        "timeout": false,
+        "level": 9,
+        "grid_size": 8,
+        "task": "gravity"
+      },
+      {
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "ttt_ms": 419.51609999887296,
+        "total_ms": 496.1086000002979,
+        "timeout": false,
+        "level": 10,
+        "grid_size": 10,
+        "task": "expand"
+      },
+      {
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "ttt_ms": 409.4193000019004,
+        "total_ms": 489.9154999984603,
+        "timeout": false,
+        "level": 11,
+        "grid_size": 12,
+        "task": "expand"
+      },
+      {
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "ttt_ms": 418.0316000019957,
+        "total_ms": 492.554200001905,
+        "timeout": false,
+        "level": 12,
+        "grid_size": 8,
+        "task": "expand"
+      },
+      {
+        "pixel_acc": 0.9300000071525574,
+        "exact_match": 0.0,
+        "ttt_ms": 414.8507999998401,
+        "total_ms": 497.4703999978374,
+        "timeout": false,
+        "level": 13,
+        "grid_size": 10,
+        "task": "gravity"
+      },
+      {
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "ttt_ms": 423.5539000001154,
+        "total_ms": 500.4880999986199,
+        "timeout": true,
+        "level": 14,
+        "grid_size": 12,
+        "task": "expand"
+      },
+      {
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "ttt_ms": 412.95670000181417,
+        "total_ms": 485.8414000009361,
+        "timeout": false,
+        "level": 15,
+        "grid_size": 8,
+        "task": "expand"
+      },
+      {
+        "pixel_acc": 0.9300000071525574,
+        "exact_match": 0.0,
+        "ttt_ms": 415.7132000000274,
+        "total_ms": 500.4896999998891,
+        "timeout": true,
+        "level": 16,
+        "grid_size": 10,
+        "task": "gravity"
+      },
+      {
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "ttt_ms": 425.10480000055395,
+        "total_ms": 501.2930000011693,
+        "timeout": true,
+        "level": 17,
+        "grid_size": 12,
+        "task": "expand"
+      },
+      {
+        "pixel_acc": 0.90625,
+        "exact_match": 0.0,
+        "ttt_ms": 418.15330000099493,
+        "total_ms": 489.40439999933005,
+        "timeout": false,
+        "level": 18,
+        "grid_size": 8,
+        "task": "gravity"
+      },
+      {
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "ttt_ms": 401.0121999999683,
+        "total_ms": 482.60300000038114,
+        "timeout": false,
+        "level": 19,
+        "grid_size": 10,
+        "task": "expand"
+      }
+    ],
+    "summary": {
+      "solve_rate": 0.55,
+      "solved": 11,
+      "total_levels": 20,
+      "timeout_rate": 0.15,
+      "avg_latency_ms": 492.12077500014857
+    }
+  }
+}

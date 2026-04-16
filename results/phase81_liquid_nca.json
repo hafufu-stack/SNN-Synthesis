@@ -1,0 +1,46 @@
+{
+  "experiment": "Phase 81: Liquid Neural Cellular Automata",
+  "timestamp": "2026-04-16T09:57:59.475349",
+  "results": {
+    "gravity_NCA": {
+      "task": "gravity",
+      "model": "NCA",
+      "pixel_acc": 0.9998750686645508,
+      "exact_match": 0.9940000176429749,
+      "n_params": 1529,
+      "time": 64.83240008354187
+    },
+    "gravity_L-NCA": {
+      "task": "gravity",
+      "model": "L-NCA",
+      "pixel_acc": 0.9998437762260437,
+      "exact_match": 0.9920000433921814,
+      "n_params": 2769,
+      "time": 103.05997061729431
+    },
+    "expand_NCA": {
+      "task": "expand",
+      "model": "NCA",
+      "pixel_acc": 1.0,
+      "exact_match": 1.0,
+      "n_params": 1529,
+      "time": 61.61310529708862
+    },
+    "expand_L-NCA": {
+      "task": "expand",
+      "model": "L-NCA",
+      "pixel_acc": 1.0,
+      "exact_match": 1.0,
+      "n_params": 2769,
+      "time": 98.29896950721741
+    },
+    "size_free": {
+      "train_size": 8,
+      "test_size": 12,
+      "pixel_acc_train": 1.0,
+      "exact_train": 1.0,
+      "pixel_acc_transfer": 1.0,
+      "exact_transfer": 1.0
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "experiment": "Phase 84: Multi-Color L-NCA",
+  "timestamp": "2026-04-16T10:57:20.804588",
+  "results": {
+    "color_gravity": {
+      "pixel_acc": 0.9999688267707825,
+      "exact_match": 0.9980000257492065,
+      "n_params": 14570,
+      "time": 109.38190388679504
+    },
+    "color_expand": {
+      "pixel_acc": 0.9998750686645508,
+      "exact_match": 0.9920000433921814,
+      "n_params": 14570,
+      "time": 101.2773449420929
+    },
+    "size_free_12": {
+      "pixel_acc": 1.0,
+      "exact_match": 1.0
+    }
+  }
+}

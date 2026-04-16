@@ -1,0 +1,50 @@
+{
+  "experiment": "Phase 85: TTT Budget Optimization",
+  "timestamp": "2026-04-16T10:58:16.170363",
+  "results": {
+    "step_counts": [
+      {
+        "n_steps": 0,
+        "latency_ms": 0.0,
+        "pixel_acc": 0.7210937142372131,
+        "exact_match": 0.0
+      },
+      {
+        "n_steps": 10,
+        "latency_ms": 140.33870000275783,
+        "pixel_acc": 0.0,
+        "exact_match": 0.0
+      },
+      {
+        "n_steps": 20,
+        "latency_ms": 289.85780000220984,
+        "pixel_acc": 0.00390625,
+        "exact_match": 0.0
+      },
+      {
+        "n_steps": 50,
+        "latency_ms": 761.9721000010031,
+        "pixel_acc": 0.9254687428474426,
+        "exact_match": 0.0
+      },
+      {
+        "n_steps": 100,
+        "latency_ms": 1515.6257000016922,
+        "pixel_acc": 0.9254687428474426,
+        "exact_match": 0.0
+      },
+      {
+        "n_steps": 200,
+        "latency_ms": 3084.2756000020017,
+        "pixel_acc": 0.9254687428474426,
+        "exact_match": 0.0
+      }
+    ],
+    "optimal": {
+      "n_steps": 0,
+      "latency_ms": 0.0,
+      "pixel_acc": 0.7210937142372131,
+      "exact_match": 0.0
+    }
+  }
+}

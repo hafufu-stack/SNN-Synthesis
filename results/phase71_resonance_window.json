@@ -1,0 +1,78 @@
+{
+  "experiment": "Phase 71: Resonance Window",
+  "timestamp": "2026-04-16T10:01:03.857551",
+  "results": [
+    {
+      "quant": "FP16",
+      "level": 0,
+      "level_label": "1d+1d",
+      "description": "1-digit addition",
+      "K": 1,
+      "accuracy": 0.96,
+      "time_sec": 23.62379026412964
+    },
+    {
+      "quant": "FP16",
+      "level": 0,
+      "level_label": "1d+1d",
+      "description": "1-digit addition",
+      "K": 11,
+      "accuracy": 1.0,
+      "time_sec": 41.77976369857788
+    },
+    {
+      "quant": "FP16",
+      "level": 1,
+      "level_label": "2d+1d",
+      "description": "2-digit + 1-digit addition",
+      "K": 1,
+      "accuracy": 0.5,
+      "time_sec": 164.5985004901886
+    },
+    {
+      "quant": "FP16",
+      "level": 1,
+      "level_label": "2d+1d",
+      "description": "2-digit + 1-digit addition",
+      "K": 11,
+      "accuracy": 1.0,
+      "time_sec": 397.9980437755585
+    },
+    {
+      "quant": "FP16",
+      "level": 2,
+      "level_label": "2d+2d",
+      "description": "2-digit add/sub",
+      "K": 1,
+      "accuracy": 0.46,
+      "time_sec": 173.54426503181458
+    },
+    {
+      "quant": "FP16",
+      "level": 2,
+      "level_label": "2d+2d",
+      "description": "2-digit add/sub",
+      "K": 11,
+      "accuracy": 0.88,
+      "time_sec": 586.7444186210632
+    },
+    {
+      "quant": "FP16",
+      "level": 3,
+      "level_label": "2d*1d",
+      "description": "2-digit x 1-digit multiply",
+      "K": 1,
+      "accuracy": 0.12,
+      "time_sec": 470.5010061264038
+    },
+    {
+      "quant": "FP16",
+      "level": 3,
+      "level_label": "2d*1d",
+      "description": "2-digit x 1-digit multiply",
+      "K": 11,
+      "accuracy": 0.8,
+      "time_sec": 1729.2434928417206
+    }
+  ]
+}

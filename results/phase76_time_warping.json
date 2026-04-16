@@ -1,0 +1,33 @@
+{
+  "experiment": "Phase 76: Zero-Shot Time-Warping",
+  "timestamp": "2026-04-16T08:56:20.272810",
+  "results": {
+    "LIF": {
+      "n_params": 634,
+      "warp_results": {
+        "warp_0.5": 0.5457,
+        "warp_1.0": 0.6888,
+        "warp_2.0": 0.4344,
+        "warp_3.0": 0.2534
+      }
+    },
+    "GRU": {
+      "n_params": 2378,
+      "warp_results": {
+        "warp_0.5": 0.2782,
+        "warp_1.0": 0.9456,
+        "warp_2.0": 0.2782,
+        "warp_3.0": 0.1028
+      }
+    },
+    "LiquidLIF": {
+      "n_params": 1370,
+      "warp_results": {
+        "warp_0.5": 0.6354,
+        "warp_1.0": 0.9259,
+        "warp_2.0": 0.6949,
+        "warp_3.0": 0.4653
+      }
+    }
+  }
+}

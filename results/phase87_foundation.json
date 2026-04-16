@@ -1,0 +1,31 @@
+{
+  "experiment": "Phase 87: Multi-Task Foundation L-NCA",
+  "timestamp": "2026-04-16T20:07:47.007460",
+  "results": {
+    "n_params": 14570,
+    "gravity": {
+      "pixel_acc": 0.9898437261581421,
+      "exact_match": 0.5949999690055847
+    },
+    "expand": {
+      "pixel_acc": 0.9017968773841858,
+      "exact_match": 0.019999999552965164
+    },
+    "color_invert": {
+      "pixel_acc": 0.9467968344688416,
+      "exact_match": 0.10999999940395355
+    },
+    "move_right": {
+      "pixel_acc": 0.9193750023841858,
+      "exact_match": 0.009999999776482582
+    },
+    "fill_border": {
+      "pixel_acc": 0.5620312094688416,
+      "exact_match": 0.0
+    },
+    "size_free_expand_12": {
+      "pixel_acc": 0.959861159324646,
+      "exact_match": 0.029999999329447746
+    }
+  }
+}

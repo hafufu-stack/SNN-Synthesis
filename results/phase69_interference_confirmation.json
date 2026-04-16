@@ -1,0 +1,52 @@
+{
+  "experiment": "Phase 69: Destructive Interference Confirmation",
+  "timestamp": "2026-04-16T19:43:01.706147",
+  "results": {
+    "math": {
+      "greedy": {
+        "accuracy": 0.63,
+        "time_sec": 201.39949870109558
+      },
+      "temp_only": {
+        "accuracy": 0.84,
+        "time_sec": 1350.4765455722809
+      },
+      "hook_only": {
+        "accuracy": 0.83,
+        "time_sec": 1384.2180128097534
+      },
+      "both": {
+        "accuracy": 0.82,
+        "time_sec": 1368.7429904937744
+      },
+      "stats": {
+        "p_hook_vs_both": 1.0,
+        "p_temp_vs_both": 0.75390625,
+        "p_hook_vs_temp": 1.0
+      }
+    },
+    "tqa": {
+      "greedy": {
+        "accuracy": 0.94,
+        "time_sec": 77.96753096580505
+      },
+      "temp_only": {
+        "accuracy": 0.95,
+        "time_sec": 395.3475923538208
+      },
+      "hook_only": {
+        "accuracy": 0.97,
+        "time_sec": 301.9971170425415
+      },
+      "both": {
+        "accuracy": 0.95,
+        "time_sec": 29834.67848110199
+      },
+      "stats": {
+        "p_hook_vs_both": 0.625,
+        "p_temp_vs_both": 1.0,
+        "p_hook_vs_temp": 0.625
+      }
+    }
+  }
+}

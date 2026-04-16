@@ -1,0 +1,32 @@
+{
+  "experiment": "Phase 83: L-NCA + Temporal NBS",
+  "timestamp": "2026-04-16T10:00:23.273865",
+  "results": {
+    "expand": {
+      "n_params": 2769,
+      "baseline": {
+        "pixel": 1.0,
+        "exact": 1.0
+      },
+      "temporal_nbs": {
+        "pixel": 1.0,
+        "exact": 1.0
+      },
+      "latency_ms": 4.864802999909443,
+      "nbs_latency_ms": 53.51283299900388
+    },
+    "gravity": {
+      "n_params": 2769,
+      "baseline": {
+        "pixel": 0.9994531273841858,
+        "exact": 0.9649999737739563
+      },
+      "temporal_nbs": {
+        "pixel": 0.9993749856948853,
+        "exact": 0.9599999785423279
+      },
+      "latency_ms": 4.696459999940998,
+      "nbs_latency_ms": 51.66105999935098
+    }
+  }
+}

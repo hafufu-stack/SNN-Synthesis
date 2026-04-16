@@ -1,0 +1,292 @@
+{
+  "experiment": "Phase 92: L-MoE",
+  "timestamp": "2026-04-16T23:56:11.843824",
+  "results": {
+    "levels": [
+      {
+        "level": 0,
+        "task": "gravity",
+        "grid_size": 8,
+        "routed_to": "gravity",
+        "route_correct": true,
+        "pixel_acc": 0.984375,
+        "exact_match": 0.0,
+        "total_ms": 361.1052999913227
+      },
+      {
+        "level": 1,
+        "task": "expand",
+        "grid_size": 10,
+        "routed_to": "expand",
+        "route_correct": true,
+        "pixel_acc": 0.9899999499320984,
+        "exact_match": 0.0,
+        "total_ms": 276.62340000097174
+      },
+      {
+        "level": 2,
+        "task": "color_invert",
+        "grid_size": 12,
+        "routed_to": "color_invert",
+        "route_correct": true,
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "total_ms": 260.50540000142064
+      },
+      {
+        "level": 3,
+        "task": "move_right",
+        "grid_size": 8,
+        "routed_to": "move_right",
+        "route_correct": true,
+        "pixel_acc": 0.984375,
+        "exact_match": 0.0,
+        "total_ms": 259.8686999990605
+      },
+      {
+        "level": 4,
+        "task": "fill_border",
+        "grid_size": 10,
+        "routed_to": "fill_border",
+        "route_correct": true,
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "total_ms": 264.4348000030732
+      },
+      {
+        "level": 5,
+        "task": "gravity",
+        "grid_size": 12,
+        "routed_to": "gravity",
+        "route_correct": true,
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "total_ms": 248.07750000036322
+      },
+      {
+        "level": 6,
+        "task": "expand",
+        "grid_size": 8,
+        "routed_to": "expand",
+        "route_correct": true,
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "total_ms": 269.8743000073591
+      },
+      {
+        "level": 7,
+        "task": "color_invert",
+        "grid_size": 10,
+        "routed_to": "color_invert",
+        "route_correct": true,
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "total_ms": 259.8240999941481
+      },
+      {
+        "level": 8,
+        "task": "move_right",
+        "grid_size": 12,
+        "routed_to": "move_right",
+        "route_correct": true,
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "total_ms": 245.0945999880787
+      },
+      {
+        "level": 9,
+        "task": "fill_border",
+        "grid_size": 8,
+        "routed_to": "fill_border",
+        "route_correct": true,
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "total_ms": 255.98499999614432
+      },
+      {
+        "level": 10,
+        "task": "gravity",
+        "grid_size": 10,
+        "routed_to": "gravity",
+        "route_correct": true,
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "total_ms": 260.445100007928
+      },
+      {
+        "level": 11,
+        "task": "expand",
+        "grid_size": 12,
+        "routed_to": "expand",
+        "route_correct": true,
+        "pixel_acc": 0.9930555820465088,
+        "exact_match": 0.0,
+        "total_ms": 253.0274000018835
+      },
+      {
+        "level": 12,
+        "task": "color_invert",
+        "grid_size": 8,
+        "routed_to": "color_invert",
+        "route_correct": true,
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "total_ms": 264.4943999912357
+      },
+      {
+        "level": 13,
+        "task": "move_right",
+        "grid_size": 10,
+        "routed_to": "move_right",
+        "route_correct": true,
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "total_ms": 267.7364999981364
+      },
+      {
+        "level": 14,
+        "task": "fill_border",
+        "grid_size": 12,
+        "routed_to": "fill_border",
+        "route_correct": true,
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "total_ms": 272.9579000006197
+      },
+      {
+        "level": 15,
+        "task": "gravity",
+        "grid_size": 8,
+        "routed_to": "gravity",
+        "route_correct": true,
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "total_ms": 277.4162999994587
+      },
+      {
+        "level": 16,
+        "task": "expand",
+        "grid_size": 10,
+        "routed_to": "expand",
+        "route_correct": true,
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "total_ms": 303.38439998740796
+      },
+      {
+        "level": 17,
+        "task": "color_invert",
+        "grid_size": 12,
+        "routed_to": "color_invert",
+        "route_correct": true,
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "total_ms": 260.16360000357963
+      },
+      {
+        "level": 18,
+        "task": "move_right",
+        "grid_size": 8,
+        "routed_to": "move_right",
+        "route_correct": true,
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "total_ms": 298.5175999929197
+      },
+      {
+        "level": 19,
+        "task": "fill_border",
+        "grid_size": 10,
+        "routed_to": "fill_border",
+        "route_correct": true,
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "total_ms": 286.105300008785
+      },
+      {
+        "level": 20,
+        "task": "gravity",
+        "grid_size": 12,
+        "routed_to": "gravity",
+        "route_correct": true,
+        "pixel_acc": 0.9861111044883728,
+        "exact_match": 0.0,
+        "total_ms": 282.1789000008721
+      },
+      {
+        "level": 21,
+        "task": "expand",
+        "grid_size": 8,
+        "routed_to": "expand",
+        "route_correct": true,
+        "pixel_acc": 0.296875,
+        "exact_match": 0.0,
+        "total_ms": 268.05500000773463
+      },
+      {
+        "level": 22,
+        "task": "color_invert",
+        "grid_size": 10,
+        "routed_to": "color_invert",
+        "route_correct": true,
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "total_ms": 304.0650999901118
+      },
+      {
+        "level": 23,
+        "task": "move_right",
+        "grid_size": 12,
+        "routed_to": "move_right",
+        "route_correct": true,
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "total_ms": 263.6332000110997
+      },
+      {
+        "level": 24,
+        "task": "fill_border",
+        "grid_size": 8,
+        "routed_to": "fill_border",
+        "route_correct": true,
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "total_ms": 266.0579999937909
+      }
+    ],
+    "summary": {
+      "solve_rate": 0.76,
+      "solved": 19,
+      "total": 25,
+      "route_accuracy": 1.0,
+      "avg_latency_ms": 273.1852719991002,
+      "per_task": {
+        "gravity": {
+          "solved": 3,
+          "total": 5,
+          "rate": 0.6
+        },
+        "expand": {
+          "solved": 2,
+          "total": 5,
+          "rate": 0.4
+        },
+        "color_invert": {
+          "solved": 5,
+          "total": 5,
+          "rate": 1.0
+        },
+        "move_right": {
+          "solved": 4,
+          "total": 5,
+          "rate": 0.8
+        },
+        "fill_border": {
+          "solved": 5,
+          "total": 5,
+          "rate": 1.0
+        }
+      }
+    }
+  }
+}

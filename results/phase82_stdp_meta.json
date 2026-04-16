@@ -1,0 +1,34 @@
+{
+  "experiment": "Phase 82: 1-Shot STDP Meta-Learning",
+  "timestamp": "2026-04-16T09:58:39.706095",
+  "results": {
+    "gravity": {
+      "zero_shot": {
+        "pixel": 0.9085937142372131,
+        "exact": 0.0
+      },
+      "stdp_1shot": {
+        "pixel": 0.23304687440395355,
+        "exact": 0.0
+      },
+      "backprop_1shot": {
+        "pixel": 0.9258593320846558,
+        "exact": 0.0
+      }
+    },
+    "mirror_h": {
+      "zero_shot": {
+        "pixel": 0.7282812595367432,
+        "exact": 0.0
+      },
+      "stdp_1shot": {
+        "pixel": 0.23203124105930328,
+        "exact": 0.0
+      },
+      "backprop_1shot": {
+        "pixel": 0.9469531178474426,
+        "exact": 0.0
+      }
+    }
+  }
+}
