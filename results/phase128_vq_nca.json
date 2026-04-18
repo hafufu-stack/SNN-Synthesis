@@ -1,0 +1,258 @@
+{
+  "experiment": "Phase 128: VQ-NCA",
+  "timestamp": "2026-04-19T00:40:31.028899",
+  "results": {
+    "Continuous-NCA": {
+      "pixel_acc": 0.59892578125,
+      "exact_rate": 0.0,
+      "exact_count": 0,
+      "total": 160,
+      "codebook_usage": 0,
+      "per_rule": {
+        "rotate90": {
+          "px": 0.6217447916666666,
+          "exact": 0.0
+        },
+        "flip_h": {
+          "px": 0.6545138888888888,
+          "exact": 0.0
+        },
+        "fill_border": {
+          "px": 0.5208333333333334,
+          "exact": 0.0
+        },
+        "dilate": {
+          "px": 0.6582661290322581,
+          "exact": 0.0
+        },
+        "erode": {
+          "px": 0.7490234375,
+          "exact": 0.0
+        },
+        "invert": {
+          "px": 0.21942934782608695,
+          "exact": 0.0
+        },
+        "hollow": {
+          "px": 0.7766544117647058,
+          "exact": 0.0
+        },
+        "flip_v": {
+          "px": 0.6669921875,
+          "exact": 0.0
+        }
+      },
+      "n_params": 3041
+    },
+    "VQ-NCA (every step)": {
+      "pixel_acc": 0.60703125,
+      "exact_rate": 0.01875,
+      "exact_count": 3,
+      "total": 160,
+      "codebook_usage": 0.47593749999999996,
+      "per_rule": {
+        "rotate90": {
+          "px": 0.6640625,
+          "exact": 0.0
+        },
+        "flip_h": {
+          "px": 0.7092013888888888,
+          "exact": 0.0
+        },
+        "fill_border": {
+          "px": 0.47604166666666664,
+          "exact": 0.0
+        },
+        "dilate": {
+          "px": 0.5987903225806451,
+          "exact": 0.0
+        },
+        "erode": {
+          "px": 0.8544921875,
+          "exact": 0.1875
+        },
+        "invert": {
+          "px": 0.1827445652173913,
+          "exact": 0.0
+        },
+        "hollow": {
+          "px": 0.7931985294117647,
+          "exact": 0.0
+        },
+        "flip_v": {
+          "px": 0.7099609375,
+          "exact": 0.0
+        }
+      },
+      "n_params": 3553
+    },
+    "VQ-NCA (every 2)": {
+      "pixel_acc": 0.6197265625,
+      "exact_rate": 0.01875,
+      "exact_count": 3,
+      "total": 160,
+      "codebook_usage": 0.58310546875,
+      "per_rule": {
+        "rotate90": {
+          "px": 0.6569010416666666,
+          "exact": 0.0
+        },
+        "flip_h": {
+          "px": 0.6927083333333334,
+          "exact": 0.0
+        },
+        "fill_border": {
+          "px": 0.534375,
+          "exact": 0.0
+        },
+        "dilate": {
+          "px": 0.6990927419354839,
+          "exact": 0.0
+        },
+        "erode": {
+          "px": 0.7646484375,
+          "exact": 0.1875
+        },
+        "invert": {
+          "px": 0.21331521739130435,
+          "exact": 0.0
+        },
+        "hollow": {
+          "px": 0.7849264705882353,
+          "exact": 0.0
+        },
+        "flip_v": {
+          "px": 0.671875,
+          "exact": 0.0
+        }
+      },
+      "n_params": 3553
+    },
+    "VQ-NCA (final only)": {
+      "pixel_acc": 0.60869140625,
+      "exact_rate": 0.0,
+      "exact_count": 0,
+      "total": 160,
+      "codebook_usage": 0.622265625,
+      "per_rule": {
+        "rotate90": {
+          "px": 0.6106770833333334,
+          "exact": 0.0
+        },
+        "flip_h": {
+          "px": 0.6753472222222222,
+          "exact": 0.0
+        },
+        "fill_border": {
+          "px": 0.578125,
+          "exact": 0.0
+        },
+        "dilate": {
+          "px": 0.7414314516129032,
+          "exact": 0.0
+        },
+        "erode": {
+          "px": 0.6533203125,
+          "exact": 0.0
+        },
+        "invert": {
+          "px": 0.20244565217391305,
+          "exact": 0.0
+        },
+        "hollow": {
+          "px": 0.7950367647058824,
+          "exact": 0.0
+        },
+        "flip_v": {
+          "px": 0.6435546875,
+          "exact": 0.0
+        }
+      },
+      "n_params": 3553
+    },
+    "VQ-NCA (64 codes)": {
+      "pixel_acc": 0.61396484375,
+      "exact_rate": 0.00625,
+      "exact_count": 1,
+      "total": 160,
+      "codebook_usage": 0.41978515624999985,
+      "per_rule": {
+        "rotate90": {
+          "px": 0.626953125,
+          "exact": 0.0
+        },
+        "flip_h": {
+          "px": 0.7152777777777778,
+          "exact": 0.0
+        },
+        "fill_border": {
+          "px": 0.571875,
+          "exact": 0.0
+        },
+        "dilate": {
+          "px": 0.7011088709677419,
+          "exact": 0.0
+        },
+        "erode": {
+          "px": 0.736328125,
+          "exact": 0.0625
+        },
+        "invert": {
+          "px": 0.13383152173913043,
+          "exact": 0.0
+        },
+        "hollow": {
+          "px": 0.8419117647058824,
+          "exact": 0.0
+        },
+        "flip_v": {
+          "px": 0.6767578125,
+          "exact": 0.0
+        }
+      },
+      "n_params": 4065
+    },
+    "VQ-NCA (128 codes)": {
+      "pixel_acc": 0.60283203125,
+      "exact_rate": 0.01875,
+      "exact_count": 3,
+      "total": 160,
+      "codebook_usage": 0.25818359375,
+      "per_rule": {
+        "rotate90": {
+          "px": 0.646484375,
+          "exact": 0.0
+        },
+        "flip_h": {
+          "px": 0.7048611111111112,
+          "exact": 0.0
+        },
+        "fill_border": {
+          "px": 0.49166666666666664,
+          "exact": 0.0
+        },
+        "dilate": {
+          "px": 0.6078629032258065,
+          "exact": 0.0
+        },
+        "erode": {
+          "px": 0.822265625,
+          "exact": 0.1875
+        },
+        "invert": {
+          "px": 0.1793478260869565,
+          "exact": 0.0
+        },
+        "hollow": {
+          "px": 0.7977941176470589,
+          "exact": 0.0
+        },
+        "flip_v": {
+          "px": 0.69921875,
+          "exact": 0.0
+        }
+      },
+      "n_params": 5089
+    }
+  }
+}

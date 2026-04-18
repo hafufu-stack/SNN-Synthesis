@@ -1,11 +1,11 @@
-# SNN-Synthesis: Liquid Neural Cellular Automata for ARC-AGI — From Stochastic Resonance to Compositional Fluid Intelligence
+# SNN-Synthesis: Liquid Neural Cellular Automata for ARC-AGI — Continuous Thought, Discrete Action
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19343952.svg)](https://doi.org/10.5281/zenodo.19343952)
 
-> **Intelligence emerges from local rules, specialist diversity, and temporal dynamics — not from massive parameterization. 2.8K parameters per cell, 14K total, 88% solve rate, 338ms.**
+> **Intelligence requires continuous, differentiable thought with discrete output crystallization. 2.8K parameters per cell, 83.5% pixel accuracy, first exact match on real ARC.**
 
 Successor to [SNN-Genesis](https://github.com/hafufu-stack/snn-genesis) (v1–v20, 111 phases, 127 pages).
-SNN-Genesis dissected the black box of LLM reasoning through noise intervention. SNN-Synthesis uses that anatomical map to **build new AI architectures** and proves that stochastic resonance is a **universal, architecture-invariant, model-invariant neural network phenomenon** — then culminates in **Liquid Neural Cellular Automata (L-NCA)** that achieve compositional fluid intelligence with minimal parameters.
+SNN-Genesis dissected the black box of LLM reasoning through noise intervention. SNN-Synthesis uses that anatomical map to **build new AI architectures** and proves that stochastic resonance is a **universal, architecture-invariant, model-invariant neural network phenomenon** — then culminates in **Liquid Neural Cellular Automata (L-NCA)** deployed to **real ARC-AGI tasks**, establishing the principle of **Continuous Thought, Discrete Action**.
 
 ## 🔬 Research Vision
 
@@ -13,85 +13,92 @@ SNN-Genesis was the **Anatomy & Physiology** phase — discovering the physical 
 
 SNN-Synthesis is the **Architecture & Synthesis** phase — building systems that internalize those laws, proving their **universality across architectures (NCA → CNN → Transformer), model families (Mistral → Qwen), scales (2.8K → 7B), precisions (FP16 → 4-bit), and tasks (grid transformation → symbolic reasoning → math → ARC-AGI-3 competition)**, and demonstrating that noise + natural selection + local cellular rules form a **complete learning paradigm**.
 
-### 🏆 Key Results (v10)
+### 🏆 Key Results (v11)
 
-**New in v10 (Phases 68–100) — Liquid Neural Cellular Automata:**
+**New in v11 (Phases 101–137) — Real ARC Deployment & the VQ Paradox:**
 
-1. **🧬 L-NCA: Size-Free Perfect Generalization.**
-   L-NCA trained on 8×8 grids achieves **100% pixel accuracy on unseen 12×12 grids** with only **2.8K parameters** (22× fewer than CNNs). Local cellular rules are inherently size-invariant. (Phases 81–86)
+1. **🧠 v23 Chimera Agent: First Exact Match on Real ARC.**
+   Continuous NCA with TTCT achieves **83.53% pixel accuracy and 1/50 exact match** on real ARC-AGI tasks — the first time any L-NCA system has produced a pixel-perfect solution on an unseen real task. +10.93pp over v21. (Phase 137)
 
-   ![Phase 84: Multi-Color L-NCA](figures/phase84_multicolor_lnca.png)
+   ![Phase 137: v23 Chimera Agent](figures/phase137_road_to_v23.png)
 
-2. **🧠 Liquid MoE: Compositional Fluid Intelligence.**
-   5 specialist L-NCAs with zero-shot loss routing achieve **100% routing accuracy** and **76% solve rate** (vs. 0% single multi-task model). Compositional routing—chaining Expert_B(Expert_A(x))—discovers correct rule compositions for novel composite tasks (**6% → 100%**). (Phases 87–94)
+2. **💡 Continuous Thought, Discrete Action.**
+   Removing VQ from the NCA loop and using continuous computation with TTCT achieves the **highest TTCT gain (+5.05%)**. Intelligence requires continuous, differentiable thought with discrete output crystallization. (Phase 135)
 
-   ![Phase 92: L-MoE](figures/phase92_moe.png)
+   ![v11 Summary: VQ Paradox & TTCT](figures/phase137_v23_summary.png)
 
-3. **♾️ Attractor Regularization: The Immortal Cell.**
-   Random-T training with L2 state-change penalty maintains **99% accuracy at T=50** where the baseline collapses to 0%. Auto-T early stopping achieves **7× speedup while improving accuracy** (+33pp). (Phases 95, 99)
+3. **❌ The VQ Paradox: Discretization Kills Intelligence.**
+   Full-loop VQ degrades real-ARC pixel accuracy by **−12.5pp** (72.6% → 60.1%) and kills TTCT gradient flow (gap = +0.00%). Even Readout-Only VQ degrades adaptation. The most important null result of v11. (Phases 132–135)
 
-   ![Phase 95: Attractor Regularization](figures/phase95_attractor.png)
+4. **🔬 Latent-NCA Breakthrough.**
+   Operating NCA dynamics in a learned latent space achieves **22.7× improvement** in IoU (0.027 → 0.613), enabling real ARC reasoning for the first time. (Phase 120)
 
-4. **🎨 Color-Frequency Invariance.**
-   Frequency-based color remapping achieves **98% exact match** on color-shifted tasks where the baseline scores **0%**. Complete color invariance across all 5 test shifts. (Phase 97)
+   ![Phase 120: Latent-NCA](figures/phase120_latent_nca.png)
 
-5. **🏆 v20 Ultimate Liquid AGI (Phase 100 Grand Finale).**
-   Integrating MoE routing, attractor regularization, Auto-T, Prompt Tuning TTT, and Temporal NBS: **88% solve rate, 100% routing accuracy, 338ms latency (500ms budget), 0% timeouts** on 40 ARC levels — using only **~14K total parameters**.
+5. **📐 Context-NCA with TTCT.**
+   In-context meta-learning with gradient-based Test-Time Context Tuning achieves **78.0% pixel accuracy** on 73 held-out real ARC tasks. (Phases 122–124)
 
-   ![Phase 100: v20 Ultimate Liquid AGI](figures/phase100_v20_agent.png)
+6. **🎯 VQ-NCA: First Exact Match (Toy Tasks).**
+   VQ-NCA achieves 1.9% exact match (3/160) on 8-rule tasks. Gumbel NBS boosts this by +150% via discrete attractor tunneling. (Phases 128, 130)
 
-6. **⚡ Liquid-LIF: Subthreshold Computing.**
-   Liquid LIF neurons with learnable time constants enable zero-shot time-warping generalization. STDP achieves competitive results without backpropagation. τ-diverse NBS extends beam search to temporal dynamics. (Phases 72–80)
+   ![VQ-NCA Analysis](figures/phase128_130_vq_analysis.png)
 
-   ![Phase 72: Liquid-LIF](figures/phase72_liquid_lif.png)
+7. **🔄 Edge of Chaos.**
+   Well-trained L-NCAs operate at **λ_max ≈ 0**, the critical boundary between stable and chaotic dynamics. (Phase 121)
 
-**v9 Findings (Phases 64–67):**
+   ![Edge of Chaos](figures/phase121_edge_of_chaos.png)
 
-7. **🔬 Cross-Task SR-Quantization**: 4-bit Qwen-1.5B achieves **58% at K=1** (+26pp over FP16). Requires intermediate baseline competence. (Phase 64)
-8. **🧪 Noise Source Separation**: Hook-alone (90%) > Temperature-alone (87%) > Both (83%). **Destructive interference** between noise sources. (Phase 67)
-9. **💀 Perturbation ≠ Deletion**: Pruning is irreversible; quantization triggers SR. (Phase 65)
-10. **⚖️ Ensemble Ratio Law**: Diversity premium is task-dependent. (Phase 66)
+8. **38 principal insights, 27 honest null results** across 137 experimental phases.
 
-**v7–v8 Landmark Results (Phases 39–63):**
+**v10 Findings (Phases 68–100) — Liquid NCA:**
 
-11. **SR-Quantization**: Qwen-1.5B + NBS (80%) > Mistral-7B baseline (42%) — **space-time duality**. (Phase 59)
-12. **The Crossover Law**: Overhead >0.5ms → intelligence loses to random. (Phases 44–46)
-13. **TTC Scaling Law**: Logarithmic accuracy scaling with K. (Phases 60, 62)
-14. **Multi-Model Ensemble**: Mistral+Qwen mix achieves 86.7%. (Phase 63)
-15. **ARC-AGI-3 Kaggle**: Simplest agent (v5, 0.13) beats all "intelligent" agents. (Kaggle)
+9. **🧬 L-NCA: Size-Free Perfect Generalization.**
+   L-NCA trained on 8×8 grids achieves **100% pixel accuracy on unseen 12×12 grids** with only **2.8K parameters** (22× fewer than CNNs). (Phases 81–86)
 
-   ![Phase 46: The Crossover Law](figures/phase46_crossover_law.png)
+10. **🧠 Liquid MoE: Compositional Fluid Intelligence.**
+    5 specialist L-NCAs with zero-shot loss routing: **100% routing accuracy**, **76% solve rate**. Compositional routing: **6% → 100%**. (Phases 87–94)
+
+11. **🏆 v20 Ultimate Liquid AGI.**
+    **88% solve rate, 100% routing accuracy, 338ms latency, 0% timeouts** on 40 ARC levels — **~14K total parameters**. (Phase 100)
+
+    ![Phase 100: v20 Ultimate Liquid AGI](figures/phase100_v20_agent.png)
+
+**v7–v9 Findings (Phases 39–67):**
+
+12. **SR-Quantization**: Qwen-1.5B + NBS (80%) > Mistral-7B baseline (42%) — **space-time duality**. (Phase 59)
+13. **The Crossover Law**: Overhead >0.5ms → intelligence loses to random. (Phases 44–46)
+14. **TTC Scaling Law**: Logarithmic accuracy scaling with K. (Phases 60, 62)
+15. **Multi-Model Ensemble**: Mistral+Qwen mix achieves 86.7%. (Phase 63)
+16. **Noise Source Separation**: Hook-alone (90%) > Temperature-alone (87%) > Both (83%). (Phase 67)
 
 **Established in v1–v6 (Phases 1–38):**
 
-16. **LLM-ExIt**: 16% → 100% in 3 iterations. (Phase 32b)
-17. **NBS**: 78% on 63K CNN, 100% on 7B LLM. Architecture-invariant. (Phase 29)
-18. **SNN-ExIt**: Zero knowledge → **99%** on LS20. (Phase 20)
-19. **σ-Diverse NBS**: Eliminates hyperparameter tuning. (Phase 37a)
-20. **30 principal insights, 22 honest null results** across 100 experimental phases.
+17. **LLM-ExIt**: 16% → 100% in 3 iterations. (Phase 32b)
+18. **NBS**: 78% on 63K CNN, 100% on 7B LLM. Architecture-invariant. (Phase 29)
+19. **SNN-ExIt**: Zero knowledge → **99%** on LS20. (Phase 20)
+20. **σ-Diverse NBS**: Eliminates hyperparameter tuning. (Phase 37a)
 
 ## 📁 Project Structure
 
 ```
 snn-synthesis/
-├── experiments/          # Experiment scripts (Phases 1–100)
+├── experiments/          # Experiment scripts (Phases 1–137)
 │   ├── phase29_llm_noisy_beam.py        # LLM NBS (v4)
 │   ├── phase32b_llm_exit.py             # LLM-ExIt (v5)
 │   ├── phase59_sr_quantization.py       # SR-Quantization (v7)
-│   ├── phase72_liquid_lif.py            # Liquid-LIF (v10)
 │   ├── phase81_liquid_nca.py            # L-NCA (v10)
-│   ├── phase84_multicolor_lnca.py       # Multi-color L-NCA (v10)
 │   ├── phase92_moe.py                   # L-MoE (v10)
-│   ├── phase94_compositional.py         # Compositional Routing (v10)
-│   ├── phase95_attractor.py             # Attractor Regularization (v10)
-│   ├── phase97_color_mapping.py         # Color Invariance (v10)
-│   ├── phase99_auto_t.py               # Auto-T Early Stopping (v10)
 │   ├── phase100_v20_agent.py            # v20 Ultimate AGI (v10)
+│   ├── phase120_latent_nca.py           # Latent-NCA (v11)
+│   ├── phase124_ttct.py                 # TTCT (v11)
+│   ├── phase128_vq_nca.py              # VQ-NCA (v11)
+│   ├── phase135_readout_vq.py           # Readout-Only VQ (v11)
+│   ├── phase137_v23_agent.py            # v23 Chimera Agent (v11)
 │   └── ...
-├── arc-agi/              # ARC-AGI-3 Kaggle agents (v5–v17)
+├── arc-agi/              # ARC-AGI-3 Kaggle agents (v5–v23)
 ├── results/              # Experiment result logs (JSON)
 ├── figures/              # All experiment figures (PNG)
-├── papers/               # LaTeX source (v1–v10, .gitignore'd)
+├── papers/               # LaTeX source (v1–v11, .gitignore'd)
 ├── LICENSE
 └── README.md
 ```
@@ -112,14 +119,17 @@ pip install arcprize
 
 ## 📄 Papers
 
-- **SNN-Synthesis v10** (latest): [Zenodo (PDF)](https://doi.org/10.5281/zenodo.19343952)
-  - **100 experiments** (Phases 1–100), **30 principal insights**, **22 honest null results**
-  - **L-NCA**: 2.8K-parameter cells with size-free generalization (Phase 81–86)
-  - **L-MoE**: Compositional routing, 100% routing accuracy (Phase 87–94)
-  - **v20 Agent**: 88% solve rate, 338ms, 14K parameters (Phase 100)
-  - v1–v9 findings retained
+- **SNN-Synthesis v11** (latest): [Zenodo (PDF)](https://doi.org/10.5281/zenodo.19343952)
+  - **137 experiments** (Phases 1–137), **38 principal insights**, **27 honest null results**
+  - **v23 Chimera Agent**: 83.5% pixel accuracy, first exact match on real ARC (Phase 137)
+  - **VQ Paradox**: Discretization kills intelligence on complex tasks (Phases 132–135)
+  - **Continuous Thought, Discrete Action**: The optimal NCA paradigm (Phase 135)
+  - v1–v10 findings retained
 
-- **SNN-Synthesis v9**: [Zenodo (PDF)](https://doi.org/10.5281/zenodo.19343952)
+- **SNN-Synthesis v10**: [Zenodo (PDF)](https://doi.org/10.5281/zenodo.19614377)
+  - 100 experiments — L-NCA, L-MoE, Attractor Regularization, v20 Agent (88% solve rate)
+
+- **SNN-Synthesis v9**: [Zenodo (PDF)](https://doi.org/10.5281/zenodo.19562871)
   - 67 experiments — Noise Source Separation, Cross-Task SR-Quant, Perturbation ≠ Deletion
 
 - **SNN-Synthesis v8**: [Zenodo (PDF)](https://doi.org/10.5281/zenodo.19557331)
@@ -154,7 +164,7 @@ This research is conducted collaboratively between the human author and AI resea
 ```bibtex
 @misc{funasaki2026snnsynthesis,
   author = {Funasaki, Hiroto},
-  title = {SNN-Synthesis v10: Liquid Neural Cellular Automata for ARC-AGI --- From Stochastic Resonance to Compositional Fluid Intelligence, from 2.8K to 7B Parameters},
+  title = {SNN-Synthesis v11: Liquid Neural Cellular Automata for ARC-AGI --- Continuous Thought, Discrete Action, and the VQ Paradox, from 2.8K to 7B Parameters},
   year = {2026},
   doi = {10.5281/zenodo.19343952},
   publisher = {Zenodo},

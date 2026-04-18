@@ -1,0 +1,71 @@
+{
+  "experiment": "Phase 103: Compute-Optimal Scaling (8/9 configs, K=21 TTT=500 killed)",
+  "timestamp": "2026-04-17T08:16:12.364149",
+  "note": "All 8 completed configs show 0% solve rate. TTT=500_K=21 was killed after 4+ hours.",
+  "results": {
+    "TTT=15_K=1": {
+      "ttt_steps": 15,
+      "k_beams": 1,
+      "solve_rate": 0.0,
+      "solved": 0,
+      "tested": 30,
+      "avg_time_s": 0.6
+    },
+    "TTT=15_K=7": {
+      "ttt_steps": 15,
+      "k_beams": 7,
+      "solve_rate": 0.0,
+      "solved": 0,
+      "tested": 30,
+      "avg_time_s": 4.4
+    },
+    "TTT=15_K=21": {
+      "ttt_steps": 15,
+      "k_beams": 21,
+      "solve_rate": 0.0,
+      "solved": 0,
+      "tested": 30,
+      "avg_time_s": 13.2
+    },
+    "TTT=100_K=1": {
+      "ttt_steps": 100,
+      "k_beams": 1,
+      "solve_rate": 0.0,
+      "solved": 0,
+      "tested": 30,
+      "avg_time_s": 3.3
+    },
+    "TTT=100_K=7": {
+      "ttt_steps": 100,
+      "k_beams": 7,
+      "solve_rate": 0.0,
+      "solved": 0,
+      "tested": 30,
+      "avg_time_s": 23.0
+    },
+    "TTT=100_K=21": {
+      "ttt_steps": 100,
+      "k_beams": 21,
+      "solve_rate": 0.0,
+      "solved": 0,
+      "tested": 30,
+      "avg_time_s": 60.6
+    },
+    "TTT=500_K=1": {
+      "ttt_steps": 500,
+      "k_beams": 1,
+      "solve_rate": 0.0,
+      "solved": 0,
+      "tested": 30,
+      "avg_time_s": 15.1
+    },
+    "TTT=500_K=7": {
+      "ttt_steps": 500,
+      "k_beams": 7,
+      "solve_rate": 0.0,
+      "solved": 0,
+      "tested": 30,
+      "avg_time_s": 122.9
+    }
+  }
+}

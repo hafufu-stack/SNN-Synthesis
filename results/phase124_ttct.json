@@ -1,0 +1,11 @@
+{
+  "experiment": "Phase 124: TTCT",
+  "timestamp": "2026-04-18T14:22:14.525680",
+  "results": {
+    "zs_pixel_acc": 0.56968771169583,
+    "ttct_pixel_acc": 0.5988150556882222,
+    "zs_exact": 0,
+    "ttct_exact": 0,
+    "avg_time": 0.9513142585754395
+  }
+}

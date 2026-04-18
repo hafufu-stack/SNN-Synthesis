@@ -1,0 +1,18 @@
+{
+  "experiment": "Phase 117: Time-Conditioned KD",
+  "timestamp": "2026-04-18T11:53:05.361160",
+  "teacher_acc": 0.8823,
+  "results": {
+    "no_time_T4": 0.187,
+    "no_time_T8": 0.3585,
+    "no_time_T16": 0.2195,
+    "time_cond_T4": 0.2242,
+    "time_cond_T8": 0.1004,
+    "time_cond_T16": 0.0959,
+    "direct_no_kd": 0.1388,
+    "direct_time_cond": 0.1052
+  },
+  "time_improvement": -25.81,
+  "notime_recovery": 29.549428379287157,
+  "time_recovery": -0.617681122120705
+}

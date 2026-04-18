@@ -1,0 +1,11 @@
+{
+  "experiment": "Phase 136: TTA Pixel Vote (Fixed)",
+  "timestamp": "2026-04-19T05:50:05.776880",
+  "results": {
+    "std_pixel": 0.7290978398983482,
+    "std_exact": 0,
+    "tta_pixel": 0.728843710292249,
+    "tta_exact": 0,
+    "total": 73
+  }
+}

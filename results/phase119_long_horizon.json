@@ -1,0 +1,538 @@
+{
+  "experiment": "Phase 119: Long-Horizon ARC with Soft-Landing",
+  "timestamp": "2026-04-18T12:29:48.499184",
+  "results": {
+    "flood_fill": {
+      "optimal_T": 1,
+      "optimal_iou": 0.9521282577514648,
+      "t_results": {
+        "1": {
+          "iou": 0.9521282577514648,
+          "method": "no_landing"
+        },
+        "3": {
+          "iou": 0.8752848052978516,
+          "method": "no_landing"
+        },
+        "5": {
+          "iou": 0.7646750545501709,
+          "method": "no_landing"
+        },
+        "10": {
+          "iou": 0.6320986557006836,
+          "method": "no_landing"
+        },
+        "15": {
+          "iou": 0.5342454195022583,
+          "method": "no_landing"
+        },
+        "20": {
+          "iou": 0.5984365367889404,
+          "method": "no_landing"
+        },
+        "30": {
+          "iou": 0.6773527812957764,
+          "method": "no_landing"
+        },
+        "40": {
+          "iou": 0.6817057228088379,
+          "method": "no_landing"
+        },
+        "50": {
+          "iou": 0.6875285148620606,
+          "method": "no_landing"
+        },
+        "SL_T20_m1.5_s2.0": {
+          "iou": 0.5758063936233521,
+          "T": 20,
+          "mult": 1.5,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T20_m1.5_s5.0": {
+          "iou": 0.5926329135894776,
+          "T": 20,
+          "mult": 1.5,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T20_m2.0_s2.0": {
+          "iou": 0.5748658418655396,
+          "T": 20,
+          "mult": 2.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T20_m2.0_s5.0": {
+          "iou": 0.5870256328582764,
+          "T": 20,
+          "mult": 2.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T20_m3.0_s2.0": {
+          "iou": 0.5738719868659973,
+          "T": 20,
+          "mult": 3.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T20_m3.0_s5.0": {
+          "iou": 0.5780957078933716,
+          "T": 20,
+          "mult": 3.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T20_m5.0_s2.0": {
+          "iou": 0.5736444878578186,
+          "T": 20,
+          "mult": 5.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T20_m5.0_s5.0": {
+          "iou": 0.566936526298523,
+          "T": 20,
+          "mult": 5.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T30_m1.5_s2.0": {
+          "iou": 0.6767138051986694,
+          "T": 30,
+          "mult": 1.5,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T30_m1.5_s5.0": {
+          "iou": 0.637877676486969,
+          "T": 30,
+          "mult": 1.5,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T30_m2.0_s2.0": {
+          "iou": 0.6765656995773316,
+          "T": 30,
+          "mult": 2.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T30_m2.0_s5.0": {
+          "iou": 0.6366787362098694,
+          "T": 30,
+          "mult": 2.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T30_m3.0_s2.0": {
+          "iou": 0.6764692759513855,
+          "T": 30,
+          "mult": 3.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T30_m3.0_s5.0": {
+          "iou": 0.638405442237854,
+          "T": 30,
+          "mult": 3.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T30_m5.0_s2.0": {
+          "iou": 0.676613986492157,
+          "T": 30,
+          "mult": 5.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T30_m5.0_s5.0": {
+          "iou": 0.6401327085494996,
+          "T": 30,
+          "mult": 5.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T40_m1.5_s2.0": {
+          "iou": 0.688177719116211,
+          "T": 40,
+          "mult": 1.5,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T40_m1.5_s5.0": {
+          "iou": 0.6894556427001953,
+          "T": 40,
+          "mult": 1.5,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T40_m2.0_s2.0": {
+          "iou": 0.6880911350250244,
+          "T": 40,
+          "mult": 2.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T40_m2.0_s5.0": {
+          "iou": 0.690059928894043,
+          "T": 40,
+          "mult": 2.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T40_m3.0_s2.0": {
+          "iou": 0.6880147647857666,
+          "T": 40,
+          "mult": 3.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T40_m3.0_s5.0": {
+          "iou": 0.6879174852371216,
+          "T": 40,
+          "mult": 3.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T40_m5.0_s2.0": {
+          "iou": 0.6878824329376221,
+          "T": 40,
+          "mult": 5.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T40_m5.0_s5.0": {
+          "iou": 0.6877059507369995,
+          "T": 40,
+          "mult": 5.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T50_m1.5_s2.0": {
+          "iou": 0.6884071636199951,
+          "T": 50,
+          "mult": 1.5,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T50_m1.5_s5.0": {
+          "iou": 0.698887996673584,
+          "T": 50,
+          "mult": 1.5,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T50_m2.0_s2.0": {
+          "iou": 0.6884071636199951,
+          "T": 50,
+          "mult": 2.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T50_m2.0_s5.0": {
+          "iou": 0.6997504806518555,
+          "T": 50,
+          "mult": 2.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T50_m3.0_s2.0": {
+          "iou": 0.6883787631988525,
+          "T": 50,
+          "mult": 3.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T50_m3.0_s5.0": {
+          "iou": 0.6959682488441468,
+          "T": 50,
+          "mult": 3.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T50_m5.0_s2.0": {
+          "iou": 0.688420124053955,
+          "T": 50,
+          "mult": 5.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T50_m5.0_s5.0": {
+          "iou": 0.6927610516548157,
+          "T": 50,
+          "mult": 5.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        }
+      }
+    },
+    "long_move": {
+      "optimal_T": 3,
+      "optimal_iou": 1.0,
+      "t_results": {
+        "1": {
+          "iou": 0.7275,
+          "method": "no_landing"
+        },
+        "3": {
+          "iou": 1.0,
+          "method": "no_landing"
+        },
+        "5": {
+          "iou": 1.0,
+          "method": "no_landing"
+        },
+        "10": {
+          "iou": 0.99875,
+          "method": "no_landing"
+        },
+        "15": {
+          "iou": 0.47625,
+          "method": "no_landing"
+        },
+        "20": {
+          "iou": 0.0075,
+          "method": "no_landing"
+        },
+        "30": {
+          "iou": 0.0,
+          "method": "no_landing"
+        },
+        "40": {
+          "iou": 0.0,
+          "method": "no_landing"
+        },
+        "50": {
+          "iou": 0.0,
+          "method": "no_landing"
+        },
+        "SL_T20_m1.5_s2.0": {
+          "iou": 0.0075,
+          "T": 20,
+          "mult": 1.5,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T20_m1.5_s5.0": {
+          "iou": 0.0075,
+          "T": 20,
+          "mult": 1.5,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T20_m2.0_s2.0": {
+          "iou": 0.0075,
+          "T": 20,
+          "mult": 2.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T20_m2.0_s5.0": {
+          "iou": 0.0075,
+          "T": 20,
+          "mult": 2.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T20_m3.0_s2.0": {
+          "iou": 0.0075,
+          "T": 20,
+          "mult": 3.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T20_m3.0_s5.0": {
+          "iou": 0.0075,
+          "T": 20,
+          "mult": 3.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T20_m5.0_s2.0": {
+          "iou": 0.0075,
+          "T": 20,
+          "mult": 5.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T20_m5.0_s5.0": {
+          "iou": 0.0075,
+          "T": 20,
+          "mult": 5.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T30_m1.5_s2.0": {
+          "iou": 0.0,
+          "T": 30,
+          "mult": 1.5,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T30_m1.5_s5.0": {
+          "iou": 0.0,
+          "T": 30,
+          "mult": 1.5,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T30_m2.0_s2.0": {
+          "iou": 0.0,
+          "T": 30,
+          "mult": 2.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T30_m2.0_s5.0": {
+          "iou": 0.0,
+          "T": 30,
+          "mult": 2.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T30_m3.0_s2.0": {
+          "iou": 0.0,
+          "T": 30,
+          "mult": 3.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T30_m3.0_s5.0": {
+          "iou": 0.0,
+          "T": 30,
+          "mult": 3.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T30_m5.0_s2.0": {
+          "iou": 0.0,
+          "T": 30,
+          "mult": 5.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T30_m5.0_s5.0": {
+          "iou": 0.0,
+          "T": 30,
+          "mult": 5.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T40_m1.5_s2.0": {
+          "iou": 0.0,
+          "T": 40,
+          "mult": 1.5,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T40_m1.5_s5.0": {
+          "iou": 0.0,
+          "T": 40,
+          "mult": 1.5,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T40_m2.0_s2.0": {
+          "iou": 0.0,
+          "T": 40,
+          "mult": 2.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T40_m2.0_s5.0": {
+          "iou": 0.0,
+          "T": 40,
+          "mult": 2.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T40_m3.0_s2.0": {
+          "iou": 0.0,
+          "T": 40,
+          "mult": 3.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T40_m3.0_s5.0": {
+          "iou": 0.0,
+          "T": 40,
+          "mult": 3.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T40_m5.0_s2.0": {
+          "iou": 0.0,
+          "T": 40,
+          "mult": 5.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T40_m5.0_s5.0": {
+          "iou": 0.0,
+          "T": 40,
+          "mult": 5.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T50_m1.5_s2.0": {
+          "iou": 0.0,
+          "T": 50,
+          "mult": 1.5,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T50_m1.5_s5.0": {
+          "iou": 0.0,
+          "T": 50,
+          "mult": 1.5,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T50_m2.0_s2.0": {
+          "iou": 0.0,
+          "T": 50,
+          "mult": 2.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T50_m2.0_s5.0": {
+          "iou": 0.0,
+          "T": 50,
+          "mult": 2.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T50_m3.0_s2.0": {
+          "iou": 0.0,
+          "T": 50,
+          "mult": 3.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T50_m3.0_s5.0": {
+          "iou": 0.0,
+          "T": 50,
+          "mult": 3.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        },
+        "SL_T50_m5.0_s2.0": {
+          "iou": 0.0,
+          "T": 50,
+          "mult": 5.0,
+          "slowdown": 2.0,
+          "method": "soft_landing"
+        },
+        "SL_T50_m5.0_s5.0": {
+          "iou": 0.0,
+          "T": 50,
+          "mult": 5.0,
+          "slowdown": 5.0,
+          "method": "soft_landing"
+        }
+      }
+    }
+  }
+}

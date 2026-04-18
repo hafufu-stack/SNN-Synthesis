@@ -1,0 +1,104 @@
+{
+  "experiment": "Phase 104: 3-Step Compositional Chain",
+  "timestamp": "2026-04-17T03:27:40.415437",
+  "avg_em_2step": 0.20666666666666667,
+  "avg_em_3step": 0.24999999999999997,
+  "results": [
+    {
+      "chain": [
+        "color_invert",
+        "gravity"
+      ],
+      "depth": 2,
+      "exact_match": 0.1,
+      "found_chain": [
+        "gravity",
+        "color_invert"
+      ],
+      "correct_route": false
+    },
+    {
+      "chain": [
+        "gravity",
+        "move_right"
+      ],
+      "depth": 2,
+      "exact_match": 0,
+      "found_chain": null,
+      "correct_route": false
+    },
+    {
+      "chain": [
+        "expand",
+        "color_invert"
+      ],
+      "depth": 2,
+      "exact_match": 0.52,
+      "found_chain": [
+        "color_invert",
+        "expand"
+      ],
+      "correct_route": false
+    },
+    {
+      "chain": [
+        "color_invert",
+        "gravity",
+        "move_right"
+      ],
+      "depth": 3,
+      "exact_match": 0.04,
+      "found_chain": [
+        "gravity",
+        "color_invert",
+        "move_right"
+      ],
+      "correct_route": false
+    },
+    {
+      "chain": [
+        "move_right",
+        "color_invert",
+        "gravity"
+      ],
+      "depth": 3,
+      "exact_match": 0.04,
+      "found_chain": [
+        "move_right",
+        "gravity",
+        "color_invert"
+      ],
+      "correct_route": false
+    },
+    {
+      "chain": [
+        "gravity",
+        "move_right",
+        "fill_border"
+      ],
+      "depth": 3,
+      "exact_match": 0.82,
+      "found_chain": [
+        "gravity",
+        "move_right",
+        "fill_border"
+      ],
+      "correct_route": true
+    },
+    {
+      "chain": [
+        "expand",
+        "color_invert",
+        "move_right"
+      ],
+      "depth": 3,
+      "exact_match": 0.1,
+      "found_chain": [
+        "color_invert",
+        "move_right",
+        "expand"
+      ],
+      "correct_route": false
+    }
+  ]
+}

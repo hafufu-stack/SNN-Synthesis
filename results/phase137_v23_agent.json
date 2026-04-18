@@ -1,0 +1,11 @@
+{
+  "experiment": "Phase 137: v23 Chimera Agent (TTA Fixed)",
+  "timestamp": "2026-04-19T05:50:06.677484",
+  "results": {
+    "zs_pixel": 0.8352593388873959,
+    "tta_pixel": 0.8321687718355281,
+    "zs_exact": 1,
+    "tta_exact": 0,
+    "total": 50
+  }
+}

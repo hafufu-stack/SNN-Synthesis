@@ -1,0 +1,186 @@
+{
+  "experiment": "Phase 131: Discrete Auto-T & Soft-Landing",
+  "timestamp": "2026-04-19T03:55:32.115284",
+  "results": {
+    "Fixed T=5": {
+      "pixel_acc": 0.6103515625,
+      "exact_rate": 0.0125,
+      "exact_count": 2,
+      "total": 160,
+      "avg_steps": 5.0,
+      "avg_energy": 0.2990234375
+    },
+    "Fixed T=10": {
+      "pixel_acc": 0.61259765625,
+      "exact_rate": 0.0125,
+      "exact_count": 2,
+      "total": 160,
+      "avg_steps": 10.0,
+      "avg_energy": 0.09580078125
+    },
+    "Fixed T=20": {
+      "pixel_acc": 0.61162109375,
+      "exact_rate": 0.025,
+      "exact_count": 4,
+      "total": 160,
+      "avg_steps": 20.0,
+      "avg_energy": 0.02392578125
+    },
+    "Auto-T (max=20)": {
+      "pixel_acc": 0.61162109375,
+      "exact_rate": 0.025,
+      "exact_count": 4,
+      "total": 160,
+      "avg_steps": 14.5,
+      "avg_energy": 0.02392578125
+    },
+    "Auto-T + SL": {
+      "pixel_acc": 0.60595703125,
+      "exact_rate": 0.025,
+      "exact_count": 4,
+      "total": 160,
+      "avg_steps": 16.75,
+      "avg_energy": 0.1826171875
+    },
+    "Fixed T=5 + SL": {
+      "pixel_acc": 0.6107421875,
+      "exact_rate": 0.0125,
+      "exact_count": 2,
+      "total": 160,
+      "avg_steps": 5.0,
+      "avg_energy": 0.33427734375
+    },
+    "Fixed T=10 + SL": {
+      "pixel_acc": 0.6103515625,
+      "exact_rate": 0.025,
+      "exact_count": 4,
+      "total": 160,
+      "avg_steps": 10.0,
+      "avg_energy": 0.21591796875
+    },
+    "Fixed T=20 + SL": {
+      "pixel_acc": 0.60595703125,
+      "exact_rate": 0.025,
+      "exact_count": 4,
+      "total": 160,
+      "avg_steps": 20.0,
+      "avg_energy": 0.1826171875
+    }
+  },
+  "sample_trajectory": [
+    {
+      "step": 1,
+      "n_changed": 18,
+      "change_rate": 0.28125,
+      "tau_scale": 1.0
+    },
+    {
+      "step": 2,
+      "n_changed": 9,
+      "change_rate": 0.140625,
+      "tau_scale": 1.0
+    },
+    {
+      "step": 3,
+      "n_changed": 9,
+      "change_rate": 0.140625,
+      "tau_scale": 1.0
+    },
+    {
+      "step": 4,
+      "n_changed": 11,
+      "change_rate": 0.171875,
+      "tau_scale": 1.0
+    },
+    {
+      "step": 5,
+      "n_changed": 9,
+      "change_rate": 0.140625,
+      "tau_scale": 1.0
+    },
+    {
+      "step": 6,
+      "n_changed": 6,
+      "change_rate": 0.09375,
+      "tau_scale": 1.0
+    },
+    {
+      "step": 7,
+      "n_changed": 5,
+      "change_rate": 0.078125,
+      "tau_scale": 1.0
+    },
+    {
+      "step": 8,
+      "n_changed": 7,
+      "change_rate": 0.109375,
+      "tau_scale": 1.0
+    },
+    {
+      "step": 9,
+      "n_changed": 24,
+      "change_rate": 0.375,
+      "tau_scale": 0.8
+    },
+    {
+      "step": 10,
+      "n_changed": 22,
+      "change_rate": 0.34375,
+      "tau_scale": 0.8
+    },
+    {
+      "step": 11,
+      "n_changed": 27,
+      "change_rate": 0.421875,
+      "tau_scale": 0.8
+    },
+    {
+      "step": 12,
+      "n_changed": 25,
+      "change_rate": 0.390625,
+      "tau_scale": 0.6400000000000001
+    },
+    {
+      "step": 13,
+      "n_changed": 29,
+      "change_rate": 0.453125,
+      "tau_scale": 0.6400000000000001
+    },
+    {
+      "step": 14,
+      "n_changed": 25,
+      "change_rate": 0.390625,
+      "tau_scale": 0.5120000000000001
+    },
+    {
+      "step": 15,
+      "n_changed": 28,
+      "change_rate": 0.4375,
+      "tau_scale": 0.5120000000000001
+    },
+    {
+      "step": 16,
+      "n_changed": 27,
+      "change_rate": 0.421875,
+      "tau_scale": 0.40960000000000013
+    },
+    {
+      "step": 17,
+      "n_changed": 30,
+      "change_rate": 0.46875,
+      "tau_scale": 0.40960000000000013
+    },
+    {
+      "step": 18,
+      "n_changed": 35,
+      "change_rate": 0.546875,
+      "tau_scale": 0.32768000000000014
+    },
+    {
+      "step": 19,
+      "n_changed": 35,
+      "change_rate": 0.546875,
+      "tau_scale": 0.2949120000000001
+    }
+  ]
+}

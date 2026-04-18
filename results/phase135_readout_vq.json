@@ -1,0 +1,33 @@
+{
+  "experiment": "Phase 135: Readout-Only VQ-NCA",
+  "timestamp": "2026-04-19T05:43:04.568642",
+  "results": {
+    "Continuous (no VQ)": {
+      "zs_pixel": 0.7294790343074968,
+      "zs_exact": 0,
+      "zs_total": 73,
+      "tt_pixel": 0.7799385875127943,
+      "tt_exact": 0,
+      "tt_total": 20,
+      "n_params": 103083
+    },
+    "Readout-VQ-256": {
+      "zs_pixel": 0.6838627700127065,
+      "zs_exact": 0,
+      "zs_total": 73,
+      "tt_pixel": 0.631525076765609,
+      "tt_exact": 0,
+      "tt_total": 20,
+      "n_params": 111275
+    },
+    "Readout-VQ-512": {
+      "zs_pixel": 0.7052096569250318,
+      "zs_exact": 0,
+      "zs_total": 73,
+      "tt_pixel": 0.7021494370522006,
+      "tt_exact": 0,
+      "tt_total": 20,
+      "n_params": 119467
+    }
+  }
+}

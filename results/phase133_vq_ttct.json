@@ -1,0 +1,12 @@
+{
+  "experiment": "Phase 133: VQ-TTCT",
+  "timestamp": "2026-04-19T04:58:47.798872",
+  "results": {
+    "zs_pixel": 0.6474767270945615,
+    "tt_pixel": 0.6474767270945615,
+    "zs_exact": 0,
+    "tt_exact": 0,
+    "total": 40,
+    "avg_time": 3.571413677930832
+  }
+}

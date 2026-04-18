@@ -1,0 +1,280 @@
+{
+  "experiment": "Phase 109: Neuro-Symbolic Expert Search",
+  "timestamp": "2026-04-17T08:34:32.562316",
+  "solve_rate": 0.0,
+  "n_solved": 0,
+  "n_tested": 30,
+  "n_geo_solved": 0,
+  "results": [
+    {
+      "task_id": "00d62c1b",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.3044247627258301
+    },
+    {
+      "task_id": "025d127b",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.09804153442382812
+    },
+    {
+      "task_id": "045e512c",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.43641042709350586
+    },
+    {
+      "task_id": "05269061",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.1450510025024414
+    },
+    {
+      "task_id": "05f2a901",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.13469266891479492
+    },
+    {
+      "task_id": "06df4c85",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.35379695892333984
+    },
+    {
+      "task_id": "08ed6ac7",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.07695484161376953
+    },
+    {
+      "task_id": "09629e4f",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.1826322078704834
+    },
+    {
+      "task_id": "0962bcdd",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.10268759727478027
+    },
+    {
+      "task_id": "0a938d79",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.24423766136169434
+    },
+    {
+      "task_id": "0ca9ddb6",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.13548851013183594
+    },
+    {
+      "task_id": "0d3d703e",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.13799476623535156
+    },
+    {
+      "task_id": "0dfd9992",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.3327329158782959
+    },
+    {
+      "task_id": "0e206a2e",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.1700882911682129
+    },
+    {
+      "task_id": "11852cab",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.13413619995117188
+    },
+    {
+      "task_id": "150deff5",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.12326979637145996
+    },
+    {
+      "task_id": "178fcbfb",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.1157371997833252
+    },
+    {
+      "task_id": "1a07d186",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.20969319343566895
+    },
+    {
+      "task_id": "1b60fb0c",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.10594797134399414
+    },
+    {
+      "task_id": "1bfc4729",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.08077621459960938
+    },
+    {
+      "task_id": "1caeab9d",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.10730457305908203
+    },
+    {
+      "task_id": "1e0a9b12",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.09430599212646484
+    },
+    {
+      "task_id": "1e32b0e9",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.2388913631439209
+    },
+    {
+      "task_id": "1f0c79e5",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.13532090187072754
+    },
+    {
+      "task_id": "1f642eb9",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.11401772499084473
+    },
+    {
+      "task_id": "1f876c06",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.1350717544555664
+    },
+    {
+      "task_id": "2204b7a8",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.13201284408569336
+    },
+    {
+      "task_id": "22168020",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.12675738334655762
+    },
+    {
+      "task_id": "22233c11",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.13330960273742676
+    },
+    {
+      "task_id": "2281f1f4",
+      "chain": null,
+      "demo_score": 0.0,
+      "test_score": 0,
+      "solved": false,
+      "is_geo": false,
+      "time_s": 0.12239503860473633
+    }
+  ]
+}

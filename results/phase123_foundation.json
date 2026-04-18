@@ -1,0 +1,11 @@
+{
+  "experiment": "Phase 123: Foundation Latent-Meta-NCA",
+  "timestamp": "2026-04-18T14:21:44.227362",
+  "results": {
+    "pixel_accuracy": 0.5943690046094431,
+    "exact_match_rate": 0.0,
+    "exact_matches": 0,
+    "total_tasks": 63,
+    "n_params": 148555
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "experiment": "Phase 129: Hyper-VQ-NCA",
+  "timestamp": "2026-04-19T03:41:47.946007",
+  "results": {
+    "Context-NCA": {
+      "pixel_acc": 0.7619140625,
+      "exact_rate": 0.18333333333333332,
+      "exact_count": 44,
+      "total": 240,
+      "n_params": 20337,
+      "per_rule": {
+        "flip_h": {
+          "px": 0.7604166666666666,
+          "exact": 0.0
+        },
+        "invert": {
+          "px": 1.0,
+          "exact": 1.0
+        },
+        "flip_v": {
+          "px": 0.7721354166666666,
+          "exact": 0.0
+        },
+        "rotate90": {
+          "px": 0.7901785714285714,
+          "exact": 0.0
+        },
+        "fill_border": {
+          "px": 1.0,
+          "exact": 1.0
+        },
+        "hollow": {
+          "px": 1.0,
+          "exact": 1.0
+        },
+        "erode": {
+          "px": 0.81328125,
+          "exact": 0.1
+        },
+        "dilate": {
+          "px": 0.597265625,
+          "exact": 0.0
+        }
+      }
+    },
+    "Hyper-NCA": {
+      "pixel_acc": 0.724609375,
+      "exact_rate": 0.16666666666666666,
+      "exact_count": 40,
+      "total": 240,
+      "n_params": 333569,
+      "per_rule": {
+        "flip_h": {
+          "px": 0.7699652777777778,
+          "exact": 0.0
+        },
+        "invert": {
+          "px": 1.0,
+          "exact": 1.0
+        },
+        "flip_v": {
+          "px": 0.8033854166666666,
+          "exact": 0.0
+        },
+        "rotate90": {
+          "px": 0.7991071428571429,
+          "exact": 0.0
+        },
+        "fill_border": {
+          "px": 1.0,
+          "exact": 1.0
+        },
+        "hollow": {
+          "px": 1.0,
+          "exact": 1.0
+        },
+        "erode": {
+          "px": 0.60234375,
+          "exact": 0.05
+        },
+        "dilate": {
+          "px": 0.687890625,
+          "exact": 0.0
+        }
+      }
+    },
+    "Hyper-VQ-NCA": {
+      "pixel_acc": 0.6467447916666667,
+      "exact_rate": 0.058333333333333334,
+      "exact_count": 14,
+      "total": 240,
+      "n_params": 334081,
+      "per_rule": {
+        "flip_h": {
+          "px": 0.6779513888888888,
+          "exact": 0.0
+        },
+        "invert": {
+          "px": 0.3098958333333333,
+          "exact": 0.0
+        },
+        "flip_v": {
+          "px": 0.65234375,
+          "exact": 0.0
+        },
+        "rotate90": {
+          "px": 0.6774553571428571,
+          "exact": 0.0
+        },
+        "fill_border": {
+          "px": 0.32386363636363635,
+          "exact": 0.0
+        },
+        "hollow": {
+          "px": 0.7115384615384616,
+          "exact": 0.0
+        },
+        "erode": {
+          "px": 0.933203125,
+          "exact": 0.175
+        },
+        "dilate": {
+          "px": 0.4314453125,
+          "exact": 0.0
+        }
+      }
+    },
+    "Hyper-VQ-NCA-64": {
+      "pixel_acc": 0.6465494791666667,
+      "exact_rate": 0.058333333333333334,
+      "exact_count": 14,
+      "total": 240,
+      "n_params": 334593,
+      "per_rule": {
+        "flip_h": {
+          "px": 0.6770833333333334,
+          "exact": 0.0
+        },
+        "invert": {
+          "px": 0.3098958333333333,
+          "exact": 0.0
+        },
+        "flip_v": {
+          "px": 0.65234375,
+          "exact": 0.0
+        },
+        "rotate90": {
+          "px": 0.6763392857142857,
+          "exact": 0.0
+        },
+        "fill_border": {
+          "px": 0.32386363636363635,
+          "exact": 0.0
+        },
+        "hollow": {
+          "px": 0.7103365384615384,
+          "exact": 0.0
+        },
+        "erode": {
+          "px": 0.9330078125,
+          "exact": 0.175
+        },
+        "dilate": {
+          "px": 0.431640625,
+          "exact": 0.0
+        }
+      }
+    }
+  }
+}

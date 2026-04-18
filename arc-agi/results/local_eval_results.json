@@ -1,0 +1,128 @@
+{
+  "agent": "kaggle_cell2_agent.py",
+  "n_episodes": 10,
+  "n_solved": 0,
+  "n_games": 7,
+  "results": {
+    "ft09": {
+      "best": 0,
+      "avg": 0.0,
+      "miracle_rate": 0.0,
+      "per_episode": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "g50t": {
+      "best": 0,
+      "avg": 0.0,
+      "miracle_rate": 0.0,
+      "per_episode": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "ls20": {
+      "best": 0,
+      "avg": 0.0,
+      "miracle_rate": 0.0,
+      "per_episode": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "m0r0": {
+      "best": 0,
+      "avg": 0.0,
+      "miracle_rate": 0.0,
+      "per_episode": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "sb26": {
+      "best": 0,
+      "avg": 0.0,
+      "miracle_rate": 0.0,
+      "per_episode": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "tr87": {
+      "best": 0,
+      "avg": 0.0,
+      "miracle_rate": 0.0,
+      "per_episode": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "wa30": {
+      "best": 0,
+      "avg": 0.0,
+      "miracle_rate": 0.0,
+      "per_episode": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "total_time_s": 11.722536325454712
+}

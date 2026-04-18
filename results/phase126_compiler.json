@@ -1,0 +1,49 @@
+{
+  "experiment": "Phase 126: Tensor-Decomposed NCA Compiler",
+  "timestamp": "2026-04-19T00:14:45.673619",
+  "results": {
+    "T=3": {
+      "teacher": 0.9415,
+      "Mean": 0.1028,
+      "SVD-Rank1": 0.08,
+      "SVD-Rank3": 0.9397,
+      "Fourier-2": 0.1028,
+      "Fourier-5": 0.1033,
+      "Poly-2": 0.9397,
+      "Oracle": 0.9397
+    },
+    "T=5": {
+      "teacher": 0.9716,
+      "Mean": 0.1028,
+      "SVD-Rank1": 0.0974,
+      "SVD-Rank3": 0.0516,
+      "Fourier-2": 0.1009,
+      "Fourier-5": 0.101,
+      "Poly-2": 0.0999,
+      "Poly-4": 0.9722,
+      "Oracle": 0.9722
+    },
+    "T=8": {
+      "teacher": 0.9765,
+      "Mean": 0.098,
+      "SVD-Rank1": 0.098,
+      "SVD-Rank3": 0.098,
+      "Fourier-2": 0.098,
+      "Fourier-5": 0.098,
+      "Poly-2": 0.101,
+      "Poly-5": 0.147,
+      "Oracle": 0.9779
+    },
+    "T=12": {
+      "teacher": 0.9784,
+      "Mean": 0.098,
+      "SVD-Rank1": 0.098,
+      "SVD-Rank3": 0.098,
+      "Fourier-2": 0.0151,
+      "Fourier-5": 0.1701,
+      "Poly-2": 0.098,
+      "Poly-5": 0.0744,
+      "Oracle": 0.9718
+    }
+  }
+}

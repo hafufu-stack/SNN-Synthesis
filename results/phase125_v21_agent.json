@@ -1,0 +1,464 @@
+{
+  "experiment": "Phase 125: v21 Singularity Agent",
+  "timestamp": "2026-04-18T14:32:15.550997",
+  "summary": {
+    "zs_pixel": 0.7089769077840649,
+    "v21_pixel": 0.7259519804251414,
+    "zs_exact": 0,
+    "v21_exact": 0,
+    "avg_time": 2.028175325393677,
+    "n_params": 148555
+  },
+  "per_task": [
+    {
+      "task_id": "810b9b61",
+      "zs_pixel": 0.7222222089767456,
+      "zs_exact": false,
+      "v21_pixel": 0.8888888955116272,
+      "v21_exact": false,
+      "time": 2.9018142223358154,
+      "ttct_loss": 0.047048263251781464
+    },
+    {
+      "task_id": "d2abd087",
+      "zs_pixel": 0.7099999785423279,
+      "zs_exact": false,
+      "v21_pixel": 0.7799999713897705,
+      "v21_exact": false,
+      "time": 1.7573833465576172,
+      "ttct_loss": 0.039962757378816605
+    },
+    {
+      "task_id": "ed36ccf7",
+      "zs_pixel": 0.6666666865348816,
+      "zs_exact": false,
+      "v21_pixel": 0.6666666865348816,
+      "v21_exact": false,
+      "time": 2.298264503479004,
+      "ttct_loss": 0.01371729001402855
+    },
+    {
+      "task_id": "a68b268e",
+      "zs_pixel": 0.0,
+      "zs_exact": false,
+      "v21_pixel": 0.0,
+      "v21_exact": false,
+      "time": 3.535855770111084,
+      "ttct_loss": 0.05372075363993645
+    },
+    {
+      "task_id": "8f2ea7aa",
+      "zs_pixel": 0.6913580298423767,
+      "zs_exact": false,
+      "v21_pixel": 0.6913580298423767,
+      "v21_exact": false,
+      "time": 1.8804817199707031,
+      "ttct_loss": 0.0781787633895874
+    },
+    {
+      "task_id": "623ea044",
+      "zs_pixel": 0.9134948253631592,
+      "zs_exact": false,
+      "v21_pixel": 0.9134948253631592,
+      "v21_exact": false,
+      "time": 1.9216458797454834,
+      "ttct_loss": 0.09122768044471741
+    },
+    {
+      "task_id": "1caeab9d",
+      "zs_pixel": 0.8299999833106995,
+      "zs_exact": false,
+      "v21_pixel": 0.8199999928474426,
+      "v21_exact": false,
+      "time": 1.9935686588287354,
+      "ttct_loss": 0.041845377534627914
+    },
+    {
+      "task_id": "32597951",
+      "zs_pixel": 0.608996570110321,
+      "zs_exact": false,
+      "v21_pixel": 0.6089965105056763,
+      "v21_exact": false,
+      "time": 1.9078381061553955,
+      "ttct_loss": 0.23753683269023895
+    },
+    {
+      "task_id": "d9f24cd1",
+      "zs_pixel": 0.6499999761581421,
+      "zs_exact": false,
+      "v21_pixel": 0.6499999761581421,
+      "v21_exact": false,
+      "time": 1.2186758518218994,
+      "ttct_loss": 0.09235057234764099
+    },
+    {
+      "task_id": "fafffa47",
+      "zs_pixel": 0.7777777910232544,
+      "zs_exact": false,
+      "v21_pixel": 0.7777777910232544,
+      "v21_exact": false,
+      "time": 2.7577860355377197,
+      "ttct_loss": 0.012159951962530613
+    },
+    {
+      "task_id": "6855a6e4",
+      "zs_pixel": 0.8533333539962769,
+      "zs_exact": false,
+      "v21_pixel": 0.8844444155693054,
+      "v21_exact": false,
+      "time": 1.782679796218872,
+      "ttct_loss": 0.07785546779632568
+    },
+    {
+      "task_id": "10fcaaa3",
+      "zs_pixel": 0.6000000238418579,
+      "zs_exact": false,
+      "v21_pixel": 0.5916666388511658,
+      "v21_exact": false,
+      "time": 2.26871657371521,
+      "ttct_loss": 0.10635290294885635
+    },
+    {
+      "task_id": "3428a4f5",
+      "zs_pixel": 0.5666667222976685,
+      "zs_exact": false,
+      "v21_pixel": 0.5,
+      "v21_exact": false,
+      "time": 2.2505173683166504,
+      "ttct_loss": 0.058930404484272
+    },
+    {
+      "task_id": "6f8cd79b",
+      "zs_pixel": 0.4761904776096344,
+      "zs_exact": false,
+      "v21_pixel": 0.4761904776096344,
+      "v21_exact": false,
+      "time": 2.2841601371765137,
+      "ttct_loss": 0.03696512430906296
+    },
+    {
+      "task_id": "f2829549",
+      "zs_pixel": 0.6666666865348816,
+      "zs_exact": false,
+      "v21_pixel": 0.6666666865348816,
+      "v21_exact": false,
+      "time": 2.8461270332336426,
+      "ttct_loss": 0.021234462037682533
+    },
+    {
+      "task_id": "469497ad",
+      "zs_pixel": 0.46399998664855957,
+      "zs_exact": false,
+      "v21_pixel": 0.4496000111103058,
+      "v21_exact": false,
+      "time": 1.721245527267456,
+      "ttct_loss": 0.6628946661949158
+    },
+    {
+      "task_id": "5582e5ca",
+      "zs_pixel": 0.1111111119389534,
+      "zs_exact": false,
+      "v21_pixel": 0.0,
+      "v21_exact": false,
+      "time": 1.7468252182006836,
+      "ttct_loss": 0.020799066871404648
+    },
+    {
+      "task_id": "d10ecb37",
+      "zs_pixel": 0.0,
+      "zs_exact": false,
+      "v21_pixel": 0.0,
+      "v21_exact": false,
+      "time": 1.7181282043457031,
+      "ttct_loss": 0.015473105013370514
+    },
+    {
+      "task_id": "cce03e0d",
+      "zs_pixel": 0.6172839403152466,
+      "zs_exact": false,
+      "v21_pixel": 0.654321014881134,
+      "v21_exact": false,
+      "time": 1.7081680297851562,
+      "ttct_loss": 0.08179368078708649
+    },
+    {
+      "task_id": "1f876c06",
+      "zs_pixel": 0.7599999904632568,
+      "zs_exact": false,
+      "v21_pixel": 0.7599999904632568,
+      "v21_exact": false,
+      "time": 1.7256920337677002,
+      "ttct_loss": 0.07224021106958389
+    },
+    {
+      "task_id": "0ca9ddb6",
+      "zs_pixel": 0.790123462677002,
+      "zs_exact": false,
+      "v21_pixel": 0.790123462677002,
+      "v21_exact": false,
+      "time": 1.7285575866699219,
+      "ttct_loss": 0.05907881259918213
+    },
+    {
+      "task_id": "3eda0437",
+      "zs_pixel": 0.6666666865348816,
+      "zs_exact": false,
+      "v21_pixel": 0.7916666865348816,
+      "v21_exact": false,
+      "time": 2.2381088733673096,
+      "ttct_loss": 0.09292398393154144
+    },
+    {
+      "task_id": "e6721834",
+      "zs_pixel": 0.756944477558136,
+      "zs_exact": false,
+      "v21_pixel": 0.7916666865348816,
+      "v21_exact": false,
+      "time": 1.8758463859558105,
+      "ttct_loss": 0.2389223873615265
+    },
+    {
+      "task_id": "2c608aff",
+      "zs_pixel": 0.7969924807548523,
+      "zs_exact": false,
+      "v21_pixel": 0.7644110321998596,
+      "v21_exact": false,
+      "time": 2.2583167552948,
+      "ttct_loss": 0.16675126552581787
+    },
+    {
+      "task_id": "1c786137",
+      "zs_pixel": 0.2777777910232544,
+      "zs_exact": false,
+      "v21_pixel": 0.2777777910232544,
+      "v21_exact": false,
+      "time": 1.8357930183410645,
+      "ttct_loss": 0.17025838792324066
+    },
+    {
+      "task_id": "007bbfb7",
+      "zs_pixel": 0.5555555820465088,
+      "zs_exact": false,
+      "v21_pixel": 0.5555555820465088,
+      "v21_exact": false,
+      "time": 2.9953603744506836,
+      "ttct_loss": 0.14453545212745667
+    },
+    {
+      "task_id": "ce4f8723",
+      "zs_pixel": 0.375,
+      "zs_exact": false,
+      "v21_pixel": 0.375,
+      "v21_exact": false,
+      "time": 2.5803489685058594,
+      "ttct_loss": 0.0341867059469223
+    },
+    {
+      "task_id": "60b61512",
+      "zs_pixel": 0.8641975522041321,
+      "zs_exact": false,
+      "v21_pixel": 0.8518518805503845,
+      "v21_exact": false,
+      "time": 1.3409006595611572,
+      "ttct_loss": 0.03590657189488411
+    },
+    {
+      "task_id": "dc0a314f",
+      "zs_pixel": 0.0,
+      "zs_exact": false,
+      "v21_pixel": 0.0,
+      "v21_exact": false,
+      "time": 1.9414098262786865,
+      "ttct_loss": 0.13240881264209747
+    },
+    {
+      "task_id": "b94a9452",
+      "zs_pixel": 0.0,
+      "zs_exact": false,
+      "v21_pixel": 0.0,
+      "v21_exact": false,
+      "time": 1.8724324703216553,
+      "ttct_loss": 0.07781568169593811
+    },
+    {
+      "task_id": "d4a91cb9",
+      "zs_pixel": 0.9038461446762085,
+      "zs_exact": false,
+      "v21_pixel": 0.9038461446762085,
+      "v21_exact": false,
+      "time": 1.8514628410339355,
+      "ttct_loss": 0.04470029100775719
+    },
+    {
+      "task_id": "feca6190",
+      "zs_pixel": 0.824999988079071,
+      "zs_exact": false,
+      "v21_pixel": 0.824999988079071,
+      "v21_exact": false,
+      "time": 2.973283052444458,
+      "ttct_loss": 0.14381323754787445
+    },
+    {
+      "task_id": "780d0b14",
+      "zs_pixel": 0.0,
+      "zs_exact": false,
+      "v21_pixel": 0.0,
+      "v21_exact": false,
+      "time": 1.7987151145935059,
+      "ttct_loss": 0.0241682305932045
+    },
+    {
+      "task_id": "508bd3b6",
+      "zs_pixel": 0.8611111044883728,
+      "zs_exact": false,
+      "v21_pixel": 0.8888888955116272,
+      "v21_exact": false,
+      "time": 1.7255151271820068,
+      "ttct_loss": 0.076073557138443
+    },
+    {
+      "task_id": "f8b3ba0a",
+      "zs_pixel": 0.0,
+      "zs_exact": false,
+      "v21_pixel": 0.0,
+      "v21_exact": false,
+      "time": 2.3667922019958496,
+      "ttct_loss": 0.013950426131486893
+    },
+    {
+      "task_id": "868de0fa",
+      "zs_pixel": 0.4699999988079071,
+      "zs_exact": false,
+      "v21_pixel": 0.6474999785423279,
+      "v21_exact": false,
+      "time": 3.0635828971862793,
+      "ttct_loss": 0.20430432260036469
+    },
+    {
+      "task_id": "8eb1be9a",
+      "zs_pixel": 0.5109890103340149,
+      "zs_exact": false,
+      "v21_pixel": 0.5439560413360596,
+      "v21_exact": false,
+      "time": 1.298326015472412,
+      "ttct_loss": 0.2968868017196655
+    },
+    {
+      "task_id": "d9fac9be",
+      "zs_pixel": 0.0,
+      "zs_exact": false,
+      "v21_pixel": 0.0,
+      "v21_exact": false,
+      "time": 2.3760862350463867,
+      "ttct_loss": 0.0039618732407689095
+    },
+    {
+      "task_id": "f5b8619d",
+      "zs_pixel": 0.25,
+      "zs_exact": false,
+      "v21_pixel": 0.25,
+      "v21_exact": false,
+      "time": 1.8456611633300781,
+      "ttct_loss": 0.16161572933197021
+    },
+    {
+      "task_id": "d406998b",
+      "zs_pixel": 0.6666666865348816,
+      "zs_exact": false,
+      "v21_pixel": 0.7058823704719543,
+      "v21_exact": false,
+      "time": 2.4791016578674316,
+      "ttct_loss": 0.03671979531645775
+    },
+    {
+      "task_id": "9ecd008a",
+      "zs_pixel": 0.0,
+      "zs_exact": false,
+      "v21_pixel": 0.0,
+      "v21_exact": false,
+      "time": 1.9071455001831055,
+      "ttct_loss": 0.04184141755104065
+    },
+    {
+      "task_id": "36d67576",
+      "zs_pixel": 0.8761904835700989,
+      "zs_exact": false,
+      "v21_pixel": 0.8809523582458496,
+      "v21_exact": false,
+      "time": 1.967642068862915,
+      "ttct_loss": 0.05557180196046829
+    },
+    {
+      "task_id": "bdad9b1f",
+      "zs_pixel": 0.694444477558136,
+      "zs_exact": false,
+      "v21_pixel": 0.6944444179534912,
+      "v21_exact": false,
+      "time": 1.3015577793121338,
+      "ttct_loss": 0.03445994108915329
+    },
+    {
+      "task_id": "e98196ab",
+      "zs_pixel": 0.6545454263687134,
+      "zs_exact": false,
+      "v21_pixel": 0.6545454263687134,
+      "v21_exact": false,
+      "time": 1.726069450378418,
+      "ttct_loss": 0.061141207814216614
+    },
+    {
+      "task_id": "1fad071e",
+      "zs_pixel": 0.4000000059604645,
+      "zs_exact": false,
+      "v21_pixel": 0.4000000059604645,
+      "v21_exact": false,
+      "time": 1.6945226192474365,
+      "ttct_loss": 0.010318144224584103
+    },
+    {
+      "task_id": "4522001f",
+      "zs_pixel": 0.5555555820465088,
+      "zs_exact": false,
+      "v21_pixel": 0.4938271641731262,
+      "v21_exact": false,
+      "time": 1.207259178161621,
+      "ttct_loss": 0.10128148645162582
+    },
+    {
+      "task_id": "0e206a2e",
+      "zs_pixel": 0.9561403393745422,
+      "zs_exact": false,
+      "v21_pixel": 0.9583333134651184,
+      "v21_exact": false,
+      "time": 1.8571109771728516,
+      "ttct_loss": 0.05898802727460861
+    },
+    {
+      "task_id": "6e19193c",
+      "zs_pixel": 0.85999995470047,
+      "zs_exact": false,
+      "v21_pixel": 0.8600000143051147,
+      "v21_exact": false,
+      "time": 1.2866344451904297,
+      "ttct_loss": 0.04898293688893318
+    },
+    {
+      "task_id": "9d9215db",
+      "zs_pixel": 0.8587257266044617,
+      "zs_exact": false,
+      "v21_pixel": 0.861495852470398,
+      "v21_exact": false,
+      "time": 1.8472073078155518,
+      "ttct_loss": 0.153133362531662
+    },
+    {
+      "task_id": "6cf79266",
+      "zs_pixel": 0.8299999833106995,
+      "zs_exact": false,
+      "v21_pixel": 0.8299999833106995,
+      "v21_exact": false,
+      "time": 1.942441701889038,
+      "ttct_loss": 0.5745687484741211
+    }
+  ]
+}

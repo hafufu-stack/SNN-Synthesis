@@ -1,0 +1,138 @@
+{
+  "experiment": "Phase 114: Temporal Knowledge Distillation",
+  "timestamp": "2026-04-18T10:06:44.593732",
+  "all_results": [
+    {
+      "teacher_blocks": 4,
+      "method": "KD only",
+      "T": 2,
+      "teacher_acc": 0.8581,
+      "naive_nca_acc": 0.1496,
+      "distilled_acc": 0.1904,
+      "gap_vs_teacher": -0.6677,
+      "gap_vs_naive": 0.0408,
+      "recovery_pct": 5.758645024700072
+    },
+    {
+      "teacher_blocks": 4,
+      "method": "KD only",
+      "T": 4,
+      "teacher_acc": 0.8581,
+      "naive_nca_acc": 0.1496,
+      "distilled_acc": 0.1087,
+      "gap_vs_teacher": -0.7494,
+      "gap_vs_naive": -0.040900000000000006,
+      "recovery_pct": -5.772759350741004
+    },
+    {
+      "teacher_blocks": 4,
+      "method": "KD only",
+      "T": 8,
+      "teacher_acc": 0.8581,
+      "naive_nca_acc": 0.1496,
+      "distilled_acc": 0.0998,
+      "gap_vs_teacher": -0.7583,
+      "gap_vs_naive": -0.04980000000000001,
+      "recovery_pct": -7.028934368383911
+    },
+    {
+      "teacher_blocks": 4,
+      "method": "KD+intermediate",
+      "T": 2,
+      "teacher_acc": 0.8581,
+      "naive_nca_acc": 0.1496,
+      "distilled_acc": 0.2524,
+      "gap_vs_teacher": -0.6056999999999999,
+      "gap_vs_naive": 0.1028,
+      "recovery_pct": 14.509527170077632
+    },
+    {
+      "teacher_blocks": 4,
+      "method": "KD+intermediate",
+      "T": 4,
+      "teacher_acc": 0.8581,
+      "naive_nca_acc": 0.1496,
+      "distilled_acc": 0.2713,
+      "gap_vs_teacher": -0.5868,
+      "gap_vs_naive": 0.12169999999999997,
+      "recovery_pct": 17.17713479181369
+    },
+    {
+      "teacher_blocks": 4,
+      "method": "KD+intermediate",
+      "T": 8,
+      "teacher_acc": 0.8581,
+      "naive_nca_acc": 0.1496,
+      "distilled_acc": 0.2006,
+      "gap_vs_teacher": -0.6575,
+      "gap_vs_naive": 0.05099999999999999,
+      "recovery_pct": 7.198306280875087
+    },
+    {
+      "teacher_blocks": 8,
+      "method": "KD only",
+      "T": 4,
+      "teacher_acc": 0.8842,
+      "naive_nca_acc": 0.1436,
+      "distilled_acc": 0.1386,
+      "gap_vs_teacher": -0.7456,
+      "gap_vs_naive": -0.0050000000000000044,
+      "recovery_pct": -0.6751282743721314
+    },
+    {
+      "teacher_blocks": 8,
+      "method": "KD only",
+      "T": 8,
+      "teacher_acc": 0.8842,
+      "naive_nca_acc": 0.1436,
+      "distilled_acc": 0.1504,
+      "gap_vs_teacher": -0.7338,
+      "gap_vs_naive": 0.0068000000000000005,
+      "recovery_pct": 0.918174453146098
+    },
+    {
+      "teacher_blocks": 8,
+      "method": "KD only",
+      "T": 16,
+      "teacher_acc": 0.8842,
+      "naive_nca_acc": 0.1436,
+      "distilled_acc": 0.1577,
+      "gap_vs_teacher": -0.7264999999999999,
+      "gap_vs_naive": 0.014100000000000001,
+      "recovery_pct": 1.9038617337294088
+    },
+    {
+      "teacher_blocks": 8,
+      "method": "KD+intermediate",
+      "T": 4,
+      "teacher_acc": 0.8842,
+      "naive_nca_acc": 0.1436,
+      "distilled_acc": 0.1807,
+      "gap_vs_teacher": -0.7035,
+      "gap_vs_naive": 0.037099999999999994,
+      "recovery_pct": 5.00945179584121
+    },
+    {
+      "teacher_blocks": 8,
+      "method": "KD+intermediate",
+      "T": 8,
+      "teacher_acc": 0.8842,
+      "naive_nca_acc": 0.1436,
+      "distilled_acc": 0.3647,
+      "gap_vs_teacher": -0.5195,
+      "gap_vs_naive": 0.22110000000000002,
+      "recovery_pct": 29.854172292735626
+    },
+    {
+      "teacher_blocks": 8,
+      "method": "KD+intermediate",
+      "T": 16,
+      "teacher_acc": 0.8842,
+      "naive_nca_acc": 0.1436,
+      "distilled_acc": 0.2284,
+      "gap_vs_teacher": -0.6557999999999999,
+      "gap_vs_naive": 0.08479999999999999,
+      "recovery_pct": 11.450175533351336
+    }
+  ]
+}

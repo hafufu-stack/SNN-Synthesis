@@ -1,0 +1,249 @@
+{
+  "experiment": "Phase 108: Dynamic Size Cropper",
+  "timestamp": "2026-04-17T08:34:26.197000",
+  "avg_same_size_em": 0.0,
+  "avg_diff_size_pixel_em": 0.0,
+  "avg_diff_size_size_em": 33.33333333333333,
+  "results": [
+    {
+      "task_id": "007bbfb7",
+      "size_change": true,
+      "pixel_em": 0.0,
+      "size_em": 0.0,
+      "both_em": 0.0,
+      "time_s": 6.523167848587036
+    },
+    {
+      "task_id": "00d62c1b",
+      "size_change": false,
+      "pixel_em": 0.0,
+      "size_em": 0.0,
+      "both_em": 0.0,
+      "time_s": 6.194087505340576
+    },
+    {
+      "task_id": "017c7c7b",
+      "size_change": true,
+      "pixel_em": 0.0,
+      "size_em": 0.0,
+      "both_em": 0.0,
+      "time_s": 4.04221773147583
+    },
+    {
+      "task_id": "025d127b",
+      "size_change": false,
+      "pixel_em": 0.0,
+      "size_em": 0.0,
+      "both_em": 0.0,
+      "time_s": 3.3567006587982178
+    },
+    {
+      "task_id": "045e512c",
+      "size_change": false,
+      "pixel_em": 0.0,
+      "size_em": 1.0,
+      "both_em": 0.0,
+      "time_s": 4.113173961639404
+    },
+    {
+      "task_id": "0520fde7",
+      "size_change": true,
+      "pixel_em": 0.0,
+      "size_em": 1.0,
+      "both_em": 0.0,
+      "time_s": 4.009869813919067
+    },
+    {
+      "task_id": "05269061",
+      "size_change": false,
+      "pixel_em": 0.0,
+      "size_em": 0.0,
+      "both_em": 0.0,
+      "time_s": 3.9903666973114014
+    },
+    {
+      "task_id": "05f2a901",
+      "size_change": false,
+      "pixel_em": 0.0,
+      "size_em": 0.0,
+      "both_em": 0.0,
+      "time_s": 4.102666616439819
+    },
+    {
+      "task_id": "06df4c85",
+      "size_change": false,
+      "pixel_em": 0.0,
+      "size_em": 0.0,
+      "both_em": 0.0,
+      "time_s": 3.9884114265441895
+    },
+    {
+      "task_id": "08ed6ac7",
+      "size_change": false,
+      "pixel_em": 0.0,
+      "size_em": 1.0,
+      "both_em": 0.0,
+      "time_s": 3.494077444076538
+    },
+    {
+      "task_id": "09629e4f",
+      "size_change": false,
+      "pixel_em": 0.0,
+      "size_em": 1.0,
+      "both_em": 0.0,
+      "time_s": 4.9082581996917725
+    },
+    {
+      "task_id": "0962bcdd",
+      "size_change": false,
+      "pixel_em": 0.0,
+      "size_em": 1.0,
+      "both_em": 0.0,
+      "time_s": 3.411844253540039
+    },
+    {
+      "task_id": "0a938d79",
+      "size_change": false,
+      "pixel_em": 0.0,
+      "size_em": 0.0,
+      "both_em": 0.0,
+      "time_s": 5.565504789352417
+    },
+    {
+      "task_id": "0b148d64",
+      "size_change": true,
+      "pixel_em": 0.0,
+      "size_em": 0.0,
+      "both_em": 0.0,
+      "time_s": 4.2891998291015625
+    },
+    {
+      "task_id": "0ca9ddb6",
+      "size_change": false,
+      "pixel_em": 0.0,
+      "size_em": 1.0,
+      "both_em": 0.0,
+      "time_s": 4.052129507064819
+    },
+    {
+      "task_id": "0d3d703e",
+      "size_change": false,
+      "pixel_em": 0.0,
+      "size_em": 1.0,
+      "both_em": 0.0,
+      "time_s": 6.110182523727417
+    },
+    {
+      "task_id": "0dfd9992",
+      "size_change": false,
+      "pixel_em": 0.0,
+      "size_em": 1.0,
+      "both_em": 0.0,
+      "time_s": 4.923568487167358
+    },
+    {
+      "task_id": "0e206a2e",
+      "size_change": false,
+      "pixel_em": 0.0,
+      "size_em": 0.0,
+      "both_em": 0.0,
+      "time_s": 4.8223371505737305
+    },
+    {
+      "task_id": "10fcaaa3",
+      "size_change": true,
+      "pixel_em": 0.0,
+      "size_em": 0.0,
+      "both_em": 0.0,
+      "time_s": 5.915551662445068
+    },
+    {
+      "task_id": "11852cab",
+      "size_change": false,
+      "pixel_em": 0.0,
+      "size_em": 1.0,
+      "both_em": 0.0,
+      "time_s": 4.879546165466309
+    },
+    {
+      "task_id": "1190e5a7",
+      "size_change": true,
+      "pixel_em": 0.0,
+      "size_em": 0.0,
+      "both_em": 0.0,
+      "time_s": 4.6665403842926025
+    },
+    {
+      "task_id": "137eaa0f",
+      "size_change": true,
+      "pixel_em": 0.0,
+      "size_em": 1.0,
+      "both_em": 0.0,
+      "time_s": 5.543506860733032
+    },
+    {
+      "task_id": "150deff5",
+      "size_change": false,
+      "pixel_em": 0.0,
+      "size_em": 0.0,
+      "both_em": 0.0,
+      "time_s": 4.914808750152588
+    },
+    {
+      "task_id": "178fcbfb",
+      "size_change": false,
+      "pixel_em": 0.0,
+      "size_em": 0.0,
+      "both_em": 0.0,
+      "time_s": 4.837684869766235
+    },
+    {
+      "task_id": "1a07d186",
+      "size_change": false,
+      "pixel_em": 0.0,
+      "size_em": 0.0,
+      "both_em": 0.0,
+      "time_s": 4.889054298400879
+    },
+    {
+      "task_id": "1b2d62fb",
+      "size_change": true,
+      "pixel_em": 0.0,
+      "size_em": 1.0,
+      "both_em": 0.0,
+      "time_s": 6.787970542907715
+    },
+    {
+      "task_id": "1b60fb0c",
+      "size_change": false,
+      "pixel_em": 0.0,
+      "size_em": 0.0,
+      "both_em": 0.0,
+      "time_s": 5.838802099227905
+    },
+    {
+      "task_id": "1bfc4729",
+      "size_change": false,
+      "pixel_em": 0.0,
+      "size_em": 0.0,
+      "both_em": 0.0,
+      "time_s": 4.290995121002197
+    },
+    {
+      "task_id": "1c786137",
+      "size_change": true,
+      "pixel_em": 0.0,
+      "size_em": 0.0,
+      "both_em": 0.0,
+      "time_s": 5.725625991821289
+    },
+    {
+      "task_id": "1caeab9d",
+      "size_change": false,
+      "pixel_em": 0.0,
+      "size_em": 0.0,
+      "both_em": 0.0,
+      "time_s": 5.634047031402588
+    }
+  ]
+}

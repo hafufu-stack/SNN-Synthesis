@@ -1,0 +1,11 @@
+{
+  "experiment": "Phase 132: Foundation Context-VQ-NCA",
+  "timestamp": "2026-04-19T04:56:21.053624",
+  "results": {
+    "pixel_accuracy": 0.5719186785260483,
+    "exact_match_rate": 0.0,
+    "exact_matches": 0,
+    "total_tasks": 73,
+    "n_params": 105131
+  }
+}

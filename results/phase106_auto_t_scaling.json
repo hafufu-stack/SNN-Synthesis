@@ -1,0 +1,258 @@
+{
+  "experiment": "Phase 106: Auto-T Scaling by Task Difficulty",
+  "timestamp": "2026-04-17T03:42:18.510238",
+  "results": [
+    {
+      "task": "gravity",
+      "difficulty": "easy",
+      "grid_size": 6,
+      "n_objects": 2,
+      "avg_auto_t": 11.33,
+      "std_auto_t": 1.871122657657696,
+      "exact_match": 75.0,
+      "steps_distribution": [
+        39,
+        26,
+        21,
+        9,
+        1,
+        2,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "task": "gravity",
+      "difficulty": "medium",
+      "grid_size": 8,
+      "n_objects": 4,
+      "avg_auto_t": 9.79,
+      "std_auto_t": 0.5881326381013043,
+      "exact_match": 4.0,
+      "steps_distribution": [
+        30,
+        0,
+        0,
+        0,
+        0,
+        61,
+        0,
+        0,
+        0,
+        9
+      ]
+    },
+    {
+      "task": "gravity",
+      "difficulty": "hard",
+      "grid_size": 12,
+      "n_objects": 6,
+      "avg_auto_t": 11.19,
+      "std_auto_t": 0.8682741502543997,
+      "exact_match": 0.0,
+      "steps_distribution": [
+        25,
+        0,
+        0,
+        36,
+        0,
+        0,
+        34,
+        0,
+        0,
+        5
+      ]
+    },
+    {
+      "task": "gravity",
+      "difficulty": "extreme",
+      "grid_size": 16,
+      "n_objects": 10,
+      "avg_auto_t": 5.14,
+      "std_auto_t": 0.34698703145794946,
+      "exact_match": 0.0,
+      "steps_distribution": [
+        86,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        14
+      ]
+    },
+    {
+      "task": "expand",
+      "difficulty": "easy",
+      "grid_size": 6,
+      "n_objects": 2,
+      "avg_auto_t": 9.17,
+      "std_auto_t": 6.230658071183172,
+      "exact_match": 86.0,
+      "steps_distribution": [
+        93,
+        3,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "task": "expand",
+      "difficulty": "medium",
+      "grid_size": 8,
+      "n_objects": 4,
+      "avg_auto_t": 9.21,
+      "std_auto_t": 0.6048966853934644,
+      "exact_match": 75.0,
+      "steps_distribution": [
+        7,
+        0,
+        67,
+        0,
+        0,
+        25,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "task": "expand",
+      "difficulty": "hard",
+      "grid_size": 12,
+      "n_objects": 6,
+      "avg_auto_t": 10.2,
+      "std_auto_t": 0.44721359549995787,
+      "exact_match": 92.0,
+      "steps_distribution": [
+        2,
+        0,
+        0,
+        0,
+        0,
+        76,
+        0,
+        0,
+        0,
+        22
+      ]
+    },
+    {
+      "task": "expand",
+      "difficulty": "extreme",
+      "grid_size": 16,
+      "n_objects": 10,
+      "avg_auto_t": 9.01,
+      "std_auto_t": 0.2643860813280457,
+      "exact_match": 52.0,
+      "steps_distribution": [
+        3,
+        0,
+        0,
+        0,
+        0,
+        93,
+        0,
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "task": "color_invert",
+      "difficulty": "easy",
+      "grid_size": 6,
+      "n_objects": 2,
+      "avg_auto_t": 6.55,
+      "std_auto_t": 0.5361902647381804,
+      "exact_match": 100.0,
+      "steps_distribution": [
+        47,
+        0,
+        0,
+        0,
+        0,
+        51,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "task": "color_invert",
+      "difficulty": "medium",
+      "grid_size": 8,
+      "n_objects": 4,
+      "avg_auto_t": 6.09,
+      "std_auto_t": 0.28618176042508375,
+      "exact_match": 100.0,
+      "steps_distribution": [
+        91,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9
+      ]
+    },
+    {
+      "task": "color_invert",
+      "difficulty": "hard",
+      "grid_size": 12,
+      "n_objects": 6,
+      "avg_auto_t": 7.86,
+      "std_auto_t": 0.5834380858325928,
+      "exact_match": 94.0,
+      "steps_distribution": [
+        24,
+        0,
+        0,
+        67,
+        0,
+        0,
+        8,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "task": "color_invert",
+      "difficulty": "extreme",
+      "grid_size": 16,
+      "n_objects": 10,
+      "avg_auto_t": 7.0,
+      "std_auto_t": 0.0,
+      "exact_match": 99.0,
+      "steps_distribution": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        100,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

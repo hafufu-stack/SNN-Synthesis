@@ -1,0 +1,48 @@
+{
+  "experiment": "Phase 127: Hyper-NCA Auto-Compiler",
+  "timestamp": "2026-04-19T00:18:12.715606",
+  "results": {
+    "Context-NCA": {
+      "seen": {
+        "iou": 0.6576361268758774,
+        "per_rule": {
+          "flip_v": 0.31202478483319285,
+          "flip_h": 0.3602223894917048,
+          "invert": 1.0,
+          "fill_border": 1.0,
+          "hollow": 1.0,
+          "rotate90": 0.33187858760356903
+        }
+      },
+      "unseen": {
+        "iou": 0.2605535044024388,
+        "per_rule": {
+          "erode": 0.08170652091503143,
+          "dilate": 0.43940048788984615
+        }
+      },
+      "n_params": 20337
+    },
+    "Hyper-NCA": {
+      "seen": {
+        "iou": 0.6980419253309568,
+        "per_rule": {
+          "flip_v": 0.3371476009488106,
+          "flip_h": 0.4970189814384167,
+          "invert": 1.0,
+          "fill_border": 1.0,
+          "hollow": 1.0,
+          "rotate90": 0.38122409395873547
+        }
+      },
+      "unseen": {
+        "iou": 0.2810033090878278,
+        "per_rule": {
+          "erode": 0.07193941061074535,
+          "dilate": 0.49006720756491023
+        }
+      },
+      "n_params": 333569
+    }
+  }
+}
