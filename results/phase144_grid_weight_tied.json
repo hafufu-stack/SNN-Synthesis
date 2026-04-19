@@ -1,0 +1,73 @@
+{
+  "experiment": "Phase 144: Grid Weight-Tied Compiler",
+  "timestamp": "2026-04-19T10:00:46.871497",
+  "results": {
+    "normal_cnn": {
+      "pixel_acc": 0.76616796875,
+      "exact_match": 0.0,
+      "params": 92833
+    },
+    "weight_tied": {
+      "pixel_acc": 0.76616796875,
+      "exact_match": 0.0,
+      "params": 18849
+    },
+    "compiled_nca": {
+      "pixel_acc": 0.76616796875,
+      "exact_match": 0.0,
+      "lossless": true
+    },
+    "nca_scratch": {
+      "pixel_acc": 0.76616796875,
+      "exact_match": 0.0
+    }
+  },
+  "step_sweep": {
+    "1": {
+      "pixel_acc": 0.76616796875,
+      "exact_match": 0.0
+    },
+    "2": {
+      "pixel_acc": 0.76616796875,
+      "exact_match": 0.0
+    },
+    "3": {
+      "pixel_acc": 0.76616796875,
+      "exact_match": 0.0
+    },
+    "4": {
+      "pixel_acc": 0.76616796875,
+      "exact_match": 0.0
+    },
+    "5": {
+      "pixel_acc": 0.76616796875,
+      "exact_match": 0.0
+    },
+    "6": {
+      "pixel_acc": 0.76616796875,
+      "exact_match": 0.0
+    },
+    "7": {
+      "pixel_acc": 0.76616796875,
+      "exact_match": 0.0
+    },
+    "8": {
+      "pixel_acc": 0.76616796875,
+      "exact_match": 0.0
+    },
+    "10": {
+      "pixel_acc": 0.76616796875,
+      "exact_match": 0.0
+    },
+    "15": {
+      "pixel_acc": 0.76616796875,
+      "exact_match": 0.0
+    },
+    "20": {
+      "pixel_acc": 0.76616796875,
+      "exact_match": 0.0
+    }
+  },
+  "lossless": true,
+  "elapsed_seconds": 41.4785897731781
+}

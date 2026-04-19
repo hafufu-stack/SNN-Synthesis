@@ -1,0 +1,14 @@
+{
+  "experiment": "Phase 142: Vector Field Distillation",
+  "timestamp": "2026-04-19T09:34:39.752197",
+  "teacher_acc": 0.9886,
+  "teacher_params": 149642,
+  "baseline_acc": 0.101,
+  "recovery_baseline": 10.21646773214647,
+  "vf_acc": 0.098,
+  "recovery_vf": 9.913008294557962,
+  "scratch_acc": 0.0957,
+  "student_params": 19274,
+  "improvement": -0.0030000000000000027,
+  "elapsed_seconds": 612.4599759578705
+}

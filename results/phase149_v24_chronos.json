@@ -1,0 +1,12 @@
+{
+  "experiment": "Phase 149: v24 Chronos Agent",
+  "timestamp": "2026-04-19T11:26:25.167526",
+  "n_params": 149163,
+  "zs_pa": 0.6047683008730692,
+  "zs_exact": 0,
+  "v24_pa": 0.6398589657488247,
+  "v24_exact": 0,
+  "total_tasks": 50,
+  "avg_time": 2.031369409561157,
+  "elapsed_seconds": 302.8263659477234
+}

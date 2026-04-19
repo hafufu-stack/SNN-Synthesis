@@ -1,0 +1,75 @@
+{
+  "experiment": "Phase 140: Universal Neural Compiler",
+  "timestamp": "2026-04-19T09:06:56.734867",
+  "n_params": 118282,
+  "results": {
+    "ann": {
+      "accuracy": 0.9778,
+      "latency_ms": 633.882999420166,
+      "label": "ANN (Static Feedforward)"
+    },
+    "snn": {
+      "accuracy": 0.0974,
+      "latency_ms": 1195.8622932434082,
+      "label": "SNN (Discrete Spikes)"
+    },
+    "lnn": {
+      "accuracy": 0.9778,
+      "latency_ms": 821.4797973632812,
+      "label": "LNN (Liquid Dynamics)"
+    },
+    "lsnn": {
+      "accuracy": 0.0974,
+      "latency_ms": 1018.8922882080078,
+      "label": "LSNN (Liquid + Spikes)"
+    }
+  },
+  "alpha_sweep": {
+    "0.5": {
+      "snn": 0.2795,
+      "lnn": 0.9778,
+      "lsnn": 0.0974
+    },
+    "1.0": {
+      "snn": 0.0974,
+      "lnn": 0.9778,
+      "lsnn": 0.0974
+    },
+    "1.5": {
+      "snn": 0.0974,
+      "lnn": 0.9778,
+      "lsnn": 0.0974
+    },
+    "2.0": {
+      "snn": 0.0974,
+      "lnn": 0.9778,
+      "lsnn": 0.0974
+    },
+    "3.0": {
+      "snn": 0.0974,
+      "lnn": 0.9778,
+      "lsnn": 0.0974
+    },
+    "5.0": {
+      "snn": 0.0974,
+      "lnn": 0.9778,
+      "lsnn": 0.0974
+    },
+    "7.0": {
+      "snn": 0.0974,
+      "lnn": 0.9778,
+      "lsnn": 0.0974
+    },
+    "10.0": {
+      "snn": 0.0974,
+      "lnn": 0.9778,
+      "lsnn": 0.0974
+    }
+  },
+  "max_activations": [
+    32.48292922973633,
+    24.2504825592041,
+    31.10654067993164
+  ],
+  "elapsed_seconds": 81.38577198982239
+}

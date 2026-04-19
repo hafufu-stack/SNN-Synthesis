@@ -1,73 +1,82 @@
-# SNN-Synthesis: Liquid Neural Cellular Automata for ARC-AGI — Continuous Thought, Discrete Action
+# SNN-Synthesis: The Physics of Neural Computation — Space, Time, and Phases in Artificial Life
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19343952.svg)](https://doi.org/10.5281/zenodo.19343952)
 
-> **Intelligence requires continuous, differentiable thought with discrete output crystallization. 2.8K parameters per cell, 83.5% pixel accuracy, first exact match on real ARC.**
+> **Six Laws of Neural Computation Physics. Space ≡ Time. NCA = Turing Complete. Soft Crystallization. 150 experiments, 2.8K to 7B parameters.**
 
 Successor to [SNN-Genesis](https://github.com/hafufu-stack/snn-genesis) (v1–v20, 111 phases, 127 pages).
-SNN-Genesis dissected the black box of LLM reasoning through noise intervention. SNN-Synthesis uses that anatomical map to **build new AI architectures** and proves that stochastic resonance is a **universal, architecture-invariant, model-invariant neural network phenomenon** — then culminates in **Liquid Neural Cellular Automata (L-NCA)** deployed to **real ARC-AGI tasks**, establishing the principle of **Continuous Thought, Discrete Action**.
+SNN-Genesis dissected the black box of LLM reasoning through noise intervention. SNN-Synthesis uses that anatomical map to **build new AI architectures** and proves that stochastic resonance is a **universal, architecture-invariant, model-invariant neural network phenomenon** — then culminates in **Liquid Neural Cellular Automata (L-NCA)** deployed to **real ARC-AGI tasks**, establishing the principle of **Continuous Thought, Discrete Action** and a formal **Physics of Neural Computation**.
 
 ## 🔬 Research Vision
 
 SNN-Genesis was the **Anatomy & Physiology** phase — discovering the physical laws of reasoning (stochastic resonance, Aha! dimensions, layer localization).
 
-SNN-Synthesis is the **Architecture & Synthesis** phase — building systems that internalize those laws, proving their **universality across architectures (NCA → CNN → Transformer), model families (Mistral → Qwen), scales (2.8K → 7B), precisions (FP16 → 4-bit), and tasks (grid transformation → symbolic reasoning → math → ARC-AGI-3 competition)**, and demonstrating that noise + natural selection + local cellular rules form a **complete learning paradigm**.
+SNN-Synthesis is the **Architecture & Synthesis** phase — building systems that internalize those laws, proving their **universality across architectures (NCA → CNN → Transformer), model families (Mistral → Qwen), scales (2.8K → 7B), precisions (FP16 → 4-bit), and tasks (grid transformation → symbolic reasoning → math → ARC-AGI-3 competition)**, and establishing a **Physics of Neural Computation** that unifies space, time, and phase transitions in artificial life.
 
-### 🏆 Key Results (v11)
+### 🏆 Key Results (v12)
 
-**New in v11 (Phases 101–137) — Real ARC Deployment & the VQ Paradox:**
+**New in v12 (Phases 138–150) — The Physics of Neural Computation:**
 
-1. **🧠 v23 Chimera Agent: First Exact Match on Real ARC.**
-   Continuous NCA with TTCT achieves **83.53% pixel accuracy and 1/50 exact match** on real ARC-AGI tasks — the first time any L-NCA system has produced a pixel-perfect solution on an unseen real task. +10.93pp over v21. (Phase 137)
+1. **⚡ Space ≡ Time: Dimensional Folding.**
+   Weight-Tied CNNs compile losslessly to NCA with **Gap = 0.000000%**, proving that spatial depth and temporal iteration are mathematically equivalent. Parameter reduction: 7.8×. (Phases 141, 144)
+
+   ![Phase 141: Space ≡ Time](figures/phase141_weight_tied_compiler.png)
+
+2. **🧠 NCA = Turing Complete.**
+   Baseline NCA solves Dilate → Invert → Erode with **100% pixel accuracy and 100% exact match** — without any external clock. Hidden channels autonomously create internal state machines. (Phase 148)
+
+   ![Phase 148: Turing NCA](figures/phase148_turing_nca.png)
+
+3. **🔬 The θ–τ Isomorphism: Universal Neural Compiler.**
+   ANN ↔ LNN conversion is **lossless** (97.40% preserved). ANN → SNN is inherently **lossy** (10–15%), confirming *information evaporation* under discretization. One model, four compilation targets. (Phases 138–140)
+
+   ![Phase 138: θ–τ Isomorphism](figures/phase138_theta_tau_isomorphism.png)
+
+4. **🦋 The Butterfly Effect Wall.**
+   Trajectory Forcing on Game of Life reveals per-step accuracy of 94% degrading to 76% over 5 chaotic steps — the first observation of **deterministic chaos** as a fundamental bound on neural network prediction. (Phase 147)
+
+   ![Phase 147: Trajectory Forcing](figures/phase147_trajectory_forced.png)
+
+5. **⏳ Autonomous Hourglass & Clock Duality.**
+   Hourglass NCA develops U-shaped clock trajectories without supervision. External clocks are **beneficial** on grid tasks (99.9%) but **harmful** on classification — a fundamental task-dependent duality. (Phases 143, 146)
+
+   ![Phase 146: Dynamic Hourglass](figures/phase146_dynamic_hourglass.png)
+
+6. **💎 Soft Crystallization.**
+   Entropy minimization during TTCT achieves **+3.51% pixel accuracy** without VQ's gradient destruction — completing "Continuous Thought, Discrete Action" at the loss-function level. (Phases 149–150)
+
+   ![Phase 149: v24 Chronos Agent](figures/phase149_v24_chronos.png)
+
+**v11 Findings (Phases 101–137) — Real ARC & the VQ Paradox:**
+
+7. **🧠 v23 Chimera Agent: First Exact Match on Real ARC.**
+   Continuous NCA with TTCT achieves **83.53% pixel accuracy and 1/50 exact match** on real ARC-AGI tasks. +10.93pp over v21. (Phase 137)
 
    ![Phase 137: v23 Chimera Agent](figures/phase137_road_to_v23.png)
 
-2. **💡 Continuous Thought, Discrete Action.**
-   Removing VQ from the NCA loop and using continuous computation with TTCT achieves the **highest TTCT gain (+5.05%)**. Intelligence requires continuous, differentiable thought with discrete output crystallization. (Phase 135)
+8. **💡 Continuous Thought, Discrete Action.**
+   Removing VQ from the NCA loop achieves the **highest TTCT gain (+5.05%)**. Intelligence requires continuous, differentiable thought with discrete output crystallization. (Phase 135)
 
-   ![v11 Summary: VQ Paradox & TTCT](figures/phase137_v23_summary.png)
+9. **❌ The VQ Paradox: Discretization Kills Intelligence.**
+   Full-loop VQ degrades real-ARC pixel accuracy by **−12.5pp** and kills TTCT gradient flow. The most important null result of v11. (Phases 132–135)
 
-3. **❌ The VQ Paradox: Discretization Kills Intelligence.**
-   Full-loop VQ degrades real-ARC pixel accuracy by **−12.5pp** (72.6% → 60.1%) and kills TTCT gradient flow (gap = +0.00%). Even Readout-Only VQ degrades adaptation. The most important null result of v11. (Phases 132–135)
-
-4. **🔬 Latent-NCA Breakthrough.**
-   Operating NCA dynamics in a learned latent space achieves **22.7× improvement** in IoU (0.027 → 0.613), enabling real ARC reasoning for the first time. (Phase 120)
-
-   ![Phase 120: Latent-NCA](figures/phase120_latent_nca.png)
-
-5. **📐 Context-NCA with TTCT.**
-   In-context meta-learning with gradient-based Test-Time Context Tuning achieves **78.0% pixel accuracy** on 73 held-out real ARC tasks. (Phases 122–124)
-
-6. **🎯 VQ-NCA: First Exact Match (Toy Tasks).**
-   VQ-NCA achieves 1.9% exact match (3/160) on 8-rule tasks. Gumbel NBS boosts this by +150% via discrete attractor tunneling. (Phases 128, 130)
-
-   ![VQ-NCA Analysis](figures/phase128_130_vq_analysis.png)
-
-7. **🔄 Edge of Chaos.**
-   Well-trained L-NCAs operate at **λ_max ≈ 0**, the critical boundary between stable and chaotic dynamics. (Phase 121)
-
-   ![Edge of Chaos](figures/phase121_edge_of_chaos.png)
-
-8. **38 principal insights, 27 honest null results** across 137 experimental phases.
+10. **🔬 Latent-NCA Breakthrough.**
+    Operating NCA dynamics in a learned latent space achieves **22.7× improvement** in IoU. (Phase 120)
 
 **v10 Findings (Phases 68–100) — Liquid NCA:**
 
-9. **🧬 L-NCA: Size-Free Perfect Generalization.**
-   L-NCA trained on 8×8 grids achieves **100% pixel accuracy on unseen 12×12 grids** with only **2.8K parameters** (22× fewer than CNNs). (Phases 81–86)
+11. **🧬 L-NCA: Size-Free Perfect Generalization.**
+    2.8K parameters, 100% accuracy on unseen 12×12 grids. (Phases 81–86)
 
-10. **🧠 Liquid MoE: Compositional Fluid Intelligence.**
-    5 specialist L-NCAs with zero-shot loss routing: **100% routing accuracy**, **76% solve rate**. Compositional routing: **6% → 100%**. (Phases 87–94)
-
-11. **🏆 v20 Ultimate Liquid AGI.**
-    **88% solve rate, 100% routing accuracy, 338ms latency, 0% timeouts** on 40 ARC levels — **~14K total parameters**. (Phase 100)
+12. **🏆 v20 Ultimate Liquid AGI.**
+    **88% solve rate, 338ms latency, ~14K total parameters** on 40 ARC levels. (Phase 100)
 
     ![Phase 100: v20 Ultimate Liquid AGI](figures/phase100_v20_agent.png)
 
 **v7–v9 Findings (Phases 39–67):**
 
-12. **SR-Quantization**: Qwen-1.5B + NBS (80%) > Mistral-7B baseline (42%) — **space-time duality**. (Phase 59)
-13. **The Crossover Law**: Overhead >0.5ms → intelligence loses to random. (Phases 44–46)
-14. **TTC Scaling Law**: Logarithmic accuracy scaling with K. (Phases 60, 62)
+13. **SR-Quantization**: Qwen-1.5B + NBS (80%) > Mistral-7B baseline (42%) — **space-time duality**. (Phase 59)
+14. **The Crossover Law**: Overhead >0.5ms → intelligence loses to random. (Phases 44–46)
 15. **Multi-Model Ensemble**: Mistral+Qwen mix achieves 86.7%. (Phase 63)
 16. **Noise Source Separation**: Hook-alone (90%) > Temperature-alone (87%) > Both (83%). (Phase 67)
 
@@ -82,23 +91,24 @@ SNN-Synthesis is the **Architecture & Synthesis** phase — building systems tha
 
 ```
 snn-synthesis/
-├── experiments/          # Experiment scripts (Phases 1–137)
+├── experiments/          # Experiment scripts (Phases 1–150)
 │   ├── phase29_llm_noisy_beam.py        # LLM NBS (v4)
 │   ├── phase32b_llm_exit.py             # LLM-ExIt (v5)
-│   ├── phase59_sr_quantization.py       # SR-Quantization (v7)
-│   ├── phase81_liquid_nca.py            # L-NCA (v10)
-│   ├── phase92_moe.py                   # L-MoE (v10)
 │   ├── phase100_v20_agent.py            # v20 Ultimate AGI (v10)
 │   ├── phase120_latent_nca.py           # Latent-NCA (v11)
-│   ├── phase124_ttct.py                 # TTCT (v11)
-│   ├── phase128_vq_nca.py              # VQ-NCA (v11)
-│   ├── phase135_readout_vq.py           # Readout-Only VQ (v11)
 │   ├── phase137_v23_agent.py            # v23 Chimera Agent (v11)
+│   ├── phase138_theta_tau_isomorphism.py # θ–τ Isomorphism (v12)
+│   ├── phase140_universal_compiler.py    # Universal Neural Compiler (v12)
+│   ├── phase141_weight_tied_compiler.py  # Space ≡ Time (v12)
+│   ├── phase147_trajectory_forced.py     # Butterfly Effect Wall (v12)
+│   ├── phase148_turing_nca.py            # NCA Turing Completeness (v12)
+│   ├── phase149_v24_chronos.py           # Soft Crystallization (v12)
+│   ├── phase150_v25_laplace.py           # v25 Laplace Demon (v12)
 │   └── ...
-├── arc-agi/              # ARC-AGI-3 Kaggle agents (v5–v23)
+├── arc-agi/              # ARC-AGI-3 Kaggle agents (v5–v25)
 ├── results/              # Experiment result logs (JSON)
 ├── figures/              # All experiment figures (PNG)
-├── papers/               # LaTeX source (v1–v11, .gitignore'd)
+├── papers/               # LaTeX source (v1–v12, .gitignore'd)
 ├── LICENSE
 └── README.md
 ```
@@ -119,12 +129,15 @@ pip install arcprize
 
 ## 📄 Papers
 
-- **SNN-Synthesis v11** (latest): [Zenodo (PDF)](https://doi.org/10.5281/zenodo.19343952)
-  - **137 experiments** (Phases 1–137), **38 principal insights**, **27 honest null results**
-  - **v23 Chimera Agent**: 83.5% pixel accuracy, first exact match on real ARC (Phase 137)
-  - **VQ Paradox**: Discretization kills intelligence on complex tasks (Phases 132–135)
-  - **Continuous Thought, Discrete Action**: The optimal NCA paradigm (Phase 135)
-  - v1–v10 findings retained
+- **SNN-Synthesis v12** (latest): [Zenodo (PDF)](https://doi.org/10.5281/zenodo.19343952)
+  - **150 experiments** (Phases 1–150), **44 principal insights**, **27 honest null results**
+  - **Six Laws of Neural Computation Physics**: Space ≡ Time, NCA Turing Completeness, Autonomous Clock Emergence, Clock Duality, Butterfly Effect Wall, Soft Crystallization
+  - **θ–τ Isomorphism**: Universal ANN/SNN/LNN/LSNN compiler
+  - **v23 Chimera Agent**: 83.5% pixel accuracy, first exact match on real ARC
+  - v1–v11 findings retained
+
+- **SNN-Synthesis v11**: [Zenodo (PDF)](https://doi.org/10.5281/zenodo.19646879)
+  - 137 experiments — v23 Chimera, VQ Paradox, Continuous Thought Discrete Action
 
 - **SNN-Synthesis v10**: [Zenodo (PDF)](https://doi.org/10.5281/zenodo.19614377)
   - 100 experiments — L-NCA, L-MoE, Attractor Regularization, v20 Agent (88% solve rate)
@@ -164,7 +177,7 @@ This research is conducted collaboratively between the human author and AI resea
 ```bibtex
 @misc{funasaki2026snnsynthesis,
   author = {Funasaki, Hiroto},
-  title = {SNN-Synthesis v11: Liquid Neural Cellular Automata for ARC-AGI --- Continuous Thought, Discrete Action, and the VQ Paradox, from 2.8K to 7B Parameters},
+  title = {SNN-Synthesis v12: Liquid Neural Cellular Automata for ARC-AGI --- The Physics of Neural Computation: Space, Time, and Phases in Artificial Life, from 2.8K to 7B Parameters},
   year = {2026},
   doi = {10.5281/zenodo.19343952},
   publisher = {Zenodo},

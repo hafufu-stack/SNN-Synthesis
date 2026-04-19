@@ -1,0 +1,32 @@
+{
+  "experiment": "Phase 147: Trajectory-Forced Compiler",
+  "timestamp": "2026-04-19T11:18:55.362074",
+  "results": {
+    "wt_e2e": {
+      "pixel_acc": 0.76616796875,
+      "exact_match": 0.0
+    },
+    "wt_traj": {
+      "pixel_acc": 0.76616796875,
+      "exact_match": 0.0
+    },
+    "compiled_nca": {
+      "pixel_acc": 0.76616796875,
+      "exact_match": 0.0,
+      "lossless": true
+    },
+    "normal_traj": {
+      "pixel_acc": 0.805828125,
+      "exact_match": 0.0
+    }
+  },
+  "step_accs": [
+    0.940070815384388,
+    0.7449572682380676,
+    0.7480571493506432,
+    0.7601925805211067,
+    0.7661552429199219
+  ],
+  "improvement": 0.0,
+  "elapsed_seconds": 85.30721282958984
+}

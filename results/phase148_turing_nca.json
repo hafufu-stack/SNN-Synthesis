@@ -1,0 +1,37 @@
+{
+  "experiment": "Phase 148: Turing NCA",
+  "timestamp": "2026-04-19T11:21:21.609045",
+  "results": {
+    "Baseline (32ch)": {
+      "pixel_acc": 1.0,
+      "exact_match": 1.0,
+      "params": 37313
+    },
+    "Large Baseline (64ch)": {
+      "pixel_acc": 1.0,
+      "exact_match": 1.0,
+      "params": 148353
+    },
+    "External Clock": {
+      "pixel_acc": 1.0,
+      "exact_match": 1.0,
+      "params": 37889
+    },
+    "Hourglass NCA": {
+      "pixel_acc": 1.0,
+      "exact_match": 1.0,
+      "params": 39666
+    }
+  },
+  "clock": [
+    2.5201377868652344,
+    14.252159118652344,
+    105.59942626953125,
+    817.3219604492188,
+    6384.0986328125
+  ],
+  "clock_wins": false,
+  "hg_wins": false,
+  "best": "Baseline (32ch)",
+  "elapsed_seconds": 144.99541687965393
+}

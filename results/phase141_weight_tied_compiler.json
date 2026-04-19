@@ -1,0 +1,38 @@
+{
+  "experiment": "Phase 141: Weight-Tied CNN Compiler",
+  "timestamp": "2026-04-19T09:24:26.562984",
+  "depth": 8,
+  "results": {
+    "normal_cnn": {
+      "accuracy": 0.9902,
+      "params": 149642
+    },
+    "weight_tied_cnn": {
+      "accuracy": 0.1032,
+      "params": 19274
+    },
+    "compiled_nca": {
+      "accuracy": 0.1032,
+      "lossless": true,
+      "gap": 0.0
+    }
+  },
+  "step_results": {
+    "1": 0.1032,
+    "2": 0.1157,
+    "4": 0.1332,
+    "8": 0.1032,
+    "12": 0.1032,
+    "16": 0.1032,
+    "24": 0.101,
+    "32": 0.101
+  },
+  "depth_results": {
+    "1": 0.8543,
+    "2": 0.9128,
+    "4": 0.9813,
+    "8": 0.9746
+  },
+  "lossless": true,
+  "elapsed_seconds": 375.9750406742096
+}

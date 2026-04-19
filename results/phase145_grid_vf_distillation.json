@@ -1,0 +1,28 @@
+{
+  "experiment": "Phase 145: Grid VF Distillation",
+  "timestamp": "2026-04-19T10:02:06.077912",
+  "results": {
+    "teacher": {
+      "pixel_acc": 0.76616796875,
+      "exact_match": 0.0,
+      "params": 92833
+    },
+    "scratch": {
+      "pixel_acc": 0.76616796875,
+      "exact_match": 0.0,
+      "params": 18849
+    },
+    "output_distill": {
+      "pixel_acc": 0.76616796875,
+      "exact_match": 0.0,
+      "recovery": 100.0
+    },
+    "vf_distill": {
+      "pixel_acc": 0.76616796875,
+      "exact_match": 0.0,
+      "recovery": 100.0
+    }
+  },
+  "improvement": 0.0,
+  "elapsed_seconds": 78.18709444999695
+}
