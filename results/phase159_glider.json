@@ -1,0 +1,64 @@
+{
+  "experiment": "Phase 159: Glider Synthesis",
+  "timestamp": "2026-04-20T11:28:50.409702",
+  "results": {
+    "3x3_shift1": {
+      "baseline": {
+        "pixel_acc": 0.982234375,
+        "shape_preserved": 0.09,
+        "position_correct": 0.736,
+        "params": 83617
+      },
+      "clock": {
+        "pixel_acc": 0.9825390625,
+        "shape_preserved": 0.106,
+        "position_correct": 0.696,
+        "params": 84481
+      }
+    },
+    "3x3_shift2": {
+      "baseline": {
+        "pixel_acc": 0.98165625,
+        "shape_preserved": 0.01,
+        "position_correct": 0.166,
+        "params": 83617
+      },
+      "clock": {
+        "pixel_acc": 0.9816953125,
+        "shape_preserved": 0.002,
+        "position_correct": 0.17,
+        "params": 84481
+      }
+    },
+    "3x3_shift3": {
+      "baseline": {
+        "pixel_acc": 0.9810859375,
+        "shape_preserved": 0.004,
+        "position_correct": 0.03,
+        "params": 83617
+      },
+      "clock": {
+        "pixel_acc": 0.9806875,
+        "shape_preserved": 0.0,
+        "position_correct": 0.04,
+        "params": 84481
+      }
+    },
+    "2x2_shift1": {
+      "baseline": {
+        "pixel_acc": 0.990328125,
+        "shape_preserved": 0.0,
+        "position_correct": 0.128,
+        "params": 83617
+      },
+      "clock": {
+        "pixel_acc": 0.990296875,
+        "shape_preserved": 0.002,
+        "position_correct": 0.134,
+        "params": 84481
+      }
+    }
+  },
+  "can_glide": true,
+  "elapsed_seconds": 819.3376874923706
+}

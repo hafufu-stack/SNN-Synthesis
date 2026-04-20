@@ -1,0 +1,18 @@
+{
+  "experiment": "Phase 172: Lamarckian GA-TTCT",
+  "timestamp": "2026-04-20T18:27:00.431150",
+  "no_ttct": {
+    "pa": 0.5737777164205908,
+    "em": 0.0
+  },
+  "pure_ga": {
+    "pa": 0.6945240162312984,
+    "em": 0.025
+  },
+  "lamarckian": {
+    "pa": 0.648220338486135,
+    "em": 0.0
+  },
+  "lamarck_wins": "False",
+  "elapsed_seconds": 5200.300499200821
+}

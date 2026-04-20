@@ -1,0 +1,40 @@
+{
+  "experiment": "Phase 167: Evolutionary TTCT",
+  "timestamp": "2026-04-20T14:31:02.312013",
+  "results": {
+    "backprop": {
+      "fill": {
+        "pa": 0.07125000134110451,
+        "em": 0.0
+      },
+      "border": {
+        "pa": 0.528125,
+        "em": 0.0
+      },
+      "gravity": {
+        "pa": 0.8037500023841858,
+        "em": 0.0
+      }
+    },
+    "evolutionary": {
+      "fill": {
+        "pa": 0.0775000024586916,
+        "em": 0.0
+      },
+      "border": {
+        "pa": 0.5312500059604645,
+        "em": 0.0
+      },
+      "gravity": {
+        "pa": 0.8118750095367432,
+        "em": 0.0
+      }
+    }
+  },
+  "bp_avg_pa": 0.46770833457509675,
+  "ga_avg_pa": 0.4735416726519664,
+  "bp_avg_em": 0.0,
+  "ga_avg_em": 0.0,
+  "evolution_wins": "True",
+  "elapsed_seconds": 145.84383964538574
+}

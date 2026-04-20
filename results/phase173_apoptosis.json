@@ -1,0 +1,34 @@
+{
+  "experiment": "Phase 173: Thermodynamic Apoptosis",
+  "timestamp": "2026-04-20T18:27:04.237177",
+  "results": {
+    "Standard": {
+      "pa": 0.5627790795266628,
+      "em": 0.0,
+      "avg_confidence": 0.681161938905716
+    },
+    "Apoptosis_0.5": {
+      "pa": 0.5079774929583073,
+      "em": 0.0,
+      "avg_confidence": 0.49263217210769655
+    },
+    "Apoptosis_0.6": {
+      "pa": 0.5070639123022557,
+      "em": 0.0,
+      "avg_confidence": 0.4920692586898804
+    },
+    "Apoptosis_0.7": {
+      "pa": 0.5067217613756657,
+      "em": 0.0,
+      "avg_confidence": 0.4915643382072449
+    },
+    "Apoptosis_0.8": {
+      "pa": 0.5059629429876804,
+      "em": 0.0,
+      "avg_confidence": 0.4913911247253418
+    }
+  },
+  "best_config": "Apoptosis_0.5",
+  "pa_improvement": -0.05480158656835554,
+  "elapsed_seconds": 3.204423666000366
+}

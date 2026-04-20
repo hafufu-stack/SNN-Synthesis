@@ -1,0 +1,96 @@
+{
+  "experiment": "Phase 154: Planarian Regeneration",
+  "timestamp": "2026-04-20T10:40:48.824904",
+  "base_pa": 1.0,
+  "results": {
+    "random_50%": {
+      "regen_5": {
+        "pa_before_damage": 1.0,
+        "pa_after_regen": 0.856796875,
+        "recovery": 0.856796875
+      },
+      "regen_10": {
+        "pa_before_damage": 1.0,
+        "pa_after_regen": 0.91318359375,
+        "recovery": 0.91318359375
+      },
+      "regen_20": {
+        "pa_before_damage": 1.0,
+        "pa_after_regen": 0.894609375,
+        "recovery": 0.894609375
+      },
+      "regen_40": {
+        "pa_before_damage": 1.0,
+        "pa_after_regen": 0.765546875,
+        "recovery": 0.765546875
+      }
+    },
+    "right_half": {
+      "regen_5": {
+        "pa_before_damage": 1.0,
+        "pa_after_regen": 0.871640625,
+        "recovery": 0.871640625
+      },
+      "regen_10": {
+        "pa_before_damage": 1.0,
+        "pa_after_regen": 0.961484375,
+        "recovery": 0.961484375
+      },
+      "regen_20": {
+        "pa_before_damage": 1.0,
+        "pa_after_regen": 0.9794140625,
+        "recovery": 0.9794140625
+      },
+      "regen_40": {
+        "pa_before_damage": 1.0,
+        "pa_after_regen": 0.83775390625,
+        "recovery": 0.83775390625
+      }
+    },
+    "center_hole": {
+      "regen_5": {
+        "pa_before_damage": 1.0,
+        "pa_after_regen": 0.91291015625,
+        "recovery": 0.91291015625
+      },
+      "regen_10": {
+        "pa_before_damage": 1.0,
+        "pa_after_regen": 0.95630859375,
+        "recovery": 0.95630859375
+      },
+      "regen_20": {
+        "pa_before_damage": 1.0,
+        "pa_after_regen": 0.96537109375,
+        "recovery": 0.96537109375
+      },
+      "regen_40": {
+        "pa_before_damage": 1.0,
+        "pa_after_regen": 0.819921875,
+        "recovery": 0.819921875
+      }
+    },
+    "quarter": {
+      "regen_5": {
+        "pa_before_damage": 1.0,
+        "pa_after_regen": 0.9064453125,
+        "recovery": 0.9064453125
+      },
+      "regen_10": {
+        "pa_before_damage": 1.0,
+        "pa_after_regen": 0.969765625,
+        "recovery": 0.969765625
+      },
+      "regen_20": {
+        "pa_before_damage": 1.0,
+        "pa_after_regen": 0.9819140625,
+        "recovery": 0.9819140625
+      },
+      "regen_40": {
+        "pa_before_damage": 1.0,
+        "pa_after_regen": 0.8397265625,
+        "recovery": 0.8397265625
+      }
+    }
+  },
+  "elapsed_seconds": 126.48988962173462
+}

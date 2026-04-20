@@ -1,0 +1,64 @@
+{
+  "experiment": "Phase 161: Stochastic NCA",
+  "timestamp": "2026-04-20T12:47:38.368312",
+  "results": {
+    "deterministic": {
+      "grass_oscillation": 0.0,
+      "sheep_oscillation": 0.0,
+      "wolf_oscillation": 0.0,
+      "total_oscillation": 0.0,
+      "final_grass": 317,
+      "final_sheep": 108,
+      "final_wolf": 45
+    },
+    "gumbel_0.5": {
+      "grass_oscillation": 3119.702622222222,
+      "sheep_oscillation": 1228.7716,
+      "wolf_oscillation": 4.973333333333334,
+      "total_oscillation": 4353.4475555555555,
+      "final_grass": 383,
+      "final_sheep": 239,
+      "final_wolf": 4
+    },
+    "gumbel_1.0": {
+      "grass_oscillation": 3119.702622222222,
+      "sheep_oscillation": 1228.7716,
+      "wolf_oscillation": 4.973333333333334,
+      "total_oscillation": 4353.4475555555555,
+      "final_grass": 383,
+      "final_sheep": 239,
+      "final_wolf": 4
+    },
+    "bernoulli": {
+      "grass_oscillation": 3119.702622222222,
+      "sheep_oscillation": 1228.7716,
+      "wolf_oscillation": 4.973333333333334,
+      "total_oscillation": 4353.4475555555555,
+      "final_grass": 383,
+      "final_sheep": 239,
+      "final_wolf": 4
+    },
+    "gaussian_0.3": {
+      "grass_oscillation": 1.925555555555556,
+      "sheep_oscillation": 1.7688888888888892,
+      "wolf_oscillation": 1.8783999999999998,
+      "total_oscillation": 5.572844444444445,
+      "final_grass": 322,
+      "final_sheep": 113,
+      "final_wolf": 42
+    },
+    "gaussian_1.0": {
+      "grass_oscillation": 7103.183333333333,
+      "sheep_oscillation": 4172.117155555554,
+      "wolf_oscillation": 0.00662222222222222,
+      "total_oscillation": 11275.30711111111,
+      "final_grass": 333,
+      "final_sheep": 152,
+      "final_wolf": 0
+    }
+  },
+  "gt_oscillation": 2118.0519555555557,
+  "chaos_revived": true,
+  "best_strategy": "gaussian_1.0",
+  "elapsed_seconds": 34.2008855342865
+}

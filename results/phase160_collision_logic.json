@@ -1,0 +1,13 @@
+{
+  "experiment": "Phase 160: Glider Collision Logic",
+  "timestamp": "2026-04-20T12:47:03.394017",
+  "pixel_accuracy": 0.99752734375,
+  "case_accuracy": {
+    "(0, 0)": 1.0,
+    "(0, 1)": 1.0,
+    "(1, 0)": 1.0,
+    "(1, 1)": 0.0
+  },
+  "logic_works": false,
+  "elapsed_seconds": 248.36867833137512
+}

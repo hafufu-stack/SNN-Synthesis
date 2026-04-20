@@ -1,0 +1,99 @@
+{
+  "experiment": "Phase 165: Chaotic Stem-Cell Agent",
+  "timestamp": "2026-04-20T13:15:19.990549",
+  "results": {
+    "sigma=0.0": {
+      "clean_eval": {
+        "fill": {
+          "pixel_acc": 0.9999218583106995,
+          "exact_match": 0.0
+        },
+        "mirror": {
+          "pixel_acc": 0.7767968773841858,
+          "exact_match": 0.0
+        },
+        "invert": {
+          "pixel_acc": 0.9957031011581421,
+          "exact_match": 0.0
+        }
+      },
+      "noisy_eval": {
+        "fill": {
+          "pixel_acc": 1.0,
+          "exact_match": 1.0
+        },
+        "mirror": {
+          "pixel_acc": 0.7792187333106995,
+          "exact_match": 0.0
+        },
+        "invert": {
+          "pixel_acc": 0.9991406202316284,
+          "exact_match": 0.0
+        }
+      }
+    },
+    "sigma=0.1": {
+      "clean_eval": {
+        "fill": {
+          "pixel_acc": 1.0,
+          "exact_match": 1.0
+        },
+        "mirror": {
+          "pixel_acc": 0.9563280940055847,
+          "exact_match": 0.0
+        },
+        "invert": {
+          "pixel_acc": 0.9994531273841858,
+          "exact_match": 0.0
+        }
+      },
+      "noisy_eval": {
+        "fill": {
+          "pixel_acc": 1.0,
+          "exact_match": 1.0
+        },
+        "mirror": {
+          "pixel_acc": 0.9503905773162842,
+          "exact_match": 0.0
+        },
+        "invert": {
+          "pixel_acc": 1.0,
+          "exact_match": 1.0
+        }
+      }
+    },
+    "sigma=0.3": {
+      "clean_eval": {
+        "fill": {
+          "pixel_acc": 1.0,
+          "exact_match": 1.0
+        },
+        "mirror": {
+          "pixel_acc": 0.762890636920929,
+          "exact_match": 0.0
+        },
+        "invert": {
+          "pixel_acc": 1.0,
+          "exact_match": 1.0
+        }
+      },
+      "noisy_eval": {
+        "fill": {
+          "pixel_acc": 1.0,
+          "exact_match": 1.0
+        },
+        "mirror": {
+          "pixel_acc": 0.77406245470047,
+          "exact_match": 0.0
+        },
+        "invert": {
+          "pixel_acc": 0.9999218583106995,
+          "exact_match": 0.0
+        }
+      }
+    }
+  },
+  "best_config": "sigma=0.1",
+  "differentiation": true,
+  "elapsed_seconds": 417.09535026550293
+}

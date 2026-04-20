@@ -1,0 +1,103 @@
+{
+  "experiment": "Phase 153: Von Neumann Self-Replicator",
+  "timestamp": "2026-04-19T13:03:00.203352",
+  "results": {
+    "1x1": {
+      "baseline": {
+        "pixel_acc": 0.218,
+        "exact_match": 0.218,
+        "repl_score": 0.218,
+        "params": 83617
+      },
+      "clock": {
+        "pixel_acc": 0.218,
+        "exact_match": 0.218,
+        "repl_score": 0.218,
+        "params": 85345
+      },
+      "baseline_40": {
+        "pixel_acc": 0.218,
+        "exact_match": 0.218,
+        "repl_score": 0.218
+      }
+    },
+    "2x2": {
+      "baseline": {
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "repl_score": 1.0,
+        "params": 83617
+      },
+      "clock": {
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "repl_score": 1.0,
+        "params": 85345
+      },
+      "baseline_40": {
+        "pixel_acc": 0.9579453125,
+        "exact_match": 0.552,
+        "repl_score": 0.9579453125
+      }
+    },
+    "3x3": {
+      "baseline": {
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "repl_score": 1.0,
+        "params": 83617
+      },
+      "clock": {
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "repl_score": 1.0,
+        "params": 85345
+      },
+      "baseline_40": {
+        "pixel_acc": 0.9663203125,
+        "exact_match": 0.284,
+        "repl_score": 0.9663203125
+      }
+    },
+    "L_shape": {
+      "baseline": {
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "repl_score": 1.0,
+        "params": 83617
+      },
+      "clock": {
+        "pixel_acc": 1.0,
+        "exact_match": 1.0,
+        "repl_score": 1.0,
+        "params": 85345
+      },
+      "baseline_40": {
+        "pixel_acc": 0.94953125,
+        "exact_match": 0.0,
+        "repl_score": 0.94953125
+      }
+    },
+    "random_nxn": {
+      "baseline": {
+        "pixel_acc": 0.99528125,
+        "exact_match": 0.978,
+        "repl_score": 0.99528125,
+        "params": 83617
+      },
+      "clock": {
+        "pixel_acc": 0.99496875,
+        "exact_match": 0.978,
+        "repl_score": 0.99496875,
+        "params": 85345
+      },
+      "baseline_40": {
+        "pixel_acc": 0.7376953125,
+        "exact_match": 0.0,
+        "repl_score": 0.7376953125
+      }
+    }
+  },
+  "can_replicate": true,
+  "elapsed_seconds": 801.4316954612732
+}

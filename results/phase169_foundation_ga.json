@@ -1,0 +1,18 @@
+{
+  "experiment": "Phase 169: Foundation-Seeded Evolutionary TTCT",
+  "timestamp": "2026-04-20T15:09:57.811819",
+  "no_ttct": {
+    "pa": 0.5627790795266628,
+    "em": 0.0
+  },
+  "backprop": {
+    "pa": 0.5497413477301598,
+    "em": 0.0
+  },
+  "evolutionary": {
+    "pa": 0.6498664408922196,
+    "em": 0.0
+  },
+  "ga_wins": "True",
+  "elapsed_seconds": 319.6752734184265
+}
