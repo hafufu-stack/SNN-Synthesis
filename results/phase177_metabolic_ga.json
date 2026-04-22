@@ -1,0 +1,28 @@
+{
+  "experiment": "Phase 177: Metabolic GA-TTCT",
+  "timestamp": "2026-04-22T12:37:20.525716",
+  "summary": {
+    "backprop": {
+      "pa": 0.5590162660926581,
+      "em": 0.0,
+      "avg_time": 0.7175472617149353
+    },
+    "ga_standard": {
+      "pa": 0.6019453756511212,
+      "em": 0.0,
+      "avg_time": 9.505425083637238
+    },
+    "ga_metabolic": {
+      "pa": 0.66379085034132,
+      "em": 0.0,
+      "avg_time": 17.695683562755583
+    },
+    "ga_boosted": {
+      "pa": 0.6627984896302224,
+      "em": 0.0,
+      "avg_time": 34.51225770711899
+    }
+  },
+  "metabolic_speedup": 0.5371606612385109,
+  "elapsed_seconds": 2499.413950920105
+}

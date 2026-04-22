@@ -1,0 +1,186 @@
+"""
+Phase 198: Dilated NCA - Wormhole Communication
+
+Expand receptive field WITHOUT destroying spatial resolution.
+Use dilation=1,2,4 in parallel: each cell sees 3x3, 5x5, 9x9.
+
+Author: Hiroto Funasaki
+"""
+import os, json, time, gc, random, sys
+import numpy as np
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+import warnings; warnings.filterwarnings("ignore")
+from datetime import datetime
+
+os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
+
+RESULTS_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "results")
+FIGURES_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "figures")
+DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
+SEED = 2026
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from phase123_foundation import load_arc_training, prepare_arc_meta_dataset
+from phase191_generalization import ScalableNCA
+
+
+class DilatedNCA(nn.Module):
+    """NCA with multi-scale dilated convolutions for expanded receptive field."""
+    def __init__(self, n_colors=11, hidden_ch=64, embed_dim=32, n_steps=5):
+        super().__init__()
+        self.n_steps = n_steps
+        self.embed_dim = embed_dim
+        C = hidden_ch
+        branch_ch = C // 3  # split channels across dilation branches
+
+        self.demo_encoder = nn.Sequential(
+            nn.Conv2d(n_colors, 32, 3, padding=1), nn.ReLU(),
+            nn.AdaptiveAvgPool2d(1), nn.Flatten(),
+            nn.Linear(32, embed_dim)
+        )
+        self.encoder = nn.Sequential(
+            nn.Conv2d(n_colors + embed_dim, C, 3, padding=1), nn.ReLU(),
+            nn.Conv2d(C, C, 3, padding=1), nn.ReLU(),
+        )
+
+        # Multi-scale dilated branches
+        self.branch_d1 = nn.Conv2d(C, branch_ch, 3, padding=1, dilation=1)   # 3x3
+        self.branch_d2 = nn.Conv2d(C, branch_ch, 3, padding=2, dilation=2)   # 5x5 effective
+        self.branch_d4 = nn.Conv2d(C, branch_ch, 3, padding=4, dilation=4)   # 9x9 effective
+
+        # Merge branches
+        self.merge = nn.Sequential(
+            nn.Conv2d(branch_ch * 3, C, 1), nn.ReLU(),
+            nn.Conv2d(C, C, 1),
+        )
+        self.tau_gate = nn.Sequential(nn.Conv2d(C, C, 1), nn.Sigmoid())
+        self.decoder = nn.Sequential(
+            nn.Conv2d(C, C, 3, padding=1), nn.ReLU(),
+            nn.Conv2d(C, n_colors, 1),
+        )
+
+    def encode_task(self, demo_outputs):
+        embeddings = []
+        for do in demo_outputs:
+            emb = self.demo_encoder(do.unsqueeze(0))
+            embeddings.append(emb)
+        return torch.stack(embeddings).mean(dim=0)
+
+    def forward(self, x, task_emb):
+        B, _, H, W = x.shape
+        te = task_emb.view(B, -1, 1, 1).expand(B, -1, H, W)
+        inp = torch.cat([x, te], dim=1)
+        state = self.encoder(inp)
+
+        for t in range(self.n_steps):
+            d1 = F.relu(self.branch_d1(state))
+            d2 = F.relu(self.branch_d2(state))
+            d4 = F.relu(self.branch_d4(state))
+            multi = torch.cat([d1, d2, d4], dim=1)
+            delta = self.merge(multi)
+            beta = self.tau_gate(state)
+            state = beta * state + (1 - beta) * delta
+
+        return self.decoder(state)
+
+    def count_params(self):
+        return sum(p.numel() for p in self.parameters())
+
+
+def train_and_eval(model, train_tasks, test_tasks, n_epochs, label):
+    opt = torch.optim.Adam(model.parameters(), lr=1e-3)
+    hist = []
+    for epoch in range(n_epochs):
+        model.train()
+        random.shuffle(train_tasks)
+        for item in train_tasks[:50]:
+            do_t = [d.to(DEVICE) for d in item['demo_outputs']]
+            emb = model.encode_task(do_t)
+            ti = item['test_input'].unsqueeze(0).to(DEVICE)
+            gt = item['test_output'][:11].argmax(dim=0).unsqueeze(0).to(DEVICE)
+            oh, ow = item['out_h'], item['out_w']
+            out = model(ti, emb)
+            logits = out[0] if isinstance(out, tuple) else out
+            loss = F.cross_entropy(logits[:, :, :oh, :ow], gt[:, :oh, :ow])
+            opt.zero_grad(); loss.backward(); opt.step()
+        if (epoch + 1) % 20 == 0 or epoch == n_epochs - 1:
+            model.eval()
+            tpa, tem = 0, 0
+            with torch.no_grad():
+                for item in test_tasks:
+                    do_t = [d.to(DEVICE) for d in item['demo_outputs']]
+                    emb = model.encode_task(do_t)
+                    ti = item['test_input'].unsqueeze(0).to(DEVICE)
+                    gt = item['test_output'][:11].argmax(dim=0).to(DEVICE)
+                    oh, ow = item['out_h'], item['out_w']
+                    out = model(ti, emb)
+                    logits = out[0] if isinstance(out, tuple) else out
+                    pred = logits[0, :, :oh, :ow].argmax(dim=0)
+                    tpa += (pred == gt[:oh, :ow]).float().mean().item()
+                    tem += float((pred == gt[:oh, :ow]).all().item())
+            avg_pa = tpa / len(test_tasks)
+            avg_em = tem / len(test_tasks)
+            hist.append(avg_pa)
+            print(f"    {label} Ep{epoch+1}: PA={avg_pa*100:.1f}%, EM={avg_em*100:.1f}%")
+    return hist
+
+
+def main():
+    torch.manual_seed(SEED); np.random.seed(SEED); random.seed(SEED)
+    t0 = time.time()
+    print("=" * 70)
+    print("Phase 198: Dilated NCA - Wormhole Communication")
+    print(f"  dilation=1,2,4 for expanded receptive field")
+    print(f"  Device: {DEVICE}")
+    print("=" * 70)
+
+    arc_data = load_arc_training()
+    all_tasks = prepare_arc_meta_dataset(arc_data, max_tasks=300)
+    random.shuffle(all_tasks)
+    train, test = all_tasks[:200], all_tasks[200:250]
+    C, ep = 64, 100
+
+    print(f"\n[Standard NCA]")
+    m1 = ScalableNCA(11, C, 5, 32).to(DEVICE)
+    print(f"  Params: {m1.count_params():,}")
+    h1 = train_and_eval(m1, train, test, ep, "Std")
+    del m1; gc.collect(); torch.cuda.empty_cache() if DEVICE == "cuda" else None
+
+    print(f"\n[Dilated NCA (d=1,2,4)]")
+    m2 = DilatedNCA(11, C, 32, 5).to(DEVICE)
+    print(f"  Params: {m2.count_params():,}")
+    h2 = train_and_eval(m2, train, test, ep, "Dilated")
+    del m2; gc.collect(); torch.cuda.empty_cache() if DEVICE == "cuda" else None
+
+    elapsed = time.time() - t0
+    d = (h2[-1] - h1[-1]) * 100
+    print(f"\n{'='*70}")
+    print(f"Phase 198 Complete ({elapsed:.0f}s)")
+    print(f"  Standard: {h1[-1]*100:.1f}%  |  Dilated: {h2[-1]*100:.1f}%  |  Delta: {d:+.1f}pp")
+    print(f"{'='*70}")
+
+    os.makedirs(RESULTS_DIR, exist_ok=True)
+    with open(os.path.join(RESULTS_DIR, "phase198_dilated.json"), 'w', encoding='utf-8') as f:
+        json.dump({'standard': h1[-1], 'dilated': h2[-1], 'elapsed': elapsed,
+                   'timestamp': datetime.now().isoformat()}, f, indent=2, default=str)
+
+    try:
+        import matplotlib; matplotlib.use('Agg'); import matplotlib.pyplot as plt
+        fig, ax = plt.subplots(1, 1, figsize=(8, 5))
+        epochs = [20*(i+1) for i in range(len(h1))]
+        ax.plot(epochs, [h*100 for h in h1], 'o-', color='#95a5a6', lw=2, label='Standard (3x3)')
+        ax.plot(epochs, [h*100 for h in h2], 'D-', color='#e74c3c', lw=2, label='Dilated (3+5+9)')
+        ax.set_xlabel('Epoch'); ax.set_ylabel('Test PA (%)'); ax.legend(); ax.grid(True, alpha=0.3)
+        ax.set_title(f'Phase 198: Dilated NCA (Δ={d:+.1f}pp)', fontweight='bold')
+        os.makedirs(FIGURES_DIR, exist_ok=True)
+        fig.savefig(os.path.join(FIGURES_DIR, 'phase198_dilated.png'), dpi=150, bbox_inches='tight')
+        plt.close(); print("  Figure saved!")
+    except Exception as e:
+        print(f"  Figure error: {e}")
+    gc.collect()
+    return {'standard': h1[-1], 'dilated': h2[-1]}
+
+if __name__ == '__main__':
+    main()

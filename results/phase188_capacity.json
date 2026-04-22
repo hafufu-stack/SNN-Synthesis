@@ -1,0 +1,38 @@
+{
+  "experiment": "Phase 188: NCA Capacity Law",
+  "timestamp": "2026-04-22T17:47:04.950484",
+  "grid_size": 8,
+  "n_colors": 10,
+  "results": {
+    "4": {
+      "params": 898,
+      "capacity": 0
+    },
+    "8": {
+      "params": 2714,
+      "capacity": 0
+    },
+    "16": {
+      "params": 9130,
+      "capacity": 2
+    },
+    "32": {
+      "params": 33098,
+      "capacity": 38
+    },
+    "64": {
+      "params": 125578,
+      "capacity": 136
+    },
+    "128": {
+      "params": 488714,
+      "capacity": 476
+    }
+  },
+  "scaling_law": {
+    "alpha": 1.866336629522891e-05,
+    "beta": 1.3290263343197657,
+    "r_squared": 0.9431781958001166
+  },
+  "elapsed_seconds": 177.4096963405609
+}

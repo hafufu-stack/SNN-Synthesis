@@ -1,0 +1,38 @@
+{
+  "experiment": "Phase 174: Hormonal Broadcast",
+  "timestamp": "2026-04-21T01:47:40.232209",
+  "baseline": {
+    "pa": 0.5144872678816319,
+    "em": 0.02,
+    "params": 105675
+  },
+  "hormonal": {
+    "pa": 0.510690635740757,
+    "em": 0.02,
+    "params": 108111
+  },
+  "improvement_pp": -0.37966321408748893,
+  "step_comparison": {
+    "3": {
+      "baseline_pa": 0.4532524627447128,
+      "hormonal_pa": 0.5092457354068756,
+      "improvement": 0.05599327266216275
+    },
+    "5": {
+      "baseline_pa": 0.5144872678816319,
+      "hormonal_pa": 0.510690635740757,
+      "improvement": -0.0037966321408748893
+    },
+    "8": {
+      "baseline_pa": 0.49133914843201637,
+      "hormonal_pa": 0.49579932510852814,
+      "improvement": 0.004460176676511773
+    },
+    "12": {
+      "baseline_pa": 0.4838756588101387,
+      "hormonal_pa": 0.4766108503937721,
+      "improvement": -0.007264808416366619
+    }
+  },
+  "elapsed_seconds": 19.882848262786865
+}

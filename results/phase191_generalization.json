@@ -1,0 +1,48 @@
+{
+  "experiment": "Phase 191: Generalization Scaling Law",
+  "timestamp": "2026-04-22T18:20:51.735006",
+  "results": {
+    "16": {
+      "hidden_ch": 16,
+      "params": 18155,
+      "final_train_pa": 0.57072750415653,
+      "final_test_pa": 0.47492555640637873
+    },
+    "32": {
+      "hidden_ch": 32,
+      "params": 46891,
+      "final_train_pa": 0.7320216987282038,
+      "final_test_pa": 0.49955607183277606
+    },
+    "64": {
+      "hidden_ch": 64,
+      "params": 148907,
+      "final_train_pa": 0.7139070773124695,
+      "final_test_pa": 0.5060325245559215
+    },
+    "128": {
+      "hidden_ch": 128,
+      "params": 531115,
+      "final_train_pa": 0.7436893649399281,
+      "final_test_pa": 0.5173730826377869
+    },
+    "256": {
+      "hidden_ch": 256,
+      "params": 2008235,
+      "final_train_pa": 0.7212148496508598,
+      "final_test_pa": 0.5178724832832813
+    },
+    "512": {
+      "hidden_ch": 512,
+      "params": 7813291,
+      "final_train_pa": 0.7182577760517597,
+      "final_test_pa": 0.5043992684781551
+    }
+  },
+  "scaling_law": {
+    "alpha": 0.4461264819564905,
+    "beta": 0.009491365176670694,
+    "r_squared": 0.47169174532948777
+  },
+  "elapsed_seconds": 272.67074489593506
+}

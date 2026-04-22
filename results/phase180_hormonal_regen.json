@@ -1,0 +1,133 @@
+{
+  "experiment": "Phase 180: Hormonal Regeneration",
+  "timestamp": "2026-04-22T12:52:01.766101",
+  "standard": {
+    "pa": 0.5098773217201233,
+    "em": 0.0
+  },
+  "configs": {
+    "auto_p80_r2": {
+      "pa": 0.509148128181696,
+      "em": 0.0,
+      "type": "autophagy"
+    },
+    "horm_p80_r2": {
+      "pa": 0.5084814615547657,
+      "em": 0.0,
+      "type": "hormonal"
+    },
+    "auto_p80_r3": {
+      "pa": 0.5086481280624866,
+      "em": 0.0,
+      "type": "autophagy"
+    },
+    "horm_p80_r3": {
+      "pa": 0.5078147947788239,
+      "em": 0.0,
+      "type": "hormonal"
+    },
+    "auto_p80_r5": {
+      "pa": 0.5075647948682308,
+      "em": 0.0,
+      "type": "autophagy"
+    },
+    "horm_p80_r5": {
+      "pa": 0.5073147948086262,
+      "em": 0.0,
+      "type": "hormonal"
+    },
+    "auto_p85_r2": {
+      "pa": 0.5132098568975926,
+      "em": 0.0,
+      "type": "autophagy"
+    },
+    "horm_p85_r2": {
+      "pa": 0.5119814617931843,
+      "em": 0.0,
+      "type": "hormonal"
+    },
+    "auto_p85_r3": {
+      "pa": 0.512253445032984,
+      "em": 0.0,
+      "type": "autophagy"
+    },
+    "horm_p85_r3": {
+      "pa": 0.5105647949874401,
+      "em": 0.0,
+      "type": "hormonal"
+    },
+    "auto_p85_r5": {
+      "pa": 0.5094415273237973,
+      "em": 0.0,
+      "type": "autophagy"
+    },
+    "horm_p85_r5": {
+      "pa": 0.5092530666291714,
+      "em": 0.0,
+      "type": "hormonal"
+    },
+    "auto_p90_r2": {
+      "pa": 0.516309856325388,
+      "em": 0.0,
+      "type": "autophagy"
+    },
+    "horm_p90_r2": {
+      "pa": 0.5151147951185703,
+      "em": 0.0,
+      "type": "hormonal"
+    },
+    "auto_p90_r3": {
+      "pa": 0.5143588115740567,
+      "em": 0.0,
+      "type": "autophagy"
+    },
+    "horm_p90_r3": {
+      "pa": 0.5131481285393238,
+      "em": 0.0,
+      "type": "hormonal"
+    },
+    "auto_p90_r5": {
+      "pa": 0.5114637496042996,
+      "em": 0.0,
+      "type": "autophagy"
+    },
+    "horm_p90_r5": {
+      "pa": 0.5119413383305073,
+      "em": 0.0,
+      "type": "hormonal"
+    },
+    "auto_p95_r2": {
+      "pa": 0.5254826178401708,
+      "em": 0.0,
+      "type": "autophagy"
+    },
+    "horm_p95_r2": {
+      "pa": 0.5229062119871378,
+      "em": 0.0,
+      "type": "hormonal"
+    },
+    "auto_p95_r3": {
+      "pa": 0.5240934398025274,
+      "em": 0.0,
+      "type": "autophagy"
+    },
+    "horm_p95_r3": {
+      "pa": 0.5192371643707157,
+      "em": 0.0,
+      "type": "hormonal"
+    },
+    "auto_p95_r5": {
+      "pa": 0.5202277199178934,
+      "em": 0.0,
+      "type": "autophagy"
+    },
+    "horm_p95_r5": {
+      "pa": 0.5169428869709373,
+      "em": 0.0,
+      "type": "hormonal"
+    }
+  },
+  "best_config": "auto_p95_r2",
+  "improvement_pp": 1.5605296120047463,
+  "elapsed_seconds": 10.537311315536499
+}

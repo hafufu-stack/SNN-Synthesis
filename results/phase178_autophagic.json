@@ -1,0 +1,139 @@
+{
+  "experiment": "Phase 178: Autophagic Regeneration",
+  "timestamp": "2026-04-22T12:37:28.697018",
+  "standard": {
+    "pa": 0.5098773217201233,
+    "em": 0.0
+  },
+  "configs": {
+    "p50_r2": {
+      "pa": 0.5061481280624867,
+      "em": 0.0,
+      "percentile": 50,
+      "repair_steps": 2,
+      "avg_stain_ratio": 0.477109375
+    },
+    "p50_r3": {
+      "pa": 0.5061481280624867,
+      "em": 0.0,
+      "percentile": 50,
+      "repair_steps": 3,
+      "avg_stain_ratio": 0.477109375
+    },
+    "p50_r5": {
+      "pa": 0.5061481280624867,
+      "em": 0.0,
+      "percentile": 50,
+      "repair_steps": 5,
+      "avg_stain_ratio": 0.477109375
+    },
+    "p60_r2": {
+      "pa": 0.5061481280624867,
+      "em": 0.0,
+      "percentile": 60,
+      "repair_steps": 2,
+      "avg_stain_ratio": 0.396640625
+    },
+    "p60_r3": {
+      "pa": 0.5061481280624867,
+      "em": 0.0,
+      "percentile": 60,
+      "repair_steps": 3,
+      "avg_stain_ratio": 0.396640625
+    },
+    "p60_r5": {
+      "pa": 0.5061481280624867,
+      "em": 0.0,
+      "percentile": 60,
+      "repair_steps": 5,
+      "avg_stain_ratio": 0.396640625
+    },
+    "p70_r2": {
+      "pa": 0.5061481280624867,
+      "em": 0.0,
+      "percentile": 70,
+      "repair_steps": 2,
+      "avg_stain_ratio": 0.29921875
+    },
+    "p70_r3": {
+      "pa": 0.5061481280624867,
+      "em": 0.0,
+      "percentile": 70,
+      "repair_steps": 3,
+      "avg_stain_ratio": 0.29921875
+    },
+    "p70_r5": {
+      "pa": 0.5061481280624867,
+      "em": 0.0,
+      "percentile": 70,
+      "repair_steps": 5,
+      "avg_stain_ratio": 0.29921875
+    },
+    "p80_r2": {
+      "pa": 0.509148128181696,
+      "em": 0.0,
+      "percentile": 80,
+      "repair_steps": 2,
+      "avg_stain_ratio": 0.199609375
+    },
+    "p80_r3": {
+      "pa": 0.5086481280624866,
+      "em": 0.0,
+      "percentile": 80,
+      "repair_steps": 3,
+      "avg_stain_ratio": 0.199609375
+    },
+    "p80_r5": {
+      "pa": 0.5075647948682308,
+      "em": 0.0,
+      "percentile": 80,
+      "repair_steps": 5,
+      "avg_stain_ratio": 0.199609375
+    },
+    "p90_r2": {
+      "pa": 0.516309856325388,
+      "em": 0.0,
+      "percentile": 90,
+      "repair_steps": 2,
+      "avg_stain_ratio": 0.09943359375
+    },
+    "p90_r3": {
+      "pa": 0.5143588115740567,
+      "em": 0.0,
+      "percentile": 90,
+      "repair_steps": 3,
+      "avg_stain_ratio": 0.09943359375
+    },
+    "p90_r5": {
+      "pa": 0.5114637496042996,
+      "em": 0.0,
+      "percentile": 90,
+      "repair_steps": 5,
+      "avg_stain_ratio": 0.09943359375
+    },
+    "p95_r2": {
+      "pa": 0.5254826178401708,
+      "em": 0.0,
+      "percentile": 95,
+      "repair_steps": 2,
+      "avg_stain_ratio": 0.049609375
+    },
+    "p95_r3": {
+      "pa": 0.5240934398025274,
+      "em": 0.0,
+      "percentile": 95,
+      "repair_steps": 3,
+      "avg_stain_ratio": 0.049609375
+    },
+    "p95_r5": {
+      "pa": 0.5202277199178934,
+      "em": 0.0,
+      "percentile": 95,
+      "repair_steps": 5,
+      "avg_stain_ratio": 0.049609375
+    }
+  },
+  "best_config": "p95_r2",
+  "improvement_pp": 1.5605296120047463,
+  "elapsed_seconds": 7.059762716293335
+}

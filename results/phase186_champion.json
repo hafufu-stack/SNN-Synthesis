@@ -1,0 +1,67 @@
+{
+  "experiment": "Phase 186: Unsupervised Champion Selection",
+  "timestamp": "2026-04-22T14:03:19.850269",
+  "results": {
+    "1": {
+      "single_pas": 0.5098773217201233,
+      "single_ems": 0.0,
+      "margin_pas": 0.5098773217201233,
+      "margin_ems": 0.0,
+      "entropy_pas": 0.5098773217201233,
+      "entropy_ems": 0.0,
+      "oracle_pas": 0.5098773217201233,
+      "oracle_ems": 0.0,
+      "margin_rank": 0,
+      "entropy_rank": 0
+    },
+    "3": {
+      "single_pas": 0.5098773217201233,
+      "single_ems": 0.0,
+      "margin_pas": 0.5095766995847225,
+      "margin_ems": 0.0,
+      "entropy_pas": 0.5076243184506893,
+      "entropy_ems": 0.0,
+      "oracle_pas": 0.5144335678219796,
+      "oracle_ems": 0.0,
+      "margin_rank": 0.2,
+      "entropy_rank": 0.28
+    },
+    "5": {
+      "single_pas": 0.5098773217201233,
+      "single_ems": 0.0,
+      "margin_pas": 0.5065467676892876,
+      "margin_ems": 0.0,
+      "entropy_pas": 0.5065467676892876,
+      "entropy_ems": 0.0,
+      "oracle_pas": 0.5210192676726728,
+      "oracle_ems": 0.0,
+      "margin_rank": 0.44,
+      "entropy_rank": 0.44
+    },
+    "9": {
+      "single_pas": 0.5098773217201233,
+      "single_ems": 0.0,
+      "margin_pas": 0.508827380090952,
+      "margin_ems": 0.0,
+      "entropy_pas": 0.5079702366888523,
+      "entropy_ems": 0.0,
+      "oracle_pas": 0.5293613682687283,
+      "oracle_ems": 0.0,
+      "margin_rank": 0.9,
+      "entropy_rank": 1.04
+    },
+    "15": {
+      "single_pas": 0.5098773217201233,
+      "single_ems": 0.0,
+      "margin_pas": 0.5085040344297886,
+      "margin_ems": 0.0,
+      "entropy_pas": 0.5083448399603366,
+      "entropy_ems": 0.0,
+      "oracle_pas": 0.5290757178515196,
+      "oracle_ems": 0.0,
+      "margin_rank": 1.58,
+      "entropy_rank": 1.4
+    }
+  },
+  "elapsed_seconds": 6.039326429367065
+}

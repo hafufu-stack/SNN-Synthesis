@@ -1,77 +1,77 @@
-# SNN-Synthesis: The 15 Laws of Digital Life — From Stochastic Resonance to Autopoiesis
+# SNN-Synthesis: The NCA Intelligence Equation — Architecture > Scale in Spatial Reasoning
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19343952.svg)](https://doi.org/10.5281/zenodo.19343952)
 
-> **15 Laws of Digital Life. Evolution > Backpropagation. Thermodynamic Autopoiesis. 173 experiments, 2.8K to 7B parameters.**
+> **NCA Intelligence Equation. Dual-Process Architecture. Architecture > Scale. 202 experiments, 2.8K to 7B parameters.**
 
 Successor to [SNN-Genesis](https://github.com/hafufu-stack/snn-genesis) (v1–v20, 111 phases, 127 pages).
-SNN-Genesis dissected the black box of LLM reasoning through noise intervention. SNN-Synthesis uses that anatomical map to **build new AI architectures** and proves that stochastic resonance is a **universal, architecture-invariant, model-invariant neural network phenomenon** — then culminates in **Liquid Neural Cellular Automata (L-NCA)** deployed to **real ARC-AGI tasks**, establishes a formal **Physics of Neural Computation**, and discovers the **15 Laws of Digital Life** through Artificial Life experiments — including **Thermodynamic Autopoiesis**: self-sustaining digital life from nutrient dynamics alone.
+SNN-Genesis dissected the black box of LLM reasoning through noise intervention. SNN-Synthesis uses that anatomical map to **build new AI architectures** and proves that stochastic resonance is a **universal, architecture-invariant, model-invariant neural network phenomenon** — then culminates in **Liquid Neural Cellular Automata (L-NCA)** deployed to **real ARC-AGI tasks**, establishes a formal **Physics of Neural Computation**, discovers the **15 Laws of Digital Life**, and proves that **architecture dominates scale** for spatial reasoning via the **NCA Intelligence Equation** and the **Gated Hybrid Dual-Process NCA**.
 
 ## 🔬 Research Vision
 
 SNN-Genesis was the **Anatomy & Physiology** phase — discovering the physical laws of reasoning (stochastic resonance, Aha! dimensions, layer localization).
 
-SNN-Synthesis is the **Architecture & Synthesis & Life** phase — building systems that internalize those laws, proving their **universality across architectures (NCA → CNN → Transformer), model families (Mistral → Qwen), scales (2.8K → 7B), precisions (FP16 → 4-bit), and tasks (grid transformation → symbolic reasoning → math → ARC-AGI → artificial life)**, establishing a **Physics of Neural Computation**, and culminating in the **15 Laws of Digital Life** — from self-replication to autopoiesis.
+SNN-Synthesis is the **Architecture & Synthesis & Life & Intelligence** phase — building systems that internalize those laws, proving their **universality across architectures (NCA → CNN → Transformer), model families (Mistral → Qwen), scales (2.8K → 7B), precisions (FP16 → 4-bit), and tasks (grid transformation → symbolic reasoning → math → ARC-AGI → artificial life)**, establishing a **Physics of Neural Computation**, the **15 Laws of Digital Life**, and culminating in the **NCA Intelligence Equation** — proving that architectural hierarchy, not parameter scaling, is the path to spatial intelligence.
 
-### 🧬 Key Results (v13) — The 15 Laws of Digital Life
+### 🧠 Key Results (v14) — The NCA Intelligence Equation & Dual-Process Architecture
 
-**New in v13 (Phases 151–173) — Artificial Life & Evolutionary Intelligence:**
+**New in v14 (Phases 174–202) — Architecture > Scale:**
 
-1. **🧬 Thermodynamic Autopoiesis: Self-Sustaining Digital Life.**
-   NCA cells consuming a diffusing nutrient field self-organize into sustained life (Variance=2,634) **without any global loss function or target image** — the Holy Grail of ALife. (Phase 171)
+1. **📐 The NCA Intelligence Equation.**
+   Memory scales super-linearly as **M ∝ P^1.33** (exceeding Transformer P^1.0), but generalization saturates at **G ∝ P^0.01** — the *Generalization Wall*. Computation time **destroys** memory (T=1 optimal). Parameter scaling cannot produce spatial reasoning. (Phases 188–193)
+
+   ![Phase 191: The Generalization Wall](figures/phase191_generalization.png)
+
+2. **🧬 Gated Hybrid Dual-Process NCA: PA=60.3%, EM=4.0% — All-Time Best.**
+   A learned per-pixel gate fuses System 1 (intuition, T=1) with System 2 (reasoning, T=10). Gate converges to g≈1.0: the model trusts fast intuition for 99% of pixels, invoking slow logic only for disputed edge cases. (Phase 199)
+
+   ![Phase 199: Gated Hybrid](figures/phase199_gated.png)
+
+3. **🚧 The Locality Wall: LLM Techniques Fail in NCA.**
+   Self-Attention (+0.4pp), Working Memory (−2.2pp), Spatial Pyramids (+0.3pp), and Dilated Convolutions (−1.4pp) all fail. Global communication destroys the spatial coordinate system essential for ARC geometric reasoning. (Phases 195–198)
+
+4. **⏪ Time-Travel NCA: +2.3pp via Temporal Rewinding.**
+   Running T=20 steps and rewinding to the highest-confidence step (t*=3) prevents drift-induced memory collapse. Confirms the Time–Memory Antagonism. (Phase 201)
+
+5. **😴 Metabolic Sleep: +6.2pp Anti-Drift Protection.**
+   Freezing high-confidence pixels during GA inference prevents drift-induced corruption. Sleep is not energy conservation — it is memory preservation. (Phase 177)
+
+### 🧬 v13 Findings (Phases 151–173) — The 15 Laws of Digital Life
+
+6. **🧬 Thermodynamic Autopoiesis: Self-Sustaining Digital Life.**
+   NCA cells consuming a diffusing nutrient field self-organize into sustained life (Variance=2,634) **without any global loss function or target image**. (Phase 171)
 
    ![Phase 171: Thermodynamic Autopoiesis](figures/phase171_autopoiesis.png)
 
-2. **🦎 Evolution > Backpropagation.**
-   Genetic Algorithms achieve **100% accuracy** on AND-gate NCA tasks where Backprop scores **0%** — the "Gravity of Nothing" effect. Evolution bypasses vanishing gradients via population-based search. (Phase 163)
+7. **🦎 Evolution > Backpropagation.**
+   GA achieves **100% accuracy** where Backprop scores **0%** on AND-gate NCA tasks. (Phase 163)
 
    ![Phase 163: Evolution > Backprop](figures/phase163_evolutionary.png)
 
-3. **🏆 Darwin > Lamarck: First Exact Match via Evolution.**
-   Pure Darwinian GA (PA=69.5%, **EM=2.5%**) outperforms Lamarckian GA+Backprop (PA=64.8%, EM=0%) on real ARC tasks. Backprop-based self-improvement reduces population diversity, trapping search in local optima. (Phase 172)
+8. **🏆 Darwin > Lamarck: First Exact Match via Evolution.**
+   Pure GA (PA=69.5%, **EM=2.5%**) outperforms Lamarckian GA+Backprop (PA=64.8%, EM=0%) on real ARC. (Phase 172)
 
-   ![Phase 172: Darwin vs. Lamarck](figures/phase172_lamarckian.png)
-
-4. **🧫 Self-Replication from Local Rules.**
-   NCA trained with "divide if ≥2 empty neighbors" achieves exponential growth (1 → 128 cells in 50 steps) — von Neumann-style replication from purely local rules. (Phase 153)
-
-   ![Phase 153: Self-Replication](figures/phase153_self_replicator.png)
-
-5. **🔬 Foundation-Seeded GA-TTCT: +10pp over Backprop.**
-   GA-based task embedding optimization seeded from a Foundation model achieves PA=65.0%, outperforming Backprop TTCT (55.0%) by +10pp on 50 real ARC tasks. (Phase 169)
-
-   ![Phase 169: GA-TTCT](figures/phase169_foundation_ga.png)
-
-6. **🔄 Self-Repair with Telomere Degradation.**
-   NCA recovers >90% structural accuracy after 50% random damage, but each successive repair cycle reduces regenerative capacity — an emergent analog of biological telomere shortening. (Phase 154)
+9. **🔬 Foundation-Seeded GA-TTCT: +10pp over Backprop.**
+   GA-based task embedding optimization achieves PA=65.0% vs. Backprop TTCT 55.0%. (Phase 169)
 
 ### 🔭 v12 Findings (Phases 138–150) — The Physics of Neural Computation
 
-7. **⚡ Space ≡ Time: Dimensional Folding.**
-   Weight-Tied CNNs compile losslessly to NCA with **Gap = 0.000000%**. (Phases 141, 144)
+10. **⚡ Space ≡ Time: Dimensional Folding.**
+    Weight-Tied CNNs compile losslessly to NCA with **Gap = 0.000000%**. (Phases 141, 144)
 
-8. **🧠 NCA = Turing Complete.**
-   Baseline NCA solves Dilate → Invert → Erode with **100% exact match** via emergent internal state machines. (Phase 148)
+11. **🧠 NCA = Turing Complete.**
+    Baseline NCA solves Dilate → Invert → Erode with **100% exact match**. (Phase 148)
 
-9. **🔬 The θ–τ Isomorphism: Universal Neural Compiler.**
-   ANN ↔ LNN conversion is **lossless** (97.40%). ANN → SNN is inherently **lossy** (10–15%). (Phases 138–140)
-
-10. **🦋 The Butterfly Effect Wall.**
-    Trajectory Forcing reveals deterministic chaos as a fundamental bound on neural prediction. (Phase 147)
-
-11. **💎 Soft Crystallization.**
-    Entropy minimization during TTCT achieves **+3.51% pixel accuracy** — "Continuous Thought, Discrete Action" at the loss level. (Phases 149–150)
+12. **🔬 The θ–τ Isomorphism: Universal Neural Compiler.**
+    ANN ↔ LNN conversion is **lossless** (97.40%). ANN → SNN is inherently **lossy** (10–15%). (Phases 138–140)
 
 ### 🎯 v11 Findings (Phases 101–137) — Real ARC & the VQ Paradox
 
-12. **🧠 v23 Chimera Agent: First Exact Match on Real ARC.**
-    Continuous NCA with TTCT achieves **83.53% pixel accuracy and 1/50 exact match** on real ARC-AGI tasks. (Phase 137)
+13. **🧠 v23 Chimera Agent: First Exact Match on Real ARC.**
+    Continuous NCA with TTCT: **83.53% pixel accuracy, 1/50 exact match**. (Phase 137)
 
-13. **💡 Continuous Thought, Discrete Action.**
-    Removing VQ from the NCA loop achieves the **highest TTCT gain (+5.05%)**. (Phase 135)
-
-14. **❌ The VQ Paradox: Discretization Kills Intelligence.**
-    Full-loop VQ degrades real-ARC pixel accuracy by **−12.5pp**. (Phases 132–135)
+14. **💡 Continuous Thought, Discrete Action.**
+    Removing VQ from NCA achieves the **highest TTCT gain (+5.05%)**. (Phase 135)
 
 ### 🧪 v1–v10 Foundations (Phases 1–100)
 
@@ -86,19 +86,18 @@ SNN-Synthesis is the **Architecture & Synthesis & Life** phase — building syst
 
 ```
 snn-synthesis/
-├── experiments/          # Experiment scripts (Phases 1–173)
-│   ├── phase29_llm_noisy_beam.py        # LLM NBS (v4)
+├── experiments/          # Experiment scripts (Phases 1–202)
 │   ├── phase100_v20_agent.py            # v20 Ultimate AGI (v10)
 │   ├── phase137_v23_agent.py            # v23 Chimera Agent (v11)
-│   ├── phase141_weight_tied_compiler.py  # Space ≡ Time (v12)
-│   ├── phase148_turing_nca.py            # NCA Turing Completeness (v12)
-│   ├── phase153_self_replicator.py       # Self-Replication (v13)
-│   ├── phase163_evolutionary.py          # Evolution > Backprop (v13)
-│   ├── phase169_foundation_ga.py         # GA-TTCT (v13)
-│   ├── phase171_autopoiesis.py           # Thermodynamic Autopoiesis (v13)
-│   ├── phase172_lamarckian.py            # Darwin > Lamarck (v13)
+│   ├── phase148_turing_nca.py           # NCA Turing Completeness (v12)
+│   ├── phase171_autopoiesis.py          # Thermodynamic Autopoiesis (v13)
+│   ├── phase188_capacity.py             # NCA Memory Capacity Law (v14)
+│   ├── phase191_generalization.py       # Generalization Wall (v14)
+│   ├── phase192_dual_process.py         # Dual-Process NCA (v14)
+│   ├── phase199_gated.py               # Gated Hybrid (v14)
+│   ├── phase201_timetravel.py           # Time-Travel NCA (v14)
 │   └── ...
-├── arc-agi/              # ARC-AGI-3 Kaggle agents (v5–v26)
+├── arc-agi/              # ARC-AGI-3 Kaggle agents (v5–v27)
 ├── results/              # Experiment result logs (JSON)
 ├── figures/              # All experiment figures (PNG)
 ├── papers/               # LaTeX source (.gitignore'd)
@@ -122,13 +121,16 @@ pip install arcprize
 
 ## 📄 Papers
 
-- **SNN-Synthesis v13** (latest): [Zenodo (PDF)](https://doi.org/10.5281/zenodo.19343952)
-  - **173 experiments** (Phases 1–173), **59 principal insights**, **27 honest null results**
-  - **15 Laws of Digital Life**: Self-replication, self-repair, symbiosis, autopoiesis
-  - **Evolution > Backpropagation**: GA achieves 100% where Backprop scores 0%
-  - **Thermodynamic Autopoiesis**: Self-sustaining life without global loss
-  - **Darwin > Lamarck**: Pure GA outperforms Lamarckian GA on real ARC (EM=2.5%)
-  - v1–v12 findings retained
+- **SNN-Synthesis v14** (latest): [Zenodo (PDF)](https://doi.org/10.5281/zenodo.19343952)
+  - **202 experiments** (Phases 1–202), **73 principal insights**, **27+ honest null results**
+  - **NCA Intelligence Equation**: M ∝ P^1.33 (memory), G ∝ P^0.01 (generalization)
+  - **Gated Hybrid Dual-Process**: PA=60.3%, EM=4.0% — project's all-time best
+  - **Locality Wall**: Self-Attention, Working Memory, Pyramids, Dilated Conv all fail
+  - **Time-Travel NCA**: +2.3pp via temporal rewinding to t*=3
+  - v1–v13 findings retained
+
+- **SNN-Synthesis v13**: [Zenodo (PDF)](https://doi.org/10.5281/zenodo.19343952)
+  - 173 experiments — 15 Laws of Digital Life, Evolution > Backpropagation, Autopoiesis
 
 - **SNN-Synthesis v12**: [Zenodo (PDF)](https://doi.org/10.5281/zenodo.19646879)
   - 150 experiments — Six Laws of Neural Computation Physics, θ–τ Isomorphism, Space ≡ Time
@@ -164,7 +166,7 @@ This research is conducted collaboratively between the human author and AI resea
 ```bibtex
 @misc{funasaki2026snnsynthesis,
   author = {Funasaki, Hiroto},
-  title = {SNN-Synthesis v13: Liquid Neural Cellular Automata for ARC-AGI --- From Stochastic Resonance to The 15 Laws of Digital Life and Autopoiesis, from 2.8K to 7B Parameters},
+  title = {SNN-Synthesis v14: Liquid Neural Cellular Automata for ARC-AGI --- From Stochastic Resonance to The NCA Intelligence Equation and Dual-Process Architecture: Architecture > Scale in Spatial Reasoning from 2.8K to 7B Parameters},
   year = {2026},
   doi = {10.5281/zenodo.19343952},
   publisher = {Zenodo},

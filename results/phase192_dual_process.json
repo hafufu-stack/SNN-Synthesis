@@ -1,0 +1,10 @@
+{
+  "experiment": "Phase 192: Dual-Process NCA",
+  "timestamp": "2026-04-22T18:24:00.128109",
+  "summary": {
+    "standard": 0.5247840178012848,
+    "memory_t1": 0.5141255356371403,
+    "dual_process": 0.5876012799888849
+  },
+  "elapsed_seconds": 187.14214658737183
+}
