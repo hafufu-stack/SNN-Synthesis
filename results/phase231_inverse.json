@@ -1,0 +1,70 @@
+{
+  "optimal_configs": {
+    "per_task_108s": {
+      "C_star": 192,
+      "N_star": 1000,
+      "predicted_pa": 0.7019629775585519,
+      "P_star": 1474560,
+      "time_ms": 108000.0,
+      "budget_ms": 108000
+    },
+    "per_task_30s": {
+      "C_star": 32,
+      "N_star": 10000,
+      "predicted_pa": 0.6864181600336609,
+      "P_star": 40960,
+      "time_ms": 30000.0,
+      "budget_ms": 30000
+    },
+    "per_task_10s": {
+      "C_star": 24,
+      "N_star": 5000,
+      "predicted_pa": 0.6641639406082867,
+      "P_star": 23040,
+      "time_ms": 8437.5,
+      "budget_ms": 10000
+    }
+  },
+  "inverse_time": {
+    "PA_60": {
+      "target_pa": 0.6,
+      "N_needed": 28.430742680654042,
+      "time_ms": 341.1689121678485,
+      "feasible_108s": true
+    },
+    "PA_65": {
+      "target_pa": 0.65,
+      "N_needed": 418.66972829775614,
+      "time_ms": 5024.036739573074,
+      "feasible_108s": true
+    },
+    "PA_70": {
+      "target_pa": 0.7,
+      "N_needed": 6165.309973143601,
+      "time_ms": 73983.71967772322,
+      "feasible_108s": true
+    },
+    "PA_75": {
+      "target_pa": 0.75,
+      "N_needed": 90790.05358111503,
+      "time_ms": 1089480.6429733804,
+      "feasible_108s": false
+    },
+    "PA_80": {
+      "target_pa": 0.8,
+      "N_needed": 1336969.8952960921,
+      "time_ms": 16043638.743553106,
+      "feasible_108s": false
+    }
+  },
+  "scaling_law": {
+    "alpha_C": 0.05147371033461642,
+    "beta_N": 0.018590046665162743,
+    "gamma_D": 0.014850226299479338,
+    "delta_P": -0.009453982701369051,
+    "const": 0.3585266219516914,
+    "R2": 0.6867560661569525
+  },
+  "elapsed": 0.001409769058227539,
+  "timestamp": "2026-04-25T08:37:42.658859"
+}

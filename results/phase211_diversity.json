@@ -1,0 +1,43 @@
+{
+  "total_budget": 100,
+  "results": [
+    {
+      "oracle_pa": 0.6239849703013897,
+      "oracle_em": 0.02,
+      "margin_pa": 0.5848837471753359,
+      "margin_em": 0.0,
+      "total_trials": 100,
+      "M": 1,
+      "N": 100
+    },
+    {
+      "oracle_pa": 0.6350378461182118,
+      "oracle_em": 0.04,
+      "margin_pa": 0.5718527715653181,
+      "margin_em": 0.0,
+      "total_trials": 100,
+      "M": 2,
+      "N": 50
+    },
+    {
+      "oracle_pa": 0.6486501345038413,
+      "oracle_em": 0.04,
+      "margin_pa": 0.5877818361669779,
+      "margin_em": 0.0,
+      "total_trials": 100,
+      "M": 5,
+      "N": 20
+    },
+    {
+      "oracle_pa": 0.6566590777039528,
+      "oracle_em": 0.04,
+      "margin_pa": 0.5707815978676081,
+      "margin_em": 0.0,
+      "total_trials": 100,
+      "M": 10,
+      "N": 10
+    }
+  ],
+  "elapsed": 238.737553358078,
+  "timestamp": "2026-04-23T03:20:13.420547"
+}

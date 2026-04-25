@@ -1,0 +1,16 @@
+{
+  "baseline": {
+    "pa": 0.5863529250770807,
+    "em": 0.04
+  },
+  "microbeam": {
+    "pa": 0.5605892291665078,
+    "em": 0.02
+  },
+  "avg_dissonance_pixels": 46.58,
+  "avg_branches": 52.28,
+  "margin_baseline": 0.4954211200773716,
+  "margin_beam": 0.5571995989978313,
+  "elapsed": 60.441391944885254,
+  "timestamp": "2026-04-23T01:14:22.314754"
+}

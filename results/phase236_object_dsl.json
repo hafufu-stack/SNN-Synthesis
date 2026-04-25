@@ -1,0 +1,17 @@
+{
+  "results": {
+    "oracle_pa": 0.8013555672759765,
+    "oracle_em": 0.08,
+    "prog_types": {
+      "identity": 13,
+      "copy": 12,
+      "swap": 9,
+      "fill": 13,
+      "move": 1,
+      "recolor": 2
+    },
+    "n_test": 50
+  },
+  "elapsed": 1.8930892944335938,
+  "timestamp": "2026-04-25T09:52:09.420683"
+}
